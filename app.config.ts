@@ -20,7 +20,7 @@ const config: ExpoConfig = {
   orientation: 'portrait',
   icon: './assets/icon.png',
   userInterfaceStyle: 'automatic',
-  newArchEnabled: true,
+  newArchEnabled: false,
   scheme: 'uktheory',
   splash: {
     image: './assets/splash-icon.png',
