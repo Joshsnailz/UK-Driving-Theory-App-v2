@@ -10,44 +10,48 @@ import { RootStackParamList, Category } from '../types';
 import { useSettingsStore } from '../store/settingsStore';
 import { useProgress } from '../hooks/useProgress';
 import { CATEGORY_CONFIG, ALL_CATEGORIES } from '../data/categories';
+import { colors, useTheme } from '../theme';
 import StatCard from '../components/StatCard';
 import ProgressBar from '../components/ProgressBar';
+import AdBanner from '../components/AdBanner';
+import { useEntitlementStore } from '../store/entitlementStore';
 
 type Nav = StackNavigationProp<RootStackParamList>;
 
 export default function HomeScreen() {
   const nav = useNavigation<Nav>();
-  const dark = useSettingsStore((s) => s.darkMode);
+  const t = useTheme();
   const quizLength = useSettingsStore((s) => s.quizLength);
   const { overallAccuracy, questionsToday, goalMet } = useProgress();
   const dailyGoal = useSettingsStore((s) => s.dailyGoal);
+  const isPremium = useEntitlementStore((s) => s.isPremium);
 
-  const bg = dark ? '#0F172A' : '#F8FAFC';
-  const card = dark ? '#1E293B' : '#FFFFFF';
-  const text = dark ? '#F1F5F9' : '#1E293B';
-  const sub = dark ? '#94A3B8' : '#64748B';
+  const openHazard = () => {
+    if (isPremium) nav.navigate('Hazard');
+    else nav.navigate('Paywall', { feature: 'hazard' });
+  };
 
   return (
-    <SafeAreaView style={[styles.safe, { backgroundColor: bg }]}>
+    <SafeAreaView style={[styles.safe, { backgroundColor: t.bg }]}>
       <ScrollView contentContainerStyle={styles.scroll} showsVerticalScrollIndicator={false}>
-        <Text style={[styles.heading, { color: text }]}>UK Theory Test</Text>
-        <Text style={[styles.subheading, { color: sub }]}>Practice & Revision</Text>
+        <Text style={[styles.heading, { color: t.text }]}>UK Theory Test</Text>
+        <Text style={[styles.subheading, { color: t.sub }]}>Practice & Revision</Text>
 
         {/* Daily goal */}
-        <View style={[styles.card, { backgroundColor: card }]}>
+        <View style={[styles.card, { backgroundColor: t.card }]}>
           <View style={styles.goalRow}>
-            <Text style={[styles.goalLabel, { color: text }]}>Daily Goal</Text>
-            <Text style={[styles.goalCount, { color: goalMet ? '#16A34A' : '#1A56A0' }]}>
+            <Text style={[styles.goalLabel, { color: t.text }]}>Daily Goal</Text>
+            <Text style={[styles.goalCount, { color: goalMet ? colors.success : colors.primary }]}>
               {questionsToday}/{dailyGoal}
             </Text>
           </View>
-          <ProgressBar current={questionsToday} total={dailyGoal} colour={goalMet ? '#16A34A' : '#1A56A0'} />
+          <ProgressBar current={questionsToday} total={dailyGoal} colour={goalMet ? colors.success : colors.primary} />
         </View>
 
         {/* Stats row */}
         <View style={styles.row}>
-          <StatCard label="Accuracy" value={`${overallAccuracy}%`} icon="checkmark-circle" dark={dark} />
-          <StatCard label="Today" value={questionsToday} icon="today" dark={dark} />
+          <StatCard label="Accuracy" value={`${overallAccuracy}%`} icon="checkmark-circle" />
+          <StatCard label="Today" value={questionsToday} icon="today" />
         </View>
 
         {/* Quick actions */}
@@ -56,42 +60,47 @@ export default function HomeScreen() {
           onPress={() => nav.navigate('Quiz', { category: 'mixed', quizLength })}
           accessibilityLabel="Start quick practice quiz"
         >
-          <Ionicons name="play-circle" size={22} color="#FFFFFF" />
+          <Ionicons name="play-circle" size={22} color={colors.white} />
           <Text style={styles.primaryBtnText}>Quick Practice ({quizLength} questions)</Text>
         </TouchableOpacity>
 
         <View style={styles.actionRow}>
           <TouchableOpacity
-            style={[styles.secondaryBtn, { backgroundColor: card }]}
+            style={[styles.secondaryBtn, { backgroundColor: t.card }]}
             onPress={() => nav.navigate('TopicList')}
           >
-            <Ionicons name="list" size={20} color="#1A56A0" />
-            <Text style={[styles.secondaryBtnText, { color: text }]}>By Topic</Text>
+            <Ionicons name="list" size={20} color={colors.primary} />
+            <Text style={[styles.secondaryBtnText, { color: t.text }]}>By Topic</Text>
           </TouchableOpacity>
           <TouchableOpacity
-            style={[styles.secondaryBtn, { backgroundColor: card }]}
-            onPress={() => nav.navigate('Hazard')}
+            style={[styles.secondaryBtn, { backgroundColor: t.card }]}
+            onPress={openHazard}
+            accessibilityLabel="Hazard Perception"
           >
-            <Ionicons name="warning" size={20} color="#D97706" />
-            <Text style={[styles.secondaryBtnText, { color: text }]}>Hazard Perception</Text>
+            <Ionicons
+              name={isPremium ? 'warning' : 'lock-closed'}
+              size={20}
+              color={colors.warning}
+            />
+            <Text style={[styles.secondaryBtnText, { color: t.text }]}>Hazard Perception</Text>
           </TouchableOpacity>
         </View>
 
         {/* Category grid */}
-        <Text style={[styles.sectionTitle, { color: text }]}>Topics</Text>
+        <Text style={[styles.sectionTitle, { color: t.text }]}>Topics</Text>
         <View style={styles.grid}>
           {ALL_CATEGORIES.map((cat) => {
             const config = CATEGORY_CONFIG[cat];
             return (
               <TouchableOpacity
                 key={cat}
-                style={[styles.catCard, { backgroundColor: card }]}
+                style={[styles.catCard, { backgroundColor: t.card }]}
                 onPress={() => nav.navigate('Quiz', { category: cat as Category, quizLength })}
               >
                 <View style={[styles.catIcon, { backgroundColor: config.colour + '22' }]}>
-                  <Ionicons name={config.icon as any} size={20} color={config.colour} />
+                  <Ionicons name={config.icon} size={20} color={config.colour} />
                 </View>
-                <Text style={[styles.catLabel, { color: text }]} numberOfLines={2}>
+                <Text style={[styles.catLabel, { color: t.text }]} numberOfLines={2}>
                   {config.label}
                 </Text>
               </TouchableOpacity>
@@ -99,6 +108,7 @@ export default function HomeScreen() {
           })}
         </View>
       </ScrollView>
+      <AdBanner />
     </SafeAreaView>
   );
 }
@@ -114,7 +124,7 @@ const styles = StyleSheet.create({
   goalCount: { fontSize: 15, fontWeight: '700' },
   row: { flexDirection: 'row', marginBottom: 12 },
   primaryBtn: {
-    backgroundColor: '#1A56A0',
+    backgroundColor: colors.primary,
     borderRadius: 8,
     flexDirection: 'row',
     alignItems: 'center',
@@ -124,7 +134,7 @@ const styles = StyleSheet.create({
     marginBottom: 12,
     gap: 8,
   },
-  primaryBtnText: { color: '#FFFFFF', fontSize: 16, fontWeight: '700' },
+  primaryBtnText: { color: colors.white, fontSize: 16, fontWeight: '700' },
   actionRow: { flexDirection: 'row', gap: 10, marginBottom: 20 },
   secondaryBtn: {
     flex: 1,

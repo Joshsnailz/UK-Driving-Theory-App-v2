@@ -1,12 +1,12 @@
 import { create } from 'zustand';
-import { Question, QuizSession } from '../types';
+import { AnyQuestion, QuizSession } from '../types';
 
 interface QuizState {
   session: QuizSession | null;
   currentIndex: number;
   flaggedIndices: Set<number>;
   showingResult: boolean;
-  startQuiz: (questions: Question[], category: QuizSession['category']) => void;
+  startQuiz: (questions: AnyQuestion[], category: QuizSession['category']) => void;
   answerQuestion: (answerIndex: number) => void;
   skipQuestion: () => void;
   flagQuestion: (index: number) => void;

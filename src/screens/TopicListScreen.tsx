@@ -8,27 +8,23 @@ import { RootStackParamList, Category } from '../types';
 import { CATEGORY_CONFIG, ALL_CATEGORIES } from '../data/categories';
 import { useSettingsStore } from '../store/settingsStore';
 import { useProgressStore } from '../store/progressStore';
+import { colors, useTheme } from '../theme';
 
 type Nav = StackNavigationProp<RootStackParamList>;
 
 export default function TopicListScreen() {
   const nav = useNavigation<Nav>();
-  const dark = useSettingsStore((s) => s.darkMode);
+  const t = useTheme();
   const quizLength = useSettingsStore((s) => s.quizLength);
   const { progress } = useProgressStore();
 
-  const bg = dark ? '#0F172A' : '#F8FAFC';
-  const card = dark ? '#1E293B' : '#FFFFFF';
-  const text = dark ? '#F1F5F9' : '#1E293B';
-  const sub = dark ? '#94A3B8' : '#64748B';
-
   return (
-    <SafeAreaView style={[styles.safe, { backgroundColor: bg }]}>
+    <SafeAreaView style={[styles.safe, { backgroundColor: t.bg }]}>
       <View style={styles.header}>
         <TouchableOpacity onPress={() => nav.goBack()} accessibilityLabel="Go back">
-          <Ionicons name="arrow-back" size={24} color={text} />
+          <Ionicons name="arrow-back" size={24} color={t.text} />
         </TouchableOpacity>
-        <Text style={[styles.title, { color: text }]}>Choose Topic</Text>
+        <Text style={[styles.title, { color: t.text }]}>Choose Topic</Text>
         <View style={{ width: 24 }} />
       </View>
       <FlatList
@@ -42,21 +38,21 @@ export default function TopicListScreen() {
           const acc = stat.total > 0 ? Math.round((stat.correct / stat.total) * 100) : null;
           return (
             <TouchableOpacity
-              style={[styles.row, { backgroundColor: card }]}
+              style={[styles.row, { backgroundColor: t.card }]}
               onPress={() => nav.navigate('Quiz', { category: cat, quizLength })}
             >
               <View style={[styles.icon, { backgroundColor: config.colour + '22' }]}>
-                <Ionicons name={config.icon as any} size={22} color={config.colour} />
+                <Ionicons name={config.icon} size={22} color={config.colour} />
               </View>
               <View style={styles.info}>
-                <Text style={[styles.label, { color: text }]}>{config.label}</Text>
+                <Text style={[styles.label, { color: t.text }]}>{config.label}</Text>
                 {acc !== null && (
-                  <Text style={[styles.acc, { color: acc >= 80 ? '#16A34A' : acc >= 60 ? '#D97706' : '#DC2626' }]}>
+                  <Text style={[styles.acc, { color: acc >= 80 ? colors.success : acc >= 60 ? colors.warning : colors.danger }]}>
                     {acc}% accuracy
                   </Text>
                 )}
               </View>
-              <Ionicons name="chevron-forward" size={20} color={sub} />
+              <Ionicons name="chevron-forward" size={20} color={t.sub} />
             </TouchableOpacity>
           );
         }}

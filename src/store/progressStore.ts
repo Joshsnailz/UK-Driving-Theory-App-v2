@@ -2,13 +2,7 @@ import { create } from 'zustand';
 import { persist, createJSONStorage } from 'zustand/middleware';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { UserProgress, QuizSession, MockTestResult, Category } from '../types';
-import { ALL_CATEGORIES } from '../data/categories';
-
-const emptyStats = (): Record<Category, { correct: number; total: number }> =>
-  Object.fromEntries(ALL_CATEGORIES.map((c) => [c, { correct: 0, total: 0 }])) as Record<
-    Category,
-    { correct: number; total: number }
-  >;
+import { buildEmptyCategoryStats } from '../data/categories';
 
 const defaultProgress = (): UserProgress => ({
   totalQuestionsAnswered: 0,
@@ -16,7 +10,7 @@ const defaultProgress = (): UserProgress => ({
   currentStreak: 0,
   longestStreak: 0,
   bookmarkedIds: [],
-  categoryStats: emptyStats(),
+  categoryStats: buildEmptyCategoryStats(),
   mockTestHistory: [],
   dailyGoal: 20,
   questionsToday: 0,
@@ -28,6 +22,8 @@ interface ProgressState {
   recordSession: (session: QuizSession) => void;
   recordMockTest: (result: MockTestResult) => void;
   toggleBookmark: (questionId: string) => void;
+  /** Overwrite progress wholesale (used by cloud-sync merge on sign-in). */
+  replaceProgress: (progress: UserProgress) => void;
   resetProgress: () => void;
 }
 
@@ -87,6 +83,8 @@ export const useProgressStore = create<ProgressState>()(
             : [...ids, questionId];
           return { progress: { ...state.progress, bookmarkedIds: next } };
         }),
+
+      replaceProgress: (progress) => set({ progress }),
 
       resetProgress: () => set({ progress: defaultProgress() }),
     }),

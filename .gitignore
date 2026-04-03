@@ -26,12 +26,22 @@ npm-debug.*
 yarn-debug.*
 yarn-error.*
 
+./claude 
+.claude/
+.claude-*.log
+IMPLEMENTATION_PLAN.md
+
 # macOS
 .DS_Store
 *.pem
 
 # local env files
+.env
 .env*.local
+
+# Firebase platform config (download from console; do not commit)
+GoogleService-Info.plist
+google-services.json
 
 # typescript
 *.tsbuildinfo

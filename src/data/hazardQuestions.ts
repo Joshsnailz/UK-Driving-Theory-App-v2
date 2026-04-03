@@ -1,6 +1,8 @@
 import { HazardQuestion } from '../types';
 
-export const hazardQuestions: HazardQuestion[] = [
+const HAZARD_CATEGORY = 'hazard-awareness' as const;
+
+const raw = [
   {
     id: 'hazard-001',
     imageUri: 'hazard-001',
@@ -133,4 +135,9 @@ export const hazardQuestions: HazardQuestion[] = [
     explanation: 'Horses startle easily. Slow to 10 mph or less, give a wide berth of at least 2 metres and avoid any sudden noises or movements.',
     hazardType: 'developing',
   },
-];
+] satisfies Omit<HazardQuestion, 'category'>[];
+
+export const hazardQuestions: HazardQuestion[] = raw.map((q) => ({
+  ...q,
+  category: HAZARD_CATEGORY,
+}));

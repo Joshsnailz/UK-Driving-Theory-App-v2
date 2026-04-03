@@ -1,0 +1,16 @@
+[
+  { "id": "pedestrians", "title": "Rules for pedestrians", "ruleStart": 1, "ruleEnd": 35, "summary": "Guidance for those on foot, including crossings and safety at night." },
+  { "id": "powered-wheelchairs", "title": "Powered wheelchairs and mobility scooters", "ruleStart": 36, "ruleEnd": 46, "summary": "Using class 2 and class 3 invalid carriages on pavements and roads." },
+  { "id": "animals", "title": "Rules about animals", "ruleStart": 47, "ruleEnd": 58, "summary": "Horse riders, other animals and herding livestock." },
+  { "id": "cyclists", "title": "Rules for cyclists", "ruleStart": 59, "ruleEnd": 82, "summary": "Clothing, road positioning, junctions and roundabouts for cyclists." },
+  { "id": "motorcyclists", "title": "Rules for motorcyclists", "ruleStart": 83, "ruleEnd": 88, "summary": "Licence requirements, helmets and visibility for riders." },
+  { "id": "drivers-and-motorcyclists", "title": "Rules for drivers and motorcyclists", "ruleStart": 89, "ruleEnd": 102, "summary": "Fitness to drive, alcohol, drugs, eyesight and vehicle condition." },
+  { "id": "general-rules", "title": "General rules, techniques and advice", "ruleStart": 103, "ruleEnd": 158, "summary": "Signals, stopping, lighting, speed limits, stopping distances and lines." },
+  { "id": "using-the-road", "title": "Using the road", "ruleStart": 159, "ruleEnd": 203, "summary": "Moving off, overtaking, junctions, roundabouts and reversing." },
+  { "id": "road-users-requiring-extra-care", "title": "Road users requiring extra care", "ruleStart": 204, "ruleEnd": 225, "summary": "Pedestrians, motorcyclists, cyclists, horse riders and other vulnerable users." },
+  { "id": "adverse-weather", "title": "Driving in adverse weather conditions", "ruleStart": 226, "ruleEnd": 237, "summary": "Wet, icy, snowy, foggy, windy and hot weather driving." },
+  { "id": "waiting-and-parking", "title": "Waiting and parking", "ruleStart": 238, "ruleEnd": 252, "summary": "Where you may and may not stop, park or wait." },
+  { "id": "motorways", "title": "Motorways", "ruleStart": 253, "ruleEnd": 274, "summary": "Joining, lane discipline, overtaking, stopping and leaving the motorway." },
+  { "id": "breakdowns-and-incidents", "title": "Breakdowns and incidents", "ruleStart": 275, "ruleEnd": 287, "summary": "What to do if your vehicle breaks down or you are involved in a crash." },
+  { "id": "roadworks-level-crossings-tramways", "title": "Road works, level crossings and tramways", "ruleStart": 288, "ruleEnd": 307, "summary": "Driving through road works, level crossings and near tramways." }
+]

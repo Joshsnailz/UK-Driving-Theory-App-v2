@@ -6,8 +6,9 @@ import { StackNavigationProp } from '@react-navigation/stack';
 import { Ionicons } from '@expo/vector-icons';
 import { RootStackParamList, Category } from '../types';
 import { useProgressStore } from '../store/progressStore';
-import { useSettingsStore } from '../store/settingsStore';
 import { CATEGORY_CONFIG } from '../data/categories';
+import { MOCK_TEST } from '../config/constants';
+import { colors, useTheme } from '../theme';
 
 type Nav = StackNavigationProp<RootStackParamList>;
 type Route = RouteProp<RootStackParamList, 'Result'>;
@@ -16,7 +17,7 @@ export default function ResultScreen() {
   const nav = useNavigation<Nav>();
   const { params } = useRoute<Route>();
   const { session, isMockTest, mockResult } = params;
-  const dark = useSettingsStore((s) => s.darkMode);
+  const t = useTheme();
   const { recordSession, recordMockTest } = useProgressStore();
 
   useEffect(() => {
@@ -25,12 +26,7 @@ export default function ResultScreen() {
   }, []);
 
   const pct = Math.round((session.score / session.totalQuestions) * 100);
-  const passed = isMockTest ? session.score >= 43 : null;
-
-  const bg = dark ? '#0F172A' : '#F8FAFC';
-  const card = dark ? '#1E293B' : '#FFFFFF';
-  const text = dark ? '#F1F5F9' : '#1E293B';
-  const sub = dark ? '#94A3B8' : '#64748B';
+  const passed = isMockTest ? session.score >= MOCK_TEST.PASS_MARK : null;
 
   // Category breakdown
   const catBreakdown = new Map<Category, { correct: number; total: number }>();
@@ -42,40 +38,40 @@ export default function ResultScreen() {
   });
 
   return (
-    <SafeAreaView style={[styles.safe, { backgroundColor: bg }]}>
+    <SafeAreaView style={[styles.safe, { backgroundColor: t.bg }]}>
       <ScrollView contentContainerStyle={styles.scroll}>
         {/* Score circle */}
         <View style={styles.scoreSection}>
-          <View style={[styles.scoreCircle, { borderColor: passed === false ? '#DC2626' : '#1A56A0' }]}>
-            <Text style={[styles.scoreNum, { color: passed === false ? '#DC2626' : '#1A56A0' }]}>
+          <View style={[styles.scoreCircle, { borderColor: passed === false ? colors.danger : colors.primary }]}>
+            <Text style={[styles.scoreNum, { color: passed === false ? colors.danger : colors.primary }]}>
               {session.score}/{session.totalQuestions}
             </Text>
-            <Text style={[styles.scorePct, { color: sub }]}>{pct}%</Text>
+            <Text style={[styles.scorePct, { color: t.sub }]}>{pct}%</Text>
           </View>
           {isMockTest && (
-            <View style={[styles.passBanner, { backgroundColor: passed ? '#F0FDF4' : '#FEF2F2' }]}>
+            <View style={[styles.passBanner, { backgroundColor: passed ? colors.successBg : colors.dangerBg }]}>
               <Ionicons
                 name={passed ? 'checkmark-circle' : 'close-circle'}
                 size={24}
-                color={passed ? '#16A34A' : '#DC2626'}
+                color={passed ? colors.success : colors.danger}
               />
-              <Text style={[styles.passText, { color: passed ? '#16A34A' : '#DC2626' }]}>
-                {passed ? 'PASS' : 'FAIL'} — Pass mark: 43/50
+              <Text style={[styles.passText, { color: passed ? colors.success : colors.danger }]}>
+                {passed ? 'PASS' : 'FAIL'} — Pass mark: {MOCK_TEST.PASS_MARK}/{MOCK_TEST.QUESTION_COUNT}
               </Text>
             </View>
           )}
         </View>
 
         {/* Category breakdown */}
-        <Text style={[styles.sectionTitle, { color: text }]}>By Category</Text>
+        <Text style={[styles.sectionTitle, { color: t.text }]}>By Category</Text>
         {Array.from(catBreakdown.entries()).map(([cat, stat]) => {
           const acc = Math.round((stat.correct / stat.total) * 100);
           const config = CATEGORY_CONFIG[cat];
           return (
-            <View key={cat} style={[styles.catRow, { backgroundColor: card }]}>
-              <Text style={[styles.catLabel, { color: text }]} numberOfLines={1}>{config.label}</Text>
+            <View key={cat} style={[styles.catRow, { backgroundColor: t.card }]}>
+              <Text style={[styles.catLabel, { color: t.text }]} numberOfLines={1}>{config.label}</Text>
               <View style={styles.catRight}>
-                <Text style={[styles.catStat, { color: acc >= 80 ? '#16A34A' : acc >= 60 ? '#D97706' : '#DC2626' }]}>
+                <Text style={[styles.catStat, { color: acc >= 80 ? colors.success : acc >= 60 ? colors.warning : colors.danger }]}>
                   {stat.correct}/{stat.total}
                 </Text>
               </View>
@@ -91,10 +87,10 @@ export default function ResultScreen() {
           <Text style={styles.primaryBtnText}>Review Answers</Text>
         </TouchableOpacity>
         <TouchableOpacity
-          style={[styles.secondaryBtn, { backgroundColor: card }]}
+          style={[styles.secondaryBtn, { backgroundColor: t.card }]}
           onPress={() => nav.navigate('Main')}
         >
-          <Text style={[styles.secondaryBtnText, { color: text }]}>Back to Home</Text>
+          <Text style={[styles.secondaryBtnText, { color: t.text }]}>Back to Home</Text>
         </TouchableOpacity>
       </ScrollView>
     </SafeAreaView>
@@ -125,10 +121,10 @@ const styles = StyleSheet.create({
   catRight: { alignItems: 'flex-end' },
   catStat: { fontSize: 14, fontWeight: '700' },
   primaryBtn: {
-    backgroundColor: '#1A56A0', borderRadius: 8, padding: 15,
+    backgroundColor: colors.primary, borderRadius: 8, padding: 15,
     alignItems: 'center', marginTop: 20, marginBottom: 10,
   },
-  primaryBtnText: { color: '#FFFFFF', fontSize: 16, fontWeight: '700' },
+  primaryBtnText: { color: colors.white, fontSize: 16, fontWeight: '700' },
   secondaryBtn: { borderRadius: 8, padding: 15, alignItems: 'center' },
   secondaryBtnText: { fontSize: 16, fontWeight: '600' },
 });

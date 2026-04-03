@@ -1,0 +1,930 @@
+[
+  {
+    "id": "safety-margins-0235",
+    "category": "safety-margins",
+    "question": "On a dry road, what is the typical thinking distance when travelling at 20 mph?",
+    "options": [
+      "15 metres",
+      "18 metres",
+      "21 metres",
+      "6 metres"
+    ],
+    "correctIndex": 3,
+    "explanation": "At 20 mph the typical thinking distance is about 6 m (thinking 6 m + braking 6 m = 12 m overall).",
+    "highwayCodeRules": [
+      126
+    ]
+  },
+  {
+    "id": "safety-margins-0236",
+    "category": "safety-margins",
+    "question": "On a dry road, what is the typical braking distance when travelling at 20 mph?",
+    "options": [
+      "55 metres",
+      "38 metres",
+      "14 metres",
+      "6 metres"
+    ],
+    "correctIndex": 3,
+    "explanation": "At 20 mph the typical braking distance is about 6 m (thinking 6 m + braking 6 m = 12 m overall).",
+    "highwayCodeRules": [
+      126
+    ]
+  },
+  {
+    "id": "safety-margins-0237",
+    "category": "safety-margins",
+    "question": "On a dry road, what is the typical overall stopping distance when travelling at 20 mph?",
+    "options": [
+      "53 metres",
+      "73 metres",
+      "12 metres",
+      "96 metres"
+    ],
+    "correctIndex": 2,
+    "explanation": "At 20 mph the typical overall stopping distance is about 12 m (thinking 6 m + braking 6 m = 12 m overall).",
+    "highwayCodeRules": [
+      126
+    ]
+  },
+  {
+    "id": "safety-margins-0238",
+    "category": "safety-margins",
+    "question": "Roughly how many car lengths is the overall stopping distance at 20 mph on a dry road?",
+    "options": [
+      "9 car lengths",
+      "6 car lengths",
+      "3 car lengths",
+      "18 car lengths"
+    ],
+    "correctIndex": 2,
+    "explanation": "At 20 mph the overall stopping distance is about 12 m — roughly 3 car lengths.",
+    "highwayCodeRules": [
+      126
+    ]
+  },
+  {
+    "id": "safety-margins-0239",
+    "category": "safety-margins",
+    "question": "On a dry road, what is the typical thinking distance when travelling at 30 mph?",
+    "options": [
+      "6 metres",
+      "9 metres",
+      "15 metres",
+      "12 metres"
+    ],
+    "correctIndex": 1,
+    "explanation": "At 30 mph the typical thinking distance is about 9 m (thinking 9 m + braking 14 m = 23 m overall).",
+    "highwayCodeRules": [
+      126
+    ]
+  },
+  {
+    "id": "safety-margins-0240",
+    "category": "safety-margins",
+    "question": "On a dry road, what is the typical braking distance when travelling at 30 mph?",
+    "options": [
+      "75 metres",
+      "55 metres",
+      "14 metres",
+      "38 metres"
+    ],
+    "correctIndex": 2,
+    "explanation": "At 30 mph the typical braking distance is about 14 m (thinking 9 m + braking 14 m = 23 m overall).",
+    "highwayCodeRules": [
+      126
+    ]
+  },
+  {
+    "id": "safety-margins-0241",
+    "category": "safety-margins",
+    "question": "On a dry road, what is the typical overall stopping distance when travelling at 30 mph?",
+    "options": [
+      "73 metres",
+      "96 metres",
+      "23 metres",
+      "53 metres"
+    ],
+    "correctIndex": 2,
+    "explanation": "At 30 mph the typical overall stopping distance is about 23 m (thinking 9 m + braking 14 m = 23 m overall).",
+    "highwayCodeRules": [
+      126
+    ]
+  },
+  {
+    "id": "safety-margins-0242",
+    "category": "safety-margins",
+    "question": "Roughly how many car lengths is the overall stopping distance at 30 mph on a dry road?",
+    "options": [
+      "24 car lengths",
+      "18 car lengths",
+      "13 car lengths",
+      "6 car lengths"
+    ],
+    "correctIndex": 3,
+    "explanation": "At 30 mph the overall stopping distance is about 23 m — roughly 6 car lengths.",
+    "highwayCodeRules": [
+      126
+    ]
+  },
+  {
+    "id": "safety-margins-0243",
+    "category": "safety-margins",
+    "question": "On a dry road, what is the typical thinking distance when travelling at 40 mph?",
+    "options": [
+      "18 metres",
+      "15 metres",
+      "12 metres",
+      "9 metres"
+    ],
+    "correctIndex": 2,
+    "explanation": "At 40 mph the typical thinking distance is about 12 m (thinking 12 m + braking 24 m = 36 m overall).",
+    "highwayCodeRules": [
+      126
+    ]
+  },
+  {
+    "id": "safety-margins-0244",
+    "category": "safety-margins",
+    "question": "On a dry road, what is the typical braking distance when travelling at 40 mph?",
+    "options": [
+      "75 metres",
+      "24 metres",
+      "6 metres",
+      "38 metres"
+    ],
+    "correctIndex": 1,
+    "explanation": "At 40 mph the typical braking distance is about 24 m (thinking 12 m + braking 24 m = 36 m overall).",
+    "highwayCodeRules": [
+      126
+    ]
+  },
+  {
+    "id": "safety-margins-0245",
+    "category": "safety-margins",
+    "question": "On a dry road, what is the typical overall stopping distance when travelling at 40 mph?",
+    "options": [
+      "36 metres",
+      "73 metres",
+      "12 metres",
+      "23 metres"
+    ],
+    "correctIndex": 0,
+    "explanation": "At 40 mph the typical overall stopping distance is about 36 m (thinking 12 m + braking 24 m = 36 m overall).",
+    "highwayCodeRules": [
+      126
+    ]
+  },
+  {
+    "id": "safety-margins-0246",
+    "category": "safety-margins",
+    "question": "Roughly how many car lengths is the overall stopping distance at 40 mph on a dry road?",
+    "options": [
+      "6 car lengths",
+      "18 car lengths",
+      "9 car lengths",
+      "13 car lengths"
+    ],
+    "correctIndex": 2,
+    "explanation": "At 40 mph the overall stopping distance is about 36 m — roughly 9 car lengths.",
+    "highwayCodeRules": [
+      126
+    ]
+  },
+  {
+    "id": "safety-margins-0247",
+    "category": "safety-margins",
+    "question": "On a dry road, what is the typical thinking distance when travelling at 50 mph?",
+    "options": [
+      "9 metres",
+      "21 metres",
+      "12 metres",
+      "15 metres"
+    ],
+    "correctIndex": 3,
+    "explanation": "At 50 mph the typical thinking distance is about 15 m (thinking 15 m + braking 38 m = 53 m overall).",
+    "highwayCodeRules": [
+      126
+    ]
+  },
+  {
+    "id": "safety-margins-0248",
+    "category": "safety-margins",
+    "question": "On a dry road, what is the typical braking distance when travelling at 50 mph?",
+    "options": [
+      "14 metres",
+      "38 metres",
+      "75 metres",
+      "24 metres"
+    ],
+    "correctIndex": 1,
+    "explanation": "At 50 mph the typical braking distance is about 38 m (thinking 15 m + braking 38 m = 53 m overall).",
+    "highwayCodeRules": [
+      126
+    ]
+  },
+  {
+    "id": "safety-margins-0249",
+    "category": "safety-margins",
+    "question": "On a dry road, what is the typical overall stopping distance when travelling at 50 mph?",
+    "options": [
+      "12 metres",
+      "23 metres",
+      "96 metres",
+      "53 metres"
+    ],
+    "correctIndex": 3,
+    "explanation": "At 50 mph the typical overall stopping distance is about 53 m (thinking 15 m + braking 38 m = 53 m overall).",
+    "highwayCodeRules": [
+      126
+    ]
+  },
+  {
+    "id": "safety-margins-0250",
+    "category": "safety-margins",
+    "question": "Roughly how many car lengths is the overall stopping distance at 50 mph on a dry road?",
+    "options": [
+      "13 car lengths",
+      "3 car lengths",
+      "24 car lengths",
+      "9 car lengths"
+    ],
+    "correctIndex": 0,
+    "explanation": "At 50 mph the overall stopping distance is about 53 m — roughly 13 car lengths.",
+    "highwayCodeRules": [
+      126
+    ]
+  },
+  {
+    "id": "safety-margins-0251",
+    "category": "safety-margins",
+    "question": "On a dry road, what is the typical thinking distance when travelling at 60 mph?",
+    "options": [
+      "6 metres",
+      "18 metres",
+      "12 metres",
+      "9 metres"
+    ],
+    "correctIndex": 1,
+    "explanation": "At 60 mph the typical thinking distance is about 18 m (thinking 18 m + braking 55 m = 73 m overall).",
+    "highwayCodeRules": [
+      126
+    ]
+  },
+  {
+    "id": "safety-margins-0252",
+    "category": "safety-margins",
+    "question": "On a dry road, what is the typical braking distance when travelling at 60 mph?",
+    "options": [
+      "6 metres",
+      "24 metres",
+      "55 metres",
+      "38 metres"
+    ],
+    "correctIndex": 2,
+    "explanation": "At 60 mph the typical braking distance is about 55 m (thinking 18 m + braking 55 m = 73 m overall).",
+    "highwayCodeRules": [
+      126
+    ]
+  },
+  {
+    "id": "safety-margins-0253",
+    "category": "safety-margins",
+    "question": "On a dry road, what is the typical overall stopping distance when travelling at 60 mph?",
+    "options": [
+      "36 metres",
+      "73 metres",
+      "12 metres",
+      "53 metres"
+    ],
+    "correctIndex": 1,
+    "explanation": "At 60 mph the typical overall stopping distance is about 73 m (thinking 18 m + braking 55 m = 73 m overall).",
+    "highwayCodeRules": [
+      126
+    ]
+  },
+  {
+    "id": "safety-margins-0254",
+    "category": "safety-margins",
+    "question": "Roughly how many car lengths is the overall stopping distance at 60 mph on a dry road?",
+    "options": [
+      "9 car lengths",
+      "24 car lengths",
+      "6 car lengths",
+      "18 car lengths"
+    ],
+    "correctIndex": 3,
+    "explanation": "At 60 mph the overall stopping distance is about 73 m — roughly 18 car lengths.",
+    "highwayCodeRules": [
+      126
+    ]
+  },
+  {
+    "id": "safety-margins-0255",
+    "category": "safety-margins",
+    "question": "On a dry road, what is the typical thinking distance when travelling at 70 mph?",
+    "options": [
+      "18 metres",
+      "6 metres",
+      "21 metres",
+      "15 metres"
+    ],
+    "correctIndex": 2,
+    "explanation": "At 70 mph the typical thinking distance is about 21 m (thinking 21 m + braking 75 m = 96 m overall).",
+    "highwayCodeRules": [
+      126
+    ]
+  },
+  {
+    "id": "safety-margins-0256",
+    "category": "safety-margins",
+    "question": "On a dry road, what is the typical braking distance when travelling at 70 mph?",
+    "options": [
+      "75 metres",
+      "14 metres",
+      "6 metres",
+      "24 metres"
+    ],
+    "correctIndex": 0,
+    "explanation": "At 70 mph the typical braking distance is about 75 m (thinking 21 m + braking 75 m = 96 m overall).",
+    "highwayCodeRules": [
+      126
+    ]
+  },
+  {
+    "id": "safety-margins-0257",
+    "category": "safety-margins",
+    "question": "On a dry road, what is the typical overall stopping distance when travelling at 70 mph?",
+    "options": [
+      "53 metres",
+      "23 metres",
+      "96 metres",
+      "73 metres"
+    ],
+    "correctIndex": 2,
+    "explanation": "At 70 mph the typical overall stopping distance is about 96 m (thinking 21 m + braking 75 m = 96 m overall).",
+    "highwayCodeRules": [
+      126
+    ]
+  },
+  {
+    "id": "safety-margins-0258",
+    "category": "safety-margins",
+    "question": "Roughly how many car lengths is the overall stopping distance at 70 mph on a dry road?",
+    "options": [
+      "18 car lengths",
+      "24 car lengths",
+      "6 car lengths",
+      "13 car lengths"
+    ],
+    "correctIndex": 1,
+    "explanation": "At 70 mph the overall stopping distance is about 96 m — roughly 24 car lengths.",
+    "highwayCodeRules": [
+      126
+    ]
+  },
+  {
+    "id": "safety-margins-0280",
+    "category": "safety-margins",
+    "question": "Your vehicle starts to skid. What is the first thing you should do?",
+    "options": [
+      "Brake harder",
+      "Change down two gears immediately",
+      "Release the brake pedal fully or ease off the accelerator",
+      "Steer sharply against the direction of the skid"
+    ],
+    "correctIndex": 2,
+    "explanation": "Skids are caused by the driver braking, accelerating or steering too harshly or driving too fast for the road conditions. If skidding occurs, remove the cause by releasing the brake pedal fully or easing off the accelerator. Turn the steering wheel in the direction of the skid. (Highway Code rule 119.)",
+    "highwayCodeRules": [
+      119
+    ]
+  },
+  {
+    "id": "safety-margins-0281",
+    "category": "safety-margins",
+    "question": "Your car has anti-lock brakes (ABS). In an emergency stop you should…",
+    "options": [
+      "Brake gently to avoid triggering the system",
+      "Apply the handbrake at the same time",
+      "Apply the footbrake firmly and keep it applied until you have slowed sufficiently",
+      "Pump the brake pedal rapidly"
+    ],
+    "correctIndex": 2,
+    "explanation": "ABS. If your vehicle is fitted with anti-lock brakes, you should follow the advice in the vehicle handbook. However, in the case of an emergency, apply the footbrake firmly; do not release the pressure until the vehicle has slowed to the desired speed. (Highway Code rule 120.)",
+    "highwayCodeRules": [
+      120
+    ]
+  },
+  {
+    "id": "safety-margins-0282",
+    "category": "safety-margins",
+    "question": "After driving through deep water, what should you do?",
+    "options": [
+      "Switch the engine off and on again",
+      "Drive faster to dry the brakes",
+      "Apply the handbrake firmly several times",
+      "Test your brakes gently at the first safe opportunity"
+    ],
+    "correctIndex": 3,
+    "explanation": "Brakes affected by water. If you have driven through deep water your brakes may be less effective. Test them at the first safe opportunity by pushing gently on the brake pedal to make sure that they work. (Highway Code rule 121.)",
+    "highwayCodeRules": [
+      121
+    ]
+  },
+  {
+    "id": "safety-margins-0283",
+    "category": "safety-margins",
+    "question": "Why is coasting (travelling in neutral or with the clutch down) discouraged?",
+    "options": [
+      "It increases fuel consumption sharply",
+      "It is illegal on all public roads",
+      "It causes the brakes to overheat immediately",
+      "It removes engine braking and reduces your control of the vehicle"
+    ],
+    "correctIndex": 3,
+    "explanation": "Coasting. This term describes a vehicle travelling in neutral or with the clutch pressed down. It can reduce driver control because engine braking is eliminated, vehicle speed downhill will increase quickly, increased use of the footbrake can reduce its effectiveness, and steering response will be affected. (Highway Code rule 122.)",
+    "highwayCodeRules": [
+      122
+    ]
+  },
+  {
+    "id": "safety-margins-0286",
+    "category": "safety-margins",
+    "question": "On a dry road carrying fast-moving traffic, what is the minimum time gap you should leave to the vehicle in front?",
+    "options": [
+      "At least one second",
+      "At least four seconds",
+      "One car length for every 10 mph",
+      "At least two seconds"
+    ],
+    "correctIndex": 3,
+    "explanation": "Stopping distances. Drive at a speed that will allow you to stop well within the distance you can see to be clear. Leave enough space between you and the vehicle in front so that you can pull up safely if it suddenly slows down or stops — the safe rule is never to get closer than the overall stopping distance. Allow at least a two-second gap on roads carrying fast-moving traffic; the gap should be at least doubled on wet roads and increased still further on icy roads (up to ten times). (Highway Code rule 126.)",
+    "highwayCodeRules": [
+      126
+    ]
+  },
+  {
+    "id": "safety-margins-0287",
+    "category": "safety-margins",
+    "question": "On a wet road, by how much should you increase the gap to the vehicle in front compared with a dry road?",
+    "options": [
+      "Reduce it so you can see their brake lights",
+      "Add one second",
+      "No change is needed if you have ABS",
+      "At least double it"
+    ],
+    "correctIndex": 3,
+    "explanation": "Stopping distances. Drive at a speed that will allow you to stop well within the distance you can see to be clear. Leave enough space between you and the vehicle in front so that you can pull up safely if it suddenly slows down or stops — the safe rule is never to get closer than the overall stopping distance. Allow at least a two-second gap on roads carrying fast-moving traffic; the gap should be at least doubled on wet roads and increased still further on icy roads (up to ten times). (Highway Code rule 126.)",
+    "highwayCodeRules": [
+      126
+    ]
+  },
+  {
+    "id": "safety-margins-0288",
+    "category": "safety-margins",
+    "question": "On an icy road, stopping distances can be how much greater than on a dry road?",
+    "options": [
+      "About four times as great",
+      "About twice as great",
+      "About twenty times as great",
+      "Up to ten times greater"
+    ],
+    "correctIndex": 3,
+    "explanation": "Stopping distances. Drive at a speed that will allow you to stop well within the distance you can see to be clear. Leave enough space between you and the vehicle in front so that you can pull up safely if it suddenly slows down or stops — the safe rule is never to get closer than the overall stopping distance. Allow at least a two-second gap on roads carrying fast-moving traffic; the gap should be at least doubled on wet roads and increased still further on icy roads (up to ten times). (Highway Code rule 126.)",
+    "highwayCodeRules": [
+      126
+    ]
+  },
+  {
+    "id": "safety-margins-0336",
+    "category": "safety-margins",
+    "question": "You MUST use headlights when visibility is seriously reduced. The Highway Code defines this as generally being unable to see for more than…",
+    "options": [
+      "100 metres",
+      "200 metres",
+      "150 metres",
+      "50 metres"
+    ],
+    "correctIndex": 0,
+    "explanation": "You MUST use headlights when visibility is seriously reduced — generally when you cannot see for more than 100 metres (328 feet). You may also use front or rear fog lights but you MUST switch them off when visibility improves. (Highway Code rule 226.)",
+    "highwayCodeRules": [
+      226
+    ]
+  },
+  {
+    "id": "safety-margins-0337",
+    "category": "safety-margins",
+    "question": "After fog has cleared and visibility has improved, what MUST you do with your fog lights?",
+    "options": [
+      "Leave them on as a precaution",
+      "Switch them to dipped beam",
+      "Use them only on the rear",
+      "Switch them off"
+    ],
+    "correctIndex": 3,
+    "explanation": "You MUST use headlights when visibility is seriously reduced — generally when you cannot see for more than 100 metres (328 feet). You may also use front or rear fog lights but you MUST switch them off when visibility improves. (Highway Code rule 226.)",
+    "highwayCodeRules": [
+      226
+    ]
+  },
+  {
+    "id": "safety-margins-0338",
+    "category": "safety-margins",
+    "question": "In wet weather, your steering suddenly feels light and unresponsive. What is the most likely cause and what should you do?",
+    "options": [
+      "Tyre blow-out — brake firmly",
+      "Aquaplaning — ease off the accelerator and slow down gradually",
+      "Power steering failure — pull over and call for recovery",
+      "Brake fade — pump the brakes"
+    ],
+    "correctIndex": 1,
+    "explanation": "Wet weather. In wet weather, stopping distances will be at least double those required for stopping on dry roads. You should keep well back from the vehicle in front, ease off the accelerator and slow down gradually if the steering becomes unresponsive (aquaplaning), and be aware that the rain and spray from vehicles may make it difficult to see and be seen. (Highway Code rule 227.)",
+    "highwayCodeRules": [
+      227
+    ]
+  },
+  {
+    "id": "safety-margins-0339",
+    "category": "safety-margins",
+    "question": "On icy or snowy roads, by how much can stopping distances increase compared with dry roads?",
+    "options": [
+      "Up to twenty times",
+      "Up to twice",
+      "Up to ten times",
+      "Up to four times"
+    ],
+    "correctIndex": 2,
+    "explanation": "When driving in icy or snowy weather, drive with care, even if the roads have been treated; keep well back from the road user in front as stopping distances can be ten times greater than on dry roads; take care when overtaking vehicles spreading salt; watch out for snowploughs which may throw out snow on either side. (Highway Code rule 230.)",
+    "highwayCodeRules": [
+      230
+    ]
+  },
+  {
+    "id": "safety-margins-0340",
+    "category": "safety-margins",
+    "question": "When driving on ice, the Highway Code advises you to drive at a slow speed in…",
+    "options": [
+      "Neutral, to avoid wheel spin",
+      "As high a gear as possible",
+      "First gear at all times",
+      "As low a gear as possible"
+    ],
+    "correctIndex": 1,
+    "explanation": "Drive extremely carefully when the roads are icy. Avoid sudden actions as these could cause loss of control. You should drive at a slow speed in as high a gear as possible; accelerate and brake very gently; drive particularly slowly on bends; check your grip on the road surface when there is snow or ice by choosing a safe place to brake gently. (Highway Code rule 231.)",
+    "highwayCodeRules": [
+      231
+    ]
+  },
+  {
+    "id": "safety-margins-0342",
+    "category": "safety-margins",
+    "question": "Why MUST you switch off rear fog lights when visibility improves?",
+    "options": [
+      "They drain the battery",
+      "They are linked to the speed limiter",
+      "They can dazzle following drivers and obscure your brake lights",
+      "They cause your headlights to dim"
+    ],
+    "correctIndex": 2,
+    "explanation": "You MUST NOT use front or rear fog lights unless visibility is seriously reduced, as they dazzle other road users and can obscure your brake lights. You MUST switch them off when visibility improves. (Highway Code rule 236.)",
+    "highwayCodeRules": [
+      236
+    ]
+  },
+  {
+    "id": "safety-margins-0375",
+    "category": "safety-margins",
+    "question": "In a contraflow system at road works, what should you do?",
+    "options": [
+      "Switch on hazard warning lights",
+      "Use the closed lane to overtake",
+      "Maintain normal motorway speed",
+      "Reduce your speed and increase the distance to the vehicle in front"
+    ],
+    "correctIndex": 3,
+    "explanation": "Contraflow systems mean that you may be travelling in a narrower lane than normal and with no permanent barrier between you and oncoming traffic. Reduce your speed and increase the distance to the vehicle in front. (Highway Code rule 290.)",
+    "highwayCodeRules": [
+      290
+    ]
+  },
+  {
+    "id": "safety-margins-0488",
+    "category": "safety-margins",
+    "question": "Highway Code rule 117 is about “general rules, techniques and advice”. Which statement is taken from this rule?",
+    "options": [
+      "In normal circumstances.",
+      "Box junctions. These have criss-cross yellow lines painted on the road. You MUST NOT enter the box until your exit road or lane is clear. However, you may enter",
+      "Be considerate. Be careful of and considerate towards all types of road users, especially those requiring extra care. You MUST NOT throw anything out of a vehic",
+      "Lane dividers. These are short, broken white lines used on wide carriageways to divide them into lanes. You should keep between them."
+    ],
+    "correctIndex": 0,
+    "explanation": "In normal circumstances. The safest way to brake is to do so early and lightly. Brake more firmly as you begin to stop. Ease the pressure off just before the vehicle comes to rest to avoid a jerky stop. (Highway Code rule 117.)",
+    "highwayCodeRules": [
+      117
+    ]
+  },
+  {
+    "id": "safety-margins-0489",
+    "category": "safety-margins",
+    "question": "According to the Highway Code (general rules, techniques and advice), what should you do?",
+    "options": [
+      "Lane dividers. These are short, broken white lines used on wide carriageways to divide them into lanes. You should keep between them.",
+      "Box junctions. These have criss-cross yellow lines painted on the road. You MUST NOT enter the box until your exit road or lane is clear. However, you may enter",
+      "In normal circumstances.",
+      "Be considerate. Be careful of and considerate towards all types of road users, especially those requiring extra care. You MUST NOT throw anything out of a vehic"
+    ],
+    "correctIndex": 2,
+    "explanation": "In normal circumstances. The safest way to brake is to do so early and lightly. Brake more firmly as you begin to stop. Ease the pressure off just before the vehicle comes to rest to avoid a jerky stop. (Highway Code rule 117.)",
+    "highwayCodeRules": [
+      117
+    ]
+  },
+  {
+    "id": "safety-margins-0490",
+    "category": "safety-margins",
+    "question": "Highway Code rule 118 is about “general rules, techniques and advice”. Which statement is taken from this rule?",
+    "options": [
+      "In an emergency. Brake immediately. Try to avoid braking so harshly that you lock your wheels. Locked wheels can lead to loss of control.",
+      "Reflective road studs may be used with white lines.",
+      "Take extra care on country roads and reduce your speed at approaches to bends, which can be sharper than they appear, and at junctions and turnings, which may be partially hidden.",
+      "Traffic-calming measures."
+    ],
+    "correctIndex": 0,
+    "explanation": "In an emergency. Brake immediately. Try to avoid braking so harshly that you lock your wheels. Locked wheels can lead to loss of control. (Highway Code rule 118.)",
+    "highwayCodeRules": [
+      118
+    ]
+  },
+  {
+    "id": "safety-margins-0491",
+    "category": "safety-margins",
+    "question": "According to the Highway Code (general rules, techniques and advice), what should you do?",
+    "options": [
+      "In an emergency. Brake immediately. Try to avoid braking so harshly that you lock your wheels. Locked wheels can lead to loss of control.",
+      "Traffic-calming measures.",
+      "Take extra care on country roads and reduce your speed at approaches to bends, which can be sharper than they appear, and at junctions and turnings, which may be partially hidden.",
+      "Reflective road studs may be used with white lines."
+    ],
+    "correctIndex": 0,
+    "explanation": "In an emergency. Brake immediately. Try to avoid braking so harshly that you lock your wheels. Locked wheels can lead to loss of control. (Highway Code rule 118.)",
+    "highwayCodeRules": [
+      118
+    ]
+  },
+  {
+    "id": "safety-margins-0492",
+    "category": "safety-margins",
+    "question": "Highway Code rule 119 is about “general rules, techniques and advice”. Which statement is taken from this rule?",
+    "options": [
+      "Skids are caused by the driver braking, accelerating or steering too harshly or driving too fast for the road conditions.",
+      "You MUST NOT drive on or over a pavement, footpath or bridleway except to gain lawful access to property, or in the case of an emergency.",
+      "There is a danger of driver distraction being caused by in-vehicle systems such as satellite navigation, congestion warning systems, PCs and multi-media.",
+      "You MUST NOT drive dangerously, drive without due care and attention, or drive without reasonable consideration for other road users."
+    ],
+    "correctIndex": 0,
+    "explanation": "Skids are caused by the driver braking, accelerating or steering too harshly or driving too fast for the road conditions. If skidding occurs, remove the cause by releasing the brake pedal fully or easing off the accelerator. Turn the steering wheel in the direction of the skid. (Highway Code rule 119.)",
+    "highwayCodeRules": [
+      119
+    ]
+  },
+  {
+    "id": "safety-margins-0493",
+    "category": "safety-margins",
+    "question": "Highway Code rule 120 is about “general rules, techniques and advice”. Which statement is taken from this rule?",
+    "options": [
+      "You MUST exercise proper control of your vehicle at all times.",
+      "Merging in turn is recommended where vehicles are travelling at very low speeds, e.",
+      "ABS. If your vehicle is fitted with anti-lock brakes, you should follow the advice in the vehicle handbook. However, in the case of an emergency, apply the foot",
+      "A broken white line marks the centre of the road."
+    ],
+    "correctIndex": 2,
+    "explanation": "ABS. If your vehicle is fitted with anti-lock brakes, you should follow the advice in the vehicle handbook. However, in the case of an emergency, apply the footbrake firmly; do not release the pressure until the vehicle has slowed to the desired speed. (Highway Code rule 120.)",
+    "highwayCodeRules": [
+      120
+    ]
+  },
+  {
+    "id": "safety-margins-0494",
+    "category": "safety-margins",
+    "question": "Highway Code rule 121 is about “general rules, techniques and advice”. Which statement is taken from this rule?",
+    "options": [
+      "On a two-lane dual carriageway you should stay in the left-hand lane.",
+      "Cycle lanes. You MUST NOT drive or park in a cycle lane marked by a solid white line during its times of operation. Do not drive or park in a cycle lane marked",
+      "Brakes affected by water.",
+      "Adapt your driving to the appropriate type and condition of road."
+    ],
+    "correctIndex": 2,
+    "explanation": "Brakes affected by water. If you have driven through deep water your brakes may be less effective. Test them at the first safe opportunity by pushing gently on the brake pedal to make sure that they work. (Highway Code rule 121.)",
+    "highwayCodeRules": [
+      121
+    ]
+  },
+  {
+    "id": "safety-margins-0495",
+    "category": "safety-margins",
+    "question": "Highway Code rule 122 is about “general rules, techniques and advice”. Which statement is taken from this rule?",
+    "options": [
+      "Coasting. This term describes a vehicle travelling in neutral or with the clutch pressed down. It can reduce driver control because engine braking is eliminated",
+      "Do not park in passing places.",
+      "Traffic officers have powers to stop vehicles on most motorways and some 'A' class roads in England and Wales.",
+      "Police stopping procedures."
+    ],
+    "correctIndex": 0,
+    "explanation": "Coasting. This term describes a vehicle travelling in neutral or with the clutch pressed down. It can reduce driver control because engine braking is eliminated, vehicle speed downhill will increase quickly, increased use of the footbrake can reduce its effectiveness, and steering response will be affected. (Highway Code rule 122.)",
+    "highwayCodeRules": [
+      122
+    ]
+  },
+  {
+    "id": "safety-margins-0498",
+    "category": "safety-margins",
+    "question": "Highway Code rule 125 is about “general rules, techniques and advice”. Which statement is taken from this rule?",
+    "options": [
+      "Residential streets. You should drive slowly and carefully on streets where there are likely to be pedestrians, cyclists and parked cars. In some areas a 20 mph",
+      "Brakes affected by water.",
+      "The speed limit is the absolute maximum and does not mean it is safe to drive at that speed irrespective of conditions.",
+      "You MUST NOT exceed the maximum speed limits for the road and for your vehicle."
+    ],
+    "correctIndex": 2,
+    "explanation": "The speed limit is the absolute maximum and does not mean it is safe to drive at that speed irrespective of conditions. Driving at speeds too fast for the road and traffic conditions is dangerous. (Highway Code rule 125.)",
+    "highwayCodeRules": [
+      125
+    ]
+  },
+  {
+    "id": "safety-margins-0499",
+    "category": "safety-margins",
+    "question": "According to the Highway Code (general rules, techniques and advice), what should you do?",
+    "options": [
+      "Residential streets. You should drive slowly and carefully on streets where there are likely to be pedestrians, cyclists and parked cars. In some areas a 20 mph",
+      "You MUST NOT exceed the maximum speed limits for the road and for your vehicle.",
+      "Brakes affected by water.",
+      "The speed limit is the absolute maximum and does not mean it is safe to drive at that speed irrespective of conditions."
+    ],
+    "correctIndex": 3,
+    "explanation": "The speed limit is the absolute maximum and does not mean it is safe to drive at that speed irrespective of conditions. Driving at speeds too fast for the road and traffic conditions is dangerous. (Highway Code rule 125.)",
+    "highwayCodeRules": [
+      125
+    ]
+  },
+  {
+    "id": "safety-margins-0500",
+    "category": "safety-margins",
+    "question": "Highway Code rule 126 is about “general rules, techniques and advice”. Which statement is taken from this rule?",
+    "options": [
+      "You MUST NOT drive dangerously, drive without due care and attention, or drive without reasonable consideration for other road users.",
+      "Take extra care on country roads and reduce your speed at approaches to bends, which can be sharper than they appear, and at junctions and turnings, which may be partially hidden.",
+      "Police stopping procedures.",
+      "Stopping distances. Drive at a speed that will allow you to stop well within the distance you can see to be clear. Leave enough space between you and the vehicl"
+    ],
+    "correctIndex": 3,
+    "explanation": "Stopping distances. Drive at a speed that will allow you to stop well within the distance you can see to be clear. Leave enough space between you and the vehicle in front so that you can pull up safely if it suddenly slows down or stops — the safe rule is never to get closer than the overall stopping distance. Allow at least a two-second gap on roads carrying fast-moving traffic; the gap should be at least doubled on wet roads and increased still further on icy roads (up to ten times). (Highway Code rule 126.)",
+    "highwayCodeRules": [
+      126
+    ]
+  },
+  {
+    "id": "safety-margins-0611",
+    "category": "safety-margins",
+    "question": "Highway Code rule 226 is about “driving in adverse weather”. Which statement is taken from this rule?",
+    "options": [
+      "Windy weather. High-sided vehicles are most affected by windy weather, but strong gusts can also blow a car, cyclist, motorcyclist or horse rider off course. Th",
+      "Before entering fog, check your mirrors then slow down.",
+      "You MUST use headlights when visibility is seriously reduced — generally when you cannot see for more than 100 metres (328 feet).",
+      "In very windy weather your vehicle may be affected by turbulence created by large vehicles."
+    ],
+    "correctIndex": 2,
+    "explanation": "You MUST use headlights when visibility is seriously reduced — generally when you cannot see for more than 100 metres (328 feet). You may also use front or rear fog lights but you MUST switch them off when visibility improves. (Highway Code rule 226.)",
+    "highwayCodeRules": [
+      226
+    ]
+  },
+  {
+    "id": "safety-margins-0612",
+    "category": "safety-margins",
+    "question": "Highway Code rule 227 is about “driving in adverse weather”. Which statement is taken from this rule?",
+    "options": [
+      "When driving in icy or snowy weather, drive with care, even if the roads have been treated; keep well back from the road user in front as stopping distances can",
+      "When driving in fog you should use your lights as required, keep a safe distance behind the vehicle in front (rear lights can give a false sense of security), b",
+      "Windy weather. High-sided vehicles are most affected by windy weather, but strong gusts can also blow a car, cyclist, motorcyclist or horse rider off course. Th",
+      "Wet weather. In wet weather, stopping distances will be at least double those required for stopping on dry roads. You should keep well back from the vehicle in"
+    ],
+    "correctIndex": 3,
+    "explanation": "Wet weather. In wet weather, stopping distances will be at least double those required for stopping on dry roads. You should keep well back from the vehicle in front, ease off the accelerator and slow down gradually if the steering becomes unresponsive (aquaplaning), and be aware that the rain and spray from vehicles may make it difficult to see and be seen. (Highway Code rule 227.)",
+    "highwayCodeRules": [
+      227
+    ]
+  },
+  {
+    "id": "safety-margins-0613",
+    "category": "safety-margins",
+    "question": "Highway Code rule 228 is about “driving in adverse weather”. Which statement is taken from this rule?",
+    "options": [
+      "Wet weather. In wet weather, stopping distances will be at least double those required for stopping on dry roads. You should keep well back from the vehicle in",
+      "In icy or snowy weather, do not drive unless your journey is essential.",
+      "In very windy weather your vehicle may be affected by turbulence created by large vehicles.",
+      "Before you set off you MUST be able to see, so clear all snow and ice from all your windows; you MUST ensure that lights are clean and number plates are clearly visible and legible."
+    ],
+    "correctIndex": 1,
+    "explanation": "In icy or snowy weather, do not drive unless your journey is essential. Take care that lights are clean and number plates are clearly visible. Make sure mirrors are clear and windows are demisted thoroughly. Remove all snow that might fall off into the path of other road users. (Highway Code rule 228.)",
+    "highwayCodeRules": [
+      228
+    ]
+  },
+  {
+    "id": "safety-margins-0614",
+    "category": "safety-margins",
+    "question": "According to the Highway Code (driving in adverse weather), what should you do?",
+    "options": [
+      "In very windy weather your vehicle may be affected by turbulence created by large vehicles.",
+      "Before you set off you MUST be able to see, so clear all snow and ice from all your windows; you MUST ensure that lights are clean and number plates are clearly visible and legible.",
+      "Wet weather. In wet weather, stopping distances will be at least double those required for stopping on dry roads. You should keep well back from the vehicle in",
+      "In icy or snowy weather, do not drive unless your journey is essential."
+    ],
+    "correctIndex": 3,
+    "explanation": "In icy or snowy weather, do not drive unless your journey is essential. Take care that lights are clean and number plates are clearly visible. Make sure mirrors are clear and windows are demisted thoroughly. Remove all snow that might fall off into the path of other road users. (Highway Code rule 228.)",
+    "highwayCodeRules": [
+      228
+    ]
+  },
+  {
+    "id": "safety-margins-0617",
+    "category": "safety-margins",
+    "question": "Highway Code rule 230 is about “driving in adverse weather”. Which statement is taken from this rule?",
+    "options": [
+      "When driving in icy or snowy weather, drive with care, even if the roads have been treated; keep well back from the road user in front as stopping distances can",
+      "You MUST use headlights when visibility is seriously reduced — generally when you cannot see for more than 100 metres (328 feet).",
+      "Hot weather. Keep your vehicle well ventilated to avoid drowsiness. Be aware that the road surface may become soft or if it rains after a dry spell it may becom",
+      "You MUST NOT use front or rear fog lights unless visibility is seriously reduced, as they dazzle other road users and can obscure your brake lights."
+    ],
+    "correctIndex": 0,
+    "explanation": "When driving in icy or snowy weather, drive with care, even if the roads have been treated; keep well back from the road user in front as stopping distances can be ten times greater than on dry roads; take care when overtaking vehicles spreading salt; watch out for snowploughs which may throw out snow on either side. (Highway Code rule 230.)",
+    "highwayCodeRules": [
+      230
+    ]
+  },
+  {
+    "id": "safety-margins-0618",
+    "category": "safety-margins",
+    "question": "Highway Code rule 231 is about “driving in adverse weather”. Which statement is taken from this rule?",
+    "options": [
+      "Wet weather. In wet weather, stopping distances will be at least double those required for stopping on dry roads. You should keep well back from the vehicle in",
+      "Drive extremely carefully when the roads are icy.",
+      "Windy weather. High-sided vehicles are most affected by windy weather, but strong gusts can also blow a car, cyclist, motorcyclist or horse rider off course. Th",
+      "Hot weather. Keep your vehicle well ventilated to avoid drowsiness. Be aware that the road surface may become soft or if it rains after a dry spell it may becom"
+    ],
+    "correctIndex": 1,
+    "explanation": "Drive extremely carefully when the roads are icy. Avoid sudden actions as these could cause loss of control. You should drive at a slow speed in as high a gear as possible; accelerate and brake very gently; drive particularly slowly on bends; check your grip on the road surface when there is snow or ice by choosing a safe place to brake gently. (Highway Code rule 231.)",
+    "highwayCodeRules": [
+      231
+    ]
+  },
+  {
+    "id": "safety-margins-0624",
+    "category": "safety-margins",
+    "question": "Highway Code rule 235 is about “driving in adverse weather”. Which statement is taken from this rule?",
+    "options": [
+      "Before you set off you MUST be able to see, so clear all snow and ice from all your windows; you MUST ensure that lights are clean and number plates are clearly visible and legible.",
+      "Wet weather. In wet weather, stopping distances will be at least double those required for stopping on dry roads. You should keep well back from the vehicle in",
+      "When driving in fog you should use your lights as required, keep a safe distance behind the vehicle in front (rear lights can give a false sense of security), b",
+      "You MUST NOT use front or rear fog lights unless visibility is seriously reduced, as they dazzle other road users and can obscure your brake lights."
+    ],
+    "correctIndex": 2,
+    "explanation": "When driving in fog you should use your lights as required, keep a safe distance behind the vehicle in front (rear lights can give a false sense of security), be able to pull up well within the distance you can see clearly, and use your windscreen wipers and demisters. (Highway Code rule 235.)",
+    "highwayCodeRules": [
+      235
+    ]
+  },
+  {
+    "id": "safety-margins-0625",
+    "category": "safety-margins",
+    "question": "According to the Highway Code (driving in adverse weather), what should you do?",
+    "options": [
+      "Wet weather. In wet weather, stopping distances will be at least double those required for stopping on dry roads. You should keep well back from the vehicle in",
+      "When driving in fog you should use your lights as required, keep a safe distance behind the vehicle in front (rear lights can give a false sense of security), b",
+      "Before you set off you MUST be able to see, so clear all snow and ice from all your windows; you MUST ensure that lights are clean and number plates are clearly visible and legible.",
+      "You MUST NOT use front or rear fog lights unless visibility is seriously reduced, as they dazzle other road users and can obscure your brake lights."
+    ],
+    "correctIndex": 1,
+    "explanation": "When driving in fog you should use your lights as required, keep a safe distance behind the vehicle in front (rear lights can give a false sense of security), be able to pull up well within the distance you can see clearly, and use your windscreen wipers and demisters. (Highway Code rule 235.)",
+    "highwayCodeRules": [
+      235
+    ]
+  },
+  {
+    "id": "safety-margins-0626",
+    "category": "safety-margins",
+    "question": "Highway Code rule 236 is about “driving in adverse weather”. Which statement is taken from this rule?",
+    "options": [
+      "You MUST use headlights when visibility is seriously reduced — generally when you cannot see for more than 100 metres (328 feet).",
+      "Windy weather. High-sided vehicles are most affected by windy weather, but strong gusts can also blow a car, cyclist, motorcyclist or horse rider off course. Th",
+      "You MUST NOT use front or rear fog lights unless visibility is seriously reduced, as they dazzle other road users and can obscure your brake lights.",
+      "When driving in icy or snowy weather, drive with care, even if the roads have been treated; keep well back from the road user in front as stopping distances can"
+    ],
+    "correctIndex": 2,
+    "explanation": "You MUST NOT use front or rear fog lights unless visibility is seriously reduced, as they dazzle other road users and can obscure your brake lights. You MUST switch them off when visibility improves. (Highway Code rule 236.)",
+    "highwayCodeRules": [
+      236
+    ]
+  }
+]

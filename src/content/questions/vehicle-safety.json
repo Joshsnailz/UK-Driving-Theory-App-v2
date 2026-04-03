@@ -1,0 +1,355 @@
+[
+  {
+    "id": "vehicle-safety-0262",
+    "category": "vehicle-safety",
+    "question": "You need glasses to read a number plate at the required distance. When must you wear them?",
+    "options": [
+      "Only when reversing",
+      "Only on motorways",
+      "At all times when driving",
+      "Only at night"
+    ],
+    "correctIndex": 2,
+    "explanation": "You MUST be able to read a vehicle number plate, in good daylight, from a distance of 20 metres (or 20.5 metres for old-style number plates). If you need to wear glasses or contact lenses to do this, you MUST wear them at all times while driving. (Highway Code rule 92.)",
+    "highwayCodeRules": [
+      92
+    ]
+  },
+  {
+    "id": "vehicle-safety-0268",
+    "category": "vehicle-safety",
+    "question": "Who is responsible for making sure a 14-year-old front-seat passenger wears a seat belt?",
+    "options": [
+      "The vehicle owner",
+      "The passenger themselves",
+      "The driver",
+      "No one — it is optional at 14"
+    ],
+    "correctIndex": 1,
+    "explanation": "From 14, passengers are responsible for their own seat belt; below 14 the driver is responsible (rule 100). (Highway Code rule 99.)",
+    "highwayCodeRules": [
+      99
+    ]
+  },
+  {
+    "id": "vehicle-safety-0269",
+    "category": "vehicle-safety",
+    "question": "Who is responsible for ensuring a child under 14 wears a seat belt or correct child restraint in a car?",
+    "options": [
+      "The child’s parent",
+      "The driver",
+      "The child",
+      "The front-seat passenger"
+    ],
+    "correctIndex": 1,
+    "explanation": "The driver MUST ensure that all children under 14 years of age in cars, vans and other goods vehicles wear seat belts or sit in an approved child restraint where required. (Highway Code rule 100.)",
+    "highwayCodeRules": [
+      100
+    ]
+  },
+  {
+    "id": "vehicle-safety-0270",
+    "category": "vehicle-safety",
+    "question": "Where MUST a rear-facing baby seat NEVER be fitted?",
+    "options": [
+      "In a seat protected by an active frontal airbag",
+      "In a seat next to a side airbag",
+      "In a seat with a three-point belt",
+      "In any rear seat"
+    ],
+    "correctIndex": 0,
+    "explanation": "A rear-facing baby seat MUST NOT be fitted into a seat protected by an active frontal airbag, as in a crash it can cause serious injury or death to the child. (Highway Code rule 101.)",
+    "highwayCodeRules": [
+      101
+    ]
+  },
+  {
+    "id": "vehicle-safety-0277",
+    "category": "vehicle-safety",
+    "question": "When may you use front or rear fog lights?",
+    "options": [
+      "Only when visibility is seriously reduced",
+      "When following another vehicle closely",
+      "At night on unlit roads",
+      "Whenever it is raining"
+    ],
+    "correctIndex": 0,
+    "explanation": "You MUST NOT use any lights in a way which would dazzle or cause discomfort to other road users, including pedestrians, cyclists and horse riders, and you MUST NOT use front or rear fog lights unless visibility is seriously reduced. (Highway Code rule 114.)",
+    "highwayCodeRules": [
+      114
+    ]
+  },
+  {
+    "id": "vehicle-safety-0387",
+    "category": "vehicle-safety",
+    "question": "What is the legal minimum tread depth for car tyres across the central three-quarters of the tread and around the entire circumference?",
+    "options": [
+      "1.0 mm",
+      "1.6 mm",
+      "2.5 mm",
+      "2.0 mm"
+    ],
+    "correctIndex": 1,
+    "explanation": "1.6 mm. Source: The Highway Code, Annex 6 (Vehicle maintenance, safety and security)."
+  },
+  {
+    "id": "vehicle-safety-0388",
+    "category": "vehicle-safety",
+    "question": "Across what proportion of the tyre’s breadth must the legal minimum tread depth be present on a car?",
+    "options": [
+      "The central three-quarters",
+      "The outer edges only",
+      "The entire width",
+      "The central half"
+    ],
+    "correctIndex": 0,
+    "explanation": "The central three-quarters. Source: The Highway Code, Annex 6 (Vehicle maintenance, safety and security)."
+  },
+  {
+    "id": "vehicle-safety-0389",
+    "category": "vehicle-safety",
+    "question": "Which fluid is it an offence to allow to run out if the system is fitted to the vehicle?",
+    "options": [
+      "Power-steering fluid",
+      "Brake fluid",
+      "Engine coolant",
+      "Windscreen washer fluid"
+    ],
+    "correctIndex": 3,
+    "explanation": "Windscreen washer fluid. Source: The Highway Code, Annex 6 (Vehicle maintenance, safety and security)."
+  },
+  {
+    "id": "vehicle-safety-0390",
+    "category": "vehicle-safety",
+    "question": "You notice excessive exhaust fumes from your vehicle. What should you do?",
+    "options": [
+      "Rev the engine to clear it",
+      "Ignore it unless the MOT is due",
+      "Add fuel additive at the next fill-up",
+      "Have the vehicle checked — driving with a defective exhaust is an offence"
+    ],
+    "correctIndex": 3,
+    "explanation": "Have the vehicle checked — driving with a defective exhaust is an offence. Source: The Highway Code, Annex 6 (Vehicle maintenance, safety and security)."
+  },
+  {
+    "id": "vehicle-safety-0391",
+    "category": "vehicle-safety",
+    "question": "Before a long winter journey, what should you check in addition to fuel and oil?",
+    "options": [
+      "Radio reception",
+      "Lights, tyres, coolant and screenwash",
+      "Spare fuses only",
+      "Air conditioning gas"
+    ],
+    "correctIndex": 1,
+    "explanation": "Lights, tyres, coolant and screenwash. Source: The Highway Code, Annex 6 (Vehicle maintenance, safety and security)."
+  },
+  {
+    "id": "vehicle-safety-0456",
+    "category": "vehicle-safety",
+    "question": "Highway Code rule 89 is about “rules for drivers and motorcyclists”. Which statement is taken from this rule?",
+    "options": [
+      "Vehicle towing and loading.",
+      "Slow down, and if necessary stop, if you are dazzled by bright sunlight.",
+      "Before setting off you should ensure that you have planned your route and allowed sufficient time, that clothing and footwear do not prevent you using the contr",
+      "Vehicle condition. You MUST ensure your vehicle and trailer comply with the full requirements of the Road Vehicles (Construction and Use) Regulations and Road V"
+    ],
+    "correctIndex": 3,
+    "explanation": "Vehicle condition. You MUST ensure your vehicle and trailer comply with the full requirements of the Road Vehicles (Construction and Use) Regulations and Road Vehicles Lighting Regulations. (Highway Code rule 89.)",
+    "highwayCodeRules": [
+      89
+    ]
+  },
+  {
+    "id": "vehicle-safety-0457",
+    "category": "vehicle-safety",
+    "question": "According to the Highway Code (rules for drivers and motorcyclists), what MUST you do?",
+    "options": [
+      "Vehicle condition. You MUST ensure your vehicle and trailer comply with the full requirements of the Road Vehicles (Construction and Use) Regulations and Road V",
+      "Before setting off you should ensure that you have planned your route and allowed sufficient time, that clothing and footwear do not prevent you using the contr",
+      "Vehicle towing and loading.",
+      "Slow down, and if necessary stop, if you are dazzled by bright sunlight."
+    ],
+    "correctIndex": 0,
+    "explanation": "Vehicle condition. You MUST ensure your vehicle and trailer comply with the full requirements of the Road Vehicles (Construction and Use) Regulations and Road Vehicles Lighting Regulations. (Highway Code rule 89.)",
+    "highwayCodeRules": [
+      89
+    ]
+  },
+  {
+    "id": "vehicle-safety-0463",
+    "category": "vehicle-safety",
+    "question": "Highway Code rule 95 is about “rules for drivers and motorcyclists”. Which statement is taken from this rule?",
+    "options": [
+      "Driving when you are tired greatly increases your risk of collision.",
+      "You MUST be able to read a vehicle number plate, in good daylight, from a distance of 20 metres (or 20.",
+      "Do not drink and drive as it will seriously affect your judgement and abilities.",
+      "Before setting off you should ensure that you have planned your route and allowed sufficient time, that clothing and footwear do not prevent you using the contr"
+    ],
+    "correctIndex": 2,
+    "explanation": "Do not drink and drive as it will seriously affect your judgement and abilities. In England and Wales you MUST NOT drive with a breath alcohol level higher than 35 microgrammes/100 millilitres of breath or a blood alcohol level of more than 80 milligrammes/100 millilitres of blood. (Highway Code rule 95.)",
+    "highwayCodeRules": [
+      95
+    ]
+  },
+  {
+    "id": "vehicle-safety-0464",
+    "category": "vehicle-safety",
+    "question": "Highway Code rule 96 is about “rules for drivers and motorcyclists”. Which statement is taken from this rule?",
+    "options": [
+      "You MUST NOT drive under the influence of drugs or medicine.",
+      "Slow down, and if necessary stop, if you are dazzled by bright sunlight.",
+      "The driver MUST ensure that all children under 14 years of age in cars, vans and other goods vehicles wear seat belts or sit in an approved child restraint where required.",
+      "Seat belts. You MUST wear a seat belt in cars, vans and other goods vehicles if one is fitted. Adults and children aged 14 years and over MUST use a seat belt o"
+    ],
+    "correctIndex": 0,
+    "explanation": "You MUST NOT drive under the influence of drugs or medicine. Check the instructions or ask your doctor or pharmacist. (Highway Code rule 96.)",
+    "highwayCodeRules": [
+      96
+    ]
+  },
+  {
+    "id": "vehicle-safety-0465",
+    "category": "vehicle-safety",
+    "question": "According to the Highway Code (rules for drivers and motorcyclists), what MUST you do?",
+    "options": [
+      "You MUST NOT drive under the influence of drugs or medicine.",
+      "The driver MUST ensure that all children under 14 years of age in cars, vans and other goods vehicles wear seat belts or sit in an approved child restraint where required.",
+      "Slow down, and if necessary stop, if you are dazzled by bright sunlight.",
+      "Seat belts. You MUST wear a seat belt in cars, vans and other goods vehicles if one is fitted. Adults and children aged 14 years and over MUST use a seat belt o"
+    ],
+    "correctIndex": 0,
+    "explanation": "You MUST NOT drive under the influence of drugs or medicine. Check the instructions or ask your doctor or pharmacist. (Highway Code rule 96.)",
+    "highwayCodeRules": [
+      96
+    ]
+  },
+  {
+    "id": "vehicle-safety-0468",
+    "category": "vehicle-safety",
+    "question": "Highway Code rule 99 is about “rules for drivers and motorcyclists”. Which statement is taken from this rule?",
+    "options": [
+      "The driver MUST ensure that all children under 14 years of age in cars, vans and other goods vehicles wear seat belts or sit in an approved child restraint where required.",
+      "Vehicle towing and loading.",
+      "Seat belts. You MUST wear a seat belt in cars, vans and other goods vehicles if one is fitted. Adults and children aged 14 years and over MUST use a seat belt o",
+      "Make sure that you are fit to drive."
+    ],
+    "correctIndex": 2,
+    "explanation": "Seat belts. You MUST wear a seat belt in cars, vans and other goods vehicles if one is fitted. Adults and children aged 14 years and over MUST use a seat belt or child restraint where fitted. (Highway Code rule 99.)",
+    "highwayCodeRules": [
+      99
+    ]
+  },
+  {
+    "id": "vehicle-safety-0469",
+    "category": "vehicle-safety",
+    "question": "Highway Code rule 100 is about “rules for drivers and motorcyclists”. Which statement is taken from this rule?",
+    "options": [
+      "The driver MUST ensure that all children under 14 years of age in cars, vans and other goods vehicles wear seat belts or sit in an approved child restraint where required.",
+      "Driving when you are tired greatly increases your risk of collision.",
+      "You MUST be able to read a vehicle number plate, in good daylight, from a distance of 20 metres (or 20.",
+      "Seat belts. You MUST wear a seat belt in cars, vans and other goods vehicles if one is fitted. Adults and children aged 14 years and over MUST use a seat belt o"
+    ],
+    "correctIndex": 0,
+    "explanation": "The driver MUST ensure that all children under 14 years of age in cars, vans and other goods vehicles wear seat belts or sit in an approved child restraint where required. (Highway Code rule 100.)",
+    "highwayCodeRules": [
+      100
+    ]
+  },
+  {
+    "id": "vehicle-safety-0470",
+    "category": "vehicle-safety",
+    "question": "Highway Code rule 101 is about “rules for drivers and motorcyclists”. Which statement is taken from this rule?",
+    "options": [
+      "Vehicle towing and loading.",
+      "A rear-facing baby seat MUST NOT be fitted into a seat protected by an active frontal airbag, as in a crash it can cause serious injury or death to the child.",
+      "Driving when you are tired greatly increases your risk of collision.",
+      "Slow down, and if necessary stop, if you are dazzled by bright sunlight."
+    ],
+    "correctIndex": 1,
+    "explanation": "A rear-facing baby seat MUST NOT be fitted into a seat protected by an active frontal airbag, as in a crash it can cause serious injury or death to the child. (Highway Code rule 101.)",
+    "highwayCodeRules": [
+      101
+    ]
+  },
+  {
+    "id": "vehicle-safety-0482",
+    "category": "vehicle-safety",
+    "question": "Highway Code rule 113 is about “general rules, techniques and advice”. Which statement is taken from this rule?",
+    "options": [
+      "Double white lines where the line nearest you is broken: you may cross the lines to overtake if it is safe, provided you can complete the manoeuvre before reach",
+      "You MUST ensure all sidelights and rear registration plate lights are lit between sunset and sunrise, and use headlights at night except on a road which has lit street lighting.",
+      "If you need to change lane, first use your mirrors and if necessary take a quick sideways glance to make sure you will not force another road user to change course or speed.",
+      "Be considerate. Be careful of and considerate towards all types of road users, especially those requiring extra care. You MUST NOT throw anything out of a vehic"
+    ],
+    "correctIndex": 1,
+    "explanation": "You MUST ensure all sidelights and rear registration plate lights are lit between sunset and sunrise, and use headlights at night except on a road which has lit street lighting. (Highway Code rule 113.)",
+    "highwayCodeRules": [
+      113
+    ]
+  },
+  {
+    "id": "vehicle-safety-0483",
+    "category": "vehicle-safety",
+    "question": "According to the Highway Code (general rules, techniques and advice), what MUST you do?",
+    "options": [
+      "Double white lines where the line nearest you is broken: you may cross the lines to overtake if it is safe, provided you can complete the manoeuvre before reach",
+      "You MUST ensure all sidelights and rear registration plate lights are lit between sunset and sunrise, and use headlights at night except on a road which has lit street lighting.",
+      "If you need to change lane, first use your mirrors and if necessary take a quick sideways glance to make sure you will not force another road user to change course or speed.",
+      "Be considerate. Be careful of and considerate towards all types of road users, especially those requiring extra care. You MUST NOT throw anything out of a vehic"
+    ],
+    "correctIndex": 1,
+    "explanation": "You MUST ensure all sidelights and rear registration plate lights are lit between sunset and sunrise, and use headlights at night except on a road which has lit street lighting. (Highway Code rule 113.)",
+    "highwayCodeRules": [
+      113
+    ]
+  },
+  {
+    "id": "vehicle-safety-0484",
+    "category": "vehicle-safety",
+    "question": "Highway Code rule 114 is about “general rules, techniques and advice”. Which statement is taken from this rule?",
+    "options": [
+      "Police stopping procedures.",
+      "You MUST NOT use any lights in a way which would dazzle or cause discomfort to other road users, including pedestrians, cyclists and horse riders, and you MUST",
+      "There is a danger of driver distraction being caused by in-vehicle systems such as satellite navigation, congestion warning systems, PCs and multi-media.",
+      "Merging in turn is recommended where vehicles are travelling at very low speeds, e."
+    ],
+    "correctIndex": 1,
+    "explanation": "You MUST NOT use any lights in a way which would dazzle or cause discomfort to other road users, including pedestrians, cyclists and horse riders, and you MUST NOT use front or rear fog lights unless visibility is seriously reduced. (Highway Code rule 114.)",
+    "highwayCodeRules": [
+      114
+    ]
+  },
+  {
+    "id": "vehicle-safety-0615",
+    "category": "vehicle-safety",
+    "question": "Highway Code rule 229 is about “driving in adverse weather”. Which statement is taken from this rule?",
+    "options": [
+      "Before entering fog, check your mirrors then slow down.",
+      "In very windy weather your vehicle may be affected by turbulence created by large vehicles.",
+      "Before you set off you MUST be able to see, so clear all snow and ice from all your windows; you MUST ensure that lights are clean and number plates are clearly visible and legible.",
+      "Hot weather. Keep your vehicle well ventilated to avoid drowsiness. Be aware that the road surface may become soft or if it rains after a dry spell it may becom"
+    ],
+    "correctIndex": 2,
+    "explanation": "Before you set off you MUST be able to see, so clear all snow and ice from all your windows; you MUST ensure that lights are clean and number plates are clearly visible and legible. (Highway Code rule 229.)",
+    "highwayCodeRules": [
+      229
+    ]
+  },
+  {
+    "id": "vehicle-safety-0616",
+    "category": "vehicle-safety",
+    "question": "According to the Highway Code (driving in adverse weather), what MUST you do?",
+    "options": [
+      "Before entering fog, check your mirrors then slow down.",
+      "Before you set off you MUST be able to see, so clear all snow and ice from all your windows; you MUST ensure that lights are clean and number plates are clearly visible and legible.",
+      "Hot weather. Keep your vehicle well ventilated to avoid drowsiness. Be aware that the road surface may become soft or if it rains after a dry spell it may becom",
+      "In very windy weather your vehicle may be affected by turbulence created by large vehicles."
+    ],
+    "correctIndex": 1,
+    "explanation": "Before you set off you MUST be able to see, so clear all snow and ice from all your windows; you MUST ensure that lights are clean and number plates are clearly visible and legible. (Highway Code rule 229.)",
+    "highwayCodeRules": [
+      229
+    ]
+  }
+]

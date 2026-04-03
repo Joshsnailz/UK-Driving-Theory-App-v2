@@ -1,0 +1,1346 @@
+[
+  {
+    "id": "vulnerable-road-users-0307",
+    "category": "vulnerable-road-users",
+    "question": "When overtaking a cyclist at up to 30 mph, what minimum passing distance does the Highway Code recommend?",
+    "options": [
+      "At least 3 metres",
+      "At least 1.5 metres",
+      "At least 1 metre",
+      "At least 0.5 metres"
+    ],
+    "correctIndex": 1,
+    "explanation": "Overtake only when it is safe and legal to do so. Give motorcyclists, cyclists and horse riders at least as much room as you would when overtaking a car (at least 1.5 metres for cyclists at speeds up to 30 mph, more at higher speeds; at least 2 metres for horse riders, passing at no more than 10 mph). (Highway Code rule 163.)",
+    "highwayCodeRules": [
+      163
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0308",
+    "category": "vulnerable-road-users",
+    "question": "When passing a horse and rider, what speed and clearance does the Highway Code advise?",
+    "options": [
+      "No more than 20 mph, leaving 1 metre",
+      "Any speed if you sound your horn first",
+      "No more than 10 mph, leaving at least 2 metres of space",
+      "30 mph if the road is straight"
+    ],
+    "correctIndex": 2,
+    "explanation": "Overtake only when it is safe and legal to do so. Give motorcyclists, cyclists and horse riders at least as much room as you would when overtaking a car (at least 1.5 metres for cyclists at speeds up to 30 mph, more at higher speeds; at least 2 metres for horse riders, passing at no more than 10 mph). (Highway Code rule 163.)",
+    "highwayCodeRules": [
+      163
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0313",
+    "category": "vulnerable-road-users",
+    "question": "You are turning into a side road. Pedestrians are waiting to cross at the junction. What should you do?",
+    "options": [
+      "Stop only if they have already stepped into the road",
+      "Wave them across",
+      "Sound your horn and continue",
+      "Give way to them — they have priority"
+    ],
+    "correctIndex": 3,
+    "explanation": "Take extra care at junctions. You should give way to pedestrians crossing or waiting to cross a road into which or from which you are turning. Watch out for cyclists, motorcyclists and powered wheelchairs/mobility scooters. Watch out for long vehicles which may have to take a different course. (Highway Code rule 170.)",
+    "highwayCodeRules": [
+      170
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0316",
+    "category": "vulnerable-road-users",
+    "question": "At traffic lights, what is the area marked between the two stop lines for?",
+    "options": [
+      "A loading bay",
+      "To allow cyclists to position themselves ahead of other traffic",
+      "A pedestrian refuge",
+      "A bus-only waiting area"
+    ],
+    "correctIndex": 1,
+    "explanation": "Advanced stop lines allow cycles to be positioned ahead of other traffic. Motorists, including motorcyclists, MUST stop at the first white line reached if the lights are amber or red and should avoid blocking the way or encroaching on the marked area at other times. (Highway Code rule 178.)",
+    "highwayCodeRules": [
+      178
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0320",
+    "category": "vulnerable-road-users",
+    "question": "A pedestrian is waiting at a zebra crossing. What does the Highway Code say you should do?",
+    "options": [
+      "Slow down and give way to them",
+      "Continue — they only have priority once on the crossing",
+      "Sound your horn so they wait",
+      "Wave them across"
+    ],
+    "correctIndex": 0,
+    "explanation": "Zebra and parallel crossings. As you approach, look out for pedestrians waiting to cross and be ready to slow down or stop to let them cross. You should give way to pedestrians waiting to cross and MUST give way when a pedestrian has moved onto a crossing. (Highway Code rule 195.)",
+    "highwayCodeRules": [
+      195
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0321",
+    "category": "vulnerable-road-users",
+    "question": "At a pelican crossing the amber light is flashing. What MUST you do?",
+    "options": [
+      "Give way to any pedestrians still on the crossing",
+      "Stop and wait for green",
+      "Sound your horn to warn pedestrians",
+      "Drive on — flashing amber means go"
+    ],
+    "correctIndex": 0,
+    "explanation": "Pelican crossings. These are signal-controlled crossings where flashing amber follows the red 'Stop' light. You MUST stop when the red light shows. When the amber light is flashing, you MUST give way to any pedestrians on the crossing. (Highway Code rule 196.)",
+    "highwayCodeRules": [
+      196
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0322",
+    "category": "vulnerable-road-users",
+    "question": "How does the light sequence at a puffin crossing differ from a pelican crossing?",
+    "options": [
+      "Red and amber show together before red",
+      "There are two green phases",
+      "A flashing green man is shown to drivers",
+      "There is no flashing amber phase — the sequence is the same as ordinary traffic lights"
+    ],
+    "correctIndex": 3,
+    "explanation": "Toucan, puffin and equestrian crossings. These are similar to pelican crossings, but there is no flashing amber phase; the light sequence is the same as at traffic lights. (Highway Code rule 199.)",
+    "highwayCodeRules": [
+      199
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0325",
+    "category": "vulnerable-road-users",
+    "question": "According to the Highway Code, which road users are most at risk from road traffic?",
+    "options": [
+      "Drivers of older vehicles",
+      "Lorry and bus drivers",
+      "Pedestrians, cyclists, motorcyclists and horse riders",
+      "Drivers of small cars"
+    ],
+    "correctIndex": 2,
+    "explanation": "The road users most at risk from road traffic are pedestrians, in particular children, older adults and disabled people, cyclists, horse riders and motorcyclists. It is particularly important to be aware of them and give them plenty of room. (Highway Code rule 204.)",
+    "highwayCodeRules": [
+      204
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0326",
+    "category": "vulnerable-road-users",
+    "question": "A pedestrian is carrying a white cane with a red band. What does this tell you?",
+    "options": [
+      "They are blind only",
+      "They have a learning disability",
+      "They are a doctor on call",
+      "They are deaf as well as blind"
+    ],
+    "correctIndex": 3,
+    "explanation": "Particularly vulnerable pedestrians include children and older pedestrians who may not be able to judge your speed, people with disabilities, blind or partially sighted people who may be carrying a white cane or using a guide dog, and deafblind people who may be carrying a white cane with a red band. (Highway Code rule 207.)",
+    "highwayCodeRules": [
+      207
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0328",
+    "category": "vulnerable-road-users",
+    "question": "A school crossing patrol steps into the road and shows a “Stop — children” sign. What MUST you do?",
+    "options": [
+      "Slow down and pass with care",
+      "Stop only if children are visible",
+      "Stop — it is an offence not to",
+      "Sound your horn and continue"
+    ],
+    "correctIndex": 2,
+    "explanation": "You MUST stop when a school crossing patrol shows a 'Stop for children' sign. (Highway Code rule 210.)",
+    "highwayCodeRules": [
+      210
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0330",
+    "category": "vulnerable-road-users",
+    "question": "When passing animals on the road, what should you avoid doing?",
+    "options": [
+      "Being prepared to stop",
+      "Sounding your horn, revving your engine or accelerating rapidly",
+      "Giving them plenty of room",
+      "Slowing down"
+    ],
+    "correctIndex": 1,
+    "explanation": "Animals. When passing animals, drive slowly. Give them plenty of room and be ready to stop. Do not scare animals by sounding your horn, revving your engine or accelerating rapidly once you have passed them. (Highway Code rule 214.)",
+    "highwayCodeRules": [
+      214
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0331",
+    "category": "vulnerable-road-users",
+    "question": "You are overtaking a horse and rider. What clearance and speed does the Highway Code advise?",
+    "options": [
+      "1.5 metres and 30 mph",
+      "At least 2 metres of space and a maximum speed of 10 mph",
+      "Any clearance if the road is straight",
+      "1 metre and 20 mph"
+    ],
+    "correctIndex": 1,
+    "explanation": "Horse riders and horse-drawn vehicles. Be particularly careful of horse riders and horse-drawn vehicles especially when overtaking. Always pass wide (at least 2 metres) and slowly (no more than 10 mph). Look out for horse riders' and horse drivers' signals and heed a request to slow down or stop. (Highway Code rule 215.)",
+    "highwayCodeRules": [
+      215
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0345",
+    "category": "vulnerable-road-users",
+    "question": "The Highway Code recommends opening your car door with the hand furthest from it (the “Dutch Reach”). Why?",
+    "options": [
+      "It makes you turn and look for cyclists and other traffic before opening the door",
+      "It prevents the door swinging fully open",
+      "It is required by law",
+      "It uses less effort"
+    ],
+    "correctIndex": 0,
+    "explanation": "Use off-street parking areas, or bays marked out with white lines on the road as parking places, wherever possible. Stop as close as you can to the side. You MUST switch off the engine, headlights and fog lights, apply the handbrake before leaving the vehicle, and ensure you do not hit anyone when you open your door — check for cyclists or other traffic by using your mirrors and looking round (the 'Dutch Reach'). (Highway Code rule 239.)",
+    "highwayCodeRules": [
+      239
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0402",
+    "category": "vulnerable-road-users",
+    "question": "Highway Code rule 3 is about “rules for pedestrians”. Which statement is taken from this rule?",
+    "options": [
+      "At traffic lights, there may be special signals for pedestrians.",
+      "Help other road users to see you.",
+      "Where there are barriers, cross the road only at the gaps provided for pedestrians.",
+      "Toucan crossings are light-controlled crossings which allow cyclists and pedestrians to share crossing space and cross at the same time."
+    ],
+    "correctIndex": 1,
+    "explanation": "Help other road users to see you. Wear or carry something light-coloured, bright or fluorescent in poor daylight conditions. When it is dark, use reflective materials (e.g. armbands, sashes, waistcoats, jackets, footwear), which can be seen by drivers using headlights up to three times as far away as non-reflective materials. (Highway Code rule 3.)",
+    "highwayCodeRules": [
+      3
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0403",
+    "category": "vulnerable-road-users",
+    "question": "According to the Highway Code (rules for pedestrians), what should you do?",
+    "options": [
+      "Where there are barriers, cross the road only at the gaps provided for pedestrians.",
+      "At traffic lights, there may be special signals for pedestrians.",
+      "Help other road users to see you.",
+      "Toucan crossings are light-controlled crossings which allow cyclists and pedestrians to share crossing space and cross at the same time."
+    ],
+    "correctIndex": 2,
+    "explanation": "Help other road users to see you. Wear or carry something light-coloured, bright or fluorescent in poor daylight conditions. When it is dark, use reflective materials (e.g. armbands, sashes, waistcoats, jackets, footwear), which can be seen by drivers using headlights up to three times as far away as non-reflective materials. (Highway Code rule 3.)",
+    "highwayCodeRules": [
+      3
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0404",
+    "category": "vulnerable-road-users",
+    "question": "Highway Code rule 7 is about “rules for pedestrians”. Which statement is taken from this rule?",
+    "options": [
+      "First find a safe place to cross and where there is space to reach the pavement on the other side.",
+      "Where there are barriers, cross the road only at the gaps provided for pedestrians.",
+      "Zebra crossings. Give traffic plenty of time to see you and to stop before you start to cross. Vehicles will need more time when the road is slippery.",
+      "At a junction. When crossing the road, look out for traffic turning into the road, especially from behind you. If you have started crossing and traffic wants to"
+    ],
+    "correctIndex": 0,
+    "explanation": "First find a safe place to cross and where there is space to reach the pavement on the other side. Where there is a crossing nearby, use it. (Highway Code rule 7.)",
+    "highwayCodeRules": [
+      7
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0405",
+    "category": "vulnerable-road-users",
+    "question": "According to the Highway Code (rules for pedestrians), what should you do?",
+    "options": [
+      "Where there are barriers, cross the road only at the gaps provided for pedestrians.",
+      "At a junction. When crossing the road, look out for traffic turning into the road, especially from behind you. If you have started crossing and traffic wants to",
+      "First find a safe place to cross and where there is space to reach the pavement on the other side.",
+      "Zebra crossings. Give traffic plenty of time to see you and to stop before you start to cross. Vehicles will need more time when the road is slippery."
+    ],
+    "correctIndex": 2,
+    "explanation": "First find a safe place to cross and where there is space to reach the pavement on the other side. Where there is a crossing nearby, use it. (Highway Code rule 7.)",
+    "highwayCodeRules": [
+      7
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0406",
+    "category": "vulnerable-road-users",
+    "question": "Highway Code rule 8 is about “rules for pedestrians”. Which statement is taken from this rule?",
+    "options": [
+      "Zebra crossings. Give traffic plenty of time to see you and to stop before you start to cross. Vehicles will need more time when the road is slippery.",
+      "At a junction. When crossing the road, look out for traffic turning into the road, especially from behind you. If you have started crossing and traffic wants to",
+      "At traffic lights, there may be special signals for pedestrians.",
+      "First find a safe place to cross and where there is space to reach the pavement on the other side."
+    ],
+    "correctIndex": 1,
+    "explanation": "At a junction. When crossing the road, look out for traffic turning into the road, especially from behind you. If you have started crossing and traffic wants to turn into the road, you have priority and they should give way. (Highway Code rule 8.)",
+    "highwayCodeRules": [
+      8
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0407",
+    "category": "vulnerable-road-users",
+    "question": "According to the Highway Code (rules for pedestrians), what should you do?",
+    "options": [
+      "At a junction. When crossing the road, look out for traffic turning into the road, especially from behind you. If you have started crossing and traffic wants to",
+      "Zebra crossings. Give traffic plenty of time to see you and to stop before you start to cross. Vehicles will need more time when the road is slippery.",
+      "At traffic lights, there may be special signals for pedestrians.",
+      "First find a safe place to cross and where there is space to reach the pavement on the other side."
+    ],
+    "correctIndex": 0,
+    "explanation": "At a junction. When crossing the road, look out for traffic turning into the road, especially from behind you. If you have started crossing and traffic wants to turn into the road, you have priority and they should give way. (Highway Code rule 8.)",
+    "highwayCodeRules": [
+      8
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0408",
+    "category": "vulnerable-road-users",
+    "question": "Highway Code rule 19 is about “rules for pedestrians”. Which statement is taken from this rule?",
+    "options": [
+      "Toucan crossings are light-controlled crossings which allow cyclists and pedestrians to share crossing space and cross at the same time.",
+      "Where there are barriers, cross the road only at the gaps provided for pedestrians.",
+      "First find a safe place to cross and where there is space to reach the pavement on the other side.",
+      "Zebra crossings. Give traffic plenty of time to see you and to stop before you start to cross. Vehicles will need more time when the road is slippery."
+    ],
+    "correctIndex": 3,
+    "explanation": "Zebra crossings. Give traffic plenty of time to see you and to stop before you start to cross. Vehicles will need more time when the road is slippery. (Highway Code rule 19.)",
+    "highwayCodeRules": [
+      19
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0409",
+    "category": "vulnerable-road-users",
+    "question": "According to the Highway Code (rules for pedestrians), what should you do?",
+    "options": [
+      "Where there are barriers, cross the road only at the gaps provided for pedestrians.",
+      "Toucan crossings are light-controlled crossings which allow cyclists and pedestrians to share crossing space and cross at the same time.",
+      "First find a safe place to cross and where there is space to reach the pavement on the other side.",
+      "Zebra crossings. Give traffic plenty of time to see you and to stop before you start to cross. Vehicles will need more time when the road is slippery."
+    ],
+    "correctIndex": 3,
+    "explanation": "Zebra crossings. Give traffic plenty of time to see you and to stop before you start to cross. Vehicles will need more time when the road is slippery. (Highway Code rule 19.)",
+    "highwayCodeRules": [
+      19
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0410",
+    "category": "vulnerable-road-users",
+    "question": "Highway Code rule 21 is about “rules for pedestrians”. Which statement is taken from this rule?",
+    "options": [
+      "Zebra crossings. Give traffic plenty of time to see you and to stop before you start to cross. Vehicles will need more time when the road is slippery.",
+      "Toucan crossings are light-controlled crossings which allow cyclists and pedestrians to share crossing space and cross at the same time.",
+      "At traffic lights, there may be special signals for pedestrians.",
+      "Help other road users to see you."
+    ],
+    "correctIndex": 2,
+    "explanation": "At traffic lights, there may be special signals for pedestrians. You should only start to cross when the green figure shows. (Highway Code rule 21.)",
+    "highwayCodeRules": [
+      21
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0411",
+    "category": "vulnerable-road-users",
+    "question": "According to the Highway Code (rules for pedestrians), what should you do?",
+    "options": [
+      "Toucan crossings are light-controlled crossings which allow cyclists and pedestrians to share crossing space and cross at the same time.",
+      "At traffic lights, there may be special signals for pedestrians.",
+      "Help other road users to see you.",
+      "Zebra crossings. Give traffic plenty of time to see you and to stop before you start to cross. Vehicles will need more time when the road is slippery."
+    ],
+    "correctIndex": 1,
+    "explanation": "At traffic lights, there may be special signals for pedestrians. You should only start to cross when the green figure shows. (Highway Code rule 21.)",
+    "highwayCodeRules": [
+      21
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0412",
+    "category": "vulnerable-road-users",
+    "question": "Highway Code rule 25 is about “rules for pedestrians”. Which statement is taken from this rule?",
+    "options": [
+      "Toucan crossings are light-controlled crossings which allow cyclists and pedestrians to share crossing space and cross at the same time.",
+      "First find a safe place to cross and where there is space to reach the pavement on the other side.",
+      "Help other road users to see you.",
+      "At traffic lights, there may be special signals for pedestrians."
+    ],
+    "correctIndex": 0,
+    "explanation": "Toucan crossings are light-controlled crossings which allow cyclists and pedestrians to share crossing space and cross at the same time. (Highway Code rule 25.)",
+    "highwayCodeRules": [
+      25
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0413",
+    "category": "vulnerable-road-users",
+    "question": "According to the Highway Code (rules for pedestrians), what should you do?",
+    "options": [
+      "Toucan crossings are light-controlled crossings which allow cyclists and pedestrians to share crossing space and cross at the same time.",
+      "At traffic lights, there may be special signals for pedestrians.",
+      "First find a safe place to cross and where there is space to reach the pavement on the other side.",
+      "Help other road users to see you."
+    ],
+    "correctIndex": 0,
+    "explanation": "Toucan crossings are light-controlled crossings which allow cyclists and pedestrians to share crossing space and cross at the same time. (Highway Code rule 25.)",
+    "highwayCodeRules": [
+      25
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0414",
+    "category": "vulnerable-road-users",
+    "question": "Highway Code rule 30 is about “rules for pedestrians”. Which statement is taken from this rule?",
+    "options": [
+      "Toucan crossings are light-controlled crossings which allow cyclists and pedestrians to share crossing space and cross at the same time.",
+      "At traffic lights, there may be special signals for pedestrians.",
+      "Where there are barriers, cross the road only at the gaps provided for pedestrians.",
+      "Help other road users to see you."
+    ],
+    "correctIndex": 2,
+    "explanation": "Where there are barriers, cross the road only at the gaps provided for pedestrians. Do not climb over the barriers or walk between them and the road. (Highway Code rule 30.)",
+    "highwayCodeRules": [
+      30
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0415",
+    "category": "vulnerable-road-users",
+    "question": "According to the Highway Code (rules for pedestrians), what should you do?",
+    "options": [
+      "At traffic lights, there may be special signals for pedestrians.",
+      "Where there are barriers, cross the road only at the gaps provided for pedestrians.",
+      "Toucan crossings are light-controlled crossings which allow cyclists and pedestrians to share crossing space and cross at the same time.",
+      "Help other road users to see you."
+    ],
+    "correctIndex": 1,
+    "explanation": "Where there are barriers, cross the road only at the gaps provided for pedestrians. Do not climb over the barriers or walk between them and the road. (Highway Code rule 30.)",
+    "highwayCodeRules": [
+      30
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0416",
+    "category": "vulnerable-road-users",
+    "question": "Highway Code rule 36 is about “powered wheelchairs and mobility scooters”. Which statement is taken from this rule?",
+    "options": [
+      "There is one class of manual wheelchair (Class 1) and two classes of powered wheelchairs and mobility scooters: Class 2, with an upper speed limit of 4 mph and",
+      "Powered wheelchairs and scooters MUST NOT travel faster than 4 mph on pavements or in pedestrian areas.",
+      "Class 3 vehicles MUST NOT be used on motorways.",
+      "When on the road, Class 3 vehicles should travel in the direction of the traffic."
+    ],
+    "correctIndex": 0,
+    "explanation": "There is one class of manual wheelchair (Class 1) and two classes of powered wheelchairs and mobility scooters: Class 2, with an upper speed limit of 4 mph and designed for pavement use; Class 3, with an upper speed limit of 8 mph and equipped to be used on the road as well as the pavement. (Highway Code rule 36.)",
+    "highwayCodeRules": [
+      36
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0417",
+    "category": "vulnerable-road-users",
+    "question": "According to the Highway Code (powered wheelchairs and mobility scooters), what should you do?",
+    "options": [
+      "Class 3 vehicles MUST NOT be used on motorways.",
+      "Powered wheelchairs and scooters MUST NOT travel faster than 4 mph on pavements or in pedestrian areas.",
+      "When on the road, Class 3 vehicles should travel in the direction of the traffic.",
+      "There is one class of manual wheelchair (Class 1) and two classes of powered wheelchairs and mobility scooters: Class 2, with an upper speed limit of 4 mph and"
+    ],
+    "correctIndex": 3,
+    "explanation": "There is one class of manual wheelchair (Class 1) and two classes of powered wheelchairs and mobility scooters: Class 2, with an upper speed limit of 4 mph and designed for pavement use; Class 3, with an upper speed limit of 8 mph and equipped to be used on the road as well as the pavement. (Highway Code rule 36.)",
+    "highwayCodeRules": [
+      36
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0418",
+    "category": "vulnerable-road-users",
+    "question": "Highway Code rule 39 is about “powered wheelchairs and mobility scooters”. Which statement is taken from this rule?",
+    "options": [
+      "When on the road, Class 3 vehicles should travel in the direction of the traffic.",
+      "Powered wheelchairs and scooters MUST NOT travel faster than 4 mph on pavements or in pedestrian areas.",
+      "There is one class of manual wheelchair (Class 1) and two classes of powered wheelchairs and mobility scooters: Class 2, with an upper speed limit of 4 mph and",
+      "Class 3 vehicles MUST NOT be used on motorways."
+    ],
+    "correctIndex": 1,
+    "explanation": "Powered wheelchairs and scooters MUST NOT travel faster than 4 mph on pavements or in pedestrian areas. (Highway Code rule 39.)",
+    "highwayCodeRules": [
+      39
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0419",
+    "category": "vulnerable-road-users",
+    "question": "According to the Highway Code (powered wheelchairs and mobility scooters), what MUST you do?",
+    "options": [
+      "There is one class of manual wheelchair (Class 1) and two classes of powered wheelchairs and mobility scooters: Class 2, with an upper speed limit of 4 mph and",
+      "When on the road, Class 3 vehicles should travel in the direction of the traffic.",
+      "Class 3 vehicles MUST NOT be used on motorways.",
+      "Powered wheelchairs and scooters MUST NOT travel faster than 4 mph on pavements or in pedestrian areas."
+    ],
+    "correctIndex": 3,
+    "explanation": "Powered wheelchairs and scooters MUST NOT travel faster than 4 mph on pavements or in pedestrian areas. (Highway Code rule 39.)",
+    "highwayCodeRules": [
+      39
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0420",
+    "category": "vulnerable-road-users",
+    "question": "Highway Code rule 42 is about “powered wheelchairs and mobility scooters”. Which statement is taken from this rule?",
+    "options": [
+      "Powered wheelchairs and scooters MUST NOT travel faster than 4 mph on pavements or in pedestrian areas.",
+      "There is one class of manual wheelchair (Class 1) and two classes of powered wheelchairs and mobility scooters: Class 2, with an upper speed limit of 4 mph and",
+      "When on the road, Class 3 vehicles should travel in the direction of the traffic.",
+      "Class 3 vehicles MUST NOT be used on motorways."
+    ],
+    "correctIndex": 2,
+    "explanation": "When on the road, Class 3 vehicles should travel in the direction of the traffic. You should display an amber flashing light when on a dual carriageway with a speed limit over 50 mph. (Highway Code rule 42.)",
+    "highwayCodeRules": [
+      42
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0421",
+    "category": "vulnerable-road-users",
+    "question": "According to the Highway Code (powered wheelchairs and mobility scooters), what should you do?",
+    "options": [
+      "There is one class of manual wheelchair (Class 1) and two classes of powered wheelchairs and mobility scooters: Class 2, with an upper speed limit of 4 mph and",
+      "Powered wheelchairs and scooters MUST NOT travel faster than 4 mph on pavements or in pedestrian areas.",
+      "Class 3 vehicles MUST NOT be used on motorways.",
+      "When on the road, Class 3 vehicles should travel in the direction of the traffic."
+    ],
+    "correctIndex": 3,
+    "explanation": "When on the road, Class 3 vehicles should travel in the direction of the traffic. You should display an amber flashing light when on a dual carriageway with a speed limit over 50 mph. (Highway Code rule 42.)",
+    "highwayCodeRules": [
+      42
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0422",
+    "category": "vulnerable-road-users",
+    "question": "Highway Code rule 46 is about “powered wheelchairs and mobility scooters”. Which statement is taken from this rule?",
+    "options": [
+      "When on the road, Class 3 vehicles should travel in the direction of the traffic.",
+      "Powered wheelchairs and scooters MUST NOT travel faster than 4 mph on pavements or in pedestrian areas.",
+      "There is one class of manual wheelchair (Class 1) and two classes of powered wheelchairs and mobility scooters: Class 2, with an upper speed limit of 4 mph and",
+      "Class 3 vehicles MUST NOT be used on motorways."
+    ],
+    "correctIndex": 3,
+    "explanation": "Class 3 vehicles MUST NOT be used on motorways. They should not be used on unrestricted dual carriageways where the speed limit exceeds 50 mph. (Highway Code rule 46.)",
+    "highwayCodeRules": [
+      46
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0423",
+    "category": "vulnerable-road-users",
+    "question": "According to the Highway Code (powered wheelchairs and mobility scooters), what MUST you do?",
+    "options": [
+      "Class 3 vehicles MUST NOT be used on motorways.",
+      "Powered wheelchairs and scooters MUST NOT travel faster than 4 mph on pavements or in pedestrian areas.",
+      "There is one class of manual wheelchair (Class 1) and two classes of powered wheelchairs and mobility scooters: Class 2, with an upper speed limit of 4 mph and",
+      "When on the road, Class 3 vehicles should travel in the direction of the traffic."
+    ],
+    "correctIndex": 0,
+    "explanation": "Class 3 vehicles MUST NOT be used on motorways. They should not be used on unrestricted dual carriageways where the speed limit exceeds 50 mph. (Highway Code rule 46.)",
+    "highwayCodeRules": [
+      46
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0424",
+    "category": "vulnerable-road-users",
+    "question": "Highway Code rule 50 is about “rules about animals”. Which statement is taken from this rule?",
+    "options": [
+      "Children under 14 MUST wear a helmet which complies with the Regulations when riding a horse on the road.",
+      "When in a vehicle make sure dogs or other animals are suitably restrained so they cannot distract you while you are driving or injure you, or themselves, if you stop quickly.",
+      "Before riding off or turning, look behind you to make sure it is safe, then give a clear arm signal.",
+      "Dogs. Do not let a dog out on the road on its own. Keep it on a short lead when walking on the pavement, road or path shared with cyclists or horse riders."
+    ],
+    "correctIndex": 0,
+    "explanation": "Children under 14 MUST wear a helmet which complies with the Regulations when riding a horse on the road. (Highway Code rule 50.)",
+    "highwayCodeRules": [
+      50
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0425",
+    "category": "vulnerable-road-users",
+    "question": "According to the Highway Code (rules about animals), what MUST you do?",
+    "options": [
+      "Before riding off or turning, look behind you to make sure it is safe, then give a clear arm signal.",
+      "Children under 14 MUST wear a helmet which complies with the Regulations when riding a horse on the road.",
+      "When in a vehicle make sure dogs or other animals are suitably restrained so they cannot distract you while you are driving or injure you, or themselves, if you stop quickly.",
+      "Dogs. Do not let a dog out on the road on its own. Keep it on a short lead when walking on the pavement, road or path shared with cyclists or horse riders."
+    ],
+    "correctIndex": 1,
+    "explanation": "Children under 14 MUST wear a helmet which complies with the Regulations when riding a horse on the road. (Highway Code rule 50.)",
+    "highwayCodeRules": [
+      50
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0426",
+    "category": "vulnerable-road-users",
+    "question": "Highway Code rule 52 is about “rules about animals”. Which statement is taken from this rule?",
+    "options": [
+      "Dogs. Do not let a dog out on the road on its own. Keep it on a short lead when walking on the pavement, road or path shared with cyclists or horse riders.",
+      "When in a vehicle make sure dogs or other animals are suitably restrained so they cannot distract you while you are driving or injure you, or themselves, if you stop quickly.",
+      "Before riding off or turning, look behind you to make sure it is safe, then give a clear arm signal.",
+      "Animals being herded."
+    ],
+    "correctIndex": 2,
+    "explanation": "Before riding off or turning, look behind you to make sure it is safe, then give a clear arm signal. (Highway Code rule 52.)",
+    "highwayCodeRules": [
+      52
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0427",
+    "category": "vulnerable-road-users",
+    "question": "According to the Highway Code (rules about animals), what should you do?",
+    "options": [
+      "When in a vehicle make sure dogs or other animals are suitably restrained so they cannot distract you while you are driving or injure you, or themselves, if you stop quickly.",
+      "Dogs. Do not let a dog out on the road on its own. Keep it on a short lead when walking on the pavement, road or path shared with cyclists or horse riders.",
+      "Before riding off or turning, look behind you to make sure it is safe, then give a clear arm signal.",
+      "Animals being herded."
+    ],
+    "correctIndex": 2,
+    "explanation": "Before riding off or turning, look behind you to make sure it is safe, then give a clear arm signal. (Highway Code rule 52.)",
+    "highwayCodeRules": [
+      52
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0428",
+    "category": "vulnerable-road-users",
+    "question": "Highway Code rule 56 is about “rules about animals”. Which statement is taken from this rule?",
+    "options": [
+      "Before riding off or turning, look behind you to make sure it is safe, then give a clear arm signal.",
+      "Dogs. Do not let a dog out on the road on its own. Keep it on a short lead when walking on the pavement, road or path shared with cyclists or horse riders.",
+      "Animals being herded.",
+      "When in a vehicle make sure dogs or other animals are suitably restrained so they cannot distract you while you are driving or injure you, or themselves, if you stop quickly."
+    ],
+    "correctIndex": 1,
+    "explanation": "Dogs. Do not let a dog out on the road on its own. Keep it on a short lead when walking on the pavement, road or path shared with cyclists or horse riders. (Highway Code rule 56.)",
+    "highwayCodeRules": [
+      56
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0429",
+    "category": "vulnerable-road-users",
+    "question": "According to the Highway Code (rules about animals), what should you do?",
+    "options": [
+      "Before riding off or turning, look behind you to make sure it is safe, then give a clear arm signal.",
+      "Dogs. Do not let a dog out on the road on its own. Keep it on a short lead when walking on the pavement, road or path shared with cyclists or horse riders.",
+      "When in a vehicle make sure dogs or other animals are suitably restrained so they cannot distract you while you are driving or injure you, or themselves, if you stop quickly.",
+      "Animals being herded."
+    ],
+    "correctIndex": 1,
+    "explanation": "Dogs. Do not let a dog out on the road on its own. Keep it on a short lead when walking on the pavement, road or path shared with cyclists or horse riders. (Highway Code rule 56.)",
+    "highwayCodeRules": [
+      56
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0430",
+    "category": "vulnerable-road-users",
+    "question": "Highway Code rule 57 is about “rules about animals”. Which statement is taken from this rule?",
+    "options": [
+      "Children under 14 MUST wear a helmet which complies with the Regulations when riding a horse on the road.",
+      "Animals being herded.",
+      "Before riding off or turning, look behind you to make sure it is safe, then give a clear arm signal.",
+      "When in a vehicle make sure dogs or other animals are suitably restrained so they cannot distract you while you are driving or injure you, or themselves, if you stop quickly."
+    ],
+    "correctIndex": 3,
+    "explanation": "When in a vehicle make sure dogs or other animals are suitably restrained so they cannot distract you while you are driving or injure you, or themselves, if you stop quickly. (Highway Code rule 57.)",
+    "highwayCodeRules": [
+      57
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0431",
+    "category": "vulnerable-road-users",
+    "question": "According to the Highway Code (rules about animals), what should you do?",
+    "options": [
+      "Before riding off or turning, look behind you to make sure it is safe, then give a clear arm signal.",
+      "When in a vehicle make sure dogs or other animals are suitably restrained so they cannot distract you while you are driving or injure you, or themselves, if you stop quickly.",
+      "Children under 14 MUST wear a helmet which complies with the Regulations when riding a horse on the road.",
+      "Animals being herded."
+    ],
+    "correctIndex": 1,
+    "explanation": "When in a vehicle make sure dogs or other animals are suitably restrained so they cannot distract you while you are driving or injure you, or themselves, if you stop quickly. (Highway Code rule 57.)",
+    "highwayCodeRules": [
+      57
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0432",
+    "category": "vulnerable-road-users",
+    "question": "Highway Code rule 58 is about “rules about animals”. Which statement is taken from this rule?",
+    "options": [
+      "When in a vehicle make sure dogs or other animals are suitably restrained so they cannot distract you while you are driving or injure you, or themselves, if you stop quickly.",
+      "Before riding off or turning, look behind you to make sure it is safe, then give a clear arm signal.",
+      "Children under 14 MUST wear a helmet which complies with the Regulations when riding a horse on the road.",
+      "Animals being herded."
+    ],
+    "correctIndex": 3,
+    "explanation": "Animals being herded. If you are herding animals, where possible send another person along the road in front to warn other road users, especially at a bend or the brow of a hill. (Highway Code rule 58.)",
+    "highwayCodeRules": [
+      58
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0433",
+    "category": "vulnerable-road-users",
+    "question": "According to the Highway Code (rules about animals), what should you do?",
+    "options": [
+      "Children under 14 MUST wear a helmet which complies with the Regulations when riding a horse on the road.",
+      "When in a vehicle make sure dogs or other animals are suitably restrained so they cannot distract you while you are driving or injure you, or themselves, if you stop quickly.",
+      "Animals being herded.",
+      "Before riding off or turning, look behind you to make sure it is safe, then give a clear arm signal."
+    ],
+    "correctIndex": 2,
+    "explanation": "Animals being herded. If you are herding animals, where possible send another person along the road in front to warn other road users, especially at a bend or the brow of a hill. (Highway Code rule 58.)",
+    "highwayCodeRules": [
+      58
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0434",
+    "category": "vulnerable-road-users",
+    "question": "Highway Code rule 59 is about “rules for cyclists”. Which statement is taken from this rule?",
+    "options": [
+      "Some junctions have an advanced stop line to enable you to wait and position yourself ahead of other traffic.",
+      "At traffic light junctions and at cycle-only crossings with traffic lights, you MUST NOT cross the stop line when the traffic lights are red.",
+      "You MUST obey all traffic signs and traffic light signals.",
+      "Clothing. You should wear a cycle helmet that conforms to current regulations, and light-coloured or fluorescent clothing which helps other road users to see yo"
+    ],
+    "correctIndex": 3,
+    "explanation": "Clothing. You should wear a cycle helmet that conforms to current regulations, and light-coloured or fluorescent clothing which helps other road users to see you in daylight and poor light. (Highway Code rule 59.)",
+    "highwayCodeRules": [
+      59
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0435",
+    "category": "vulnerable-road-users",
+    "question": "According to the Highway Code (rules for cyclists), what should you do?",
+    "options": [
+      "You MUST obey all traffic signs and traffic light signals.",
+      "At traffic light junctions and at cycle-only crossings with traffic lights, you MUST NOT cross the stop line when the traffic lights are red.",
+      "Clothing. You should wear a cycle helmet that conforms to current regulations, and light-coloured or fluorescent clothing which helps other road users to see yo",
+      "Some junctions have an advanced stop line to enable you to wait and position yourself ahead of other traffic."
+    ],
+    "correctIndex": 2,
+    "explanation": "Clothing. You should wear a cycle helmet that conforms to current regulations, and light-coloured or fluorescent clothing which helps other road users to see you in daylight and poor light. (Highway Code rule 59.)",
+    "highwayCodeRules": [
+      59
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0436",
+    "category": "vulnerable-road-users",
+    "question": "Highway Code rule 60 is about “rules for cyclists”. Which statement is taken from this rule?",
+    "options": [
+      "Road positioning. When riding on the roads there are two basic positions: ride in the centre of your lane (primary position) on quiet roads, in slower-moving tr",
+      "At night your cycle MUST have white front and red rear lights lit.",
+      "You MUST obey all traffic signs and traffic light signals.",
+      "At traffic light junctions and at cycle-only crossings with traffic lights, you MUST NOT cross the stop line when the traffic lights are red."
+    ],
+    "correctIndex": 1,
+    "explanation": "At night your cycle MUST have white front and red rear lights lit. It MUST also be fitted with a red rear reflector and amber pedal reflectors if manufactured after 1/10/85. (Highway Code rule 60.)",
+    "highwayCodeRules": [
+      60
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0437",
+    "category": "vulnerable-road-users",
+    "question": "According to the Highway Code (rules for cyclists), what MUST you do?",
+    "options": [
+      "At night your cycle MUST have white front and red rear lights lit.",
+      "At traffic light junctions and at cycle-only crossings with traffic lights, you MUST NOT cross the stop line when the traffic lights are red.",
+      "Road positioning. When riding on the roads there are two basic positions: ride in the centre of your lane (primary position) on quiet roads, in slower-moving tr",
+      "You MUST obey all traffic signs and traffic light signals."
+    ],
+    "correctIndex": 0,
+    "explanation": "At night your cycle MUST have white front and red rear lights lit. It MUST also be fitted with a red rear reflector and amber pedal reflectors if manufactured after 1/10/85. (Highway Code rule 60.)",
+    "highwayCodeRules": [
+      60
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0438",
+    "category": "vulnerable-road-users",
+    "question": "Highway Code rule 64 is about “rules for cyclists”. Which statement is taken from this rule?",
+    "options": [
+      "Clothing. You should wear a cycle helmet that conforms to current regulations, and light-coloured or fluorescent clothing which helps other road users to see yo",
+      "You MUST NOT cycle on a pavement.",
+      "Some junctions have an advanced stop line to enable you to wait and position yourself ahead of other traffic.",
+      "At traffic light junctions and at cycle-only crossings with traffic lights, you MUST NOT cross the stop line when the traffic lights are red."
+    ],
+    "correctIndex": 1,
+    "explanation": "You MUST NOT cycle on a pavement. (Highway Code rule 64.)",
+    "highwayCodeRules": [
+      64
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0439",
+    "category": "vulnerable-road-users",
+    "question": "According to the Highway Code (rules for cyclists), what MUST you do?",
+    "options": [
+      "At traffic light junctions and at cycle-only crossings with traffic lights, you MUST NOT cross the stop line when the traffic lights are red.",
+      "Some junctions have an advanced stop line to enable you to wait and position yourself ahead of other traffic.",
+      "You MUST NOT cycle on a pavement.",
+      "Clothing. You should wear a cycle helmet that conforms to current regulations, and light-coloured or fluorescent clothing which helps other road users to see yo"
+    ],
+    "correctIndex": 2,
+    "explanation": "You MUST NOT cycle on a pavement. (Highway Code rule 64.)",
+    "highwayCodeRules": [
+      64
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0440",
+    "category": "vulnerable-road-users",
+    "question": "Highway Code rule 66 is about “rules for cyclists”. Which statement is taken from this rule?",
+    "options": [
+      "Some junctions have an advanced stop line to enable you to wait and position yourself ahead of other traffic.",
+      "You should be considerate of other road users, particularly blind and partially sighted pedestrians, and horse riders.",
+      "Clothing. You should wear a cycle helmet that conforms to current regulations, and light-coloured or fluorescent clothing which helps other road users to see yo",
+      "At night your cycle MUST have white front and red rear lights lit."
+    ],
+    "correctIndex": 1,
+    "explanation": "You should be considerate of other road users, particularly blind and partially sighted pedestrians, and horse riders. Let them know you are there when necessary, for example, by ringing your bell. (Highway Code rule 66.)",
+    "highwayCodeRules": [
+      66
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0441",
+    "category": "vulnerable-road-users",
+    "question": "According to the Highway Code (rules for cyclists), what should you do?",
+    "options": [
+      "You should be considerate of other road users, particularly blind and partially sighted pedestrians, and horse riders.",
+      "At night your cycle MUST have white front and red rear lights lit.",
+      "Some junctions have an advanced stop line to enable you to wait and position yourself ahead of other traffic.",
+      "Clothing. You should wear a cycle helmet that conforms to current regulations, and light-coloured or fluorescent clothing which helps other road users to see yo"
+    ],
+    "correctIndex": 0,
+    "explanation": "You should be considerate of other road users, particularly blind and partially sighted pedestrians, and horse riders. Let them know you are there when necessary, for example, by ringing your bell. (Highway Code rule 66.)",
+    "highwayCodeRules": [
+      66
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0442",
+    "category": "vulnerable-road-users",
+    "question": "Highway Code rule 69 is about “rules for cyclists”. Which statement is taken from this rule?",
+    "options": [
+      "You MUST obey all traffic signs and traffic light signals.",
+      "At traffic light junctions and at cycle-only crossings with traffic lights, you MUST NOT cross the stop line when the traffic lights are red.",
+      "You MUST NOT cycle on a pavement.",
+      "Road positioning. When riding on the roads there are two basic positions: ride in the centre of your lane (primary position) on quiet roads, in slower-moving tr"
+    ],
+    "correctIndex": 0,
+    "explanation": "You MUST obey all traffic signs and traffic light signals. (Highway Code rule 69.)",
+    "highwayCodeRules": [
+      69
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0443",
+    "category": "vulnerable-road-users",
+    "question": "According to the Highway Code (rules for cyclists), what MUST you do?",
+    "options": [
+      "Road positioning. When riding on the roads there are two basic positions: ride in the centre of your lane (primary position) on quiet roads, in slower-moving tr",
+      "You MUST obey all traffic signs and traffic light signals.",
+      "You MUST NOT cycle on a pavement.",
+      "At traffic light junctions and at cycle-only crossings with traffic lights, you MUST NOT cross the stop line when the traffic lights are red."
+    ],
+    "correctIndex": 1,
+    "explanation": "You MUST obey all traffic signs and traffic light signals. (Highway Code rule 69.)",
+    "highwayCodeRules": [
+      69
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0444",
+    "category": "vulnerable-road-users",
+    "question": "Highway Code rule 71 is about “rules for cyclists”. Which statement is taken from this rule?",
+    "options": [
+      "At traffic light junctions and at cycle-only crossings with traffic lights, you MUST NOT cross the stop line when the traffic lights are red.",
+      "Some junctions have an advanced stop line to enable you to wait and position yourself ahead of other traffic.",
+      "At night your cycle MUST have white front and red rear lights lit.",
+      "Clothing. You should wear a cycle helmet that conforms to current regulations, and light-coloured or fluorescent clothing which helps other road users to see yo"
+    ],
+    "correctIndex": 0,
+    "explanation": "At traffic light junctions and at cycle-only crossings with traffic lights, you MUST NOT cross the stop line when the traffic lights are red. (Highway Code rule 71.)",
+    "highwayCodeRules": [
+      71
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0445",
+    "category": "vulnerable-road-users",
+    "question": "According to the Highway Code (rules for cyclists), what MUST you do?",
+    "options": [
+      "At night your cycle MUST have white front and red rear lights lit.",
+      "Some junctions have an advanced stop line to enable you to wait and position yourself ahead of other traffic.",
+      "At traffic light junctions and at cycle-only crossings with traffic lights, you MUST NOT cross the stop line when the traffic lights are red.",
+      "Clothing. You should wear a cycle helmet that conforms to current regulations, and light-coloured or fluorescent clothing which helps other road users to see yo"
+    ],
+    "correctIndex": 2,
+    "explanation": "At traffic light junctions and at cycle-only crossings with traffic lights, you MUST NOT cross the stop line when the traffic lights are red. (Highway Code rule 71.)",
+    "highwayCodeRules": [
+      71
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0446",
+    "category": "vulnerable-road-users",
+    "question": "Highway Code rule 72 is about “rules for cyclists”. Which statement is taken from this rule?",
+    "options": [
+      "Road positioning. When riding on the roads there are two basic positions: ride in the centre of your lane (primary position) on quiet roads, in slower-moving tr",
+      "You MUST obey all traffic signs and traffic light signals.",
+      "At night your cycle MUST have white front and red rear lights lit.",
+      "Clothing. You should wear a cycle helmet that conforms to current regulations, and light-coloured or fluorescent clothing which helps other road users to see yo"
+    ],
+    "correctIndex": 0,
+    "explanation": "Road positioning. When riding on the roads there are two basic positions: ride in the centre of your lane (primary position) on quiet roads, in slower-moving traffic and at the approach to junctions; keep at least 0.5 metres from the kerb edge (secondary position) on busy roads with faster traffic. (Highway Code rule 72.)",
+    "highwayCodeRules": [
+      72
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0447",
+    "category": "vulnerable-road-users",
+    "question": "According to the Highway Code (rules for cyclists), what should you do?",
+    "options": [
+      "Road positioning. When riding on the roads there are two basic positions: ride in the centre of your lane (primary position) on quiet roads, in slower-moving tr",
+      "At night your cycle MUST have white front and red rear lights lit.",
+      "Clothing. You should wear a cycle helmet that conforms to current regulations, and light-coloured or fluorescent clothing which helps other road users to see yo",
+      "You MUST obey all traffic signs and traffic light signals."
+    ],
+    "correctIndex": 0,
+    "explanation": "Road positioning. When riding on the roads there are two basic positions: ride in the centre of your lane (primary position) on quiet roads, in slower-moving traffic and at the approach to junctions; keep at least 0.5 metres from the kerb edge (secondary position) on busy roads with faster traffic. (Highway Code rule 72.)",
+    "highwayCodeRules": [
+      72
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0448",
+    "category": "vulnerable-road-users",
+    "question": "Highway Code rule 77 is about “rules for cyclists”. Which statement is taken from this rule?",
+    "options": [
+      "Some junctions have an advanced stop line to enable you to wait and position yourself ahead of other traffic.",
+      "Road positioning. When riding on the roads there are two basic positions: ride in the centre of your lane (primary position) on quiet roads, in slower-moving tr",
+      "You should be considerate of other road users, particularly blind and partially sighted pedestrians, and horse riders.",
+      "You MUST NOT cycle on a pavement."
+    ],
+    "correctIndex": 0,
+    "explanation": "Some junctions have an advanced stop line to enable you to wait and position yourself ahead of other traffic. (Highway Code rule 77.)",
+    "highwayCodeRules": [
+      77
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0449",
+    "category": "vulnerable-road-users",
+    "question": "According to the Highway Code (rules for cyclists), what should you do?",
+    "options": [
+      "Some junctions have an advanced stop line to enable you to wait and position yourself ahead of other traffic.",
+      "You should be considerate of other road users, particularly blind and partially sighted pedestrians, and horse riders.",
+      "You MUST NOT cycle on a pavement.",
+      "Road positioning. When riding on the roads there are two basic positions: ride in the centre of your lane (primary position) on quiet roads, in slower-moving tr"
+    ],
+    "correctIndex": 0,
+    "explanation": "Some junctions have an advanced stop line to enable you to wait and position yourself ahead of other traffic. (Highway Code rule 77.)",
+    "highwayCodeRules": [
+      77
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0450",
+    "category": "vulnerable-road-users",
+    "question": "Highway Code rule 83 is about “rules for motorcyclists”. Which statement is taken from this rule?",
+    "options": [
+      "Double white lines where the line nearest you is broken: you may cross the lines to overtake if it is safe, provided you can complete the manoeuvre before reach",
+      "On all journeys, the rider and pillion passenger on a motorcycle, scooter or moped MUST wear a protective helmet.",
+      "At a junction. When crossing the road, look out for traffic turning into the road, especially from behind you. If you have started crossing and traffic wants to",
+      "Slow down, and if necessary stop, if you are dazzled by bright sunlight."
+    ],
+    "correctIndex": 1,
+    "explanation": "On all journeys, the rider and pillion passenger on a motorcycle, scooter or moped MUST wear a protective helmet. Helmets MUST comply with the Regulations and they MUST be fastened securely. (Highway Code rule 83.)",
+    "highwayCodeRules": [
+      83
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0451",
+    "category": "vulnerable-road-users",
+    "question": "According to the Highway Code (rules for motorcyclists), what MUST you do?",
+    "options": [
+      "On all journeys, the rider and pillion passenger on a motorcycle, scooter or moped MUST wear a protective helmet.",
+      "Slow down, and if necessary stop, if you are dazzled by bright sunlight.",
+      "Double white lines where the line nearest you is broken: you may cross the lines to overtake if it is safe, provided you can complete the manoeuvre before reach",
+      "At a junction. When crossing the road, look out for traffic turning into the road, especially from behind you. If you have started crossing and traffic wants to"
+    ],
+    "correctIndex": 0,
+    "explanation": "On all journeys, the rider and pillion passenger on a motorcycle, scooter or moped MUST wear a protective helmet. Helmets MUST comply with the Regulations and they MUST be fastened securely. (Highway Code rule 83.)",
+    "highwayCodeRules": [
+      83
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0452",
+    "category": "vulnerable-road-users",
+    "question": "Highway Code rule 86 is about “rules for motorcyclists”. Which statement is taken from this rule?",
+    "options": [
+      "On leaving the motorway or using a link road between motorways, your speed may be higher than you realise — 50 mph may feel like 30 mph.",
+      "When turning, give way to any vehicles using a bus lane, cycle lane, cycle track or tramway from either direction, including when they are passing slow moving o",
+      "To help make yourself as visible as possible, wear fluorescent clothing or strips in daylight and reflective clothing or strips in the dark, and use dipped head",
+      "Class 3 vehicles MUST NOT be used on motorways."
+    ],
+    "correctIndex": 2,
+    "explanation": "To help make yourself as visible as possible, wear fluorescent clothing or strips in daylight and reflective clothing or strips in the dark, and use dipped headlights even in good daylight. (Highway Code rule 86.)",
+    "highwayCodeRules": [
+      86
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0453",
+    "category": "vulnerable-road-users",
+    "question": "According to the Highway Code (rules for motorcyclists), what should you do?",
+    "options": [
+      "To help make yourself as visible as possible, wear fluorescent clothing or strips in daylight and reflective clothing or strips in the dark, and use dipped head",
+      "Class 3 vehicles MUST NOT be used on motorways.",
+      "When turning, give way to any vehicles using a bus lane, cycle lane, cycle track or tramway from either direction, including when they are passing slow moving o",
+      "On leaving the motorway or using a link road between motorways, your speed may be higher than you realise — 50 mph may feel like 30 mph."
+    ],
+    "correctIndex": 0,
+    "explanation": "To help make yourself as visible as possible, wear fluorescent clothing or strips in daylight and reflective clothing or strips in the dark, and use dipped headlights even in good daylight. (Highway Code rule 86.)",
+    "highwayCodeRules": [
+      86
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0454",
+    "category": "vulnerable-road-users",
+    "question": "Highway Code rule 87 is about “rules for motorcyclists”. Which statement is taken from this rule?",
+    "options": [
+      "Railway telephones. If you are driving a large or slow-moving vehicle, a long, low vehicle with a risk of grounding, or herding animals, a train could arrive be",
+      "Areas of white diagonal stripes or chevrons painted on the road.",
+      "Riders MUST NOT carry more than one pillion passenger who MUST sit astride the machine on a proper seat.",
+      "Look carefully before you start reversing."
+    ],
+    "correctIndex": 2,
+    "explanation": "Riders MUST NOT carry more than one pillion passenger who MUST sit astride the machine on a proper seat. They should face forward with both feet on the footrests. You MUST NOT carry a pillion passenger unless your motorcycle is designed to do so. (Highway Code rule 87.)",
+    "highwayCodeRules": [
+      87
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0455",
+    "category": "vulnerable-road-users",
+    "question": "According to the Highway Code (rules for motorcyclists), what MUST you do?",
+    "options": [
+      "Areas of white diagonal stripes or chevrons painted on the road.",
+      "Railway telephones. If you are driving a large or slow-moving vehicle, a long, low vehicle with a risk of grounding, or herding animals, a train could arrive be",
+      "Riders MUST NOT carry more than one pillion passenger who MUST sit astride the machine on a proper seat.",
+      "Look carefully before you start reversing."
+    ],
+    "correctIndex": 2,
+    "explanation": "Riders MUST NOT carry more than one pillion passenger who MUST sit astride the machine on a proper seat. They should face forward with both feet on the footrests. You MUST NOT carry a pillion passenger unless your motorcycle is designed to do so. (Highway Code rule 87.)",
+    "highwayCodeRules": [
+      87
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0584",
+    "category": "vulnerable-road-users",
+    "question": "Highway Code rule 204 is about “road users requiring extra care”. Which statement is taken from this rule?",
+    "options": [
+      "You MUST stop when a school crossing patrol shows a 'Stop for children' sign.",
+      "Give motorcyclists, cyclists, horse riders, horse-drawn vehicles and pedestrians walking in the road at least as much room as you would when overtaking a car.",
+      "The road users most at risk from road traffic are pedestrians, in particular children, older adults and disabled people, cyclists, horse riders and motorcyclists.",
+      "Emergency and Incident Support vehicles."
+    ],
+    "correctIndex": 2,
+    "explanation": "The road users most at risk from road traffic are pedestrians, in particular children, older adults and disabled people, cyclists, horse riders and motorcyclists. It is particularly important to be aware of them and give them plenty of room. (Highway Code rule 204.)",
+    "highwayCodeRules": [
+      204
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0585",
+    "category": "vulnerable-road-users",
+    "question": "Highway Code rule 205 is about “road users requiring extra care”. Which statement is taken from this rule?",
+    "options": [
+      "Drive carefully and slowly when in crowded shopping streets, Home Zones and Quiet Lanes, when passing parked vehicles (especially ice cream vans), when needing",
+      "Motorcyclists and cyclists may suddenly need to avoid uneven road surfaces and obstacles such as drain covers or oily, wet or icy patches on the road.",
+      "Horse riders and horse-drawn vehicles.",
+      "There is a risk of pedestrians, especially children, stepping unexpectedly into the road."
+    ],
+    "correctIndex": 3,
+    "explanation": "There is a risk of pedestrians, especially children, stepping unexpectedly into the road. You should drive with the safety of children in mind at a speed suitable for the conditions. (Highway Code rule 205.)",
+    "highwayCodeRules": [
+      205
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0586",
+    "category": "vulnerable-road-users",
+    "question": "According to the Highway Code (road users requiring extra care), what should you do?",
+    "options": [
+      "There is a risk of pedestrians, especially children, stepping unexpectedly into the road.",
+      "Drive carefully and slowly when in crowded shopping streets, Home Zones and Quiet Lanes, when passing parked vehicles (especially ice cream vans), when needing",
+      "Motorcyclists and cyclists may suddenly need to avoid uneven road surfaces and obstacles such as drain covers or oily, wet or icy patches on the road.",
+      "Horse riders and horse-drawn vehicles."
+    ],
+    "correctIndex": 0,
+    "explanation": "There is a risk of pedestrians, especially children, stepping unexpectedly into the road. You should drive with the safety of children in mind at a speed suitable for the conditions. (Highway Code rule 205.)",
+    "highwayCodeRules": [
+      205
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0587",
+    "category": "vulnerable-road-users",
+    "question": "Highway Code rule 206 is about “road users requiring extra care”. Which statement is taken from this rule?",
+    "options": [
+      "The road users most at risk from road traffic are pedestrians, in particular children, older adults and disabled people, cyclists, horse riders and motorcyclists.",
+      "Drive carefully and slowly when in crowded shopping streets, Home Zones and Quiet Lanes, when passing parked vehicles (especially ice cream vans), when needing",
+      "Near schools. Drive slowly and be particularly aware of young cyclists and pedestrians. In some places, there may be a flashing amber signal below the 'School'",
+      "Emergency and Incident Support vehicles."
+    ],
+    "correctIndex": 1,
+    "explanation": "Drive carefully and slowly when in crowded shopping streets, Home Zones and Quiet Lanes, when passing parked vehicles (especially ice cream vans), when needing to cross a pavement or cycle track, and at school entrances. (Highway Code rule 206.)",
+    "highwayCodeRules": [
+      206
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0588",
+    "category": "vulnerable-road-users",
+    "question": "According to the Highway Code (road users requiring extra care), what should you do?",
+    "options": [
+      "Near schools. Drive slowly and be particularly aware of young cyclists and pedestrians. In some places, there may be a flashing amber signal below the 'School'",
+      "The road users most at risk from road traffic are pedestrians, in particular children, older adults and disabled people, cyclists, horse riders and motorcyclists.",
+      "Emergency and Incident Support vehicles.",
+      "Drive carefully and slowly when in crowded shopping streets, Home Zones and Quiet Lanes, when passing parked vehicles (especially ice cream vans), when needing"
+    ],
+    "correctIndex": 3,
+    "explanation": "Drive carefully and slowly when in crowded shopping streets, Home Zones and Quiet Lanes, when passing parked vehicles (especially ice cream vans), when needing to cross a pavement or cycle track, and at school entrances. (Highway Code rule 206.)",
+    "highwayCodeRules": [
+      206
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0589",
+    "category": "vulnerable-road-users",
+    "question": "Highway Code rule 207 is about “road users requiring extra care”. Which statement is taken from this rule?",
+    "options": [
+      "Drive carefully and slowly when in crowded shopping streets, Home Zones and Quiet Lanes, when passing parked vehicles (especially ice cream vans), when needing",
+      "Horse riders and horse-drawn vehicles.",
+      "Particularly vulnerable pedestrians include children and older pedestrians who may not be able to judge your speed, people with disabilities, blind or partially",
+      "Electric vehicles. Be careful of electric vehicles such as milk floats and trams. Trams move quickly but silently and cannot steer to avoid you."
+    ],
+    "correctIndex": 2,
+    "explanation": "Particularly vulnerable pedestrians include children and older pedestrians who may not be able to judge your speed, people with disabilities, blind or partially sighted people who may be carrying a white cane or using a guide dog, and deafblind people who may be carrying a white cane with a red band. (Highway Code rule 207.)",
+    "highwayCodeRules": [
+      207
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0591",
+    "category": "vulnerable-road-users",
+    "question": "Highway Code rule 209 is about “road users requiring extra care”. Which statement is taken from this rule?",
+    "options": [
+      "Emergency and Incident Support vehicles.",
+      "Large vehicles can block your view.",
+      "Drive carefully and slowly when passing a stationary bus showing a 'School Bus' sign as children may be getting on or off.",
+      "Particularly vulnerable pedestrians include children and older pedestrians who may not be able to judge your speed, people with disabilities, blind or partially"
+    ],
+    "correctIndex": 2,
+    "explanation": "Drive carefully and slowly when passing a stationary bus showing a 'School Bus' sign as children may be getting on or off. (Highway Code rule 209.)",
+    "highwayCodeRules": [
+      209
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0592",
+    "category": "vulnerable-road-users",
+    "question": "According to the Highway Code (road users requiring extra care), what should you do?",
+    "options": [
+      "Drive carefully and slowly when passing a stationary bus showing a 'School Bus' sign as children may be getting on or off.",
+      "Large vehicles can block your view.",
+      "Emergency and Incident Support vehicles.",
+      "Particularly vulnerable pedestrians include children and older pedestrians who may not be able to judge your speed, people with disabilities, blind or partially"
+    ],
+    "correctIndex": 0,
+    "explanation": "Drive carefully and slowly when passing a stationary bus showing a 'School Bus' sign as children may be getting on or off. (Highway Code rule 209.)",
+    "highwayCodeRules": [
+      209
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0593",
+    "category": "vulnerable-road-users",
+    "question": "Highway Code rule 210 is about “road users requiring extra care”. Which statement is taken from this rule?",
+    "options": [
+      "Animals. When passing animals, drive slowly. Give them plenty of room and be ready to stop. Do not scare animals by sounding your horn, revving your engine or a",
+      "Near schools. Drive slowly and be particularly aware of young cyclists and pedestrians. In some places, there may be a flashing amber signal below the 'School'",
+      "Particularly vulnerable pedestrians include children and older pedestrians who may not be able to judge your speed, people with disabilities, blind or partially",
+      "You MUST stop when a school crossing patrol shows a 'Stop for children' sign."
+    ],
+    "correctIndex": 3,
+    "explanation": "You MUST stop when a school crossing patrol shows a 'Stop for children' sign. (Highway Code rule 210.)",
+    "highwayCodeRules": [
+      210
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0595",
+    "category": "vulnerable-road-users",
+    "question": "Highway Code rule 212 is about “road users requiring extra care”. Which statement is taken from this rule?",
+    "options": [
+      "Give motorcyclists, cyclists, horse riders, horse-drawn vehicles and pedestrians walking in the road at least as much room as you would when overtaking a car.",
+      "Drive carefully and slowly when in crowded shopping streets, Home Zones and Quiet Lanes, when passing parked vehicles (especially ice cream vans), when needing",
+      "Large vehicles may need extra road space to turn or to deal with a hazard that you are not able to see.",
+      "Buses, coaches and trams."
+    ],
+    "correctIndex": 0,
+    "explanation": "Give motorcyclists, cyclists, horse riders, horse-drawn vehicles and pedestrians walking in the road at least as much room as you would when overtaking a car. (Highway Code rule 212.)",
+    "highwayCodeRules": [
+      212
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0596",
+    "category": "vulnerable-road-users",
+    "question": "According to the Highway Code (road users requiring extra care), what should you do?",
+    "options": [
+      "Give motorcyclists, cyclists, horse riders, horse-drawn vehicles and pedestrians walking in the road at least as much room as you would when overtaking a car.",
+      "Buses, coaches and trams.",
+      "Drive carefully and slowly when in crowded shopping streets, Home Zones and Quiet Lanes, when passing parked vehicles (especially ice cream vans), when needing",
+      "Large vehicles may need extra road space to turn or to deal with a hazard that you are not able to see."
+    ],
+    "correctIndex": 0,
+    "explanation": "Give motorcyclists, cyclists, horse riders, horse-drawn vehicles and pedestrians walking in the road at least as much room as you would when overtaking a car. (Highway Code rule 212.)",
+    "highwayCodeRules": [
+      212
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0597",
+    "category": "vulnerable-road-users",
+    "question": "Highway Code rule 213 is about “road users requiring extra care”. Which statement is taken from this rule?",
+    "options": [
+      "Motorcyclists and cyclists may suddenly need to avoid uneven road surfaces and obstacles such as drain covers or oily, wet or icy patches on the road.",
+      "Home Zones and Quiet Lanes.",
+      "Near schools. Drive slowly and be particularly aware of young cyclists and pedestrians. In some places, there may be a flashing amber signal below the 'School'",
+      "Large vehicles may need extra road space to turn or to deal with a hazard that you are not able to see."
+    ],
+    "correctIndex": 0,
+    "explanation": "Motorcyclists and cyclists may suddenly need to avoid uneven road surfaces and obstacles such as drain covers or oily, wet or icy patches on the road. Give them plenty of room and pay particular attention to any sudden change of direction they may have to make. (Highway Code rule 213.)",
+    "highwayCodeRules": [
+      213
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0598",
+    "category": "vulnerable-road-users",
+    "question": "According to the Highway Code (road users requiring extra care), what should you do?",
+    "options": [
+      "Near schools. Drive slowly and be particularly aware of young cyclists and pedestrians. In some places, there may be a flashing amber signal below the 'School'",
+      "Home Zones and Quiet Lanes.",
+      "Large vehicles may need extra road space to turn or to deal with a hazard that you are not able to see.",
+      "Motorcyclists and cyclists may suddenly need to avoid uneven road surfaces and obstacles such as drain covers or oily, wet or icy patches on the road."
+    ],
+    "correctIndex": 3,
+    "explanation": "Motorcyclists and cyclists may suddenly need to avoid uneven road surfaces and obstacles such as drain covers or oily, wet or icy patches on the road. Give them plenty of room and pay particular attention to any sudden change of direction they may have to make. (Highway Code rule 213.)",
+    "highwayCodeRules": [
+      213
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0599",
+    "category": "vulnerable-road-users",
+    "question": "Highway Code rule 214 is about “road users requiring extra care”. Which statement is taken from this rule?",
+    "options": [
+      "The road users most at risk from road traffic are pedestrians, in particular children, older adults and disabled people, cyclists, horse riders and motorcyclists.",
+      "Motorcyclists and cyclists may suddenly need to avoid uneven road surfaces and obstacles such as drain covers or oily, wet or icy patches on the road.",
+      "Animals. When passing animals, drive slowly. Give them plenty of room and be ready to stop. Do not scare animals by sounding your horn, revving your engine or a",
+      "You MUST stop when a school crossing patrol shows a 'Stop for children' sign."
+    ],
+    "correctIndex": 2,
+    "explanation": "Animals. When passing animals, drive slowly. Give them plenty of room and be ready to stop. Do not scare animals by sounding your horn, revving your engine or accelerating rapidly once you have passed them. (Highway Code rule 214.)",
+    "highwayCodeRules": [
+      214
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0600",
+    "category": "vulnerable-road-users",
+    "question": "Highway Code rule 215 is about “road users requiring extra care”. Which statement is taken from this rule?",
+    "options": [
+      "Give motorcyclists, cyclists, horse riders, horse-drawn vehicles and pedestrians walking in the road at least as much room as you would when overtaking a car.",
+      "Horse riders and horse-drawn vehicles.",
+      "Large vehicles may need extra road space to turn or to deal with a hazard that you are not able to see.",
+      "Drive carefully and slowly when in crowded shopping streets, Home Zones and Quiet Lanes, when passing parked vehicles (especially ice cream vans), when needing"
+    ],
+    "correctIndex": 1,
+    "explanation": "Horse riders and horse-drawn vehicles. Be particularly careful of horse riders and horse-drawn vehicles especially when overtaking. Always pass wide (at least 2 metres) and slowly (no more than 10 mph). Look out for horse riders' and horse drivers' signals and heed a request to slow down or stop. (Highway Code rule 215.)",
+    "highwayCodeRules": [
+      215
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0601",
+    "category": "vulnerable-road-users",
+    "question": "Highway Code rule 218 is about “road users requiring extra care”. Which statement is taken from this rule?",
+    "options": [
+      "Near schools. Drive slowly and be particularly aware of young cyclists and pedestrians. In some places, there may be a flashing amber signal below the 'School'",
+      "Electric vehicles. Be careful of electric vehicles such as milk floats and trams. Trams move quickly but silently and cannot steer to avoid you.",
+      "Home Zones and Quiet Lanes.",
+      "Buses, coaches and trams."
+    ],
+    "correctIndex": 2,
+    "explanation": "Home Zones and Quiet Lanes. These are places where people could be using the whole of the road for a range of activities. You should drive slowly and carefully and be prepared to stop. (Highway Code rule 218.)",
+    "highwayCodeRules": [
+      218
+    ]
+  },
+  {
+    "id": "vulnerable-road-users-0602",
+    "category": "vulnerable-road-users",
+    "question": "According to the Highway Code (road users requiring extra care), what should you do?",
+    "options": [
+      "Buses, coaches and trams.",
+      "Near schools. Drive slowly and be particularly aware of young cyclists and pedestrians. In some places, there may be a flashing amber signal below the 'School'",
+      "Electric vehicles. Be careful of electric vehicles such as milk floats and trams. Trams move quickly but silently and cannot steer to avoid you.",
+      "Home Zones and Quiet Lanes."
+    ],
+    "correctIndex": 3,
+    "explanation": "Home Zones and Quiet Lanes. These are places where people could be using the whole of the road for a range of activities. You should drive slowly and carefully and be prepared to stop. (Highway Code rule 218.)",
+    "highwayCodeRules": [
+      218
+    ]
+  }
+]

@@ -1,5 +1,6 @@
 import React from 'react';
-import { View, StyleSheet } from 'react-native';
+import { View, StyleSheet, type DimensionValue } from 'react-native';
+import { colors } from '../theme';
 
 interface Props {
   current: number;
@@ -7,11 +8,12 @@ interface Props {
   colour?: string;
 }
 
-export default function ProgressBar({ current, total, colour = '#1A56A0' }: Props) {
+export default function ProgressBar({ current, total, colour = colors.primary }: Props) {
   const pct = total === 0 ? 0 : Math.min(current / total, 1);
+  const width: DimensionValue = `${pct * 100}%`;
   return (
-    <View style={styles.track}>
-      <View style={[styles.fill, { width: `${pct * 100}%` as any, backgroundColor: colour }]} />
+    <View style={styles.track} accessibilityRole="progressbar" accessibilityValue={{ min: 0, max: total, now: current }}>
+      <View style={[styles.fill, { width, backgroundColor: colour }]} />
     </View>
   );
 }

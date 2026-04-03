@@ -1,0 +1,51 @@
+{
+  "speedLimits": {
+    "note": "National speed limits in mph. Source: The Highway Code, Rule 124 table.",
+    "vehicles": [
+      { "type": "Cars, motorcycles, car-derived vans and dual-purpose vehicles", "builtUp": 30, "single": 60, "dual": 70, "motorway": 70 },
+      { "type": "Cars, motorcycles, car-derived vans and dual-purpose vehicles when towing caravans or trailers", "builtUp": 30, "single": 50, "dual": 60, "motorway": 60 },
+      { "type": "Motorhomes or motor caravans (not exceeding 3.05 tonnes unladen)", "builtUp": 30, "single": 60, "dual": 70, "motorway": 70 },
+      { "type": "Motorhomes or motor caravans (exceeding 3.05 tonnes unladen)", "builtUp": 30, "single": 50, "dual": 60, "motorway": 70 },
+      { "type": "Buses, coaches and minibuses (not exceeding 12 metres in length)", "builtUp": 30, "single": 50, "dual": 60, "motorway": 70 },
+      { "type": "Goods vehicles (not exceeding 7.5 tonnes maximum laden weight)", "builtUp": 30, "single": 50, "dual": 60, "motorway": 70 },
+      { "type": "Goods vehicles (exceeding 7.5 tonnes maximum laden weight) in England and Wales", "builtUp": 30, "single": 50, "dual": 60, "motorway": 60 }
+    ]
+  },
+  "stoppingDistances": {
+    "note": "Typical stopping distances in metres on a dry road. Source: The Highway Code, Rule 126.",
+    "rows": [
+      { "mph": 20, "thinking": 6, "braking": 6, "total": 12, "carLengths": 3 },
+      { "mph": 30, "thinking": 9, "braking": 14, "total": 23, "carLengths": 6 },
+      { "mph": 40, "thinking": 12, "braking": 24, "total": 36, "carLengths": 9 },
+      { "mph": 50, "thinking": 15, "braking": 38, "total": 53, "carLengths": 13 },
+      { "mph": 60, "thinking": 18, "braking": 55, "total": 73, "carLengths": 18 },
+      { "mph": 70, "thinking": 21, "braking": 75, "total": 96, "carLengths": 24 }
+    ]
+  },
+  "documents": {
+    "note": "Source: The Highway Code, Annex 3 (Motor vehicle documentation and learner driver requirements).",
+    "items": [
+      { "key": "mot", "text": "Cars and motorcycles MUST normally pass an MOT test three years from the date of the first registration and every year after that." },
+      { "key": "insurance", "text": "You MUST have a valid insurance certificate covering you for third-party liability before using a motor vehicle on the road." },
+      { "key": "ved", "text": "Vehicle Excise Duty (VED) MUST be paid on all motor vehicles used or kept on public roads. A Statutory Off Road Notification (SORN) must be made if the vehicle is unused and untaxed." },
+      { "key": "produce", "text": "If the police ask to see your driving licence, insurance certificate or MOT certificate and you cannot do so, you may be asked to take them to a police station within 7 days." },
+      { "key": "lplates", "text": "Any vehicle driven by a learner MUST display red L plates which conform to legal specifications. Plates should be removed or covered when not being driven by a learner." },
+      { "key": "supervisor", "text": "Learner drivers in a car MUST be supervised by someone at least 21 years old who holds a full EC/EEA licence for that type of car and has held it for at least three years." },
+      { "key": "newdrivers", "text": "Under the New Drivers Act, a driver who accumulates six or more penalty points within two years of passing their first driving test will have their licence revoked." }
+    ]
+  },
+  "vehicleMaintenance": {
+    "note": "Source: The Highway Code, Annex 6 (Vehicle maintenance, safety and security).",
+    "tyres": "Cars, light vans and light trailers MUST have a tread depth of at least 1.6 mm across the central three-quarters of the breadth of the tyre and around the entire circumference. Motorcycles, large vehicles and passenger-carrying vehicles MUST have a tread depth of at least 1 mm.",
+    "fluids": "Check fluid levels (oil, coolant, brake fluid, screenwash) regularly. Top up screenwash to keep the windscreen clean — it is an offence to have an empty screenwash bottle if the system is fitted.",
+    "lights": "Check that all lights, indicators, reflectors and number plate lights work and are clean.",
+    "battery": "Check the battery, particularly in winter. Modern maintenance-free batteries should not need topping up.",
+    "exhaust": "Excessive exhaust fumes could indicate a fault — have the vehicle checked. You MUST NOT drive a vehicle with a defective exhaust system."
+  },
+  "firstAid": {
+    "note": "Source: The Highway Code, Annex 7 (First aid on the road).",
+    "drabc": "D — Danger: check it is safe to approach. R — Response: try to get a response by gently shaking shoulders. A — Airway: tilt the head back gently. B — Breathing: look, listen and feel for normal breathing for up to 10 seconds. C — Circulation/CPR: if not breathing normally, start CPR (30 chest compressions then 2 rescue breaths).",
+    "burns": "Cool the burn for at least 20 minutes with cool water. Do not remove anything sticking to the burn.",
+    "shock": "Keep casualties warm and as comfortable as you can; reassure them; do not give them anything to eat or drink."
+  }
+}

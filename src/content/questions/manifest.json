@@ -1,0 +1,18 @@
+{
+  "generatedAt": "2026-04-02T12:54:37.423Z",
+  "total": 702,
+  "byCategory": {
+    "road-traffic-signs": 215,
+    "rules-of-the-road": 125,
+    "safety-margins": 58,
+    "alertness": 28,
+    "documents": 12,
+    "vehicle-safety": 23,
+    "attitude": 22,
+    "vehicle-loading": 10,
+    "hazard-awareness": 51,
+    "motorway-rules": 42,
+    "vulnerable-road-users": 84,
+    "accidents": 32
+  }
+}

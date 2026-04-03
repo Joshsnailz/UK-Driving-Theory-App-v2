@@ -1,3 +1,7 @@
+import type { Ionicons } from '@expo/vector-icons';
+
+export type IoniconName = keyof typeof Ionicons.glyphMap;
+
 export type Category =
   | 'alertness'
   | 'attitude'
@@ -12,37 +16,50 @@ export type Category =
   | 'accidents'
   | 'vehicle-loading';
 
+/** A multiple-choice theory question. */
 export interface Question {
   id: string;
   category: Category;
   question: string;
-  options: string[];
+  options: readonly string[];
   correctIndex: number;
   explanation: string;
+  /** Optional bundled or remote image (e.g. a road sign). */
   imageUri?: string;
+  /** DVSA topic reference, if known. */
   dvsaRef?: string;
+  /** Highway Code rule numbers that justify the correct answer. */
+  highwayCodeRules?: readonly number[];
+  /** Traffic-sign id this question depicts (links to the sign library). */
+  signId?: string;
 }
 
 export interface HazardQuestion {
   id: string;
+  /** Hazard items always belong to the hazard-awareness topic for stats. */
+  category: 'hazard-awareness';
   imageUri: string;
   question: string;
-  options: string[];
+  options: readonly string[];
   correctIndex: number;
   explanation: string;
   hazardType: 'developing' | 'junction' | 'pedestrian' | 'weather';
 }
+
+export type AnyQuestion = Question | HazardQuestion;
 
 export interface QuizSession {
   id: string;
   startedAt: number;
   completedAt?: number;
   category: Category | 'mixed' | 'mock' | 'hazard';
-  questions: Question[];
+  questions: AnyQuestion[];
   answers: (number | null)[];
   score: number;
   totalQuestions: number;
 }
+
+export type CategoryStats = Record<Category, { correct: number; total: number }>;
 
 export interface MockTestResult {
   id: string;
@@ -50,7 +67,7 @@ export interface MockTestResult {
   score: number;
   passed: boolean;
   duration: number;
-  categoryBreakdown: Record<Category, { correct: number; total: number }>;
+  categoryBreakdown: CategoryStats;
 }
 
 export interface UserProgress {
@@ -59,13 +76,57 @@ export interface UserProgress {
   currentStreak: number;
   longestStreak: number;
   bookmarkedIds: string[];
-  categoryStats: Record<Category, { correct: number; total: number }>;
+  categoryStats: CategoryStats;
   mockTestHistory: MockTestResult[];
   lastPracticeDate?: number;
   dailyGoal: number;
   questionsToday: number;
   todayDate: string;
 }
+
+/* ──────────────────────────────────────────────────────────────────────────
+ * Content (Highway Code / Traffic signs)
+ * ─────────────────────────────────────────────────────────────────────── */
+
+export interface HighwayCodeSection {
+  id: string;
+  title: string;
+  ruleStart: number;
+  ruleEnd: number;
+  summary: string;
+}
+
+export interface HighwayCodeRule {
+  rule: number;
+  sectionId: string;
+  text: string;
+  /** Statutory references quoted by the rule (e.g. "RTA 1988 sect 36"). */
+  lawRefs?: readonly string[];
+  imageRefs?: readonly string[];
+}
+
+export type SignGroup =
+  | 'warning'
+  | 'regulatory'
+  | 'speed'
+  | 'information'
+  | 'direction'
+  | 'roadworks'
+  | 'markings';
+
+export interface TrafficSign {
+  id: string;
+  group: SignGroup;
+  name: string;
+  meaning: string;
+  /** Image reference into the bundled sign image map. */
+  image: string;
+  highwayCodeRules?: readonly number[];
+}
+
+/* ──────────────────────────────────────────────────────────────────────────
+ * Navigation
+ * ─────────────────────────────────────────────────────────────────────── */
 
 export type RootStackParamList = {
   Main: undefined;
@@ -75,11 +136,27 @@ export type RootStackParamList = {
   Result: { session: QuizSession; isMockTest?: boolean; mockResult?: MockTestResult };
   Review: { session: QuizSession };
   TopicList: undefined;
+  HighwayCodeSection: { sectionId: string; rule?: number };
+  SignDetail: { signId: string };
+  SignIn: undefined;
+  PhoneAuth: undefined;
+  Account: undefined;
+  Paywall: { feature?: 'mock' | 'hazard' | 'adfree' } | undefined;
+  Legal: undefined;
 };
 
 export type BottomTabParamList = {
   HomeTab: undefined;
+  LearnTab: undefined;
   MockTestTab: undefined;
   ProgressTab: undefined;
   SettingsTab: undefined;
+};
+
+export type LearnStackParamList = {
+  LearnHome: undefined;
+  HighwayCodeList: undefined;
+  HighwayCodeSection: { sectionId: string; rule?: number };
+  SignLibrary: { group?: SignGroup } | undefined;
+  SignDetail: { signId: string };
 };

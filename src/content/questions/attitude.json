@@ -1,0 +1,354 @@
+[
+  {
+    "id": "attitude-0264",
+    "category": "attitude",
+    "question": "In England and Wales, what is the legal breath-alcohol limit for drivers?",
+    "options": [
+      "22 microgrammes per 100 ml of breath",
+      "50 microgrammes per 100 ml of breath",
+      "80 microgrammes per 100 ml of breath",
+      "35 microgrammes per 100 ml of breath"
+    ],
+    "correctIndex": 3,
+    "explanation": "Do not drink and drive as it will seriously affect your judgement and abilities. In England and Wales you MUST NOT drive with a breath alcohol level higher than 35 microgrammes/100 millilitres of breath or a blood alcohol level of more than 80 milligrammes/100 millilitres of blood. (Highway Code rule 95.)",
+    "highwayCodeRules": [
+      95
+    ]
+  },
+  {
+    "id": "attitude-0271",
+    "category": "attitude",
+    "question": "When should you give a signal to other road users?",
+    "options": [
+      "Immediately before you start the manoeuvre",
+      "Only when other vehicles are close behind",
+      "Only when turning right",
+      "In plenty of time, after checking it would not be misleading"
+    ],
+    "correctIndex": 3,
+    "explanation": "Signals warn and inform other road users of your intended actions. Give clear signals in plenty of time, having checked it is not misleading to signal at that time. (Highway Code rule 103.)",
+    "highwayCodeRules": [
+      103
+    ]
+  },
+  {
+    "id": "attitude-0274",
+    "category": "attitude",
+    "question": "According to the Highway Code, when should you flash your headlights?",
+    "options": [
+      "Only to let other road users know you are there",
+      "To thank another driver",
+      "To warn of a speed camera ahead",
+      "To tell another driver to go ahead"
+    ],
+    "correctIndex": 0,
+    "explanation": "Flashing headlights. Only flash your headlights to let other road users know that you are there. Do not flash your headlights to convey any other message or intimidate other road users. (Highway Code rule 110.)",
+    "highwayCodeRules": [
+      110
+    ]
+  },
+  {
+    "id": "attitude-0275",
+    "category": "attitude",
+    "question": "Between which hours MUST you NOT sound your horn in a built-up area, except to avoid danger?",
+    "options": [
+      "11.00 pm and 8.00 am",
+      "10.00 pm and 6.00 am",
+      "11.30 pm and 7.00 am",
+      "Midnight and 6.30 am"
+    ],
+    "correctIndex": 2,
+    "explanation": "The horn. Use only while your vehicle is moving and you need to warn other road users of your presence. Never sound your horn aggressively. You MUST NOT use your horn while stationary on the road, or when driving in a built-up area between the hours of 11.30 pm and 7.00 am, except when another road user poses a danger. (Highway Code rule 112.)",
+    "highwayCodeRules": [
+      112
+    ]
+  },
+  {
+    "id": "attitude-0276",
+    "category": "attitude",
+    "question": "When may you sound your horn while your vehicle is stationary on the road?",
+    "options": [
+      "Only when another road user poses a danger",
+      "To let pedestrians know you are waiting",
+      "To attract a friend’s attention",
+      "Never — it is always illegal"
+    ],
+    "correctIndex": 0,
+    "explanation": "The horn. Use only while your vehicle is moving and you need to warn other road users of your presence. Never sound your horn aggressively. You MUST NOT use your horn while stationary on the road, or when driving in a built-up area between the hours of 11.30 pm and 7.00 am, except when another road user poses a danger. (Highway Code rule 112.)",
+    "highwayCodeRules": [
+      112
+    ]
+  },
+  {
+    "id": "attitude-0284",
+    "category": "attitude",
+    "question": "You are waiting in your car for a passenger. What does the Highway Code say about leaving the engine running?",
+    "options": [
+      "It is fine for up to five minutes",
+      "It is fine if you stay in the vehicle",
+      "It is only an offence in a smoke-control area",
+      "You MUST NOT leave the engine running unnecessarily while stationary on a public road"
+    ],
+    "correctIndex": 3,
+    "explanation": "The driver and the environment. You MUST NOT leave a parked vehicle unattended with the engine running or leave a vehicle engine running unnecessarily while that vehicle is stationary on a public road. (Highway Code rule 123.)",
+    "highwayCodeRules": [
+      123
+    ]
+  },
+  {
+    "id": "attitude-0298",
+    "category": "attitude",
+    "question": "Which of these is a specific offence under the Road Traffic Act referred to in the Highway Code?",
+    "options": [
+      "Driving more slowly than the speed limit",
+      "Driving with an untidy interior",
+      "Driving with the radio on",
+      "Driving without reasonable consideration for other road users"
+    ],
+    "correctIndex": 3,
+    "explanation": "You MUST NOT drive dangerously, drive without due care and attention, or drive without reasonable consideration for other road users. (Highway Code rule 144.)",
+    "highwayCodeRules": [
+      144
+    ]
+  },
+  {
+    "id": "attitude-0302",
+    "category": "attitude",
+    "question": "In slow-moving traffic, what should you do?",
+    "options": [
+      "Use the hard shoulder to make progress",
+      "Leave enough room to manoeuvre if the vehicle in front breaks down",
+      "Move into the lane that is moving fastest",
+      "Drive close to the vehicle in front to stop others cutting in"
+    ],
+    "correctIndex": 1,
+    "explanation": "In slow-moving traffic you should reduce the distance between you and the vehicle ahead to maintain traffic flow, never get so close that you cannot stop safely, leave enough space to manoeuvre if the vehicle in front breaks down, and not change lanes to the left to overtake. (Highway Code rule 151.)",
+    "highwayCodeRules": [
+      151
+    ]
+  },
+  {
+    "id": "attitude-0312",
+    "category": "attitude",
+    "question": "A vehicle behind is trying to overtake you. What should you do?",
+    "options": [
+      "Speed up so they cannot pass",
+      "Maintain a steady course and speed, slowing if necessary to let them pass",
+      "Move to the centre of the road",
+      "Brake sharply to warn them"
+    ],
+    "correctIndex": 1,
+    "explanation": "Being overtaken. If a driver is trying to overtake you, maintain a steady course and speed, slowing down if necessary to let the vehicle pass. Never obstruct drivers who wish to pass. (Highway Code rule 168.)",
+    "highwayCodeRules": [
+      168
+    ]
+  },
+  {
+    "id": "attitude-0332",
+    "category": "attitude",
+    "question": "An emergency vehicle with flashing blue lights is approaching from behind. What should you do?",
+    "options": [
+      "Speed up to clear the road ahead",
+      "Consider its likely route and let it pass while still complying with traffic signs",
+      "Mount the kerb to get out of the way",
+      "Stop immediately wherever you are"
+    ],
+    "correctIndex": 1,
+    "explanation": "Emergency and Incident Support vehicles. You should look and listen for ambulances, fire engines, police, doctors or other emergency vehicles using flashing blue, red or green lights and sirens. When one approaches, do not panic; consider the route of such a vehicle and take appropriate action to let it pass while complying with all traffic signs. (Highway Code rule 219.)",
+    "highwayCodeRules": [
+      219
+    ]
+  },
+  {
+    "id": "attitude-0334",
+    "category": "attitude",
+    "question": "A bus is signalling to pull out from a bus stop ahead of you. What should you do?",
+    "options": [
+      "Pull out and overtake immediately",
+      "Sound your horn so it waits",
+      "Speed up to pass before it moves",
+      "Give way to it if you can do so safely"
+    ],
+    "correctIndex": 3,
+    "explanation": "Buses, coaches and trams. Give priority to these vehicles when you can do so safely, especially when they signal to pull away from stops. Look out for people getting off a bus or tram and crossing the road. (Highway Code rule 223.)",
+    "highwayCodeRules": [
+      223
+    ]
+  },
+  {
+    "id": "attitude-0471",
+    "category": "attitude",
+    "question": "Highway Code rule 103 is about “general rules, techniques and advice”. Which statement is taken from this rule?",
+    "options": [
+      "Reflective road studs may be used with white lines.",
+      "There is a danger of driver distraction being caused by in-vehicle systems such as satellite navigation, congestion warning systems, PCs and multi-media.",
+      "Signals warn and inform other road users of your intended actions.",
+      "Brakes affected by water."
+    ],
+    "correctIndex": 2,
+    "explanation": "Signals warn and inform other road users of your intended actions. Give clear signals in plenty of time, having checked it is not misleading to signal at that time. (Highway Code rule 103.)",
+    "highwayCodeRules": [
+      103
+    ]
+  },
+  {
+    "id": "attitude-0480",
+    "category": "attitude",
+    "question": "Highway Code rule 110 is about “general rules, techniques and advice”. Which statement is taken from this rule?",
+    "options": [
+      "In an emergency. Brake immediately. Try to avoid braking so harshly that you lock your wheels. Locked wheels can lead to loss of control.",
+      "Signals warn and inform other road users of your intended actions.",
+      "Flashing headlights. Only flash your headlights to let other road users know that you are there. Do not flash your headlights to convey any other message or int",
+      "Stopping distances. Drive at a speed that will allow you to stop well within the distance you can see to be clear. Leave enough space between you and the vehicl"
+    ],
+    "correctIndex": 2,
+    "explanation": "Flashing headlights. Only flash your headlights to let other road users know that you are there. Do not flash your headlights to convey any other message or intimidate other road users. (Highway Code rule 110.)",
+    "highwayCodeRules": [
+      110
+    ]
+  },
+  {
+    "id": "attitude-0481",
+    "category": "attitude",
+    "question": "Highway Code rule 112 is about “general rules, techniques and advice”. Which statement is taken from this rule?",
+    "options": [
+      "Be considerate. Be careful of and considerate towards all types of road users, especially those requiring extra care. You MUST NOT throw anything out of a vehic",
+      "You MUST NOT use any lights in a way which would dazzle or cause discomfort to other road users, including pedestrians, cyclists and horse riders, and you MUST",
+      "Double white lines where the line nearest you is broken: you may cross the lines to overtake if it is safe, provided you can complete the manoeuvre before reach",
+      "The horn. Use only while your vehicle is moving and you need to warn other road users of your presence. Never sound your horn aggressively. You MUST NOT use you"
+    ],
+    "correctIndex": 3,
+    "explanation": "The horn. Use only while your vehicle is moving and you need to warn other road users of your presence. Never sound your horn aggressively. You MUST NOT use your horn while stationary on the road, or when driving in a built-up area between the hours of 11.30 pm and 7.00 am, except when another road user poses a danger. (Highway Code rule 112.)",
+    "highwayCodeRules": [
+      112
+    ]
+  },
+  {
+    "id": "attitude-0496",
+    "category": "attitude",
+    "question": "Highway Code rule 123 is about “general rules, techniques and advice”. Which statement is taken from this rule?",
+    "options": [
+      "ABS. If your vehicle is fitted with anti-lock brakes, you should follow the advice in the vehicle handbook. However, in the case of an emergency, apply the foot",
+      "Cycle lanes. You MUST NOT drive or park in a cycle lane marked by a solid white line during its times of operation. Do not drive or park in a cycle lane marked",
+      "The driver and the environment.",
+      "Double white lines where the line nearest to you is solid."
+    ],
+    "correctIndex": 2,
+    "explanation": "The driver and the environment. You MUST NOT leave a parked vehicle unattended with the engine running or leave a vehicle engine running unnecessarily while that vehicle is stationary on a public road. (Highway Code rule 123.)",
+    "highwayCodeRules": [
+      123
+    ]
+  },
+  {
+    "id": "attitude-0519",
+    "category": "attitude",
+    "question": "Highway Code rule 144 is about “general rules, techniques and advice”. Which statement is taken from this rule?",
+    "options": [
+      "You MUST NOT drive dangerously, drive without due care and attention, or drive without reasonable consideration for other road users.",
+      "The speed limit is the absolute maximum and does not mean it is safe to drive at that speed irrespective of conditions.",
+      "The driver and the environment.",
+      "ABS. If your vehicle is fitted with anti-lock brakes, you should follow the advice in the vehicle handbook. However, in the case of an emergency, apply the foot"
+    ],
+    "correctIndex": 0,
+    "explanation": "You MUST NOT drive dangerously, drive without due care and attention, or drive without reasonable consideration for other road users. (Highway Code rule 144.)",
+    "highwayCodeRules": [
+      144
+    ]
+  },
+  {
+    "id": "attitude-0524",
+    "category": "attitude",
+    "question": "Highway Code rule 147 is about “general rules, techniques and advice”. Which statement is taken from this rule?",
+    "options": [
+      "Areas of white diagonal stripes or chevrons painted on the road.",
+      "Be considerate. Be careful of and considerate towards all types of road users, especially those requiring extra care. You MUST NOT throw anything out of a vehic",
+      "If you need to change lane, first use your mirrors and if necessary take a quick sideways glance to make sure you will not force another road user to change course or speed.",
+      "Cycle lanes. You MUST NOT drive or park in a cycle lane marked by a solid white line during its times of operation. Do not drive or park in a cycle lane marked"
+    ],
+    "correctIndex": 1,
+    "explanation": "Be considerate. Be careful of and considerate towards all types of road users, especially those requiring extra care. You MUST NOT throw anything out of a vehicle. (Highway Code rule 147.)",
+    "highwayCodeRules": [
+      147
+    ]
+  },
+  {
+    "id": "attitude-0525",
+    "category": "attitude",
+    "question": "According to the Highway Code (general rules, techniques and advice), what MUST you do?",
+    "options": [
+      "If you need to change lane, first use your mirrors and if necessary take a quick sideways glance to make sure you will not force another road user to change course or speed.",
+      "Be considerate. Be careful of and considerate towards all types of road users, especially those requiring extra care. You MUST NOT throw anything out of a vehic",
+      "Cycle lanes. You MUST NOT drive or park in a cycle lane marked by a solid white line during its times of operation. Do not drive or park in a cycle lane marked",
+      "Areas of white diagonal stripes or chevrons painted on the road."
+    ],
+    "correctIndex": 1,
+    "explanation": "Be considerate. Be careful of and considerate towards all types of road users, especially those requiring extra care. You MUST NOT throw anything out of a vehicle. (Highway Code rule 147.)",
+    "highwayCodeRules": [
+      147
+    ]
+  },
+  {
+    "id": "attitude-0530",
+    "category": "attitude",
+    "question": "Highway Code rule 151 is about “general rules, techniques and advice”. Which statement is taken from this rule?",
+    "options": [
+      "You MUST exercise proper control of your vehicle at all times.",
+      "The speed limit is the absolute maximum and does not mean it is safe to drive at that speed irrespective of conditions.",
+      "In slow-moving traffic you should reduce the distance between you and the vehicle ahead to maintain traffic flow, never get so close that you cannot stop safely",
+      "Bus lanes. These are shown by road markings and signs that indicate which (if any) other vehicles are permitted to use the bus lane. Unless otherwise indicated,"
+    ],
+    "correctIndex": 2,
+    "explanation": "In slow-moving traffic you should reduce the distance between you and the vehicle ahead to maintain traffic flow, never get so close that you cannot stop safely, leave enough space to manoeuvre if the vehicle in front breaks down, and not change lanes to the left to overtake. (Highway Code rule 151.)",
+    "highwayCodeRules": [
+      151
+    ]
+  },
+  {
+    "id": "attitude-0551",
+    "category": "attitude",
+    "question": "Highway Code rule 168 is about “using the road”. Which statement is taken from this rule?",
+    "options": [
+      "Signals and position when using a roundabout.",
+      "Mirrors. All mirrors should be used effectively throughout your journey. You should use your mirrors frequently so that you always know what is behind and to ea",
+      "Being overtaken. If a driver is trying to overtake you, maintain a steady course and speed, slowing down if necessary to let the vehicle pass. Never obstruct dr",
+      "When reaching the roundabout you should give priority to traffic approaching from your right unless directed otherwise by signs, road markings or traffic lights."
+    ],
+    "correctIndex": 2,
+    "explanation": "Being overtaken. If a driver is trying to overtake you, maintain a steady course and speed, slowing down if necessary to let the vehicle pass. Never obstruct drivers who wish to pass. (Highway Code rule 168.)",
+    "highwayCodeRules": [
+      168
+    ]
+  },
+  {
+    "id": "attitude-0603",
+    "category": "attitude",
+    "question": "Highway Code rule 219 is about “road users requiring extra care”. Which statement is taken from this rule?",
+    "options": [
+      "Large vehicles can block your view.",
+      "The road users most at risk from road traffic are pedestrians, in particular children, older adults and disabled people, cyclists, horse riders and motorcyclists.",
+      "Emergency and Incident Support vehicles.",
+      "Home Zones and Quiet Lanes."
+    ],
+    "correctIndex": 2,
+    "explanation": "Emergency and Incident Support vehicles. You should look and listen for ambulances, fire engines, police, doctors or other emergency vehicles using flashing blue, red or green lights and sirens. When one approaches, do not panic; consider the route of such a vehicle and take appropriate action to let it pass while complying with all traffic signs. (Highway Code rule 219.)",
+    "highwayCodeRules": [
+      219
+    ]
+  },
+  {
+    "id": "attitude-0607",
+    "category": "attitude",
+    "question": "Highway Code rule 223 is about “road users requiring extra care”. Which statement is taken from this rule?",
+    "options": [
+      "Buses, coaches and trams.",
+      "Motorcyclists and cyclists may suddenly need to avoid uneven road surfaces and obstacles such as drain covers or oily, wet or icy patches on the road.",
+      "Home Zones and Quiet Lanes.",
+      "You MUST stop when a school crossing patrol shows a 'Stop for children' sign."
+    ],
+    "correctIndex": 0,
+    "explanation": "Buses, coaches and trams. Give priority to these vehicles when you can do so safely, especially when they signal to pull away from stops. Look out for people getting off a bus or tram and crossing the road. (Highway Code rule 223.)",
+    "highwayCodeRules": [
+      223
+    ]
+  }
+]

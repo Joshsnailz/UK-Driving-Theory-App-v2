@@ -1,9 +1,10 @@
 import { Question, Category } from '../types';
 import { CATEGORY_CONFIG } from '../data/categories';
+import { MOCK_TEST } from '../config/constants';
 import { shuffle } from './shuffle';
 
 export function weightedSelectMockQuestions(questions: Question[]): Question[] {
-  const total = 50;
+  const total = MOCK_TEST.QUESTION_COUNT;
   const result: Question[] = [];
 
   const byCategory = new Map<Category, Question[]>();

@@ -6,28 +6,27 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { useNavigation } from '@react-navigation/native';
 import { StackNavigationProp } from '@react-navigation/stack';
 import { Ionicons } from '@expo/vector-icons';
-import { RootStackParamList, Category, MockTestResult } from '../types';
+import { RootStackParamList, Category, MockTestResult, AnyQuestion } from '../types';
 import { useQuizStore } from '../store/quizStore';
-import { useSettingsStore } from '../store/settingsStore';
 import { useQuizEngine } from '../hooks/useQuizEngine';
 import { useTimer } from '../hooks/useTimer';
-import { CATEGORY_CONFIG } from '../data/categories';
+import { buildEmptyCategoryStats } from '../data/categories';
+import { MOCK_TEST } from '../config/constants';
+import { colors, useTheme } from '../theme';
 import QuestionCard from '../components/QuestionCard';
 import AnswerOption from '../components/AnswerOption';
 import TimerDisplay from '../components/TimerDisplay';
 
 type Nav = StackNavigationProp<RootStackParamList>;
 
-const MOCK_DURATION = 57 * 60; // 3420 seconds
-
 export default function MockTestScreen() {
   const nav = useNavigation<Nav>();
-  const dark = useSettingsStore((s) => s.darkMode);
+  const t = useTheme();
   const { startQuiz, session, currentIndex, flaggedIndices, answerQuestion, goToQuestion, flagQuestion, endSession } = useQuizStore();
   const { selectMockTestQuestions } = useQuizEngine();
-  const { secondsRemaining, start, isExpired } = useTimer(MOCK_DURATION);
+  const { secondsRemaining, start, isExpired } = useTimer(MOCK_TEST.DURATION_SECONDS);
   const submitted = useRef(false);
-  const questionListRef = useRef<FlatList<any>>(null);
+  const questionListRef = useRef<FlatList<AnyQuestion>>(null);
 
   useEffect(() => {
     const qs = selectMockTestQuestions();
@@ -53,13 +52,9 @@ export default function MockTestScreen() {
     if (submitted.current) return;
     submitted.current = true;
     const completed = endSession();
-    const duration = MOCK_DURATION - secondsRemaining;
+    const duration = MOCK_TEST.DURATION_SECONDS - secondsRemaining;
 
-    // Build category breakdown
-    const breakdown: MockTestResult['categoryBreakdown'] = {} as any;
-    Object.keys(CATEGORY_CONFIG).forEach((k) => {
-      breakdown[k as Category] = { correct: 0, total: 0 };
-    });
+    const breakdown = buildEmptyCategoryStats();
     completed.questions.forEach((q, i) => {
       const cat = q.category as Category;
       breakdown[cat].total += 1;
@@ -70,7 +65,7 @@ export default function MockTestScreen() {
       id: Date.now().toString(),
       date: Date.now(),
       score: completed.score,
-      passed: completed.score >= 43,
+      passed: completed.score >= MOCK_TEST.PASS_MARK,
       duration,
       categoryBreakdown: breakdown,
     };
@@ -94,11 +89,6 @@ export default function MockTestScreen() {
   const isLastQuestion = currentIndex === session.questions.length - 1;
   const labels = ['A', 'B', 'C', 'D'];
 
-  const bg = dark ? '#0F172A' : '#F8FAFC';
-  const card = dark ? '#1E293B' : '#FFFFFF';
-  const text = dark ? '#F1F5F9' : '#1E293B';
-  const sub = dark ? '#94A3B8' : '#64748B';
-
   const handleAnswer = (idx: number) => {
     answerQuestion(idx);
 
@@ -108,22 +98,24 @@ export default function MockTestScreen() {
   };
 
   return (
-    <SafeAreaView style={[styles.safe, { backgroundColor: bg }]}>
+    <SafeAreaView style={[styles.safe, { backgroundColor: t.bg }]}>
       {/* Header */}
       <View style={styles.header}>
         <TimerDisplay secondsRemaining={secondsRemaining} />
-        <Text style={[styles.counter, { color: sub }]}>{currentIndex + 1}/50</Text>
+        <Text style={[styles.counter, { color: t.sub }]}>
+          {currentIndex + 1}/{MOCK_TEST.QUESTION_COUNT}
+        </Text>
         <TouchableOpacity onPress={() => flagQuestion(currentIndex)}>
           <Ionicons
             name={flaggedIndices.has(currentIndex) ? 'flag' : 'flag-outline'}
             size={22}
-            color={flaggedIndices.has(currentIndex) ? '#D97706' : sub}
+            color={flaggedIndices.has(currentIndex) ? colors.warning : t.sub}
           />
         </TouchableOpacity>
       </View>
 
       <ScrollView contentContainerStyle={styles.scroll}>
-        <QuestionCard question={q} dark={dark} />
+        <QuestionCard question={q} />
 
         {q.options.map((opt, idx) => (
           <AnswerOption
@@ -137,7 +129,7 @@ export default function MockTestScreen() {
       </ScrollView>
 
       {/* Question navigator grid */}
-      <View style={[styles.navigator, { backgroundColor: card }]}>
+      <View style={[styles.navigator, { backgroundColor: t.card, borderTopColor: t.border }]}>
         <FlatList
           ref={questionListRef}
           data={session.questions}
@@ -172,7 +164,7 @@ export default function MockTestScreen() {
                 ]}
                 onPress={() => goToQuestion(i)}
               >
-                <Text style={[styles.dotText, (isCurrent || isAnswered) && { color: '#FFFFFF' }]}>
+                <Text style={[styles.dotText, (isCurrent || isAnswered) && { color: colors.white }]}>
                   {i + 1}
                 </Text>
               </TouchableOpacity>
@@ -197,13 +189,13 @@ const styles = StyleSheet.create({
     width: 32, height: 32, borderRadius: 16, backgroundColor: '#E2E8F0',
     alignItems: 'center', justifyContent: 'center', marginHorizontal: 3,
   },
-  dotAnswered: { backgroundColor: '#1A56A0' },
+  dotAnswered: { backgroundColor: colors.primary },
   dotCurrent: { backgroundColor: '#0F172A' },
-  dotFlagged: { backgroundColor: '#D97706' },
+  dotFlagged: { backgroundColor: colors.warning },
   dotText: { fontSize: 11, fontWeight: '700', color: '#64748B' },
   submitBtn: {
-    backgroundColor: '#1A56A0', borderRadius: 8, marginTop: 10,
+    backgroundColor: colors.primary, borderRadius: 8, marginTop: 10,
     paddingVertical: 12, alignItems: 'center',
   },
-  submitText: { color: '#FFFFFF', fontWeight: '700', fontSize: 15 },
+  submitText: { color: colors.white, fontWeight: '700', fontSize: 15 },
 });

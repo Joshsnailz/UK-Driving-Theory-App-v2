@@ -1,0 +1,818 @@
+[
+  {
+    "id": "hazard-awareness-0278",
+    "category": "hazard-awareness",
+    "question": "When may you use hazard warning lights while your vehicle is moving?",
+    "options": [
+      "When being towed in any circumstances",
+      "On a motorway or unrestricted dual carriageway, to warn following drivers of a hazard ahead",
+      "When double-parked for a short time",
+      "When driving slowly looking for an address"
+    ],
+    "correctIndex": 1,
+    "explanation": "Hazard warning lights. These may be used when your vehicle is stationary, to warn that it is temporarily obstructing traffic. Never use them as an excuse for dangerous or illegal parking. You MUST NOT use hazard warning lights while driving or being towed unless you are on a motorway or unrestricted dual carriageway and you need to warn drivers behind you of a hazard or obstruction ahead. (Highway Code rule 116.)",
+    "highwayCodeRules": [
+      116
+    ]
+  },
+  {
+    "id": "hazard-awareness-0303",
+    "category": "hazard-awareness",
+    "question": "You see road humps and chicanes ahead. What are they designed to do?",
+    "options": [
+      "Separate cycle and motor traffic",
+      "Slow traffic down",
+      "Test your suspension",
+      "Allow water to drain from the road"
+    ],
+    "correctIndex": 1,
+    "explanation": "Traffic-calming measures. On some roads there are features such as road humps, chicanes and narrowings intended to slow you down. Reduce your speed when you see them. (Highway Code rule 153.)",
+    "highwayCodeRules": [
+      153
+    ]
+  },
+  {
+    "id": "hazard-awareness-0309",
+    "category": "hazard-awareness",
+    "question": "You want to overtake a long, slow lorry on a busy road. What should you do first?",
+    "options": [
+      "Move up close so you can pull out quickly",
+      "Flash your headlights so the lorry moves over",
+      "Drop back so you can see further ahead and the lorry driver can see you",
+      "Sound your horn before pulling out"
+    ],
+    "correctIndex": 2,
+    "explanation": "Large vehicles. Overtaking these is more difficult. Drop back to increase your ability to see ahead and to allow the driver of the large vehicle to see you in their mirrors. (Highway Code rule 164.)",
+    "highwayCodeRules": [
+      164
+    ]
+  },
+  {
+    "id": "hazard-awareness-0311",
+    "category": "hazard-awareness",
+    "question": "In which of these places does the Highway Code say you should NOT overtake because you cannot see far enough ahead?",
+    "options": [
+      "On a 30 mph road",
+      "On a long straight dual carriageway",
+      "When the vehicle in front signals left",
+      "Approaching the brow of a hill"
+    ],
+    "correctIndex": 3,
+    "explanation": "DO NOT overtake if there is any doubt, or where you cannot see far enough ahead to be sure it is safe — for example when you are approaching a corner or bend, a hump bridge, or the brow of a hill. (Highway Code rule 166.)",
+    "highwayCodeRules": [
+      166
+    ]
+  },
+  {
+    "id": "hazard-awareness-0327",
+    "category": "hazard-awareness",
+    "question": "You see a flashing amber light beneath a school warning sign. What does it mean?",
+    "options": [
+      "No vehicles allowed during school hours",
+      "School crossing patrol is not on duty",
+      "Stop and wait for the light to go out",
+      "Children may be crossing the road ahead — slow down"
+    ],
+    "correctIndex": 3,
+    "explanation": "Near schools. Drive slowly and be particularly aware of young cyclists and pedestrians. In some places, there may be a flashing amber signal below the 'School' warning sign which tells you that there may be children crossing the road ahead. (Highway Code rule 208.)",
+    "highwayCodeRules": [
+      208
+    ]
+  },
+  {
+    "id": "hazard-awareness-0329",
+    "category": "hazard-awareness",
+    "question": "Why are motorcyclists and cyclists particularly hard to see at junctions?",
+    "options": [
+      "They always travel in the middle of the lane",
+      "They never use lights",
+      "They are required to ride on the pavement",
+      "They are easily hidden by other vehicles and may be filtering through traffic"
+    ],
+    "correctIndex": 3,
+    "explanation": "It is often difficult to see motorcyclists and cyclists, especially when they are coming up from behind, coming out of junctions, at roundabouts, overtaking you or filtering through traffic. Always look out for them before you emerge from a junction. (Highway Code rule 211.)",
+    "highwayCodeRules": [
+      211
+    ]
+  },
+  {
+    "id": "hazard-awareness-0333",
+    "category": "hazard-awareness",
+    "question": "You are following a large articulated lorry. Why should you keep well back?",
+    "options": [
+      "The driver may not be able to see you in their mirrors",
+      "It is illegal to be within two car lengths of a lorry",
+      "You will save fuel",
+      "Lorries can stop more quickly than cars"
+    ],
+    "correctIndex": 0,
+    "explanation": "Large vehicles may need extra road space to turn or to deal with a hazard that you are not able to see. If you are following a large vehicle, such as a bus or articulated lorry, be aware that the driver may not be able to see you in their mirrors. (Highway Code rule 221.)",
+    "highwayCodeRules": [
+      221
+    ]
+  },
+  {
+    "id": "hazard-awareness-0335",
+    "category": "hazard-awareness",
+    "question": "A vehicle ahead is showing a flashing amber beacon. What does this indicate?",
+    "options": [
+      "A vehicle that has broken down and must not be passed",
+      "A slow-moving or stationary vehicle, or an abnormal load — approach with caution",
+      "A doctor on an emergency call",
+      "A police vehicle on patrol"
+    ],
+    "correctIndex": 1,
+    "explanation": "Vehicles with flashing amber beacons. These warn of a slow-moving or stationary vehicle (such as a traffic officer vehicle, salt spreader, snow plough or recovery vehicle) or abnormal loads, so approach with caution. On unrestricted dual carriageways, motor vehicles first used on or after 1 January 1947 with a maximum speed of 25 mph or less MUST use a flashing amber beacon. (Highway Code rule 225.)",
+    "highwayCodeRules": [
+      225
+    ]
+  },
+  {
+    "id": "hazard-awareness-0341",
+    "category": "hazard-awareness",
+    "question": "You are about to overtake a cyclist on a windy day near a gap in a hedge. Why should you allow extra room?",
+    "options": [
+      "They may stop without warning",
+      "They may turn right",
+      "It is a legal requirement on windy days",
+      "A sudden gust could blow them off course"
+    ],
+    "correctIndex": 3,
+    "explanation": "Windy weather. High-sided vehicles are most affected by windy weather, but strong gusts can also blow a car, cyclist, motorcyclist or horse rider off course. This can happen on open stretches of road exposed to strong crosswinds, or when passing bridges or gaps in hedges. (Highway Code rule 232.)",
+    "highwayCodeRules": [
+      232
+    ]
+  },
+  {
+    "id": "hazard-awareness-0343",
+    "category": "hazard-awareness",
+    "question": "After a long dry spell it starts to rain. Why might the road surface be especially slippery?",
+    "options": [
+      "Rain neutralises the road salt",
+      "The tyres have hardened in the heat",
+      "Oil and rubber deposits on the surface mix with the rain",
+      "The brakes have absorbed moisture"
+    ],
+    "correctIndex": 2,
+    "explanation": "Hot weather. Keep your vehicle well ventilated to avoid drowsiness. Be aware that the road surface may become soft or if it rains after a dry spell it may become slippery. If you are dazzled by bright sunlight, slow down and if necessary, stop. (Highway Code rule 237.)",
+    "highwayCodeRules": [
+      237
+    ]
+  },
+  {
+    "id": "hazard-awareness-0374",
+    "category": "hazard-awareness",
+    "question": "At road works a temporary speed limit is displayed. What does this mean?",
+    "options": [
+      "It is mandatory — you MUST NOT exceed it",
+      "It is advisory only",
+      "It applies only to HGVs",
+      "It applies only when workers are visible"
+    ],
+    "correctIndex": 0,
+    "explanation": "When the 'Road Works Ahead' sign is displayed, take extra care and look for additional signs providing more specific instructions. You MUST NOT exceed any temporary maximum speed limit. Keep a safe distance from the vehicle in front. (Highway Code rule 288.)",
+    "highwayCodeRules": [
+      288
+    ]
+  },
+  {
+    "id": "hazard-awareness-0376",
+    "category": "hazard-awareness",
+    "question": "You are crossing a level crossing when the amber light comes on. What should you do?",
+    "options": [
+      "Sound your horn and accelerate",
+      "Keep going — do not stop on the crossing",
+      "Stop immediately",
+      "Reverse off the crossing"
+    ],
+    "correctIndex": 1,
+    "explanation": "Controlled Crossings. Most crossings have traffic light signals with a steady amber light, twin flashing red stop lights and an audible alarm. You MUST always obey the flashing red stop lights. You MUST stop behind the white line across the road. Keep going if you have already crossed the white line when the amber light comes on. (Highway Code rule 293.)",
+    "highwayCodeRules": [
+      293
+    ]
+  },
+  {
+    "id": "hazard-awareness-0378",
+    "category": "hazard-awareness",
+    "question": "Why should you take extra care where trams operate?",
+    "options": [
+      "Trams move quietly and cannot steer to avoid you",
+      "Trams travel faster than other traffic",
+      "Trams always have right of way over pedestrians",
+      "Tram tracks are always electrified"
+    ],
+    "correctIndex": 0,
+    "explanation": "Tramways. You MUST NOT enter a road, lane or other route reserved for trams. Take extra care where trams run along the road. The width taken up by trams is often shown by tram lanes marked by white lines, yellow dots or by a different type of road surface. (Highway Code rule 300.)",
+    "highwayCodeRules": [
+      300
+    ]
+  },
+  {
+    "id": "hazard-awareness-0522",
+    "category": "hazard-awareness",
+    "question": "Highway Code rule 146 is about “general rules, techniques and advice”. Which statement is taken from this rule?",
+    "options": [
+      "In an emergency. Brake immediately. Try to avoid braking so harshly that you lock your wheels. Locked wheels can lead to loss of control.",
+      "You MUST exercise proper control of your vehicle at all times.",
+      "Adapt your driving to the appropriate type and condition of road.",
+      "Signals warn and inform other road users of your intended actions."
+    ],
+    "correctIndex": 2,
+    "explanation": "Adapt your driving to the appropriate type and condition of road. Do not treat speed limits as a target. Take the road and traffic conditions into account. Where there are junctions, be prepared for road users emerging. (Highway Code rule 146.)",
+    "highwayCodeRules": [
+      146
+    ]
+  },
+  {
+    "id": "hazard-awareness-0523",
+    "category": "hazard-awareness",
+    "question": "According to the Highway Code (general rules, techniques and advice), what should you do?",
+    "options": [
+      "Signals warn and inform other road users of your intended actions.",
+      "In an emergency. Brake immediately. Try to avoid braking so harshly that you lock your wheels. Locked wheels can lead to loss of control.",
+      "You MUST exercise proper control of your vehicle at all times.",
+      "Adapt your driving to the appropriate type and condition of road."
+    ],
+    "correctIndex": 3,
+    "explanation": "Adapt your driving to the appropriate type and condition of road. Do not treat speed limits as a target. Take the road and traffic conditions into account. Where there are junctions, be prepared for road users emerging. (Highway Code rule 146.)",
+    "highwayCodeRules": [
+      146
+    ]
+  },
+  {
+    "id": "hazard-awareness-0533",
+    "category": "hazard-awareness",
+    "question": "Highway Code rule 153 is about “general rules, techniques and advice”. Which statement is taken from this rule?",
+    "options": [
+      "Traffic-calming measures.",
+      "Be considerate. Be careful of and considerate towards all types of road users, especially those requiring extra care. You MUST NOT throw anything out of a vehic",
+      "Adapt your driving to the appropriate type and condition of road.",
+      "Reflective road studs may be used with white lines."
+    ],
+    "correctIndex": 0,
+    "explanation": "Traffic-calming measures. On some roads there are features such as road humps, chicanes and narrowings intended to slow you down. Reduce your speed when you see them. (Highway Code rule 153.)",
+    "highwayCodeRules": [
+      153
+    ]
+  },
+  {
+    "id": "hazard-awareness-0534",
+    "category": "hazard-awareness",
+    "question": "Highway Code rule 154 is about “general rules, techniques and advice”. Which statement is taken from this rule?",
+    "options": [
+      "The speed limit is the absolute maximum and does not mean it is safe to drive at that speed irrespective of conditions.",
+      "A broken white line marks the centre of the road.",
+      "Hazard warning lights.",
+      "Take extra care on country roads and reduce your speed at approaches to bends, which can be sharper than they appear, and at junctions and turnings, which may be partially hidden."
+    ],
+    "correctIndex": 3,
+    "explanation": "Take extra care on country roads and reduce your speed at approaches to bends, which can be sharper than they appear, and at junctions and turnings, which may be partially hidden. (Highway Code rule 154.)",
+    "highwayCodeRules": [
+      154
+    ]
+  },
+  {
+    "id": "hazard-awareness-0535",
+    "category": "hazard-awareness",
+    "question": "According to the Highway Code (general rules, techniques and advice), what should you do?",
+    "options": [
+      "Hazard warning lights.",
+      "Take extra care on country roads and reduce your speed at approaches to bends, which can be sharper than they appear, and at junctions and turnings, which may be partially hidden.",
+      "A broken white line marks the centre of the road.",
+      "The speed limit is the absolute maximum and does not mean it is safe to drive at that speed irrespective of conditions."
+    ],
+    "correctIndex": 1,
+    "explanation": "Take extra care on country roads and reduce your speed at approaches to bends, which can be sharper than they appear, and at junctions and turnings, which may be partially hidden. (Highway Code rule 154.)",
+    "highwayCodeRules": [
+      154
+    ]
+  },
+  {
+    "id": "hazard-awareness-0546",
+    "category": "hazard-awareness",
+    "question": "Highway Code rule 164 is about “using the road”. Which statement is taken from this rule?",
+    "options": [
+      "When turning, give way to any vehicles using a bus lane, cycle lane, cycle track or tramway from either direction, including when they are passing slow moving o",
+      "You MUST NOT park on a crossing or in the area covered by the zig-zag lines.",
+      "When reaching the roundabout you should give priority to traffic approaching from your right unless directed otherwise by signs, road markings or traffic lights.",
+      "Large vehicles. Overtaking these is more difficult. Drop back to increase your ability to see ahead and to allow the driver of the large vehicle to see you in t"
+    ],
+    "correctIndex": 3,
+    "explanation": "Large vehicles. Overtaking these is more difficult. Drop back to increase your ability to see ahead and to allow the driver of the large vehicle to see you in their mirrors. (Highway Code rule 164.)",
+    "highwayCodeRules": [
+      164
+    ]
+  },
+  {
+    "id": "hazard-awareness-0548",
+    "category": "hazard-awareness",
+    "question": "Highway Code rule 166 is about “using the road”. Which statement is taken from this rule?",
+    "options": [
+      "Mini-roundabouts. Approach in the same way as normal roundabouts. All vehicles MUST pass round the central markings except large vehicles which are physically i",
+      "Take extra care at junctions.",
+      "Choose an appropriate place to manoeuvre.",
+      "DO NOT overtake if there is any doubt, or where you cannot see far enough ahead to be sure it is safe — for example when you are approaching a corner or bend, a"
+    ],
+    "correctIndex": 3,
+    "explanation": "DO NOT overtake if there is any doubt, or where you cannot see far enough ahead to be sure it is safe — for example when you are approaching a corner or bend, a hump bridge, or the brow of a hill. (Highway Code rule 166.)",
+    "highwayCodeRules": [
+      166
+    ]
+  },
+  {
+    "id": "hazard-awareness-0549",
+    "category": "hazard-awareness",
+    "question": "Highway Code rule 167 is about “using the road”. Which statement is taken from this rule?",
+    "options": [
+      "In queuing traffic, you should keep the crossing clear.",
+      "Zebra and parallel crossings.",
+      "Being overtaken. If a driver is trying to overtake you, maintain a steady course and speed, slowing down if necessary to let the vehicle pass. Never obstruct dr",
+      "DO NOT overtake where you might come into conflict with other road users, for example approaching or at a road junction, where the road narrows, at a level cros"
+    ],
+    "correctIndex": 3,
+    "explanation": "DO NOT overtake where you might come into conflict with other road users, for example approaching or at a road junction, where the road narrows, at a level crossing, when a road user is indicating right, or where traffic is queuing at junctions or road works. (Highway Code rule 167.)",
+    "highwayCodeRules": [
+      167
+    ]
+  },
+  {
+    "id": "hazard-awareness-0550",
+    "category": "hazard-awareness",
+    "question": "According to the Highway Code (using the road), what should you do?",
+    "options": [
+      "In queuing traffic, you should keep the crossing clear.",
+      "Zebra and parallel crossings.",
+      "Being overtaken. If a driver is trying to overtake you, maintain a steady course and speed, slowing down if necessary to let the vehicle pass. Never obstruct dr",
+      "DO NOT overtake where you might come into conflict with other road users, for example approaching or at a road junction, where the road narrows, at a level cros"
+    ],
+    "correctIndex": 3,
+    "explanation": "DO NOT overtake where you might come into conflict with other road users, for example approaching or at a road junction, where the road narrows, at a level crossing, when a road user is indicating right, or where traffic is queuing at junctions or road works. (Highway Code rule 167.)",
+    "highwayCodeRules": [
+      167
+    ]
+  },
+  {
+    "id": "hazard-awareness-0590",
+    "category": "hazard-awareness",
+    "question": "Highway Code rule 208 is about “road users requiring extra care”. Which statement is taken from this rule?",
+    "options": [
+      "Motorcyclists and cyclists may suddenly need to avoid uneven road surfaces and obstacles such as drain covers or oily, wet or icy patches on the road.",
+      "Emergency and Incident Support vehicles.",
+      "Buses, coaches and trams.",
+      "Near schools. Drive slowly and be particularly aware of young cyclists and pedestrians. In some places, there may be a flashing amber signal below the 'School'"
+    ],
+    "correctIndex": 3,
+    "explanation": "Near schools. Drive slowly and be particularly aware of young cyclists and pedestrians. In some places, there may be a flashing amber signal below the 'School' warning sign which tells you that there may be children crossing the road ahead. (Highway Code rule 208.)",
+    "highwayCodeRules": [
+      208
+    ]
+  },
+  {
+    "id": "hazard-awareness-0594",
+    "category": "hazard-awareness",
+    "question": "Highway Code rule 211 is about “road users requiring extra care”. Which statement is taken from this rule?",
+    "options": [
+      "Buses, coaches and trams.",
+      "Vehicles with flashing amber beacons.",
+      "It is often difficult to see motorcyclists and cyclists, especially when they are coming up from behind, coming out of junctions, at roundabouts, overtaking you",
+      "Home Zones and Quiet Lanes."
+    ],
+    "correctIndex": 2,
+    "explanation": "It is often difficult to see motorcyclists and cyclists, especially when they are coming up from behind, coming out of junctions, at roundabouts, overtaking you or filtering through traffic. Always look out for them before you emerge from a junction. (Highway Code rule 211.)",
+    "highwayCodeRules": [
+      211
+    ]
+  },
+  {
+    "id": "hazard-awareness-0604",
+    "category": "hazard-awareness",
+    "question": "Highway Code rule 221 is about “road users requiring extra care”. Which statement is taken from this rule?",
+    "options": [
+      "Emergency and Incident Support vehicles.",
+      "Large vehicles may need extra road space to turn or to deal with a hazard that you are not able to see.",
+      "Horse riders and horse-drawn vehicles.",
+      "Large vehicles can block your view."
+    ],
+    "correctIndex": 1,
+    "explanation": "Large vehicles may need extra road space to turn or to deal with a hazard that you are not able to see. If you are following a large vehicle, such as a bus or articulated lorry, be aware that the driver may not be able to see you in their mirrors. (Highway Code rule 221.)",
+    "highwayCodeRules": [
+      221
+    ]
+  },
+  {
+    "id": "hazard-awareness-0605",
+    "category": "hazard-awareness",
+    "question": "Highway Code rule 222 is about “road users requiring extra care”. Which statement is taken from this rule?",
+    "options": [
+      "There is a risk of pedestrians, especially children, stepping unexpectedly into the road.",
+      "Large vehicles can block your view.",
+      "Large vehicles may need extra road space to turn or to deal with a hazard that you are not able to see.",
+      "The road users most at risk from road traffic are pedestrians, in particular children, older adults and disabled people, cyclists, horse riders and motorcyclists."
+    ],
+    "correctIndex": 1,
+    "explanation": "Large vehicles can block your view. Your ability to see and to plan ahead will be improved if you pull back to increase your separation distance. (Highway Code rule 222.)",
+    "highwayCodeRules": [
+      222
+    ]
+  },
+  {
+    "id": "hazard-awareness-0606",
+    "category": "hazard-awareness",
+    "question": "According to the Highway Code (road users requiring extra care), what should you do?",
+    "options": [
+      "There is a risk of pedestrians, especially children, stepping unexpectedly into the road.",
+      "Large vehicles can block your view.",
+      "The road users most at risk from road traffic are pedestrians, in particular children, older adults and disabled people, cyclists, horse riders and motorcyclists.",
+      "Large vehicles may need extra road space to turn or to deal with a hazard that you are not able to see."
+    ],
+    "correctIndex": 1,
+    "explanation": "Large vehicles can block your view. Your ability to see and to plan ahead will be improved if you pull back to increase your separation distance. (Highway Code rule 222.)",
+    "highwayCodeRules": [
+      222
+    ]
+  },
+  {
+    "id": "hazard-awareness-0608",
+    "category": "hazard-awareness",
+    "question": "Highway Code rule 224 is about “road users requiring extra care”. Which statement is taken from this rule?",
+    "options": [
+      "Electric vehicles. Be careful of electric vehicles such as milk floats and trams. Trams move quickly but silently and cannot steer to avoid you.",
+      "The road users most at risk from road traffic are pedestrians, in particular children, older adults and disabled people, cyclists, horse riders and motorcyclists.",
+      "Large vehicles can block your view.",
+      "Buses, coaches and trams."
+    ],
+    "correctIndex": 0,
+    "explanation": "Electric vehicles. Be careful of electric vehicles such as milk floats and trams. Trams move quickly but silently and cannot steer to avoid you. (Highway Code rule 224.)",
+    "highwayCodeRules": [
+      224
+    ]
+  },
+  {
+    "id": "hazard-awareness-0609",
+    "category": "hazard-awareness",
+    "question": "According to the Highway Code (road users requiring extra care), what should you do?",
+    "options": [
+      "Electric vehicles. Be careful of electric vehicles such as milk floats and trams. Trams move quickly but silently and cannot steer to avoid you.",
+      "Large vehicles can block your view.",
+      "Buses, coaches and trams.",
+      "The road users most at risk from road traffic are pedestrians, in particular children, older adults and disabled people, cyclists, horse riders and motorcyclists."
+    ],
+    "correctIndex": 0,
+    "explanation": "Electric vehicles. Be careful of electric vehicles such as milk floats and trams. Trams move quickly but silently and cannot steer to avoid you. (Highway Code rule 224.)",
+    "highwayCodeRules": [
+      224
+    ]
+  },
+  {
+    "id": "hazard-awareness-0610",
+    "category": "hazard-awareness",
+    "question": "Highway Code rule 225 is about “road users requiring extra care”. Which statement is taken from this rule?",
+    "options": [
+      "Particularly vulnerable pedestrians include children and older pedestrians who may not be able to judge your speed, people with disabilities, blind or partially",
+      "Vehicles with flashing amber beacons.",
+      "The road users most at risk from road traffic are pedestrians, in particular children, older adults and disabled people, cyclists, horse riders and motorcyclists.",
+      "Emergency and Incident Support vehicles."
+    ],
+    "correctIndex": 1,
+    "explanation": "Vehicles with flashing amber beacons. These warn of a slow-moving or stationary vehicle (such as a traffic officer vehicle, salt spreader, snow plough or recovery vehicle) or abnormal loads, so approach with caution. On unrestricted dual carriageways, motor vehicles first used on or after 1 January 1947 with a maximum speed of 25 mph or less MUST use a flashing amber beacon. (Highway Code rule 225.)",
+    "highwayCodeRules": [
+      225
+    ]
+  },
+  {
+    "id": "hazard-awareness-0619",
+    "category": "hazard-awareness",
+    "question": "Highway Code rule 232 is about “driving in adverse weather”. Which statement is taken from this rule?",
+    "options": [
+      "Before you set off you MUST be able to see, so clear all snow and ice from all your windows; you MUST ensure that lights are clean and number plates are clearly visible and legible.",
+      "When driving in fog you should use your lights as required, keep a safe distance behind the vehicle in front (rear lights can give a false sense of security), b",
+      "In very windy weather your vehicle may be affected by turbulence created by large vehicles.",
+      "Windy weather. High-sided vehicles are most affected by windy weather, but strong gusts can also blow a car, cyclist, motorcyclist or horse rider off course. Th"
+    ],
+    "correctIndex": 3,
+    "explanation": "Windy weather. High-sided vehicles are most affected by windy weather, but strong gusts can also blow a car, cyclist, motorcyclist or horse rider off course. This can happen on open stretches of road exposed to strong crosswinds, or when passing bridges or gaps in hedges. (Highway Code rule 232.)",
+    "highwayCodeRules": [
+      232
+    ]
+  },
+  {
+    "id": "hazard-awareness-0620",
+    "category": "hazard-awareness",
+    "question": "Highway Code rule 233 is about “driving in adverse weather”. Which statement is taken from this rule?",
+    "options": [
+      "When driving in fog you should use your lights as required, keep a safe distance behind the vehicle in front (rear lights can give a false sense of security), b",
+      "Before entering fog, check your mirrors then slow down.",
+      "In very windy weather your vehicle may be affected by turbulence created by large vehicles.",
+      "Before you set off you MUST be able to see, so clear all snow and ice from all your windows; you MUST ensure that lights are clean and number plates are clearly visible and legible."
+    ],
+    "correctIndex": 2,
+    "explanation": "In very windy weather your vehicle may be affected by turbulence created by large vehicles. Motorcyclists are particularly affected, so keep well back from them when they are overtaking a high-sided vehicle. (Highway Code rule 233.)",
+    "highwayCodeRules": [
+      233
+    ]
+  },
+  {
+    "id": "hazard-awareness-0621",
+    "category": "hazard-awareness",
+    "question": "According to the Highway Code (driving in adverse weather), what should you do?",
+    "options": [
+      "In very windy weather your vehicle may be affected by turbulence created by large vehicles.",
+      "When driving in fog you should use your lights as required, keep a safe distance behind the vehicle in front (rear lights can give a false sense of security), b",
+      "Before entering fog, check your mirrors then slow down.",
+      "Before you set off you MUST be able to see, so clear all snow and ice from all your windows; you MUST ensure that lights are clean and number plates are clearly visible and legible."
+    ],
+    "correctIndex": 0,
+    "explanation": "In very windy weather your vehicle may be affected by turbulence created by large vehicles. Motorcyclists are particularly affected, so keep well back from them when they are overtaking a high-sided vehicle. (Highway Code rule 233.)",
+    "highwayCodeRules": [
+      233
+    ]
+  },
+  {
+    "id": "hazard-awareness-0622",
+    "category": "hazard-awareness",
+    "question": "Highway Code rule 234 is about “driving in adverse weather”. Which statement is taken from this rule?",
+    "options": [
+      "You MUST use headlights when visibility is seriously reduced — generally when you cannot see for more than 100 metres (328 feet).",
+      "You MUST NOT use front or rear fog lights unless visibility is seriously reduced, as they dazzle other road users and can obscure your brake lights.",
+      "Hot weather. Keep your vehicle well ventilated to avoid drowsiness. Be aware that the road surface may become soft or if it rains after a dry spell it may becom",
+      "Before entering fog, check your mirrors then slow down."
+    ],
+    "correctIndex": 3,
+    "explanation": "Before entering fog, check your mirrors then slow down. If the word 'Fog' is shown on a roadside signal but the road is clear, be prepared for a bank of fog or drifting patchy fog ahead. (Highway Code rule 234.)",
+    "highwayCodeRules": [
+      234
+    ]
+  },
+  {
+    "id": "hazard-awareness-0623",
+    "category": "hazard-awareness",
+    "question": "According to the Highway Code (driving in adverse weather), what should you do?",
+    "options": [
+      "You MUST use headlights when visibility is seriously reduced — generally when you cannot see for more than 100 metres (328 feet).",
+      "Hot weather. Keep your vehicle well ventilated to avoid drowsiness. Be aware that the road surface may become soft or if it rains after a dry spell it may becom",
+      "You MUST NOT use front or rear fog lights unless visibility is seriously reduced, as they dazzle other road users and can obscure your brake lights.",
+      "Before entering fog, check your mirrors then slow down."
+    ],
+    "correctIndex": 3,
+    "explanation": "Before entering fog, check your mirrors then slow down. If the word 'Fog' is shown on a roadside signal but the road is clear, be prepared for a bank of fog or drifting patchy fog ahead. (Highway Code rule 234.)",
+    "highwayCodeRules": [
+      234
+    ]
+  },
+  {
+    "id": "hazard-awareness-0627",
+    "category": "hazard-awareness",
+    "question": "Highway Code rule 237 is about “driving in adverse weather”. Which statement is taken from this rule?",
+    "options": [
+      "You MUST NOT use front or rear fog lights unless visibility is seriously reduced, as they dazzle other road users and can obscure your brake lights.",
+      "When driving in fog you should use your lights as required, keep a safe distance behind the vehicle in front (rear lights can give a false sense of security), b",
+      "Wet weather. In wet weather, stopping distances will be at least double those required for stopping on dry roads. You should keep well back from the vehicle in",
+      "Hot weather. Keep your vehicle well ventilated to avoid drowsiness. Be aware that the road surface may become soft or if it rains after a dry spell it may becom"
+    ],
+    "correctIndex": 3,
+    "explanation": "Hot weather. Keep your vehicle well ventilated to avoid drowsiness. Be aware that the road surface may become soft or if it rains after a dry spell it may become slippery. If you are dazzled by bright sunlight, slow down and if necessary, stop. (Highway Code rule 237.)",
+    "highwayCodeRules": [
+      237
+    ]
+  },
+  {
+    "id": "hazard-awareness-0688",
+    "category": "hazard-awareness",
+    "question": "Highway Code rule 288 is about “road works, level crossings and tramways”. Which statement is taken from this rule?",
+    "options": [
+      "If your vehicle breaks down on a level crossing, or if you stall, get everyone out of the vehicle and clear of the crossing immediately.",
+      "Tram stops. Where the tram stops at a platform, either in the middle or at the side of the road, you MUST follow the route shown by the road signs and markings.",
+      "When the 'Road Works Ahead' sign is displayed, take extra care and look for additional signs providing more specific instructions.",
+      "Contraflow systems mean that you may be travelling in a narrower lane than normal and with no permanent barrier between you and oncoming traffic."
+    ],
+    "correctIndex": 2,
+    "explanation": "When the 'Road Works Ahead' sign is displayed, take extra care and look for additional signs providing more specific instructions. You MUST NOT exceed any temporary maximum speed limit. Keep a safe distance from the vehicle in front. (Highway Code rule 288.)",
+    "highwayCodeRules": [
+      288
+    ]
+  },
+  {
+    "id": "hazard-awareness-0689",
+    "category": "hazard-awareness",
+    "question": "Highway Code rule 289 is about “road works, level crossings and tramways”. Which statement is taken from this rule?",
+    "options": [
+      "Level crossings. A level crossing is where a road crosses a railway or tramway line. Approach and cross it with care. Never drive onto a crossing until the road",
+      "Take special care on motorways and other high-speed dual carriageways where road works are taking place.",
+      "Tramways. You MUST NOT enter a road, lane or other route reserved for trams. Take extra care where trams run along the road. The width taken up by trams is ofte",
+      "Railway telephones. If you are driving a large or slow-moving vehicle, a long, low vehicle with a risk of grounding, or herding animals, a train could arrive be"
+    ],
+    "correctIndex": 1,
+    "explanation": "Take special care on motorways and other high-speed dual carriageways where road works are taking place. Lanes may be closed and a lower speed limit may apply. (Highway Code rule 289.)",
+    "highwayCodeRules": [
+      289
+    ]
+  },
+  {
+    "id": "hazard-awareness-0690",
+    "category": "hazard-awareness",
+    "question": "According to the Highway Code (road works, level crossings and tramways), what should you do?",
+    "options": [
+      "Tramways. You MUST NOT enter a road, lane or other route reserved for trams. Take extra care where trams run along the road. The width taken up by trams is ofte",
+      "Level crossings. A level crossing is where a road crosses a railway or tramway line. Approach and cross it with care. Never drive onto a crossing until the road",
+      "Take special care on motorways and other high-speed dual carriageways where road works are taking place.",
+      "Railway telephones. If you are driving a large or slow-moving vehicle, a long, low vehicle with a risk of grounding, or herding animals, a train could arrive be"
+    ],
+    "correctIndex": 2,
+    "explanation": "Take special care on motorways and other high-speed dual carriageways where road works are taking place. Lanes may be closed and a lower speed limit may apply. (Highway Code rule 289.)",
+    "highwayCodeRules": [
+      289
+    ]
+  },
+  {
+    "id": "hazard-awareness-0691",
+    "category": "hazard-awareness",
+    "question": "Highway Code rule 290 is about “road works, level crossings and tramways”. Which statement is taken from this rule?",
+    "options": [
+      "Tramways. You MUST NOT enter a road, lane or other route reserved for trams. Take extra care where trams run along the road. The width taken up by trams is ofte",
+      "When the 'Road Works Ahead' sign is displayed, take extra care and look for additional signs providing more specific instructions.",
+      "Contraflow systems mean that you may be travelling in a narrower lane than normal and with no permanent barrier between you and oncoming traffic.",
+      "Controlled Crossings."
+    ],
+    "correctIndex": 2,
+    "explanation": "Contraflow systems mean that you may be travelling in a narrower lane than normal and with no permanent barrier between you and oncoming traffic. Reduce your speed and increase the distance to the vehicle in front. (Highway Code rule 290.)",
+    "highwayCodeRules": [
+      290
+    ]
+  },
+  {
+    "id": "hazard-awareness-0692",
+    "category": "hazard-awareness",
+    "question": "Highway Code rule 291 is about “road works, level crossings and tramways”. Which statement is taken from this rule?",
+    "options": [
+      "Tramways. You MUST NOT enter a road, lane or other route reserved for trams. Take extra care where trams run along the road. The width taken up by trams is ofte",
+      "Level crossings. A level crossing is where a road crosses a railway or tramway line. Approach and cross it with care. Never drive onto a crossing until the road",
+      "Tram stops. Where the tram stops at a platform, either in the middle or at the side of the road, you MUST follow the route shown by the road signs and markings.",
+      "Controlled Crossings."
+    ],
+    "correctIndex": 1,
+    "explanation": "Level crossings. A level crossing is where a road crosses a railway or tramway line. Approach and cross it with care. Never drive onto a crossing until the road is clear on the other side and do not get too close to the car in front. (Highway Code rule 291.)",
+    "highwayCodeRules": [
+      291
+    ]
+  },
+  {
+    "id": "hazard-awareness-0693",
+    "category": "hazard-awareness",
+    "question": "According to the Highway Code (road works, level crossings and tramways), what should you do?",
+    "options": [
+      "Tram stops. Where the tram stops at a platform, either in the middle or at the side of the road, you MUST follow the route shown by the road signs and markings.",
+      "Controlled Crossings.",
+      "Level crossings. A level crossing is where a road crosses a railway or tramway line. Approach and cross it with care. Never drive onto a crossing until the road",
+      "Tramways. You MUST NOT enter a road, lane or other route reserved for trams. Take extra care where trams run along the road. The width taken up by trams is ofte"
+    ],
+    "correctIndex": 2,
+    "explanation": "Level crossings. A level crossing is where a road crosses a railway or tramway line. Approach and cross it with care. Never drive onto a crossing until the road is clear on the other side and do not get too close to the car in front. (Highway Code rule 291.)",
+    "highwayCodeRules": [
+      291
+    ]
+  },
+  {
+    "id": "hazard-awareness-0694",
+    "category": "hazard-awareness",
+    "question": "Highway Code rule 293 is about “road works, level crossings and tramways”. Which statement is taken from this rule?",
+    "options": [
+      "Controlled Crossings.",
+      "Railway telephones. If you are driving a large or slow-moving vehicle, a long, low vehicle with a risk of grounding, or herding animals, a train could arrive be",
+      "If your vehicle breaks down on a level crossing, or if you stall, get everyone out of the vehicle and clear of the crossing immediately.",
+      "Level crossings. A level crossing is where a road crosses a railway or tramway line. Approach and cross it with care. Never drive onto a crossing until the road"
+    ],
+    "correctIndex": 0,
+    "explanation": "Controlled Crossings. Most crossings have traffic light signals with a steady amber light, twin flashing red stop lights and an audible alarm. You MUST always obey the flashing red stop lights. You MUST stop behind the white line across the road. Keep going if you have already crossed the white line when the amber light comes on. (Highway Code rule 293.)",
+    "highwayCodeRules": [
+      293
+    ]
+  },
+  {
+    "id": "hazard-awareness-0695",
+    "category": "hazard-awareness",
+    "question": "Highway Code rule 294 is about “road works, level crossings and tramways”. Which statement is taken from this rule?",
+    "options": [
+      "Controlled Crossings.",
+      "Railway telephones. If you are driving a large or slow-moving vehicle, a long, low vehicle with a risk of grounding, or herding animals, a train could arrive be",
+      "All road users, but particularly cyclists and motorcyclists, should take extra care when driving or riding close to or crossing the tracks, especially if the rails are wet.",
+      "Contraflow systems mean that you may be travelling in a narrower lane than normal and with no permanent barrier between you and oncoming traffic."
+    ],
+    "correctIndex": 1,
+    "explanation": "Railway telephones. If you are driving a large or slow-moving vehicle, a long, low vehicle with a risk of grounding, or herding animals, a train could arrive before you are clear of the crossing. You MUST obey any sign instructing you to use the railway telephone to obtain permission to cross. (Highway Code rule 294.)",
+    "highwayCodeRules": [
+      294
+    ]
+  },
+  {
+    "id": "hazard-awareness-0696",
+    "category": "hazard-awareness",
+    "question": "According to the Highway Code (road works, level crossings and tramways), what MUST you do?",
+    "options": [
+      "Railway telephones. If you are driving a large or slow-moving vehicle, a long, low vehicle with a risk of grounding, or herding animals, a train could arrive be",
+      "Contraflow systems mean that you may be travelling in a narrower lane than normal and with no permanent barrier between you and oncoming traffic.",
+      "Controlled Crossings.",
+      "All road users, but particularly cyclists and motorcyclists, should take extra care when driving or riding close to or crossing the tracks, especially if the rails are wet."
+    ],
+    "correctIndex": 0,
+    "explanation": "Railway telephones. If you are driving a large or slow-moving vehicle, a long, low vehicle with a risk of grounding, or herding animals, a train could arrive before you are clear of the crossing. You MUST obey any sign instructing you to use the railway telephone to obtain permission to cross. (Highway Code rule 294.)",
+    "highwayCodeRules": [
+      294
+    ]
+  },
+  {
+    "id": "hazard-awareness-0697",
+    "category": "hazard-awareness",
+    "question": "Highway Code rule 299 is about “road works, level crossings and tramways”. Which statement is taken from this rule?",
+    "options": [
+      "If your vehicle breaks down on a level crossing, or if you stall, get everyone out of the vehicle and clear of the crossing immediately.",
+      "Take special care on motorways and other high-speed dual carriageways where road works are taking place.",
+      "Railway telephones. If you are driving a large or slow-moving vehicle, a long, low vehicle with a risk of grounding, or herding animals, a train could arrive be",
+      "Contraflow systems mean that you may be travelling in a narrower lane than normal and with no permanent barrier between you and oncoming traffic."
+    ],
+    "correctIndex": 0,
+    "explanation": "If your vehicle breaks down on a level crossing, or if you stall, get everyone out of the vehicle and clear of the crossing immediately. Use a railway telephone if available to tell the signal operator. Move the vehicle clear of the crossing only if there is time before a train arrives. If the alarm sounds, or the amber light comes on, leave the vehicle and get clear of the crossing immediately. (Highway Code rule 299.)",
+    "highwayCodeRules": [
+      299
+    ]
+  },
+  {
+    "id": "hazard-awareness-0698",
+    "category": "hazard-awareness",
+    "question": "Highway Code rule 300 is about “road works, level crossings and tramways”. Which statement is taken from this rule?",
+    "options": [
+      "All road users, but particularly cyclists and motorcyclists, should take extra care when driving or riding close to or crossing the tracks, especially if the rails are wet.",
+      "Tramways. You MUST NOT enter a road, lane or other route reserved for trams. Take extra care where trams run along the road. The width taken up by trams is ofte",
+      "Railway telephones. If you are driving a large or slow-moving vehicle, a long, low vehicle with a risk of grounding, or herding animals, a train could arrive be",
+      "Contraflow systems mean that you may be travelling in a narrower lane than normal and with no permanent barrier between you and oncoming traffic."
+    ],
+    "correctIndex": 1,
+    "explanation": "Tramways. You MUST NOT enter a road, lane or other route reserved for trams. Take extra care where trams run along the road. The width taken up by trams is often shown by tram lanes marked by white lines, yellow dots or by a different type of road surface. (Highway Code rule 300.)",
+    "highwayCodeRules": [
+      300
+    ]
+  },
+  {
+    "id": "hazard-awareness-0699",
+    "category": "hazard-awareness",
+    "question": "Highway Code rule 303 is about “road works, level crossings and tramways”. Which statement is taken from this rule?",
+    "options": [
+      "Tram stops. Where the tram stops at a platform, either in the middle or at the side of the road, you MUST follow the route shown by the road signs and markings.",
+      "Tramways. You MUST NOT enter a road, lane or other route reserved for trams. Take extra care where trams run along the road. The width taken up by trams is ofte",
+      "When the 'Road Works Ahead' sign is displayed, take extra care and look for additional signs providing more specific instructions.",
+      "Contraflow systems mean that you may be travelling in a narrower lane than normal and with no permanent barrier between you and oncoming traffic."
+    ],
+    "correctIndex": 0,
+    "explanation": "Tram stops. Where the tram stops at a platform, either in the middle or at the side of the road, you MUST follow the route shown by the road signs and markings. At stops without platforms you MUST NOT drive between a tram and the left-hand kerb when a tram has stopped to pick up passengers. (Highway Code rule 303.)",
+    "highwayCodeRules": [
+      303
+    ]
+  },
+  {
+    "id": "hazard-awareness-0700",
+    "category": "hazard-awareness",
+    "question": "According to the Highway Code (road works, level crossings and tramways), what MUST you do?",
+    "options": [
+      "Contraflow systems mean that you may be travelling in a narrower lane than normal and with no permanent barrier between you and oncoming traffic.",
+      "When the 'Road Works Ahead' sign is displayed, take extra care and look for additional signs providing more specific instructions.",
+      "Tramways. You MUST NOT enter a road, lane or other route reserved for trams. Take extra care where trams run along the road. The width taken up by trams is ofte",
+      "Tram stops. Where the tram stops at a platform, either in the middle or at the side of the road, you MUST follow the route shown by the road signs and markings."
+    ],
+    "correctIndex": 3,
+    "explanation": "Tram stops. Where the tram stops at a platform, either in the middle or at the side of the road, you MUST follow the route shown by the road signs and markings. At stops without platforms you MUST NOT drive between a tram and the left-hand kerb when a tram has stopped to pick up passengers. (Highway Code rule 303.)",
+    "highwayCodeRules": [
+      303
+    ]
+  },
+  {
+    "id": "hazard-awareness-0701",
+    "category": "hazard-awareness",
+    "question": "Highway Code rule 306 is about “road works, level crossings and tramways”. Which statement is taken from this rule?",
+    "options": [
+      "All road users, but particularly cyclists and motorcyclists, should take extra care when driving or riding close to or crossing the tracks, especially if the rails are wet.",
+      "Take special care on motorways and other high-speed dual carriageways where road works are taking place.",
+      "If your vehicle breaks down on a level crossing, or if you stall, get everyone out of the vehicle and clear of the crossing immediately.",
+      "Contraflow systems mean that you may be travelling in a narrower lane than normal and with no permanent barrier between you and oncoming traffic."
+    ],
+    "correctIndex": 0,
+    "explanation": "All road users, but particularly cyclists and motorcyclists, should take extra care when driving or riding close to or crossing the tracks, especially if the rails are wet. (Highway Code rule 306.)",
+    "highwayCodeRules": [
+      306
+    ]
+  },
+  {
+    "id": "hazard-awareness-0702",
+    "category": "hazard-awareness",
+    "question": "According to the Highway Code (road works, level crossings and tramways), what should you do?",
+    "options": [
+      "All road users, but particularly cyclists and motorcyclists, should take extra care when driving or riding close to or crossing the tracks, especially if the rails are wet.",
+      "If your vehicle breaks down on a level crossing, or if you stall, get everyone out of the vehicle and clear of the crossing immediately.",
+      "Take special care on motorways and other high-speed dual carriageways where road works are taking place.",
+      "Contraflow systems mean that you may be travelling in a narrower lane than normal and with no permanent barrier between you and oncoming traffic."
+    ],
+    "correctIndex": 0,
+    "explanation": "All road users, but particularly cyclists and motorcyclists, should take extra care when driving or riding close to or crossing the tracks, especially if the rails are wet. (Highway Code rule 306.)",
+    "highwayCodeRules": [
+      306
+    ]
+  }
+]

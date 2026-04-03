@@ -4,8 +4,8 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { useNavigation, useRoute, RouteProp } from '@react-navigation/native';
 import { Ionicons } from '@expo/vector-icons';
 import { RootStackParamList } from '../types';
-import { useSettingsStore } from '../store/settingsStore';
 import { useProgressStore } from '../store/progressStore';
+import { colors, useTheme } from '../theme';
 import QuestionCard from '../components/QuestionCard';
 import AnswerOption from '../components/AnswerOption';
 
@@ -17,15 +17,10 @@ export default function ReviewScreen() {
   const nav = useNavigation();
   const { params } = useRoute<Route>();
   const { session } = params;
-  const dark = useSettingsStore((s) => s.darkMode);
+  const t = useTheme();
   const { toggleBookmark, progress } = useProgressStore();
   const [filter, setFilter] = useState<Filter>('all');
   const [index, setIndex] = useState(0);
-
-  const bg = dark ? '#0F172A' : '#F8FAFC';
-  const card = dark ? '#1E293B' : '#FFFFFF';
-  const text = dark ? '#F1F5F9' : '#1E293B';
-  const sub = dark ? '#94A3B8' : '#64748B';
 
   const filtered = session.questions
     .map((q, i) => ({ q, i }))
@@ -46,12 +41,12 @@ export default function ReviewScreen() {
   };
 
   return (
-    <SafeAreaView style={[styles.safe, { backgroundColor: bg }]}>
+    <SafeAreaView style={[styles.safe, { backgroundColor: t.bg }]}>
       <View style={styles.header}>
         <TouchableOpacity onPress={() => nav.goBack()}>
-          <Ionicons name="arrow-back" size={24} color={text} />
+          <Ionicons name="arrow-back" size={24} color={t.text} />
         </TouchableOpacity>
-        <Text style={[styles.title, { color: text }]}>Review Answers</Text>
+        <Text style={[styles.title, { color: t.text }]}>Review Answers</Text>
         <View style={{ width: 24 }} />
       </View>
 
@@ -60,7 +55,7 @@ export default function ReviewScreen() {
         {(['all', 'wrong', 'bookmarked'] as Filter[]).map((f) => (
           <TouchableOpacity
             key={f}
-            style={[styles.tab, filter === f && styles.tabActive]}
+            style={[styles.tab, { backgroundColor: t.border }, filter === f && styles.tabActive]}
             onPress={() => { setFilter(f); setIndex(0); }}
           >
             <Text style={[styles.tabText, filter === f && styles.tabTextActive]}>
@@ -72,16 +67,16 @@ export default function ReviewScreen() {
 
       {filtered.length === 0 ? (
         <View style={styles.empty}>
-          <Text style={{ color: sub }}>No questions in this filter.</Text>
+          <Text style={{ color: t.sub }}>No questions in this filter.</Text>
         </View>
       ) : (
         <>
-          <Text style={[styles.counter, { color: sub }]}>
+          <Text style={[styles.counter, { color: t.sub }]}>
             {index + 1} / {filtered.length}
           </Text>
           <ScrollView contentContainerStyle={styles.scroll}>
             <View style={styles.bookmarkRow}>
-              <QuestionCard question={current.q} dark={dark} />
+              <QuestionCard question={current.q} />
               <TouchableOpacity
                 style={styles.bookmark}
                 onPress={() => toggleBookmark(current.q.id)}
@@ -89,7 +84,7 @@ export default function ReviewScreen() {
                 <Ionicons
                   name={progress.bookmarkedIds.includes(current.q.id) ? 'bookmark' : 'bookmark-outline'}
                   size={22}
-                  color="#1A56A0"
+                  color={colors.primary}
                 />
               </TouchableOpacity>
             </View>
@@ -105,9 +100,9 @@ export default function ReviewScreen() {
               />
             ))}
 
-            <View style={[styles.explanation, { backgroundColor: card }]}>
-              <Text style={[styles.explTitle, { color: text }]}>Explanation</Text>
-              <Text style={[styles.explText, { color: sub }]}>{current.q.explanation}</Text>
+            <View style={[styles.explanation, { backgroundColor: t.card }]}>
+              <Text style={[styles.explTitle, { color: t.text }]}>Explanation</Text>
+              <Text style={[styles.explText, { color: t.sub }]}>{current.q.explanation}</Text>
             </View>
           </ScrollView>
 
@@ -117,14 +112,14 @@ export default function ReviewScreen() {
               onPress={() => setIndex((i) => Math.max(0, i - 1))}
               disabled={index === 0}
             >
-              <Ionicons name="arrow-back" size={20} color="#1A56A0" />
+              <Ionicons name="arrow-back" size={20} color={colors.primary} />
             </TouchableOpacity>
             <TouchableOpacity
               style={[styles.navBtn, { opacity: index === filtered.length - 1 ? 0.3 : 1 }]}
               onPress={() => setIndex((i) => Math.min(filtered.length - 1, i + 1))}
               disabled={index === filtered.length - 1}
             >
-              <Ionicons name="arrow-forward" size={20} color="#1A56A0" />
+              <Ionicons name="arrow-forward" size={20} color={colors.primary} />
             </TouchableOpacity>
           </View>
         </>
@@ -138,8 +133,8 @@ const styles = StyleSheet.create({
   header: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', padding: 16 },
   title: { fontSize: 18, fontWeight: '700' },
   tabs: { flexDirection: 'row', paddingHorizontal: 16, gap: 8, marginBottom: 8 },
-  tab: { flex: 1, paddingVertical: 8, borderRadius: 8, backgroundColor: '#E2E8F0', alignItems: 'center' },
-  tabActive: { backgroundColor: '#1A56A0' },
+  tab: { flex: 1, paddingVertical: 8, borderRadius: 8, alignItems: 'center' },
+  tabActive: { backgroundColor: colors.primary },
   tabText: { fontSize: 13, fontWeight: '600', color: '#64748B' },
   tabTextActive: { color: '#FFFFFF' },
   counter: { textAlign: 'center', fontSize: 13, marginBottom: 4 },
@@ -151,5 +146,5 @@ const styles = StyleSheet.create({
   explText: { fontSize: 14, lineHeight: 20 },
   empty: { flex: 1, alignItems: 'center', justifyContent: 'center' },
   navRow: { position: 'absolute', bottom: 32, left: 0, right: 0, flexDirection: 'row', justifyContent: 'space-between', paddingHorizontal: 32 },
-  navBtn: { backgroundColor: '#EFF6FF', padding: 14, borderRadius: 30 },
+  navBtn: { backgroundColor: colors.primaryTint, padding: 14, borderRadius: 30 },
 });
