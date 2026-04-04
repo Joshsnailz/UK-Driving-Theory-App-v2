@@ -49,3 +49,6 @@ google-services.json
 # generated native folders
 /ios
 /android
+!/ios/
+/ios/*
+!/ios/Podfile
