@@ -63,31 +63,37 @@ export default function SignLibraryScreen() {
     <SafeAreaView style={[styles.safe, { backgroundColor: bg }]} edges={['top']}>
       <ScreenHeader title="Traffic Signs" />
 
-      <ScrollView
-        horizontal
-        showsHorizontalScrollIndicator={false}
-        contentContainerStyle={styles.chips}
-      >
-        {(['all', ...signs.groups] as const).map((g) => {
-          const active = filter === g;
-          return (
-            <TouchableOpacity
-              key={g}
-              onPress={() => setFilter(g)}
-              style={[
-                styles.chip,
-                { backgroundColor: active ? primary : card },
-              ]}
-              accessibilityRole="button"
-              accessibilityState={{ selected: active }}
-            >
-              <Text style={[styles.chipText, { color: active ? '#FFFFFF' : text }]}>
-                {g === 'all' ? 'All' : SIGN_GROUP_LABEL[g]}
-              </Text>
-            </TouchableOpacity>
-          );
-        })}
-      </ScrollView>
+      <View style={styles.chipRail}>
+        <ScrollView
+          horizontal
+          showsHorizontalScrollIndicator={false}
+          style={styles.chipScroll}
+          contentContainerStyle={styles.chips}
+        >
+          {(['all', ...signs.groups] as const).map((g) => {
+            const active = filter === g;
+            return (
+              <TouchableOpacity
+                key={g}
+                onPress={() => setFilter(g)}
+                style={[
+                  styles.chip,
+                  { backgroundColor: active ? primary : card },
+                ]}
+                accessibilityRole="button"
+                accessibilityState={{ selected: active }}
+              >
+                <Text
+                  style={[styles.chipText, { color: active ? '#FFFFFF' : text }]}
+                  numberOfLines={1}
+                >
+                  {g === 'all' ? 'All' : SIGN_GROUP_LABEL[g]}
+                </Text>
+              </TouchableOpacity>
+            );
+          })}
+        </ScrollView>
+      </View>
 
       <SectionList
         sections={sections}
@@ -107,9 +113,30 @@ export default function SignLibraryScreen() {
 
 const styles = StyleSheet.create({
   safe: { flex: 1 },
-  chips: { paddingHorizontal: 16, paddingBottom: 8, gap: 8, flexGrow: 0 },
-  chip: { paddingHorizontal: 14, paddingVertical: 8, borderRadius: 16 },
-  chipText: { fontSize: 13, fontWeight: '600' },
+  chipRail: {
+    height: 52,
+    justifyContent: 'center',
+  },
+  chipScroll: {
+    flexGrow: 0,
+  },
+  chips: {
+    height: 52,
+    paddingHorizontal: 16,
+    paddingBottom: 8,
+    gap: 8,
+    flexGrow: 0,
+    alignItems: 'center',
+  },
+  chip: {
+    height: 36,
+    paddingHorizontal: 14,
+    borderRadius: 18,
+    justifyContent: 'center',
+    alignItems: 'center',
+    flexShrink: 0,
+  },
+  chipText: { fontSize: 12, fontWeight: '600', lineHeight: 14 },
   list: { padding: 16, paddingTop: 8, gap: 10 },
   sectionHeader: {
     fontSize: 12,
