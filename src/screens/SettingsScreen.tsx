@@ -12,7 +12,6 @@ import { useProgressStore } from '../store/progressStore';
 import { useUserStore } from '../store/userStore';
 import { useEntitlementStore } from '../store/entitlementStore';
 import { restorePurchases } from '../services/purchases';
-import { Env } from '../config/env';
 import { colors, type Theme, useTheme } from '../theme';
 
 type Nav = StackNavigationProp<RootStackParamList>;
@@ -166,12 +165,12 @@ export default function SettingsScreen() {
         <NavRow
           icon="shield-checkmark-outline"
           label="Privacy Policy"
-          onPress={() => Linking.openURL(Env.legal.privacyUrl)}
+          onPress={() => nav.navigate('Legal', { doc: 'privacy' })}
         />
         <NavRow
           icon="receipt-outline"
           label="Terms of Use"
-          onPress={() => Linking.openURL(Env.legal.termsUrl)}
+          onPress={() => nav.navigate('Legal', { doc: 'terms' })}
         />
         <Row label="Version" theme={t}>
           <Text style={{ color: t.sub }}>1.0.0</Text>

@@ -1,5 +1,5 @@
 import React, { useCallback } from 'react';
-import { View, Text, StyleSheet, Linking } from 'react-native';
+import { View, Text, StyleSheet } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import RevenueCatUI, { PAYWALL_RESULT } from 'react-native-purchases-ui';
 import { useNavigation } from '@react-navigation/native';
@@ -7,7 +7,6 @@ import type { StackNavigationProp } from '@react-navigation/stack';
 import type { RootStackParamList } from '../types';
 import { usePalette } from '../hooks/usePalette';
 import { useEntitlementStore } from '../store/entitlementStore';
-import { Env } from '../config/env';
 import ScreenHeader from '../components/ScreenHeader';
 
 type Nav = StackNavigationProp<RootStackParamList>;
@@ -46,11 +45,11 @@ export default function PaywallScreen() {
           account. Manage or cancel any time in your device settings.
         </Text>
         <Text style={[styles.legal, { color: sub }]}>
-          <Text style={styles.link} onPress={() => Linking.openURL(Env.legal.termsUrl)}>
+          <Text style={styles.link} onPress={() => nav.navigate('Legal', { doc: 'terms' })}>
             Terms of Use
           </Text>
           {'  ·  '}
-          <Text style={styles.link} onPress={() => Linking.openURL(Env.legal.privacyUrl)}>
+          <Text style={styles.link} onPress={() => nav.navigate('Legal', { doc: 'privacy' })}>
             Privacy Policy
           </Text>
         </Text>
