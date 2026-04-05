@@ -1,20 +1,20 @@
-import type { Ionicons } from '@expo/vector-icons';
+import type { Ionicons } from "@expo/vector-icons";
 
 export type IoniconName = keyof typeof Ionicons.glyphMap;
 
 export type Category =
-  | 'alertness'
-  | 'attitude'
-  | 'safety-margins'
-  | 'hazard-awareness'
-  | 'vulnerable-road-users'
-  | 'vehicle-safety'
-  | 'motorway-rules'
-  | 'rules-of-the-road'
-  | 'road-traffic-signs'
-  | 'documents'
-  | 'accidents'
-  | 'vehicle-loading';
+  | "alertness"
+  | "attitude"
+  | "safety-margins"
+  | "hazard-awareness"
+  | "vulnerable-road-users"
+  | "vehicle-safety"
+  | "motorway-rules"
+  | "rules-of-the-road"
+  | "road-traffic-signs"
+  | "documents"
+  | "accidents"
+  | "vehicle-loading";
 
 /** A multiple-choice theory question. */
 export interface Question {
@@ -37,13 +37,13 @@ export interface Question {
 export interface HazardQuestion {
   id: string;
   /** Hazard items always belong to the hazard-awareness topic for stats. */
-  category: 'hazard-awareness';
+  category: "hazard-awareness";
   imageUri: string;
   question: string;
   options: readonly string[];
   correctIndex: number;
   explanation: string;
-  hazardType: 'developing' | 'junction' | 'pedestrian' | 'weather';
+  hazardType: "developing" | "junction" | "pedestrian" | "weather";
 }
 
 export type AnyQuestion = Question | HazardQuestion;
@@ -52,14 +52,17 @@ export interface QuizSession {
   id: string;
   startedAt: number;
   completedAt?: number;
-  category: Category | 'mixed' | 'mock' | 'hazard';
+  category: Category | "mixed" | "mock" | "hazard";
   questions: AnyQuestion[];
   answers: (number | null)[];
   score: number;
   totalQuestions: number;
 }
 
-export type CategoryStats = Record<Category, { correct: number; total: number }>;
+export type CategoryStats = Record<
+  Category,
+  { correct: number; total: number }
+>;
 
 export interface MockTestResult {
   id: string;
@@ -106,22 +109,36 @@ export interface HighwayCodeRule {
 }
 
 export type SignGroup =
-  | 'warning'
-  | 'regulatory'
-  | 'speed'
-  | 'information'
-  | 'direction'
-  | 'roadworks'
-  | 'markings';
+  | "warning"
+  | "regulatory"
+  | "speed"
+  | "low_bridge"
+  | "level_crossing"
+  | "tram"
+  | "bus_cycle"
+  | "pedestrian_zone"
+  | "parking"
+  | "road_markings"
+  | "traffic_calming"
+  | "motorway"
+  | "direction"
+  | "cyclist_pedestrian"
+  | "information"
+  | "traffic_signals"
+  | "tidal_flow"
+  | "crossings"
+  | "roadworks"
+  | "miscellaneous";
 
 export interface TrafficSign {
-  id: string;
+  id: string; // e.g. "tsrgd-601-1"
+  tsrgd: string; // e.g. "601.1"  (TSRGD reference number)
   group: SignGroup;
   name: string;
   meaning: string;
-  /** Image reference into the bundled sign image map. */
-  image: string;
-  highwayCodeRules?: readonly number[];
+  image: string; // key into SIGN_IMAGES
+  folder: string; // e.g. "regulatory_signs"
+  highwayCodeRules?: number[];
 }
 
 /* ──────────────────────────────────────────────────────────────────────────
@@ -130,10 +147,14 @@ export interface TrafficSign {
 
 export type RootStackParamList = {
   Main: undefined;
-  Quiz: { category: Category | 'mixed'; quizLength: number };
+  Quiz: { category: Category | "mixed"; quizLength: number };
   MockTest: undefined;
   Hazard: undefined;
-  Result: { session: QuizSession; isMockTest?: boolean; mockResult?: MockTestResult };
+  Result: {
+    session: QuizSession;
+    isMockTest?: boolean;
+    mockResult?: MockTestResult;
+  };
   Review: { session: QuizSession };
   TopicList: undefined;
   HighwayCodeSection: { sectionId: string; rule?: number };
@@ -141,8 +162,8 @@ export type RootStackParamList = {
   SignIn: undefined;
   PhoneAuth: undefined;
   Account: undefined;
-  Paywall: { feature?: 'mock' | 'hazard' | 'adfree' } | undefined;
-  Legal: undefined;
+  Paywall: { feature?: "mock" | "hazard" | "adfree" } | undefined;
+  Legal: { doc?: "overview" | "privacy" | "terms" } | undefined;
 };
 
 export type BottomTabParamList = {

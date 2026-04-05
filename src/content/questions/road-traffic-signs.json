@@ -5,22 +5,20 @@
     "question": "What does this sign mean?",
     "options": [
       "Lane reserved for use by buses and pedal cycles only.",
-      "Stop and give way — you MUST stop behind the line.",
+      "Stop and give way \u2014 you MUST stop behind the line.",
       "Minimum speed limit of 30 mph applies.",
       "No vehicles exceeding the width shown on the sign."
     ],
     "correctIndex": 1,
-    "explanation": "Stop: Stop and give way — you MUST stop behind the line. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-stop",
+    "explanation": "Stop: Stop and give way \u2014 you MUST stop behind the line. Source: Know Your Traffic Signs (OGL v3.0).",
     "highwayCodeRules": [
       171
-    ],
-    "signId": "sign-stop"
+    ]
   },
   {
     "id": "road-traffic-signs-0002",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Stop and give way — you MUST stop behind the line.”?",
+    "question": "Which sign means: \u201cStop and give way \u2014 you MUST stop behind the line.\u201d?",
     "options": [
       "Stop",
       "No cycling",
@@ -28,11 +26,10 @@
       "Turn left ahead"
     ],
     "correctIndex": 0,
-    "explanation": "The “Stop” sign means: Stop and give way — you MUST stop behind the line. Source: Know Your Traffic Signs (OGL v3.0).",
+    "explanation": "The \u201cStop\u201d sign means: Stop and give way \u2014 you MUST stop behind the line. Source: Know Your Traffic Signs (OGL v3.0).",
     "highwayCodeRules": [
       171
-    ],
-    "signId": "sign-stop"
+    ]
   },
   {
     "id": "road-traffic-signs-0003",
@@ -46,16 +43,14 @@
     ],
     "correctIndex": 2,
     "explanation": "Give way: Give way to traffic on the major road. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-give-way",
     "highwayCodeRules": [
       172
-    ],
-    "signId": "sign-give-way"
+    ]
   },
   {
     "id": "road-traffic-signs-0004",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Give way to traffic on the major road.”?",
+    "question": "Which sign means: \u201cGive way to traffic on the major road.\u201d?",
     "options": [
       "Give way",
       "No cycling",
@@ -63,11 +58,10 @@
       "Mini-roundabout"
     ],
     "correctIndex": 0,
-    "explanation": "The “Give way” sign means: Give way to traffic on the major road. Source: Know Your Traffic Signs (OGL v3.0).",
+    "explanation": "The \u201cGive way\u201d sign means: Give way to traffic on the major road. Source: Know Your Traffic Signs (OGL v3.0).",
     "highwayCodeRules": [
       172
-    ],
-    "signId": "sign-give-way"
+    ]
   },
   {
     "id": "road-traffic-signs-0005",
@@ -80,14 +74,12 @@
       "No vehicles exceeding the width shown on the sign."
     ],
     "correctIndex": 1,
-    "explanation": "No entry: No entry for vehicular traffic. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-no-entry",
-    "signId": "sign-no-entry"
+    "explanation": "No entry: No entry for vehicular traffic. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0006",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “No entry for vehicular traffic.”?",
+    "question": "Which sign means: \u201cNo entry for vehicular traffic.\u201d?",
     "options": [
       "No entry",
       "No vehicles over width shown",
@@ -95,8 +87,7 @@
       "Stop"
     ],
     "correctIndex": 0,
-    "explanation": "The “No entry” sign means: No entry for vehicular traffic. Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-no-entry"
+    "explanation": "The \u201cNo entry\u201d sign means: No entry for vehicular traffic. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0007",
@@ -109,14 +100,12 @@
       "No entry for vehicular traffic."
     ],
     "correctIndex": 1,
-    "explanation": "No motor vehicles: No motor vehicles permitted. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-no-motor-vehicles",
-    "signId": "sign-no-motor-vehicles"
+    "explanation": "No motor vehicles: No motor vehicles permitted. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0008",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “No motor vehicles permitted.”?",
+    "question": "Which sign means: \u201cNo motor vehicles permitted.\u201d?",
     "options": [
       "Ahead only",
       "No vehicles over width shown",
@@ -124,8 +113,7 @@
       "No motor vehicles"
     ],
     "correctIndex": 3,
-    "explanation": "The “No motor vehicles” sign means: No motor vehicles permitted. Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-no-motor-vehicles"
+    "explanation": "The \u201cNo motor vehicles\u201d sign means: No motor vehicles permitted. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0009",
@@ -139,16 +127,14 @@
     ],
     "correctIndex": 3,
     "explanation": "No overtaking: No overtaking until the restriction ends. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-no-overtaking",
     "highwayCodeRules": [
       165
-    ],
-    "signId": "sign-no-overtaking"
+    ]
   },
   {
     "id": "road-traffic-signs-0010",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “No overtaking until the restriction ends.”?",
+    "question": "Which sign means: \u201cNo overtaking until the restriction ends.\u201d?",
     "options": [
       "No left turn",
       "Minimum speed 30",
@@ -156,11 +142,10 @@
       "Turn left ahead"
     ],
     "correctIndex": 2,
-    "explanation": "The “No overtaking” sign means: No overtaking until the restriction ends. Source: Know Your Traffic Signs (OGL v3.0).",
+    "explanation": "The \u201cNo overtaking\u201d sign means: No overtaking until the restriction ends. Source: Know Your Traffic Signs (OGL v3.0).",
     "highwayCodeRules": [
       165
-    ],
-    "signId": "sign-no-overtaking"
+    ]
   },
   {
     "id": "road-traffic-signs-0011",
@@ -173,14 +158,12 @@
       "U-turns prohibited."
     ],
     "correctIndex": 3,
-    "explanation": "No U-turns: U-turns prohibited. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-no-u-turn",
-    "signId": "sign-no-u-turn"
+    "explanation": "No U-turns: U-turns prohibited. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0012",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “U-turns prohibited.”?",
+    "question": "Which sign means: \u201cU-turns prohibited.\u201d?",
     "options": [
       "No U-turns",
       "No cycling",
@@ -188,8 +171,7 @@
       "Turn left ahead"
     ],
     "correctIndex": 0,
-    "explanation": "The “No U-turns” sign means: U-turns prohibited. Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-no-u-turn"
+    "explanation": "The \u201cNo U-turns\u201d sign means: U-turns prohibited. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0013",
@@ -199,17 +181,15 @@
       "Waiting restrictions apply (see plate for times).",
       "Right turn prohibited.",
       "U-turns prohibited.",
-      "Stop and give way — you MUST stop behind the line."
+      "Stop and give way \u2014 you MUST stop behind the line."
     ],
     "correctIndex": 1,
-    "explanation": "No right turn: Right turn prohibited. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-no-right-turn",
-    "signId": "sign-no-right-turn"
+    "explanation": "No right turn: Right turn prohibited. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0014",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Right turn prohibited.”?",
+    "question": "Which sign means: \u201cRight turn prohibited.\u201d?",
     "options": [
       "Give priority to oncoming vehicles",
       "No waiting",
@@ -217,8 +197,7 @@
       "No vehicles"
     ],
     "correctIndex": 2,
-    "explanation": "The “No right turn” sign means: Right turn prohibited. Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-no-right-turn"
+    "explanation": "The \u201cNo right turn\u201d sign means: Right turn prohibited. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0015",
@@ -227,18 +206,16 @@
     "options": [
       "Left turn prohibited.",
       "Mandatory cycle lane in the same direction as traffic.",
-      "Stop and give way — you MUST stop behind the line.",
+      "Stop and give way \u2014 you MUST stop behind the line.",
       "Minimum speed limit of 30 mph applies."
     ],
     "correctIndex": 0,
-    "explanation": "No left turn: Left turn prohibited. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-no-left-turn",
-    "signId": "sign-no-left-turn"
+    "explanation": "No left turn: Left turn prohibited. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0016",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Left turn prohibited.”?",
+    "question": "Which sign means: \u201cLeft turn prohibited.\u201d?",
     "options": [
       "Contraflow bus lane",
       "No goods vehicles over weight",
@@ -246,8 +223,7 @@
       "No motor vehicles"
     ],
     "correctIndex": 2,
-    "explanation": "The “No left turn” sign means: Left turn prohibited. Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-no-left-turn"
+    "explanation": "The \u201cNo left turn\u201d sign means: Left turn prohibited. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0017",
@@ -257,26 +233,23 @@
       "No vehicles except bicycles being pushed.",
       "Turn left ahead (mandatory direction).",
       "Minimum speed limit of 30 mph applies.",
-      "Mini-roundabout — give way to traffic from the immediate right."
+      "Mini-roundabout \u2014 give way to traffic from the immediate right."
     ],
     "correctIndex": 0,
-    "explanation": "No vehicles: No vehicles except bicycles being pushed. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-no-vehicles",
-    "signId": "sign-no-vehicles"
+    "explanation": "No vehicles: No vehicles except bicycles being pushed. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0018",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “No vehicles except bicycles being pushed.”?",
+    "question": "Which sign means: \u201cNo vehicles except bicycles being pushed.\u201d?",
     "options": [
       "End of minimum speed",
       "No goods vehicles over weight",
-      "Clearway — no stopping",
+      "Clearway \u2014 no stopping",
       "No vehicles"
     ],
     "correctIndex": 3,
-    "explanation": "The “No vehicles” sign means: No vehicles except bicycles being pushed. Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-no-vehicles"
+    "explanation": "The \u201cNo vehicles\u201d sign means: No vehicles except bicycles being pushed. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0019",
@@ -289,14 +262,12 @@
       "End of the minimum speed requirement."
     ],
     "correctIndex": 2,
-    "explanation": "No cycling: Riding of pedal cycles prohibited. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-no-cycling",
-    "signId": "sign-no-cycling"
+    "explanation": "No cycling: Riding of pedal cycles prohibited. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0020",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Riding of pedal cycles prohibited.”?",
+    "question": "Which sign means: \u201cRiding of pedal cycles prohibited.\u201d?",
     "options": [
       "No cycling",
       "School crossing patrol",
@@ -304,8 +275,7 @@
       "No vehicles over width shown"
     ],
     "correctIndex": 0,
-    "explanation": "The “No cycling” sign means: Riding of pedal cycles prohibited. Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-no-cycling"
+    "explanation": "The \u201cNo cycling\u201d sign means: Riding of pedal cycles prohibited. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0021",
@@ -318,29 +288,26 @@
       "No vehicles except bicycles being pushed."
     ],
     "correctIndex": 0,
-    "explanation": "Clearway — no stopping: No stopping at any time on the main carriageway (clearway). Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-no-stopping",
+    "explanation": "Clearway \u2014 no stopping: No stopping at any time on the main carriageway (clearway). Source: Know Your Traffic Signs (OGL v3.0).",
     "highwayCodeRules": [
       240
-    ],
-    "signId": "sign-no-stopping"
+    ]
   },
   {
     "id": "road-traffic-signs-0022",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “No stopping at any time on the main carriageway (clearway).”?",
+    "question": "Which sign means: \u201cNo stopping at any time on the main carriageway (clearway).\u201d?",
     "options": [
       "No vehicles over height shown",
       "School crossing patrol",
       "Route for buses and cycles only",
-      "Clearway — no stopping"
+      "Clearway \u2014 no stopping"
     ],
     "correctIndex": 3,
-    "explanation": "The “Clearway — no stopping” sign means: No stopping at any time on the main carriageway (clearway). Source: Know Your Traffic Signs (OGL v3.0).",
+    "explanation": "The \u201cClearway \u2014 no stopping\u201d sign means: No stopping at any time on the main carriageway (clearway). Source: Know Your Traffic Signs (OGL v3.0).",
     "highwayCodeRules": [
       240
-    ],
-    "signId": "sign-no-stopping"
+    ]
   },
   {
     "id": "road-traffic-signs-0023",
@@ -354,16 +321,14 @@
     ],
     "correctIndex": 0,
     "explanation": "No waiting: Waiting restrictions apply (see plate for times). Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-no-waiting",
     "highwayCodeRules": [
       238
-    ],
-    "signId": "sign-no-waiting"
+    ]
   },
   {
     "id": "road-traffic-signs-0024",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Waiting restrictions apply (see plate for times).”?",
+    "question": "Which sign means: \u201cWaiting restrictions apply (see plate for times).\u201d?",
     "options": [
       "Keep left",
       "No waiting",
@@ -371,11 +336,10 @@
       "Contraflow bus lane"
     ],
     "correctIndex": 1,
-    "explanation": "The “No waiting” sign means: Waiting restrictions apply (see plate for times). Source: Know Your Traffic Signs (OGL v3.0).",
+    "explanation": "The \u201cNo waiting\u201d sign means: Waiting restrictions apply (see plate for times). Source: Know Your Traffic Signs (OGL v3.0).",
     "highwayCodeRules": [
       238
-    ],
-    "signId": "sign-no-waiting"
+    ]
   },
   {
     "id": "road-traffic-signs-0025",
@@ -388,14 +352,12 @@
       "No vehicles exceeding the height shown on the sign."
     ],
     "correctIndex": 2,
-    "explanation": "Give priority to oncoming vehicles: Give way to vehicles from the opposite direction. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-priority-oncoming",
-    "signId": "sign-priority-oncoming"
+    "explanation": "Give priority to oncoming vehicles: Give way to vehicles from the opposite direction. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0026",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Give way to vehicles from the opposite direction.”?",
+    "question": "Which sign means: \u201cGive way to vehicles from the opposite direction.\u201d?",
     "options": [
       "No overtaking",
       "Route for buses and cycles only",
@@ -403,8 +365,7 @@
       "Stop"
     ],
     "correctIndex": 2,
-    "explanation": "The “Give priority to oncoming vehicles” sign means: Give way to vehicles from the opposite direction. Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-priority-oncoming"
+    "explanation": "The \u201cGive priority to oncoming vehicles\u201d sign means: Give way to vehicles from the opposite direction. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0027",
@@ -417,14 +378,12 @@
       "No motor vehicles permitted."
     ],
     "correctIndex": 1,
-    "explanation": "Turn left ahead: Turn left ahead (mandatory direction). Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-turn-left",
-    "signId": "sign-turn-left"
+    "explanation": "Turn left ahead: Turn left ahead (mandatory direction). Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0028",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Turn left ahead (mandatory direction).”?",
+    "question": "Which sign means: \u201cTurn left ahead (mandatory direction).\u201d?",
     "options": [
       "Minimum speed 30",
       "Turn left ahead",
@@ -432,8 +391,7 @@
       "No vehicles"
     ],
     "correctIndex": 1,
-    "explanation": "The “Turn left ahead” sign means: Turn left ahead (mandatory direction). Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-turn-left"
+    "explanation": "The \u201cTurn left ahead\u201d sign means: Turn left ahead (mandatory direction). Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0029",
@@ -442,18 +400,16 @@
     "options": [
       "Ahead only (mandatory direction).",
       "Mandatory cycle lane in the same direction as traffic.",
-      "Mini-roundabout — give way to traffic from the immediate right.",
+      "Mini-roundabout \u2014 give way to traffic from the immediate right.",
       "Riding of pedal cycles prohibited."
     ],
     "correctIndex": 0,
-    "explanation": "Ahead only: Ahead only (mandatory direction). Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-ahead-only",
-    "signId": "sign-ahead-only"
+    "explanation": "Ahead only: Ahead only (mandatory direction). Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0030",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Ahead only (mandatory direction).”?",
+    "question": "Which sign means: \u201cAhead only (mandatory direction).\u201d?",
     "options": [
       "Turn left ahead",
       "Give way",
@@ -461,8 +417,7 @@
       "No vehicles over width shown"
     ],
     "correctIndex": 2,
-    "explanation": "The “Ahead only” sign means: Ahead only (mandatory direction). Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-ahead-only"
+    "explanation": "The \u201cAhead only\u201d sign means: Ahead only (mandatory direction). Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0031",
@@ -472,26 +427,23 @@
       "Keep to the left of the obstruction.",
       "Lane reserved for use by buses and pedal cycles only.",
       "Mandatory cycle lane in the same direction as traffic.",
-      "Mini-roundabout — give way to traffic from the immediate right."
+      "Mini-roundabout \u2014 give way to traffic from the immediate right."
     ],
     "correctIndex": 0,
-    "explanation": "Keep left: Keep to the left of the obstruction. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-keep-left",
-    "signId": "sign-keep-left"
+    "explanation": "Keep left: Keep to the left of the obstruction. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0032",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Keep to the left of the obstruction.”?",
+    "question": "Which sign means: \u201cKeep to the left of the obstruction.\u201d?",
     "options": [
-      "Clearway — no stopping",
+      "Clearway \u2014 no stopping",
       "Give priority to oncoming vehicles",
       "Keep left",
       "School crossing patrol"
     ],
     "correctIndex": 2,
-    "explanation": "The “Keep left” sign means: Keep to the left of the obstruction. Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-keep-left"
+    "explanation": "The \u201cKeep left\u201d sign means: Keep to the left of the obstruction. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0033",
@@ -499,22 +451,20 @@
     "question": "What does this sign mean?",
     "options": [
       "No vehicles exceeding the height shown on the sign.",
-      "Mini-roundabout — give way to traffic from the immediate right.",
+      "Mini-roundabout \u2014 give way to traffic from the immediate right.",
       "Waiting restrictions apply (see plate for times).",
       "No vehicles except bicycles being pushed."
     ],
     "correctIndex": 1,
-    "explanation": "Mini-roundabout: Mini-roundabout — give way to traffic from the immediate right. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-mini-roundabout",
+    "explanation": "Mini-roundabout: Mini-roundabout \u2014 give way to traffic from the immediate right. Source: Know Your Traffic Signs (OGL v3.0).",
     "highwayCodeRules": [
       188
-    ],
-    "signId": "sign-mini-roundabout"
+    ]
   },
   {
     "id": "road-traffic-signs-0034",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Mini-roundabout — give way to traffic from the immediate right.”?",
+    "question": "Which sign means: \u201cMini-roundabout \u2014 give way to traffic from the immediate right.\u201d?",
     "options": [
       "No vehicles over width shown",
       "No U-turns",
@@ -522,11 +472,10 @@
       "No waiting"
     ],
     "correctIndex": 2,
-    "explanation": "The “Mini-roundabout” sign means: Mini-roundabout — give way to traffic from the immediate right. Source: Know Your Traffic Signs (OGL v3.0).",
+    "explanation": "The \u201cMini-roundabout\u201d sign means: Mini-roundabout \u2014 give way to traffic from the immediate right. Source: Know Your Traffic Signs (OGL v3.0).",
     "highwayCodeRules": [
       188
-    ],
-    "signId": "sign-mini-roundabout"
+    ]
   },
   {
     "id": "road-traffic-signs-0035",
@@ -540,16 +489,14 @@
     ],
     "correctIndex": 2,
     "explanation": "Route for buses and cycles only: Lane reserved for use by buses and pedal cycles only. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-route-buses-cycles",
     "highwayCodeRules": [
       141
-    ],
-    "signId": "sign-route-buses-cycles"
+    ]
   },
   {
     "id": "road-traffic-signs-0036",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Lane reserved for use by buses and pedal cycles only.”?",
+    "question": "Which sign means: \u201cLane reserved for use by buses and pedal cycles only.\u201d?",
     "options": [
       "No waiting",
       "No U-turns",
@@ -557,11 +504,10 @@
       "Route for buses and cycles only"
     ],
     "correctIndex": 3,
-    "explanation": "The “Route for buses and cycles only” sign means: Lane reserved for use by buses and pedal cycles only. Source: Know Your Traffic Signs (OGL v3.0).",
+    "explanation": "The \u201cRoute for buses and cycles only\u201d sign means: Lane reserved for use by buses and pedal cycles only. Source: Know Your Traffic Signs (OGL v3.0).",
     "highwayCodeRules": [
       141
-    ],
-    "signId": "sign-route-buses-cycles"
+    ]
   },
   {
     "id": "road-traffic-signs-0037",
@@ -570,18 +516,16 @@
     "options": [
       "A bus lane running against the normal direction of traffic.",
       "Riding of pedal cycles prohibited.",
-      "Mini-roundabout — give way to traffic from the immediate right.",
+      "Mini-roundabout \u2014 give way to traffic from the immediate right.",
       "Mandatory cycle lane in the same direction as traffic."
     ],
     "correctIndex": 0,
-    "explanation": "Contraflow bus lane: A bus lane running against the normal direction of traffic. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-contraflow-bus",
-    "signId": "sign-contraflow-bus"
+    "explanation": "Contraflow bus lane: A bus lane running against the normal direction of traffic. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0038",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “A bus lane running against the normal direction of traffic.”?",
+    "question": "Which sign means: \u201cA bus lane running against the normal direction of traffic.\u201d?",
     "options": [
       "No overtaking",
       "Stop",
@@ -589,8 +533,7 @@
       "No left turn"
     ],
     "correctIndex": 2,
-    "explanation": "The “Contraflow bus lane” sign means: A bus lane running against the normal direction of traffic. Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-contraflow-bus"
+    "explanation": "The \u201cContraflow bus lane\u201d sign means: A bus lane running against the normal direction of traffic. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0039",
@@ -599,21 +542,19 @@
     "options": [
       "Mandatory cycle lane in the same direction as traffic.",
       "Ahead only (mandatory direction).",
-      "Mini-roundabout — give way to traffic from the immediate right.",
+      "Mini-roundabout \u2014 give way to traffic from the immediate right.",
       "Riding of pedal cycles prohibited."
     ],
     "correctIndex": 0,
     "explanation": "With-flow pedal cycle lane: Mandatory cycle lane in the same direction as traffic. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-with-flow-cycle",
     "highwayCodeRules": [
       140
-    ],
-    "signId": "sign-with-flow-cycle"
+    ]
   },
   {
     "id": "road-traffic-signs-0040",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Mandatory cycle lane in the same direction as traffic.”?",
+    "question": "Which sign means: \u201cMandatory cycle lane in the same direction as traffic.\u201d?",
     "options": [
       "School crossing patrol",
       "No entry",
@@ -621,31 +562,28 @@
       "With-flow pedal cycle lane"
     ],
     "correctIndex": 3,
-    "explanation": "The “With-flow pedal cycle lane” sign means: Mandatory cycle lane in the same direction as traffic. Source: Know Your Traffic Signs (OGL v3.0).",
+    "explanation": "The \u201cWith-flow pedal cycle lane\u201d sign means: Mandatory cycle lane in the same direction as traffic. Source: Know Your Traffic Signs (OGL v3.0).",
     "highwayCodeRules": [
       140
-    ],
-    "signId": "sign-with-flow-cycle"
+    ]
   },
   {
     "id": "road-traffic-signs-0041",
     "category": "road-traffic-signs",
     "question": "What does this sign mean?",
     "options": [
-      "Mini-roundabout — give way to traffic from the immediate right.",
+      "Mini-roundabout \u2014 give way to traffic from the immediate right.",
       "Stop when signalled to do so by a school crossing patrol.",
       "Minimum speed limit of 30 mph applies.",
       "No entry for vehicular traffic."
     ],
     "correctIndex": 2,
-    "explanation": "Minimum speed 30: Minimum speed limit of 30 mph applies. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-min-speed-30",
-    "signId": "sign-min-speed-30"
+    "explanation": "Minimum speed 30: Minimum speed limit of 30 mph applies. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0042",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Minimum speed limit of 30 mph applies.”?",
+    "question": "Which sign means: \u201cMinimum speed limit of 30 mph applies.\u201d?",
     "options": [
       "Give way",
       "Ahead only",
@@ -653,8 +591,7 @@
       "Give priority to oncoming vehicles"
     ],
     "correctIndex": 2,
-    "explanation": "The “Minimum speed 30” sign means: Minimum speed limit of 30 mph applies. Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-min-speed-30"
+    "explanation": "The \u201cMinimum speed 30\u201d sign means: Minimum speed limit of 30 mph applies. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0043",
@@ -667,14 +604,12 @@
       "No entry for vehicular traffic."
     ],
     "correctIndex": 0,
-    "explanation": "End of minimum speed: End of the minimum speed requirement. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-end-min-speed-30",
-    "signId": "sign-end-min-speed-30"
+    "explanation": "End of minimum speed: End of the minimum speed requirement. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0044",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “End of the minimum speed requirement.”?",
+    "question": "Which sign means: \u201cEnd of the minimum speed requirement.\u201d?",
     "options": [
       "No vehicles",
       "Contraflow bus lane",
@@ -682,8 +617,7 @@
       "Minimum speed 30"
     ],
     "correctIndex": 2,
-    "explanation": "The “End of minimum speed” sign means: End of the minimum speed requirement. Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-end-min-speed-30"
+    "explanation": "The \u201cEnd of minimum speed\u201d sign means: End of the minimum speed requirement. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0045",
@@ -696,14 +630,12 @@
       "No vehicles exceeding the height shown on the sign."
     ],
     "correctIndex": 3,
-    "explanation": "No vehicles over height shown: No vehicles exceeding the height shown on the sign. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-no-vehicles-over-height",
-    "signId": "sign-no-vehicles-over-height"
+    "explanation": "No vehicles over height shown: No vehicles exceeding the height shown on the sign. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0046",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “No vehicles exceeding the height shown on the sign.”?",
+    "question": "Which sign means: \u201cNo vehicles exceeding the height shown on the sign.\u201d?",
     "options": [
       "No cycling",
       "Route for buses and cycles only",
@@ -711,8 +643,7 @@
       "Turn left ahead"
     ],
     "correctIndex": 2,
-    "explanation": "The “No vehicles over height shown” sign means: No vehicles exceeding the height shown on the sign. Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-no-vehicles-over-height"
+    "explanation": "The \u201cNo vehicles over height shown\u201d sign means: No vehicles exceeding the height shown on the sign. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0047",
@@ -725,14 +656,12 @@
       "U-turns prohibited."
     ],
     "correctIndex": 2,
-    "explanation": "No vehicles over width shown: No vehicles exceeding the width shown on the sign. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-no-vehicles-over-width",
-    "signId": "sign-no-vehicles-over-width"
+    "explanation": "No vehicles over width shown: No vehicles exceeding the width shown on the sign. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0048",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “No vehicles exceeding the width shown on the sign.”?",
+    "question": "Which sign means: \u201cNo vehicles exceeding the width shown on the sign.\u201d?",
     "options": [
       "With-flow pedal cycle lane",
       "No waiting",
@@ -740,8 +669,7 @@
       "No vehicles over width shown"
     ],
     "correctIndex": 3,
-    "explanation": "The “No vehicles over width shown” sign means: No vehicles exceeding the width shown on the sign. Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-no-vehicles-over-width"
+    "explanation": "The \u201cNo vehicles over width shown\u201d sign means: No vehicles exceeding the width shown on the sign. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0049",
@@ -754,14 +682,12 @@
       "No vehicles exceeding the height shown on the sign."
     ],
     "correctIndex": 1,
-    "explanation": "No goods vehicles over weight: No goods vehicles over the maximum gross weight shown. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-no-goods-over-weight",
-    "signId": "sign-no-goods-over-weight"
+    "explanation": "No goods vehicles over weight: No goods vehicles over the maximum gross weight shown. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0050",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “No goods vehicles over the maximum gross weight shown.”?",
+    "question": "Which sign means: \u201cNo goods vehicles over the maximum gross weight shown.\u201d?",
     "options": [
       "No U-turns",
       "No goods vehicles over weight",
@@ -769,8 +695,7 @@
       "No left turn"
     ],
     "correctIndex": 1,
-    "explanation": "The “No goods vehicles over weight” sign means: No goods vehicles over the maximum gross weight shown. Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-no-goods-over-weight"
+    "explanation": "The \u201cNo goods vehicles over weight\u201d sign means: No goods vehicles over the maximum gross weight shown. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0051",
@@ -784,16 +709,14 @@
     ],
     "correctIndex": 1,
     "explanation": "School crossing patrol: Stop when signalled to do so by a school crossing patrol. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-school-crossing-patrol",
     "highwayCodeRules": [
       210
-    ],
-    "signId": "sign-school-crossing-patrol"
+    ]
   },
   {
     "id": "road-traffic-signs-0052",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Stop when signalled to do so by a school crossing patrol.”?",
+    "question": "Which sign means: \u201cStop when signalled to do so by a school crossing patrol.\u201d?",
     "options": [
       "School crossing patrol",
       "Turn left ahead",
@@ -801,11 +724,10 @@
       "No goods vehicles over weight"
     ],
     "correctIndex": 0,
-    "explanation": "The “School crossing patrol” sign means: Stop when signalled to do so by a school crossing patrol. Source: Know Your Traffic Signs (OGL v3.0).",
+    "explanation": "The \u201cSchool crossing patrol\u201d sign means: Stop when signalled to do so by a school crossing patrol. Source: Know Your Traffic Signs (OGL v3.0).",
     "highwayCodeRules": [
       210
-    ],
-    "signId": "sign-school-crossing-patrol"
+    ]
   },
   {
     "id": "road-traffic-signs-0053",
@@ -819,16 +741,14 @@
     ],
     "correctIndex": 2,
     "explanation": "National speed limit applies: The national speed limit for the road and vehicle type applies. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-national-speed",
     "highwayCodeRules": [
       124
-    ],
-    "signId": "sign-national-speed"
+    ]
   },
   {
     "id": "road-traffic-signs-0054",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “The national speed limit for the road and vehicle type applies.”?",
+    "question": "Which sign means: \u201cThe national speed limit for the road and vehicle type applies.\u201d?",
     "options": [
       "Maximum speed 30",
       "Maximum speed 50",
@@ -836,11 +756,10 @@
       "Entry to 20 mph zone"
     ],
     "correctIndex": 2,
-    "explanation": "The “National speed limit applies” sign means: The national speed limit for the road and vehicle type applies. Source: Know Your Traffic Signs (OGL v3.0).",
+    "explanation": "The \u201cNational speed limit applies\u201d sign means: The national speed limit for the road and vehicle type applies. Source: Know Your Traffic Signs (OGL v3.0).",
     "highwayCodeRules": [
       124
-    ],
-    "signId": "sign-national-speed"
+    ]
   },
   {
     "id": "road-traffic-signs-0055",
@@ -854,16 +773,14 @@
     ],
     "correctIndex": 3,
     "explanation": "Entry to 20 mph zone: Maximum speed limit of 20 mph applies in the zone. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-20-zone",
     "highwayCodeRules": [
       152
-    ],
-    "signId": "sign-20-zone"
+    ]
   },
   {
     "id": "road-traffic-signs-0056",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Maximum speed limit of 20 mph applies in the zone.”?",
+    "question": "Which sign means: \u201cMaximum speed limit of 20 mph applies in the zone.\u201d?",
     "options": [
       "Maximum speed 50",
       "National speed limit applies",
@@ -871,11 +788,10 @@
       "Entry to 20 mph zone"
     ],
     "correctIndex": 3,
-    "explanation": "The “Entry to 20 mph zone” sign means: Maximum speed limit of 20 mph applies in the zone. Source: Know Your Traffic Signs (OGL v3.0).",
+    "explanation": "The \u201cEntry to 20 mph zone\u201d sign means: Maximum speed limit of 20 mph applies in the zone. Source: Know Your Traffic Signs (OGL v3.0).",
     "highwayCodeRules": [
       152
-    ],
-    "signId": "sign-20-zone"
+    ]
   },
   {
     "id": "road-traffic-signs-0057",
@@ -889,16 +805,14 @@
     ],
     "correctIndex": 1,
     "explanation": "Maximum speed 30: Maximum speed limit of 30 mph. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-30",
     "highwayCodeRules": [
       124
-    ],
-    "signId": "sign-30"
+    ]
   },
   {
     "id": "road-traffic-signs-0058",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Maximum speed limit of 30 mph.”?",
+    "question": "Which sign means: \u201cMaximum speed limit of 30 mph.\u201d?",
     "options": [
       "National speed limit applies",
       "Maximum speed 30",
@@ -906,11 +820,10 @@
       "Maximum speed 50"
     ],
     "correctIndex": 1,
-    "explanation": "The “Maximum speed 30” sign means: Maximum speed limit of 30 mph. Source: Know Your Traffic Signs (OGL v3.0).",
+    "explanation": "The \u201cMaximum speed 30\u201d sign means: Maximum speed limit of 30 mph. Source: Know Your Traffic Signs (OGL v3.0).",
     "highwayCodeRules": [
       124
-    ],
-    "signId": "sign-30"
+    ]
   },
   {
     "id": "road-traffic-signs-0059",
@@ -923,14 +836,12 @@
       "The national speed limit for the road and vehicle type applies."
     ],
     "correctIndex": 1,
-    "explanation": "Maximum speed 40: Maximum speed limit of 40 mph. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-40",
-    "signId": "sign-40"
+    "explanation": "Maximum speed 40: Maximum speed limit of 40 mph. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0060",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Maximum speed limit of 40 mph.”?",
+    "question": "Which sign means: \u201cMaximum speed limit of 40 mph.\u201d?",
     "options": [
       "Maximum speed 30",
       "Maximum speed 50",
@@ -938,8 +849,7 @@
       "Maximum speed 40"
     ],
     "correctIndex": 3,
-    "explanation": "The “Maximum speed 40” sign means: Maximum speed limit of 40 mph. Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-40"
+    "explanation": "The \u201cMaximum speed 40\u201d sign means: Maximum speed limit of 40 mph. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0061",
@@ -952,14 +862,12 @@
       "Maximum speed limit of 20 mph applies in the zone."
     ],
     "correctIndex": 1,
-    "explanation": "Maximum speed 50: Maximum speed limit of 50 mph. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-50",
-    "signId": "sign-50"
+    "explanation": "Maximum speed 50: Maximum speed limit of 50 mph. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0062",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Maximum speed limit of 50 mph.”?",
+    "question": "Which sign means: \u201cMaximum speed limit of 50 mph.\u201d?",
     "options": [
       "Entry to 20 mph zone",
       "Maximum speed 30",
@@ -967,8 +875,7 @@
       "Maximum speed 50"
     ],
     "correctIndex": 3,
-    "explanation": "The “Maximum speed 50” sign means: Maximum speed limit of 50 mph. Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-50"
+    "explanation": "The \u201cMaximum speed 50\u201d sign means: Maximum speed limit of 50 mph. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0063",
@@ -981,14 +888,12 @@
       "Risk of ice or packed snow on the road ahead."
     ],
     "correctIndex": 2,
-    "explanation": "Crossroads: Crossroads ahead. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-crossroads",
-    "signId": "sign-crossroads"
+    "explanation": "Crossroads: Crossroads ahead. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0064",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Crossroads ahead.”?",
+    "question": "Which sign means: \u201cCrossroads ahead.\u201d?",
     "options": [
       "Falling or fallen rocks",
       "Crossroads",
@@ -996,8 +901,7 @@
       "Level crossing with barrier or gate"
     ],
     "correctIndex": 1,
-    "explanation": "The “Crossroads” sign means: Crossroads ahead. Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-crossroads"
+    "explanation": "The \u201cCrossroads\u201d sign means: Crossroads ahead. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0065",
@@ -1010,14 +914,12 @@
       "Frail (elderly or disabled) pedestrians likely to cross the road ahead."
     ],
     "correctIndex": 2,
-    "explanation": "T-junction with priority over vehicles from the right: T-junction ahead; the broader line indicates priority through route. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-t-junction",
-    "signId": "sign-t-junction"
+    "explanation": "T-junction with priority over vehicles from the right: T-junction ahead; the broader line indicates priority through route. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0066",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “T-junction ahead; the broader line indicates priority through route.”?",
+    "question": "Which sign means: \u201cT-junction ahead; the broader line indicates priority through route.\u201d?",
     "options": [
       "Dual carriageway ends",
       "T-junction with priority over vehicles from the right",
@@ -1025,8 +927,7 @@
       "Zebra crossing"
     ],
     "correctIndex": 1,
-    "explanation": "The “T-junction with priority over vehicles from the right” sign means: T-junction ahead; the broader line indicates priority through route. Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-t-junction"
+    "explanation": "The \u201cT-junction with priority over vehicles from the right\u201d sign means: T-junction ahead; the broader line indicates priority through route. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0067",
@@ -1039,14 +940,12 @@
       "Tunnel ahead."
     ],
     "correctIndex": 2,
-    "explanation": "Staggered junction: Staggered junction ahead. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-staggered-junction",
-    "signId": "sign-staggered-junction"
+    "explanation": "Staggered junction: Staggered junction ahead. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0068",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Staggered junction ahead.”?",
+    "question": "Which sign means: \u201cStaggered junction ahead.\u201d?",
     "options": [
       "Staggered junction",
       "Road narrows on both sides",
@@ -1054,8 +953,7 @@
       "Soft verges"
     ],
     "correctIndex": 0,
-    "explanation": "The “Staggered junction” sign means: Staggered junction ahead. Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-staggered-junction"
+    "explanation": "The \u201cStaggered junction\u201d sign means: Staggered junction ahead. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0069",
@@ -1068,14 +966,12 @@
       "Hump bridge ahead."
     ],
     "correctIndex": 2,
-    "explanation": "Bend to right: Bend to the right ahead (or left if symbol reversed). Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-bend-right",
-    "signId": "sign-bend-right"
+    "explanation": "Bend to right: Bend to the right ahead (or left if symbol reversed). Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0070",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Bend to the right ahead (or left if symbol reversed).”?",
+    "question": "Which sign means: \u201cBend to the right ahead (or left if symbol reversed).\u201d?",
     "options": [
       "Level crossing with barrier or gate",
       "Bend to right",
@@ -1083,8 +979,7 @@
       "Frail or disabled pedestrians"
     ],
     "correctIndex": 1,
-    "explanation": "The “Bend to right” sign means: Bend to the right ahead (or left if symbol reversed). Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-bend-right"
+    "explanation": "The \u201cBend to right\u201d sign means: Bend to the right ahead (or left if symbol reversed). Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0071",
@@ -1092,19 +987,17 @@
     "question": "What does this sign mean?",
     "options": [
       "Double bend ahead, first to the left (or right if symbol reversed).",
-      "Quayside or river bank ahead — risk of vehicle entering water.",
-      "Overhead electric cable ahead — maximum safe height shown.",
+      "Quayside or river bank ahead \u2014 risk of vehicle entering water.",
+      "Overhead electric cable ahead \u2014 maximum safe height shown.",
       "Roundabout ahead."
     ],
     "correctIndex": 0,
-    "explanation": "Double bend first to left: Double bend ahead, first to the left (or right if symbol reversed). Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-double-bend",
-    "signId": "sign-double-bend"
+    "explanation": "Double bend first to left: Double bend ahead, first to the left (or right if symbol reversed). Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0072",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Double bend ahead, first to the left (or right if symbol reversed).”?",
+    "question": "Which sign means: \u201cDouble bend ahead, first to the left (or right if symbol reversed).\u201d?",
     "options": [
       "Hump bridge",
       "Double bend first to left",
@@ -1112,8 +1005,7 @@
       "Trams crossing ahead"
     ],
     "correctIndex": 1,
-    "explanation": "The “Double bend first to left” sign means: Double bend ahead, first to the left (or right if symbol reversed). Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-double-bend"
+    "explanation": "The \u201cDouble bend first to left\u201d sign means: Double bend ahead, first to the left (or right if symbol reversed). Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0073",
@@ -1121,22 +1013,20 @@
     "question": "What does this sign mean?",
     "options": [
       "Two-way traffic crosses a one-way road ahead.",
-      "Overhead electric cable ahead — maximum safe height shown.",
+      "Overhead electric cable ahead \u2014 maximum safe height shown.",
       "Traffic signals ahead.",
       "Roundabout ahead."
     ],
     "correctIndex": 3,
     "explanation": "Roundabout: Roundabout ahead. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-roundabout",
     "highwayCodeRules": [
       184
-    ],
-    "signId": "sign-roundabout"
+    ]
   },
   {
     "id": "road-traffic-signs-0074",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Roundabout ahead.”?",
+    "question": "Which sign means: \u201cRoundabout ahead.\u201d?",
     "options": [
       "Roundabout",
       "Road narrows on right",
@@ -1144,11 +1034,10 @@
       "Cattle"
     ],
     "correctIndex": 0,
-    "explanation": "The “Roundabout” sign means: Roundabout ahead. Source: Know Your Traffic Signs (OGL v3.0).",
+    "explanation": "The \u201cRoundabout\u201d sign means: Roundabout ahead. Source: Know Your Traffic Signs (OGL v3.0).",
     "highwayCodeRules": [
       184
-    ],
-    "signId": "sign-roundabout"
+    ]
   },
   {
     "id": "road-traffic-signs-0075",
@@ -1161,14 +1050,12 @@
       "Uneven road surface ahead."
     ],
     "correctIndex": 3,
-    "explanation": "Uneven road: Uneven road surface ahead. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-uneven-road",
-    "signId": "sign-uneven-road"
+    "explanation": "Uneven road: Uneven road surface ahead. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0076",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Uneven road surface ahead.”?",
+    "question": "Which sign means: \u201cUneven road surface ahead.\u201d?",
     "options": [
       "Soft verges",
       "Uneven road",
@@ -1176,8 +1063,7 @@
       "Slippery road"
     ],
     "correctIndex": 1,
-    "explanation": "The “Uneven road” sign means: Uneven road surface ahead. Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-uneven-road"
+    "explanation": "The \u201cUneven road\u201d sign means: Uneven road surface ahead. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0077",
@@ -1191,16 +1077,14 @@
     ],
     "correctIndex": 1,
     "explanation": "Slippery road: Slippery road surface ahead. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-slippery-road",
     "highwayCodeRules": [
       231
-    ],
-    "signId": "sign-slippery-road"
+    ]
   },
   {
     "id": "road-traffic-signs-0078",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Slippery road surface ahead.”?",
+    "question": "Which sign means: \u201cSlippery road surface ahead.\u201d?",
     "options": [
       "Traffic queues likely ahead",
       "Slippery road",
@@ -1208,11 +1092,10 @@
       "Staggered junction"
     ],
     "correctIndex": 1,
-    "explanation": "The “Slippery road” sign means: Slippery road surface ahead. Source: Know Your Traffic Signs (OGL v3.0).",
+    "explanation": "The \u201cSlippery road\u201d sign means: Slippery road surface ahead. Source: Know Your Traffic Signs (OGL v3.0).",
     "highwayCodeRules": [
       231
-    ],
-    "signId": "sign-slippery-road"
+    ]
   },
   {
     "id": "road-traffic-signs-0079",
@@ -1225,14 +1108,12 @@
       "Level crossing without barrier or gate ahead."
     ],
     "correctIndex": 2,
-    "explanation": "Road narrows on both sides: The road narrows on both sides ahead. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-road-narrows-both",
-    "signId": "sign-road-narrows-both"
+    "explanation": "Road narrows on both sides: The road narrows on both sides ahead. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0080",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “The road narrows on both sides ahead.”?",
+    "question": "Which sign means: \u201cThe road narrows on both sides ahead.\u201d?",
     "options": [
       "Road narrows on both sides",
       "Wild animals",
@@ -1240,8 +1121,7 @@
       "Staggered junction"
     ],
     "correctIndex": 0,
-    "explanation": "The “Road narrows on both sides” sign means: The road narrows on both sides ahead. Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-road-narrows-both"
+    "explanation": "The \u201cRoad narrows on both sides\u201d sign means: The road narrows on both sides ahead. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0081",
@@ -1254,14 +1134,12 @@
       "The road narrows on the right ahead (or left if symbol reversed)."
     ],
     "correctIndex": 3,
-    "explanation": "Road narrows on right: The road narrows on the right ahead (or left if symbol reversed). Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-road-narrows-right",
-    "signId": "sign-road-narrows-right"
+    "explanation": "Road narrows on right: The road narrows on the right ahead (or left if symbol reversed). Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0082",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “The road narrows on the right ahead (or left if symbol reversed).”?",
+    "question": "Which sign means: \u201cThe road narrows on the right ahead (or left if symbol reversed).\u201d?",
     "options": [
       "Ford",
       "Road narrows on right",
@@ -1269,8 +1147,7 @@
       "Bend to right"
     ],
     "correctIndex": 1,
-    "explanation": "The “Road narrows on right” sign means: The road narrows on the right ahead (or left if symbol reversed). Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-road-narrows-right"
+    "explanation": "The \u201cRoad narrows on right\u201d sign means: The road narrows on the right ahead (or left if symbol reversed). Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0083",
@@ -1283,14 +1160,12 @@
       "Two-way traffic straight ahead."
     ],
     "correctIndex": 3,
-    "explanation": "Two-way traffic straight ahead: Two-way traffic straight ahead. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-two-way-traffic",
-    "signId": "sign-two-way-traffic"
+    "explanation": "Two-way traffic straight ahead: Two-way traffic straight ahead. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0084",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Two-way traffic straight ahead.”?",
+    "question": "Which sign means: \u201cTwo-way traffic straight ahead.\u201d?",
     "options": [
       "Traffic signals not in use",
       "Two-way traffic straight ahead",
@@ -1298,8 +1173,7 @@
       "Wild animals"
     ],
     "correctIndex": 1,
-    "explanation": "The “Two-way traffic straight ahead” sign means: Two-way traffic straight ahead. Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-two-way-traffic"
+    "explanation": "The \u201cTwo-way traffic straight ahead\u201d sign means: Two-way traffic straight ahead. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0085",
@@ -1312,14 +1186,12 @@
       "Risk of strong side winds ahead."
     ],
     "correctIndex": 1,
-    "explanation": "Two-way traffic crosses one-way road: Two-way traffic crosses a one-way road ahead. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-two-way-crosses",
-    "signId": "sign-two-way-crosses"
+    "explanation": "Two-way traffic crosses one-way road: Two-way traffic crosses a one-way road ahead. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0086",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Two-way traffic crosses a one-way road ahead.”?",
+    "question": "Which sign means: \u201cTwo-way traffic crosses a one-way road ahead.\u201d?",
     "options": [
       "Wild horses or ponies",
       "Ford",
@@ -1327,8 +1199,7 @@
       "Roundabout"
     ],
     "correctIndex": 2,
-    "explanation": "The “Two-way traffic crosses one-way road” sign means: Two-way traffic crosses a one-way road ahead. Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-two-way-crosses"
+    "explanation": "The \u201cTwo-way traffic crosses one-way road\u201d sign means: Two-way traffic crosses a one-way road ahead. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0087",
@@ -1336,19 +1207,17 @@
     "question": "What does this sign mean?",
     "options": [
       "Wild animals likely to be in the road ahead.",
-      "Quayside or river bank ahead — risk of vehicle entering water.",
+      "Quayside or river bank ahead \u2014 risk of vehicle entering water.",
       "Traffic signals ahead.",
       "The road narrows on both sides ahead."
     ],
     "correctIndex": 2,
-    "explanation": "Traffic signals: Traffic signals ahead. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-traffic-signals",
-    "signId": "sign-traffic-signals"
+    "explanation": "Traffic signals: Traffic signals ahead. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0088",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Traffic signals ahead.”?",
+    "question": "Which sign means: \u201cTraffic signals ahead.\u201d?",
     "options": [
       "Two-way traffic straight ahead",
       "Ford",
@@ -1356,8 +1225,7 @@
       "Steep hill downwards"
     ],
     "correctIndex": 2,
-    "explanation": "The “Traffic signals” sign means: Traffic signals ahead. Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-traffic-signals"
+    "explanation": "The \u201cTraffic signals\u201d sign means: Traffic signals ahead. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0089",
@@ -1367,17 +1235,15 @@
       "Wild animals likely to be in the road ahead.",
       "Cycle route ahead.",
       "Traffic signals ahead are not in use.",
-      "Soft verges ahead — risk of grounding."
+      "Soft verges ahead \u2014 risk of grounding."
     ],
     "correctIndex": 2,
-    "explanation": "Traffic signals not in use: Traffic signals ahead are not in use. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-traffic-signals-not-in-use",
-    "signId": "sign-traffic-signals-not-in-use"
+    "explanation": "Traffic signals not in use: Traffic signals ahead are not in use. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0090",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Traffic signals ahead are not in use.”?",
+    "question": "Which sign means: \u201cTraffic signals ahead are not in use.\u201d?",
     "options": [
       "Pedestrians in road ahead",
       "Two-way traffic straight ahead",
@@ -1385,8 +1251,7 @@
       "Road humps"
     ],
     "correctIndex": 2,
-    "explanation": "The “Traffic signals not in use” sign means: Traffic signals ahead are not in use. Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-traffic-signals-not-in-use"
+    "explanation": "The \u201cTraffic signals not in use\u201d sign means: Traffic signals ahead are not in use. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0091",
@@ -1400,16 +1265,14 @@
     ],
     "correctIndex": 0,
     "explanation": "Zebra crossing: Zebra crossing ahead. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-pedestrian-crossing",
     "highwayCodeRules": [
       195
-    ],
-    "signId": "sign-pedestrian-crossing"
+    ]
   },
   {
     "id": "road-traffic-signs-0092",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Zebra crossing ahead.”?",
+    "question": "Which sign means: \u201cZebra crossing ahead.\u201d?",
     "options": [
       "Zebra crossing",
       "Falling or fallen rocks",
@@ -1417,11 +1280,10 @@
       "Double bend first to left"
     ],
     "correctIndex": 0,
-    "explanation": "The “Zebra crossing” sign means: Zebra crossing ahead. Source: Know Your Traffic Signs (OGL v3.0).",
+    "explanation": "The \u201cZebra crossing\u201d sign means: Zebra crossing ahead. Source: Know Your Traffic Signs (OGL v3.0).",
     "highwayCodeRules": [
       195
-    ],
-    "signId": "sign-pedestrian-crossing"
+    ]
   },
   {
     "id": "road-traffic-signs-0093",
@@ -1434,14 +1296,12 @@
       "Frail (elderly or disabled) pedestrians likely to cross the road ahead."
     ],
     "correctIndex": 0,
-    "explanation": "Pedestrians in road ahead: Pedestrians likely to be in the road ahead (no footway). Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-pedestrians-in-road",
-    "signId": "sign-pedestrians-in-road"
+    "explanation": "Pedestrians in road ahead: Pedestrians likely to be in the road ahead (no footway). Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0094",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Pedestrians likely to be in the road ahead (no footway).”?",
+    "question": "Which sign means: \u201cPedestrians likely to be in the road ahead (no footway).\u201d?",
     "options": [
       "Pedestrians in road ahead",
       "Bend to right",
@@ -1449,8 +1309,7 @@
       "Steep hill downwards"
     ],
     "correctIndex": 0,
-    "explanation": "The “Pedestrians in road ahead” sign means: Pedestrians likely to be in the road ahead (no footway). Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-pedestrians-in-road"
+    "explanation": "The \u201cPedestrians in road ahead\u201d sign means: Pedestrians likely to be in the road ahead (no footway). Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0095",
@@ -1464,16 +1323,14 @@
     ],
     "correctIndex": 1,
     "explanation": "School children crossing: Children going to or from school or a playground ahead. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-children",
     "highwayCodeRules": [
       208
-    ],
-    "signId": "sign-children"
+    ]
   },
   {
     "id": "road-traffic-signs-0096",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Children going to or from school or a playground ahead.”?",
+    "question": "Which sign means: \u201cChildren going to or from school or a playground ahead.\u201d?",
     "options": [
       "Cattle",
       "Traffic signals not in use",
@@ -1481,11 +1338,10 @@
       "Wild horses or ponies"
     ],
     "correctIndex": 2,
-    "explanation": "The “School children crossing” sign means: Children going to or from school or a playground ahead. Source: Know Your Traffic Signs (OGL v3.0).",
+    "explanation": "The \u201cSchool children crossing\u201d sign means: Children going to or from school or a playground ahead. Source: Know Your Traffic Signs (OGL v3.0).",
     "highwayCodeRules": [
       208
-    ],
-    "signId": "sign-children"
+    ]
   },
   {
     "id": "road-traffic-signs-0097",
@@ -1499,16 +1355,14 @@
     ],
     "correctIndex": 0,
     "explanation": "Frail or disabled pedestrians: Frail (elderly or disabled) pedestrians likely to cross the road ahead. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-elderly",
     "highwayCodeRules": [
       207
-    ],
-    "signId": "sign-elderly"
+    ]
   },
   {
     "id": "road-traffic-signs-0098",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Frail (elderly or disabled) pedestrians likely to cross the road ahead.”?",
+    "question": "Which sign means: \u201cFrail (elderly or disabled) pedestrians likely to cross the road ahead.\u201d?",
     "options": [
       "Two-way traffic straight ahead",
       "Double bend first to left",
@@ -1516,11 +1370,10 @@
       "Cattle"
     ],
     "correctIndex": 2,
-    "explanation": "The “Frail or disabled pedestrians” sign means: Frail (elderly or disabled) pedestrians likely to cross the road ahead. Source: Know Your Traffic Signs (OGL v3.0).",
+    "explanation": "The \u201cFrail or disabled pedestrians\u201d sign means: Frail (elderly or disabled) pedestrians likely to cross the road ahead. Source: Know Your Traffic Signs (OGL v3.0).",
     "highwayCodeRules": [
       207
-    ],
-    "signId": "sign-elderly"
+    ]
   },
   {
     "id": "road-traffic-signs-0099",
@@ -1533,14 +1386,12 @@
       "Traffic signals ahead."
     ],
     "correctIndex": 0,
-    "explanation": "Cycle route ahead: Cycle route ahead. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-cycle-route",
-    "signId": "sign-cycle-route"
+    "explanation": "Cycle route ahead: Cycle route ahead. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0100",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Cycle route ahead.”?",
+    "question": "Which sign means: \u201cCycle route ahead.\u201d?",
     "options": [
       "Road humps",
       "Cycle route ahead",
@@ -1548,8 +1399,7 @@
       "Wild animals"
     ],
     "correctIndex": 1,
-    "explanation": "The “Cycle route ahead” sign means: Cycle route ahead. Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-cycle-route"
+    "explanation": "The \u201cCycle route ahead\u201d sign means: Cycle route ahead. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0101",
@@ -1558,21 +1408,19 @@
     "options": [
       "Risk of strong side winds ahead.",
       "Double bend ahead, first to the left (or right if symbol reversed).",
-      "Overhead electric cable ahead — maximum safe height shown.",
+      "Overhead electric cable ahead \u2014 maximum safe height shown.",
       "Cattle likely to be in the road ahead."
     ],
     "correctIndex": 3,
     "explanation": "Cattle: Cattle likely to be in the road ahead. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-cattle",
     "highwayCodeRules": [
       214
-    ],
-    "signId": "sign-cattle"
+    ]
   },
   {
     "id": "road-traffic-signs-0102",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Cattle likely to be in the road ahead.”?",
+    "question": "Which sign means: \u201cCattle likely to be in the road ahead.\u201d?",
     "options": [
       "Steep hill downwards",
       "Tunnel ahead",
@@ -1580,11 +1428,10 @@
       "Two-way traffic straight ahead"
     ],
     "correctIndex": 2,
-    "explanation": "The “Cattle” sign means: Cattle likely to be in the road ahead. Source: Know Your Traffic Signs (OGL v3.0).",
+    "explanation": "The \u201cCattle\u201d sign means: Cattle likely to be in the road ahead. Source: Know Your Traffic Signs (OGL v3.0).",
     "highwayCodeRules": [
       214
-    ],
-    "signId": "sign-cattle"
+    ]
   },
   {
     "id": "road-traffic-signs-0103",
@@ -1593,18 +1440,16 @@
     "options": [
       "Wild animals likely to be in the road ahead.",
       "Level crossing with barrier or gate ahead.",
-      "Worded warning sign — water crosses the road ahead.",
+      "Worded warning sign \u2014 water crosses the road ahead.",
       "Steep downhill gradient ahead (gradient shown as a percentage)."
     ],
     "correctIndex": 0,
-    "explanation": "Wild animals: Wild animals likely to be in the road ahead. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-wild-animals",
-    "signId": "sign-wild-animals"
+    "explanation": "Wild animals: Wild animals likely to be in the road ahead. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0104",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Wild animals likely to be in the road ahead.”?",
+    "question": "Which sign means: \u201cWild animals likely to be in the road ahead.\u201d?",
     "options": [
       "Dual carriageway ends",
       "Wild animals",
@@ -1612,8 +1457,7 @@
       "Road narrows on right"
     ],
     "correctIndex": 1,
-    "explanation": "The “Wild animals” sign means: Wild animals likely to be in the road ahead. Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-wild-animals"
+    "explanation": "The \u201cWild animals\u201d sign means: Wild animals likely to be in the road ahead. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0105",
@@ -1626,14 +1470,12 @@
       "Zebra crossing ahead."
     ],
     "correctIndex": 2,
-    "explanation": "Wild horses or ponies: Wild horses or ponies likely to be in the road ahead. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-wild-horses",
-    "signId": "sign-wild-horses"
+    "explanation": "Wild horses or ponies: Wild horses or ponies likely to be in the road ahead. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0106",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Wild horses or ponies likely to be in the road ahead.”?",
+    "question": "Which sign means: \u201cWild horses or ponies likely to be in the road ahead.\u201d?",
     "options": [
       "Traffic signals",
       "Wild animals",
@@ -1641,8 +1483,7 @@
       "Two-way traffic crosses one-way road"
     ],
     "correctIndex": 2,
-    "explanation": "The “Wild horses or ponies” sign means: Wild horses or ponies likely to be in the road ahead. Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-wild-horses"
+    "explanation": "The \u201cWild horses or ponies\u201d sign means: Wild horses or ponies likely to be in the road ahead. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0107",
@@ -1656,16 +1497,14 @@
     ],
     "correctIndex": 3,
     "explanation": "Accompanied horses or ponies: Accompanied horses or ponies likely to be in the road ahead. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-horse-riders",
     "highwayCodeRules": [
       215
-    ],
-    "signId": "sign-horse-riders"
+    ]
   },
   {
     "id": "road-traffic-signs-0108",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Accompanied horses or ponies likely to be in the road ahead.”?",
+    "question": "Which sign means: \u201cAccompanied horses or ponies likely to be in the road ahead.\u201d?",
     "options": [
       "Dual carriageway ends",
       "Cattle",
@@ -1673,11 +1512,10 @@
       "Accompanied horses or ponies"
     ],
     "correctIndex": 3,
-    "explanation": "The “Accompanied horses or ponies” sign means: Accompanied horses or ponies likely to be in the road ahead. Source: Know Your Traffic Signs (OGL v3.0).",
+    "explanation": "The \u201cAccompanied horses or ponies\u201d sign means: Accompanied horses or ponies likely to be in the road ahead. Source: Know Your Traffic Signs (OGL v3.0).",
     "highwayCodeRules": [
       215
-    ],
-    "signId": "sign-horse-riders"
+    ]
   },
   {
     "id": "road-traffic-signs-0109",
@@ -1686,18 +1524,16 @@
     "options": [
       "Steep downhill gradient ahead (gradient shown as a percentage).",
       "Children going to or from school or a playground ahead.",
-      "Soft verges ahead — risk of grounding.",
+      "Soft verges ahead \u2014 risk of grounding.",
       "Traffic signals ahead."
     ],
     "correctIndex": 0,
-    "explanation": "Steep hill downwards: Steep downhill gradient ahead (gradient shown as a percentage). Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-steep-hill-down",
-    "signId": "sign-steep-hill-down"
+    "explanation": "Steep hill downwards: Steep downhill gradient ahead (gradient shown as a percentage). Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0110",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Steep downhill gradient ahead (gradient shown as a percentage).”?",
+    "question": "Which sign means: \u201cSteep downhill gradient ahead (gradient shown as a percentage).\u201d?",
     "options": [
       "Cycle route ahead",
       "Steep hill downwards",
@@ -1705,28 +1541,25 @@
       "Overhead electric cable"
     ],
     "correctIndex": 1,
-    "explanation": "The “Steep hill downwards” sign means: Steep downhill gradient ahead (gradient shown as a percentage). Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-steep-hill-down"
+    "explanation": "The \u201cSteep hill downwards\u201d sign means: Steep downhill gradient ahead (gradient shown as a percentage). Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0111",
     "category": "road-traffic-signs",
     "question": "What does this sign mean?",
     "options": [
-      "Worded warning sign — water crosses the road ahead.",
+      "Worded warning sign \u2014 water crosses the road ahead.",
       "Steep uphill gradient ahead (gradient shown as a percentage).",
       "Children going to or from school or a playground ahead.",
       "Wild horses or ponies likely to be in the road ahead."
     ],
     "correctIndex": 1,
-    "explanation": "Steep hill upwards: Steep uphill gradient ahead (gradient shown as a percentage). Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-steep-hill-up",
-    "signId": "sign-steep-hill-up"
+    "explanation": "Steep hill upwards: Steep uphill gradient ahead (gradient shown as a percentage). Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0112",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Steep uphill gradient ahead (gradient shown as a percentage).”?",
+    "question": "Which sign means: \u201cSteep uphill gradient ahead (gradient shown as a percentage).\u201d?",
     "options": [
       "Wild horses or ponies",
       "Staggered junction",
@@ -1734,8 +1567,7 @@
       "Steep hill upwards"
     ],
     "correctIndex": 3,
-    "explanation": "The “Steep hill upwards” sign means: Steep uphill gradient ahead (gradient shown as a percentage). Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-steep-hill-up"
+    "explanation": "The \u201cSteep hill upwards\u201d sign means: Steep uphill gradient ahead (gradient shown as a percentage). Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0113",
@@ -1749,16 +1581,14 @@
     ],
     "correctIndex": 2,
     "explanation": "Hump bridge: Hump bridge ahead. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-hump-bridge",
     "highwayCodeRules": [
       166
-    ],
-    "signId": "sign-hump-bridge"
+    ]
   },
   {
     "id": "road-traffic-signs-0114",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Hump bridge ahead.”?",
+    "question": "Which sign means: \u201cHump bridge ahead.\u201d?",
     "options": [
       "Accompanied horses or ponies",
       "Double bend first to left",
@@ -1766,11 +1596,10 @@
       "School children crossing"
     ],
     "correctIndex": 2,
-    "explanation": "The “Hump bridge” sign means: Hump bridge ahead. Source: Know Your Traffic Signs (OGL v3.0).",
+    "explanation": "The \u201cHump bridge\u201d sign means: Hump bridge ahead. Source: Know Your Traffic Signs (OGL v3.0).",
     "highwayCodeRules": [
       166
-    ],
-    "signId": "sign-hump-bridge"
+    ]
   },
   {
     "id": "road-traffic-signs-0115",
@@ -1783,14 +1612,12 @@
       "Tunnel ahead."
     ],
     "correctIndex": 3,
-    "explanation": "Tunnel ahead: Tunnel ahead. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-tunnel",
-    "signId": "sign-tunnel"
+    "explanation": "Tunnel ahead: Tunnel ahead. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0116",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Tunnel ahead.”?",
+    "question": "Which sign means: \u201cTunnel ahead.\u201d?",
     "options": [
       "Tunnel ahead",
       "T-junction with priority over vehicles from the right",
@@ -1798,8 +1625,7 @@
       "Two-way traffic straight ahead"
     ],
     "correctIndex": 0,
-    "explanation": "The “Tunnel ahead” sign means: Tunnel ahead. Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-tunnel"
+    "explanation": "The \u201cTunnel ahead\u201d sign means: Tunnel ahead. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0117",
@@ -1813,16 +1639,14 @@
     ],
     "correctIndex": 1,
     "explanation": "Level crossing with barrier or gate: Level crossing with barrier or gate ahead. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-level-crossing-gate",
     "highwayCodeRules": [
       291
-    ],
-    "signId": "sign-level-crossing-gate"
+    ]
   },
   {
     "id": "road-traffic-signs-0118",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Level crossing with barrier or gate ahead.”?",
+    "question": "Which sign means: \u201cLevel crossing with barrier or gate ahead.\u201d?",
     "options": [
       "Bend to right",
       "Level crossing with barrier or gate",
@@ -1830,11 +1654,10 @@
       "Risk of ice"
     ],
     "correctIndex": 1,
-    "explanation": "The “Level crossing with barrier or gate” sign means: Level crossing with barrier or gate ahead. Source: Know Your Traffic Signs (OGL v3.0).",
+    "explanation": "The \u201cLevel crossing with barrier or gate\u201d sign means: Level crossing with barrier or gate ahead. Source: Know Your Traffic Signs (OGL v3.0).",
     "highwayCodeRules": [
       291
-    ],
-    "signId": "sign-level-crossing-gate"
+    ]
   },
   {
     "id": "road-traffic-signs-0119",
@@ -1848,16 +1671,14 @@
     ],
     "correctIndex": 0,
     "explanation": "Level crossing without barrier: Level crossing without barrier or gate ahead. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-level-crossing-no-gate",
     "highwayCodeRules": [
       291
-    ],
-    "signId": "sign-level-crossing-no-gate"
+    ]
   },
   {
     "id": "road-traffic-signs-0120",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Level crossing without barrier or gate ahead.”?",
+    "question": "Which sign means: \u201cLevel crossing without barrier or gate ahead.\u201d?",
     "options": [
       "Steep hill downwards",
       "Road narrows on both sides",
@@ -1865,11 +1686,10 @@
       "Level crossing without barrier"
     ],
     "correctIndex": 3,
-    "explanation": "The “Level crossing without barrier” sign means: Level crossing without barrier or gate ahead. Source: Know Your Traffic Signs (OGL v3.0).",
+    "explanation": "The \u201cLevel crossing without barrier\u201d sign means: Level crossing without barrier or gate ahead. Source: Know Your Traffic Signs (OGL v3.0).",
     "highwayCodeRules": [
       291
-    ],
-    "signId": "sign-level-crossing-no-gate"
+    ]
   },
   {
     "id": "road-traffic-signs-0121",
@@ -1878,21 +1698,19 @@
     "options": [
       "Trams crossing the road ahead.",
       "Two-way traffic crosses a one-way road ahead.",
-      "Soft verges ahead — risk of grounding.",
+      "Soft verges ahead \u2014 risk of grounding.",
       "T-junction ahead; the broader line indicates priority through route."
     ],
     "correctIndex": 0,
     "explanation": "Trams crossing ahead: Trams crossing the road ahead. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-trams",
     "highwayCodeRules": [
       300
-    ],
-    "signId": "sign-trams"
+    ]
   },
   {
     "id": "road-traffic-signs-0122",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Trams crossing the road ahead.”?",
+    "question": "Which sign means: \u201cTrams crossing the road ahead.\u201d?",
     "options": [
       "Falling or fallen rocks",
       "Trams crossing ahead",
@@ -1900,11 +1718,10 @@
       "Roundabout"
     ],
     "correctIndex": 1,
-    "explanation": "The “Trams crossing ahead” sign means: Trams crossing the road ahead. Source: Know Your Traffic Signs (OGL v3.0).",
+    "explanation": "The \u201cTrams crossing ahead\u201d sign means: Trams crossing the road ahead. Source: Know Your Traffic Signs (OGL v3.0).",
     "highwayCodeRules": [
       300
-    ],
-    "signId": "sign-trams"
+    ]
   },
   {
     "id": "road-traffic-signs-0123",
@@ -1917,14 +1734,12 @@
       "Risk of falling or fallen rocks ahead."
     ],
     "correctIndex": 3,
-    "explanation": "Falling or fallen rocks: Risk of falling or fallen rocks ahead. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-falling-rocks",
-    "signId": "sign-falling-rocks"
+    "explanation": "Falling or fallen rocks: Risk of falling or fallen rocks ahead. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0124",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Risk of falling or fallen rocks ahead.”?",
+    "question": "Which sign means: \u201cRisk of falling or fallen rocks ahead.\u201d?",
     "options": [
       "Cycle route ahead",
       "Falling or fallen rocks",
@@ -1932,8 +1747,7 @@
       "Pedestrians in road ahead"
     ],
     "correctIndex": 1,
-    "explanation": "The “Falling or fallen rocks” sign means: Risk of falling or fallen rocks ahead. Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-falling-rocks"
+    "explanation": "The \u201cFalling or fallen rocks\u201d sign means: Risk of falling or fallen rocks ahead. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0125",
@@ -1947,16 +1761,14 @@
     ],
     "correctIndex": 1,
     "explanation": "Side winds: Risk of strong side winds ahead. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-side-winds",
     "highwayCodeRules": [
       232
-    ],
-    "signId": "sign-side-winds"
+    ]
   },
   {
     "id": "road-traffic-signs-0126",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Risk of strong side winds ahead.”?",
+    "question": "Which sign means: \u201cRisk of strong side winds ahead.\u201d?",
     "options": [
       "Level crossing without barrier",
       "Roundabout",
@@ -1964,11 +1776,10 @@
       "Side winds"
     ],
     "correctIndex": 3,
-    "explanation": "The “Side winds” sign means: Risk of strong side winds ahead. Source: Know Your Traffic Signs (OGL v3.0).",
+    "explanation": "The \u201cSide winds\u201d sign means: Risk of strong side winds ahead. Source: Know Your Traffic Signs (OGL v3.0).",
     "highwayCodeRules": [
       232
-    ],
-    "signId": "sign-side-winds"
+    ]
   },
   {
     "id": "road-traffic-signs-0127",
@@ -1976,19 +1787,17 @@
     "question": "What does this sign mean?",
     "options": [
       "Double bend ahead, first to the left (or right if symbol reversed).",
-      "Quayside or river bank ahead — risk of vehicle entering water.",
+      "Quayside or river bank ahead \u2014 risk of vehicle entering water.",
       "Traffic signals ahead.",
-      "Soft verges ahead — risk of grounding."
+      "Soft verges ahead \u2014 risk of grounding."
     ],
     "correctIndex": 1,
-    "explanation": "Quayside or river bank: Quayside or river bank ahead — risk of vehicle entering water. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-quayside",
-    "signId": "sign-quayside"
+    "explanation": "Quayside or river bank: Quayside or river bank ahead \u2014 risk of vehicle entering water. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0128",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Quayside or river bank ahead — risk of vehicle entering water.”?",
+    "question": "Which sign means: \u201cQuayside or river bank ahead \u2014 risk of vehicle entering water.\u201d?",
     "options": [
       "Uneven road",
       "Quayside or river bank",
@@ -1996,8 +1805,7 @@
       "Risk of ice"
     ],
     "correctIndex": 1,
-    "explanation": "The “Quayside or river bank” sign means: Quayside or river bank ahead — risk of vehicle entering water. Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-quayside"
+    "explanation": "The \u201cQuayside or river bank\u201d sign means: Quayside or river bank ahead \u2014 risk of vehicle entering water. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0129",
@@ -2005,19 +1813,17 @@
     "question": "What does this sign mean?",
     "options": [
       "Queuing traffic likely on the road ahead.",
-      "Soft verges ahead — risk of grounding.",
-      "Quayside or river bank ahead — risk of vehicle entering water.",
+      "Soft verges ahead \u2014 risk of grounding.",
+      "Quayside or river bank ahead \u2014 risk of vehicle entering water.",
       "Two-way traffic crosses a one-way road ahead."
     ],
     "correctIndex": 1,
-    "explanation": "Soft verges: Soft verges ahead — risk of grounding. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-soft-verges",
-    "signId": "sign-soft-verges"
+    "explanation": "Soft verges: Soft verges ahead \u2014 risk of grounding. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0130",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Soft verges ahead — risk of grounding.”?",
+    "question": "Which sign means: \u201cSoft verges ahead \u2014 risk of grounding.\u201d?",
     "options": [
       "Traffic queues likely ahead",
       "Level crossing with barrier or gate",
@@ -2025,8 +1831,7 @@
       "Low-flying aircraft"
     ],
     "correctIndex": 2,
-    "explanation": "The “Soft verges” sign means: Soft verges ahead — risk of grounding. Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-soft-verges"
+    "explanation": "The \u201cSoft verges\u201d sign means: Soft verges ahead \u2014 risk of grounding. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0131",
@@ -2040,16 +1845,14 @@
     ],
     "correctIndex": 1,
     "explanation": "Risk of ice: Risk of ice or packed snow on the road ahead. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-risk-ice",
     "highwayCodeRules": [
       231
-    ],
-    "signId": "sign-risk-ice"
+    ]
   },
   {
     "id": "road-traffic-signs-0132",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Risk of ice or packed snow on the road ahead.”?",
+    "question": "Which sign means: \u201cRisk of ice or packed snow on the road ahead.\u201d?",
     "options": [
       "Staggered junction",
       "Steep hill upwards",
@@ -2057,11 +1860,10 @@
       "Soft verges"
     ],
     "correctIndex": 2,
-    "explanation": "The “Risk of ice” sign means: Risk of ice or packed snow on the road ahead. Source: Know Your Traffic Signs (OGL v3.0).",
+    "explanation": "The \u201cRisk of ice\u201d sign means: Risk of ice or packed snow on the road ahead. Source: Know Your Traffic Signs (OGL v3.0).",
     "highwayCodeRules": [
       231
-    ],
-    "signId": "sign-risk-ice"
+    ]
   },
   {
     "id": "road-traffic-signs-0133",
@@ -2074,14 +1876,12 @@
       "Double bend ahead, first to the left (or right if symbol reversed)."
     ],
     "correctIndex": 1,
-    "explanation": "Traffic queues likely ahead: Queuing traffic likely on the road ahead. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-traffic-queues",
-    "signId": "sign-traffic-queues"
+    "explanation": "Traffic queues likely ahead: Queuing traffic likely on the road ahead. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0134",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Queuing traffic likely on the road ahead.”?",
+    "question": "Which sign means: \u201cQueuing traffic likely on the road ahead.\u201d?",
     "options": [
       "Side winds",
       "Pedestrians in road ahead",
@@ -2089,8 +1889,7 @@
       "Traffic queues likely ahead"
     ],
     "correctIndex": 3,
-    "explanation": "The “Traffic queues likely ahead” sign means: Queuing traffic likely on the road ahead. Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-traffic-queues"
+    "explanation": "The \u201cTraffic queues likely ahead\u201d sign means: Queuing traffic likely on the road ahead. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0135",
@@ -2104,16 +1903,14 @@
     ],
     "correctIndex": 0,
     "explanation": "Road humps: Road humps for the distance shown. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-humps",
     "highwayCodeRules": [
       153
-    ],
-    "signId": "sign-humps"
+    ]
   },
   {
     "id": "road-traffic-signs-0136",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Road humps for the distance shown.”?",
+    "question": "Which sign means: \u201cRoad humps for the distance shown.\u201d?",
     "options": [
       "Level crossing with barrier or gate",
       "Wild animals",
@@ -2121,11 +1918,10 @@
       "Road humps"
     ],
     "correctIndex": 3,
-    "explanation": "The “Road humps” sign means: Road humps for the distance shown. Source: Know Your Traffic Signs (OGL v3.0).",
+    "explanation": "The \u201cRoad humps\u201d sign means: Road humps for the distance shown. Source: Know Your Traffic Signs (OGL v3.0).",
     "highwayCodeRules": [
       153
-    ],
-    "signId": "sign-humps"
+    ]
   },
   {
     "id": "road-traffic-signs-0137",
@@ -2138,14 +1934,12 @@
       "Risk of ice or packed snow on the road ahead."
     ],
     "correctIndex": 0,
-    "explanation": "Low-flying aircraft: Low-flying aircraft or sudden aircraft noise ahead. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-low-flying-aircraft",
-    "signId": "sign-low-flying-aircraft"
+    "explanation": "Low-flying aircraft: Low-flying aircraft or sudden aircraft noise ahead. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0138",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Low-flying aircraft or sudden aircraft noise ahead.”?",
+    "question": "Which sign means: \u201cLow-flying aircraft or sudden aircraft noise ahead.\u201d?",
     "options": [
       "Frail or disabled pedestrians",
       "Low-flying aircraft",
@@ -2153,8 +1947,7 @@
       "Roundabout"
     ],
     "correctIndex": 1,
-    "explanation": "The “Low-flying aircraft” sign means: Low-flying aircraft or sudden aircraft noise ahead. Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-low-flying-aircraft"
+    "explanation": "The \u201cLow-flying aircraft\u201d sign means: Low-flying aircraft or sudden aircraft noise ahead. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0139",
@@ -2162,19 +1955,17 @@
     "question": "What does this sign mean?",
     "options": [
       "Frail (elderly or disabled) pedestrians likely to cross the road ahead.",
-      "Overhead electric cable ahead — maximum safe height shown.",
-      "Quayside or river bank ahead — risk of vehicle entering water.",
+      "Overhead electric cable ahead \u2014 maximum safe height shown.",
+      "Quayside or river bank ahead \u2014 risk of vehicle entering water.",
       "Two-way traffic crosses a one-way road ahead."
     ],
     "correctIndex": 1,
-    "explanation": "Overhead electric cable: Overhead electric cable ahead — maximum safe height shown. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-overhead-electric",
-    "signId": "sign-overhead-electric"
+    "explanation": "Overhead electric cable: Overhead electric cable ahead \u2014 maximum safe height shown. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0140",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Overhead electric cable ahead — maximum safe height shown.”?",
+    "question": "Which sign means: \u201cOverhead electric cable ahead \u2014 maximum safe height shown.\u201d?",
     "options": [
       "Risk of ice",
       "Traffic queues likely ahead",
@@ -2182,8 +1973,7 @@
       "Wild animals"
     ],
     "correctIndex": 2,
-    "explanation": "The “Overhead electric cable” sign means: Overhead electric cable ahead — maximum safe height shown. Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-overhead-electric"
+    "explanation": "The \u201cOverhead electric cable\u201d sign means: Overhead electric cable ahead \u2014 maximum safe height shown. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0141",
@@ -2196,14 +1986,12 @@
       "Children going to or from school or a playground ahead."
     ],
     "correctIndex": 2,
-    "explanation": "Dual carriageway ends: Dual carriageway ends ahead. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-end-dual",
-    "signId": "sign-end-dual"
+    "explanation": "Dual carriageway ends: Dual carriageway ends ahead. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0142",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Dual carriageway ends ahead.”?",
+    "question": "Which sign means: \u201cDual carriageway ends ahead.\u201d?",
     "options": [
       "T-junction with priority over vehicles from the right",
       "Zebra crossing",
@@ -2211,8 +1999,7 @@
       "Dual carriageway ends"
     ],
     "correctIndex": 3,
-    "explanation": "The “Dual carriageway ends” sign means: Dual carriageway ends ahead. Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-end-dual"
+    "explanation": "The \u201cDual carriageway ends\u201d sign means: Dual carriageway ends ahead. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0143",
@@ -2220,22 +2007,20 @@
     "question": "What does this sign mean?",
     "options": [
       "Traffic signals ahead are not in use.",
-      "Worded warning sign — water crosses the road ahead.",
+      "Worded warning sign \u2014 water crosses the road ahead.",
       "Slippery road surface ahead.",
       "Zebra crossing ahead."
     ],
     "correctIndex": 1,
-    "explanation": "Ford: Worded warning sign — water crosses the road ahead. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-ford",
+    "explanation": "Ford: Worded warning sign \u2014 water crosses the road ahead. Source: Know Your Traffic Signs (OGL v3.0).",
     "highwayCodeRules": [
       121
-    ],
-    "signId": "sign-ford"
+    ]
   },
   {
     "id": "road-traffic-signs-0144",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Worded warning sign — water crosses the road ahead.”?",
+    "question": "Which sign means: \u201cWorded warning sign \u2014 water crosses the road ahead.\u201d?",
     "options": [
       "Road narrows on right",
       "Ford",
@@ -2243,11 +2028,10 @@
       "Dual carriageway ends"
     ],
     "correctIndex": 1,
-    "explanation": "The “Ford” sign means: Worded warning sign — water crosses the road ahead. Source: Know Your Traffic Signs (OGL v3.0).",
+    "explanation": "The \u201cFord\u201d sign means: Worded warning sign \u2014 water crosses the road ahead. Source: Know Your Traffic Signs (OGL v3.0).",
     "highwayCodeRules": [
       121
-    ],
-    "signId": "sign-ford"
+    ]
   },
   {
     "id": "road-traffic-signs-0145",
@@ -2256,18 +2040,16 @@
     "options": [
       "Hospital ahead with Accident and Emergency facilities.",
       "Area in which cameras are used to enforce traffic regulations.",
-      "One-way traffic — vehicles must travel in the direction shown.",
+      "One-way traffic \u2014 vehicles must travel in the direction shown.",
       "Direction to a parking place."
     ],
     "correctIndex": 2,
-    "explanation": "One-way traffic: One-way traffic — vehicles must travel in the direction shown. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-one-way",
-    "signId": "sign-one-way"
+    "explanation": "One-way traffic: One-way traffic \u2014 vehicles must travel in the direction shown. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0146",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “One-way traffic — vehicles must travel in the direction shown.”?",
+    "question": "Which sign means: \u201cOne-way traffic \u2014 vehicles must travel in the direction shown.\u201d?",
     "options": [
       "Priority over oncoming vehicles",
       "One-way traffic",
@@ -2275,28 +2057,25 @@
       "Area with traffic enforcement cameras"
     ],
     "correctIndex": 1,
-    "explanation": "The “One-way traffic” sign means: One-way traffic — vehicles must travel in the direction shown. Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-one-way"
+    "explanation": "The \u201cOne-way traffic\u201d sign means: One-way traffic \u2014 vehicles must travel in the direction shown. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0147",
     "category": "road-traffic-signs",
     "question": "What does this sign mean?",
     "options": [
-      "One-way traffic — vehicles must travel in the direction shown.",
+      "One-way traffic \u2014 vehicles must travel in the direction shown.",
       "Traffic on this side has priority over oncoming vehicles.",
       "Symbol indicating an emergency diversion route for motorway traffic.",
       "Area in which cameras are used to enforce traffic regulations."
     ],
     "correctIndex": 1,
-    "explanation": "Priority over oncoming vehicles: Traffic on this side has priority over oncoming vehicles. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-priority-over-oncoming",
-    "signId": "sign-priority-over-oncoming"
+    "explanation": "Priority over oncoming vehicles: Traffic on this side has priority over oncoming vehicles. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0148",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Traffic on this side has priority over oncoming vehicles.”?",
+    "question": "Which sign means: \u201cTraffic on this side has priority over oncoming vehicles.\u201d?",
     "options": [
       "Priority over oncoming vehicles",
       "No through road",
@@ -2304,8 +2083,7 @@
       "Emergency diversion route"
     ],
     "correctIndex": 0,
-    "explanation": "The “Priority over oncoming vehicles” sign means: Traffic on this side has priority over oncoming vehicles. Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-priority-over-oncoming"
+    "explanation": "The \u201cPriority over oncoming vehicles\u201d sign means: Traffic on this side has priority over oncoming vehicles. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0149",
@@ -2314,18 +2092,16 @@
     "options": [
       "Direction to a parking place.",
       "Recommended route for pedal cycles.",
-      "One-way traffic — vehicles must travel in the direction shown.",
+      "One-way traffic \u2014 vehicles must travel in the direction shown.",
       "Road ahead is a dead end for vehicles."
     ],
     "correctIndex": 3,
-    "explanation": "No through road: Road ahead is a dead end for vehicles. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-no-through-road",
-    "signId": "sign-no-through-road"
+    "explanation": "No through road: Road ahead is a dead end for vehicles. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0150",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Road ahead is a dead end for vehicles.”?",
+    "question": "Which sign means: \u201cRoad ahead is a dead end for vehicles.\u201d?",
     "options": [
       "No through road",
       "End of bus lane",
@@ -2333,8 +2109,7 @@
       "Priority over oncoming vehicles"
     ],
     "correctIndex": 0,
-    "explanation": "The “No through road” sign means: Road ahead is a dead end for vehicles. Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-no-through-road"
+    "explanation": "The \u201cNo through road\u201d sign means: Road ahead is a dead end for vehicles. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0151",
@@ -2347,14 +2122,12 @@
       "Recommended route for pedal cycles."
     ],
     "correctIndex": 2,
-    "explanation": "Parking place: Direction to a parking place. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-parking",
-    "signId": "sign-parking"
+    "explanation": "Parking place: Direction to a parking place. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0152",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Direction to a parking place.”?",
+    "question": "Which sign means: \u201cDirection to a parking place.\u201d?",
     "options": [
       "Parking place",
       "Hospital ahead with A&E",
@@ -2362,8 +2135,7 @@
       "Recommended route for pedal cycles"
     ],
     "correctIndex": 0,
-    "explanation": "The “Parking place” sign means: Direction to a parking place. Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-parking"
+    "explanation": "The \u201cParking place\u201d sign means: Direction to a parking place. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0153",
@@ -2376,14 +2148,12 @@
       "Direction to a tourist information point."
     ],
     "correctIndex": 1,
-    "explanation": "Hospital ahead with A&E: Hospital ahead with Accident and Emergency facilities. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-hospital",
-    "signId": "sign-hospital"
+    "explanation": "Hospital ahead with A&E: Hospital ahead with Accident and Emergency facilities. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0154",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Hospital ahead with Accident and Emergency facilities.”?",
+    "question": "Which sign means: \u201cHospital ahead with Accident and Emergency facilities.\u201d?",
     "options": [
       "Hospital ahead with A&E",
       "One-way traffic",
@@ -2391,8 +2161,7 @@
       "No through road"
     ],
     "correctIndex": 0,
-    "explanation": "The “Hospital ahead with A&E” sign means: Hospital ahead with Accident and Emergency facilities. Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-hospital"
+    "explanation": "The \u201cHospital ahead with A&E\u201d sign means: Hospital ahead with Accident and Emergency facilities. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0155",
@@ -2405,14 +2174,12 @@
       "Direction to a tourist information point."
     ],
     "correctIndex": 3,
-    "explanation": "Tourist information point: Direction to a tourist information point. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-tourist",
-    "signId": "sign-tourist"
+    "explanation": "Tourist information point: Direction to a tourist information point. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0156",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Direction to a tourist information point.”?",
+    "question": "Which sign means: \u201cDirection to a tourist information point.\u201d?",
     "options": [
       "Area with traffic enforcement cameras",
       "Priority over oncoming vehicles",
@@ -2420,8 +2187,7 @@
       "Tourist information point"
     ],
     "correctIndex": 3,
-    "explanation": "The “Tourist information point” sign means: Direction to a tourist information point. Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-tourist"
+    "explanation": "The \u201cTourist information point\u201d sign means: Direction to a tourist information point. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0157",
@@ -2430,18 +2196,16 @@
     "options": [
       "Hospital ahead with Accident and Emergency facilities.",
       "End of bus lane.",
-      "One-way traffic — vehicles must travel in the direction shown.",
+      "One-way traffic \u2014 vehicles must travel in the direction shown.",
       "Area in which cameras are used to enforce traffic regulations."
     ],
     "correctIndex": 3,
-    "explanation": "Area with traffic enforcement cameras: Area in which cameras are used to enforce traffic regulations. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-camera",
-    "signId": "sign-camera"
+    "explanation": "Area with traffic enforcement cameras: Area in which cameras are used to enforce traffic regulations. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0158",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Area in which cameras are used to enforce traffic regulations.”?",
+    "question": "Which sign means: \u201cArea in which cameras are used to enforce traffic regulations.\u201d?",
     "options": [
       "Area with traffic enforcement cameras",
       "Emergency diversion route",
@@ -2449,8 +2213,7 @@
       "Priority over oncoming vehicles"
     ],
     "correctIndex": 0,
-    "explanation": "The “Area with traffic enforcement cameras” sign means: Area in which cameras are used to enforce traffic regulations. Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-camera"
+    "explanation": "The \u201cArea with traffic enforcement cameras\u201d sign means: Area in which cameras are used to enforce traffic regulations. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0159",
@@ -2463,14 +2226,12 @@
       "End of bus lane."
     ],
     "correctIndex": 3,
-    "explanation": "End of bus lane: End of bus lane. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-bus-lane-end",
-    "signId": "sign-bus-lane-end"
+    "explanation": "End of bus lane: End of bus lane. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0160",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “End of bus lane.”?",
+    "question": "Which sign means: \u201cEnd of bus lane.\u201d?",
     "options": [
       "Area with traffic enforcement cameras",
       "No through road",
@@ -2478,8 +2239,7 @@
       "One-way traffic"
     ],
     "correctIndex": 2,
-    "explanation": "The “End of bus lane” sign means: End of bus lane. Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-bus-lane-end"
+    "explanation": "The \u201cEnd of bus lane\u201d sign means: End of bus lane. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0161",
@@ -2492,14 +2252,12 @@
       "Direction to a parking place."
     ],
     "correctIndex": 0,
-    "explanation": "Recommended route for pedal cycles: Recommended route for pedal cycles. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-recommended-cycle",
-    "signId": "sign-recommended-cycle"
+    "explanation": "Recommended route for pedal cycles: Recommended route for pedal cycles. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0162",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Recommended route for pedal cycles.”?",
+    "question": "Which sign means: \u201cRecommended route for pedal cycles.\u201d?",
     "options": [
       "Priority over oncoming vehicles",
       "No through road",
@@ -2507,8 +2265,7 @@
       "Tourist information point"
     ],
     "correctIndex": 2,
-    "explanation": "The “Recommended route for pedal cycles” sign means: Recommended route for pedal cycles. Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-recommended-cycle"
+    "explanation": "The \u201cRecommended route for pedal cycles\u201d sign means: Recommended route for pedal cycles. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0163",
@@ -2521,14 +2278,12 @@
       "Recommended route for pedal cycles."
     ],
     "correctIndex": 1,
-    "explanation": "Emergency diversion route: Symbol indicating an emergency diversion route for motorway traffic. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-emergency-diversion",
-    "signId": "sign-emergency-diversion"
+    "explanation": "Emergency diversion route: Symbol indicating an emergency diversion route for motorway traffic. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0164",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Symbol indicating an emergency diversion route for motorway traffic.”?",
+    "question": "Which sign means: \u201cSymbol indicating an emergency diversion route for motorway traffic.\u201d?",
     "options": [
       "Hospital ahead with A&E",
       "End of bus lane",
@@ -2536,31 +2291,28 @@
       "Emergency diversion route"
     ],
     "correctIndex": 3,
-    "explanation": "The “Emergency diversion route” sign means: Symbol indicating an emergency diversion route for motorway traffic. Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-emergency-diversion"
+    "explanation": "The \u201cEmergency diversion route\u201d sign means: Symbol indicating an emergency diversion route for motorway traffic. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0165",
     "category": "road-traffic-signs",
     "question": "What does this sign mean?",
     "options": [
-      "End of motorway — motorway regulations no longer apply.",
+      "End of motorway \u2014 motorway regulations no longer apply.",
       "Start of motorway and point from which motorway regulations apply.",
       "Green-backed signs indicate primary routes between places of traffic importance.",
       "White-backed signs with black borders indicate non-primary routes."
     ],
     "correctIndex": 1,
     "explanation": "Start of motorway: Start of motorway and point from which motorway regulations apply. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-motorway-start",
     "highwayCodeRules": [
       253
-    ],
-    "signId": "sign-motorway-start"
+    ]
   },
   {
     "id": "road-traffic-signs-0166",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Start of motorway and point from which motorway regulations apply.”?",
+    "question": "Which sign means: \u201cStart of motorway and point from which motorway regulations apply.\u201d?",
     "options": [
       "Start of motorway",
       "End of motorway",
@@ -2568,11 +2320,10 @@
       "Primary route direction"
     ],
     "correctIndex": 0,
-    "explanation": "The “Start of motorway” sign means: Start of motorway and point from which motorway regulations apply. Source: Know Your Traffic Signs (OGL v3.0).",
+    "explanation": "The \u201cStart of motorway\u201d sign means: Start of motorway and point from which motorway regulations apply. Source: Know Your Traffic Signs (OGL v3.0).",
     "highwayCodeRules": [
       253
-    ],
-    "signId": "sign-motorway-start"
+    ]
   },
   {
     "id": "road-traffic-signs-0167",
@@ -2580,19 +2331,17 @@
     "question": "What does this sign mean?",
     "options": [
       "White-backed signs with black borders indicate non-primary routes.",
-      "End of motorway — motorway regulations no longer apply.",
+      "End of motorway \u2014 motorway regulations no longer apply.",
       "Green-backed signs indicate primary routes between places of traffic importance.",
       "Countdown markers at exit from motorway: each bar represents 100 yards to the exit."
     ],
     "correctIndex": 1,
-    "explanation": "End of motorway: End of motorway — motorway regulations no longer apply. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-motorway-end",
-    "signId": "sign-motorway-end"
+    "explanation": "End of motorway: End of motorway \u2014 motorway regulations no longer apply. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0168",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “End of motorway — motorway regulations no longer apply.”?",
+    "question": "Which sign means: \u201cEnd of motorway \u2014 motorway regulations no longer apply.\u201d?",
     "options": [
       "Ring road",
       "Countdown markers (motorway)",
@@ -2600,8 +2349,7 @@
       "Primary route direction"
     ],
     "correctIndex": 2,
-    "explanation": "The “End of motorway” sign means: End of motorway — motorway regulations no longer apply. Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-motorway-end"
+    "explanation": "The \u201cEnd of motorway\u201d sign means: End of motorway \u2014 motorway regulations no longer apply. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0169",
@@ -2615,16 +2363,14 @@
     ],
     "correctIndex": 0,
     "explanation": "Countdown markers (motorway): Countdown markers at exit from motorway: each bar represents 100 yards to the exit. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-countdown-100",
     "highwayCodeRules": [
       272
-    ],
-    "signId": "sign-countdown-100"
+    ]
   },
   {
     "id": "road-traffic-signs-0170",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Countdown markers at exit from motorway: each bar represents 100 yards to the exit.”?",
+    "question": "Which sign means: \u201cCountdown markers at exit from motorway: each bar represents 100 yards to the exit.\u201d?",
     "options": [
       "Primary route direction",
       "Non-primary route direction",
@@ -2632,11 +2378,10 @@
       "Countdown markers (motorway)"
     ],
     "correctIndex": 3,
-    "explanation": "The “Countdown markers (motorway)” sign means: Countdown markers at exit from motorway: each bar represents 100 yards to the exit. Source: Know Your Traffic Signs (OGL v3.0).",
+    "explanation": "The \u201cCountdown markers (motorway)\u201d sign means: Countdown markers at exit from motorway: each bar represents 100 yards to the exit. Source: Know Your Traffic Signs (OGL v3.0).",
     "highwayCodeRules": [
       272
-    ],
-    "signId": "sign-countdown-100"
+    ]
   },
   {
     "id": "road-traffic-signs-0171",
@@ -2649,14 +2394,12 @@
       "Green-backed signs indicate primary routes between places of traffic importance."
     ],
     "correctIndex": 3,
-    "explanation": "Primary route direction: Green-backed signs indicate primary routes between places of traffic importance. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-primary-route",
-    "signId": "sign-primary-route"
+    "explanation": "Primary route direction: Green-backed signs indicate primary routes between places of traffic importance. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0172",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Green-backed signs indicate primary routes between places of traffic importance.”?",
+    "question": "Which sign means: \u201cGreen-backed signs indicate primary routes between places of traffic importance.\u201d?",
     "options": [
       "Primary route direction",
       "End of motorway",
@@ -2664,28 +2407,25 @@
       "Countdown markers (motorway)"
     ],
     "correctIndex": 0,
-    "explanation": "The “Primary route direction” sign means: Green-backed signs indicate primary routes between places of traffic importance. Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-primary-route"
+    "explanation": "The \u201cPrimary route direction\u201d sign means: Green-backed signs indicate primary routes between places of traffic importance. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0173",
     "category": "road-traffic-signs",
     "question": "What does this sign mean?",
     "options": [
-      "End of motorway — motorway regulations no longer apply.",
+      "End of motorway \u2014 motorway regulations no longer apply.",
       "Green-backed signs indicate primary routes between places of traffic importance.",
       "Start of motorway and point from which motorway regulations apply.",
       "White-backed signs with black borders indicate non-primary routes."
     ],
     "correctIndex": 3,
-    "explanation": "Non-primary route direction: White-backed signs with black borders indicate non-primary routes. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-non-primary-route",
-    "signId": "sign-non-primary-route"
+    "explanation": "Non-primary route direction: White-backed signs with black borders indicate non-primary routes. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0174",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “White-backed signs with black borders indicate non-primary routes.”?",
+    "question": "Which sign means: \u201cWhite-backed signs with black borders indicate non-primary routes.\u201d?",
     "options": [
       "Countdown markers (motorway)",
       "Non-primary route direction",
@@ -2693,8 +2433,7 @@
       "Primary route direction"
     ],
     "correctIndex": 1,
-    "explanation": "The “Non-primary route direction” sign means: White-backed signs with black borders indicate non-primary routes. Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-non-primary-route"
+    "explanation": "The \u201cNon-primary route direction\u201d sign means: White-backed signs with black borders indicate non-primary routes. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0175",
@@ -2702,19 +2441,17 @@
     "question": "What does this sign mean?",
     "options": [
       "Countdown markers at exit from motorway: each bar represents 100 yards to the exit.",
-      "End of motorway — motorway regulations no longer apply.",
+      "End of motorway \u2014 motorway regulations no longer apply.",
       "Direction to a ring road.",
       "Green-backed signs indicate primary routes between places of traffic importance."
     ],
     "correctIndex": 2,
-    "explanation": "Ring road: Direction to a ring road. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-ring-road",
-    "signId": "sign-ring-road"
+    "explanation": "Ring road: Direction to a ring road. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0176",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Direction to a ring road.”?",
+    "question": "Which sign means: \u201cDirection to a ring road.\u201d?",
     "options": [
       "End of motorway",
       "Countdown markers (motorway)",
@@ -2722,43 +2459,39 @@
       "Non-primary route direction"
     ],
     "correctIndex": 2,
-    "explanation": "The “Ring road” sign means: Direction to a ring road. Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-ring-road"
+    "explanation": "The \u201cRing road\u201d sign means: Direction to a ring road. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0177",
     "category": "road-traffic-signs",
     "question": "What does this sign mean?",
     "options": [
-      "Loose chippings on the road — reduce speed.",
+      "Loose chippings on the road \u2014 reduce speed.",
       "Road works ahead.",
       "One lane closed ahead at road works.",
       "Lane crossover at contraflow road works."
     ],
     "correctIndex": 1,
     "explanation": "Road works: Road works ahead. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-roadworks",
     "highwayCodeRules": [
       288
-    ],
-    "signId": "sign-roadworks"
+    ]
   },
   {
     "id": "road-traffic-signs-0178",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Road works ahead.”?",
+    "question": "Which sign means: \u201cRoad works ahead.\u201d?",
     "options": [
       "Loose chippings",
-      "Slow — wet tar",
+      "Slow \u2014 wet tar",
       "Road works",
       "Lane closed ahead"
     ],
     "correctIndex": 2,
-    "explanation": "The “Road works” sign means: Road works ahead. Source: Know Your Traffic Signs (OGL v3.0).",
+    "explanation": "The \u201cRoad works\u201d sign means: Road works ahead. Source: Know Your Traffic Signs (OGL v3.0).",
     "highwayCodeRules": [
       288
-    ],
-    "signId": "sign-roadworks"
+    ]
   },
   {
     "id": "road-traffic-signs-0179",
@@ -2768,26 +2501,23 @@
       "Temporary hazard: wet tar on the road surface.",
       "Lane crossover at contraflow road works.",
       "Road works ahead.",
-      "Loose chippings on the road — reduce speed."
+      "Loose chippings on the road \u2014 reduce speed."
     ],
     "correctIndex": 3,
-    "explanation": "Loose chippings: Loose chippings on the road — reduce speed. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-loose-chippings",
-    "signId": "sign-loose-chippings"
+    "explanation": "Loose chippings: Loose chippings on the road \u2014 reduce speed. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0180",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Loose chippings on the road — reduce speed.”?",
+    "question": "Which sign means: \u201cLoose chippings on the road \u2014 reduce speed.\u201d?",
     "options": [
       "Loose chippings",
       "End of road works",
       "Lane closed ahead",
-      "Slow — wet tar"
+      "Slow \u2014 wet tar"
     ],
     "correctIndex": 0,
-    "explanation": "The “Loose chippings” sign means: Loose chippings on the road — reduce speed. Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-loose-chippings"
+    "explanation": "The \u201cLoose chippings\u201d sign means: Loose chippings on the road \u2014 reduce speed. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0181",
@@ -2800,23 +2530,20 @@
       "Lane crossover at contraflow road works."
     ],
     "correctIndex": 2,
-    "explanation": "Lane closed ahead: One lane closed ahead at road works. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-temporary-lane-closed",
-    "signId": "sign-temporary-lane-closed"
+    "explanation": "Lane closed ahead: One lane closed ahead at road works. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0182",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “One lane closed ahead at road works.”?",
+    "question": "Which sign means: \u201cOne lane closed ahead at road works.\u201d?",
     "options": [
-      "Slow — wet tar",
+      "Slow \u2014 wet tar",
       "Lane closed ahead",
       "End of road works",
       "Contraflow"
     ],
     "correctIndex": 1,
-    "explanation": "The “Lane closed ahead” sign means: One lane closed ahead at road works. Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-temporary-lane-closed"
+    "explanation": "The \u201cLane closed ahead\u201d sign means: One lane closed ahead at road works. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0183",
@@ -2829,23 +2556,20 @@
       "End of road works and any temporary restrictions."
     ],
     "correctIndex": 3,
-    "explanation": "End of road works: End of road works and any temporary restrictions. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-end-roadworks",
-    "signId": "sign-end-roadworks"
+    "explanation": "End of road works: End of road works and any temporary restrictions. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0184",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “End of road works and any temporary restrictions.”?",
+    "question": "Which sign means: \u201cEnd of road works and any temporary restrictions.\u201d?",
     "options": [
       "End of road works",
-      "Slow — wet tar",
+      "Slow \u2014 wet tar",
       "Contraflow",
       "Lane closed ahead"
     ],
     "correctIndex": 0,
-    "explanation": "The “End of road works” sign means: End of road works and any temporary restrictions. Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-end-roadworks"
+    "explanation": "The \u201cEnd of road works\u201d sign means: End of road works and any temporary restrictions. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0185",
@@ -2854,33 +2578,30 @@
     "options": [
       "End of road works and any temporary restrictions.",
       "One lane closed ahead at road works.",
-      "Loose chippings on the road — reduce speed.",
+      "Loose chippings on the road \u2014 reduce speed.",
       "Lane crossover at contraflow road works."
     ],
     "correctIndex": 3,
     "explanation": "Contraflow: Lane crossover at contraflow road works. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-contraflow",
     "highwayCodeRules": [
       290
-    ],
-    "signId": "sign-contraflow"
+    ]
   },
   {
     "id": "road-traffic-signs-0186",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Lane crossover at contraflow road works.”?",
+    "question": "Which sign means: \u201cLane crossover at contraflow road works.\u201d?",
     "options": [
       "Lane closed ahead",
       "Loose chippings",
-      "Slow — wet tar",
+      "Slow \u2014 wet tar",
       "Contraflow"
     ],
     "correctIndex": 3,
-    "explanation": "The “Contraflow” sign means: Lane crossover at contraflow road works. Source: Know Your Traffic Signs (OGL v3.0).",
+    "explanation": "The \u201cContraflow\u201d sign means: Lane crossover at contraflow road works. Source: Know Your Traffic Signs (OGL v3.0).",
     "highwayCodeRules": [
       290
-    ],
-    "signId": "sign-contraflow"
+    ]
   },
   {
     "id": "road-traffic-signs-0187",
@@ -2889,27 +2610,24 @@
     "options": [
       "End of road works and any temporary restrictions.",
       "Temporary hazard: wet tar on the road surface.",
-      "Loose chippings on the road — reduce speed.",
+      "Loose chippings on the road \u2014 reduce speed.",
       "Lane crossover at contraflow road works."
     ],
     "correctIndex": 1,
-    "explanation": "Slow — wet tar: Temporary hazard: wet tar on the road surface. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-slow-wet-tar",
-    "signId": "sign-slow-wet-tar"
+    "explanation": "Slow \u2014 wet tar: Temporary hazard: wet tar on the road surface. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0188",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Temporary hazard: wet tar on the road surface.”?",
+    "question": "Which sign means: \u201cTemporary hazard: wet tar on the road surface.\u201d?",
     "options": [
       "Loose chippings",
       "Road works",
-      "Slow — wet tar",
+      "Slow \u2014 wet tar",
       "Contraflow"
     ],
     "correctIndex": 2,
-    "explanation": "The “Slow — wet tar” sign means: Temporary hazard: wet tar on the road surface. Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-slow-wet-tar"
+    "explanation": "The \u201cSlow \u2014 wet tar\u201d sign means: Temporary hazard: wet tar on the road surface. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0189",
@@ -2918,68 +2636,62 @@
     "options": [
       "No waiting at any time.",
       "Longer centre-line markings with shorter gaps warn of a hazard ahead.",
-      "Solid white stop line — stop when required by signals or police.",
-      "Double broken white lines across the road — give way."
+      "Solid white stop line \u2014 stop when required by signals or police.",
+      "Double broken white lines across the road \u2014 give way."
     ],
     "correctIndex": 2,
-    "explanation": "Stop line at signals or police control: Solid white stop line — stop when required by signals or police. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-marking-stop",
+    "explanation": "Stop line at signals or police control: Solid white stop line \u2014 stop when required by signals or police. Source: Know Your Traffic Signs (OGL v3.0).",
     "highwayCodeRules": [
       175
-    ],
-    "signId": "sign-marking-stop"
+    ]
   },
   {
     "id": "road-traffic-signs-0190",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Solid white stop line — stop when required by signals or police.”?",
+    "question": "Which sign means: \u201cSolid white stop line \u2014 stop when required by signals or police.\u201d?",
     "options": [
-      "Red route — double red lines",
+      "Red route \u2014 double red lines",
       "Double yellow lines",
       "Stop line at signals or police control",
       "Chevrons bordered by solid line"
     ],
     "correctIndex": 2,
-    "explanation": "The “Stop line at signals or police control” sign means: Solid white stop line — stop when required by signals or police. Source: Know Your Traffic Signs (OGL v3.0).",
+    "explanation": "The \u201cStop line at signals or police control\u201d sign means: Solid white stop line \u2014 stop when required by signals or police. Source: Know Your Traffic Signs (OGL v3.0).",
     "highwayCodeRules": [
       175
-    ],
-    "signId": "sign-marking-stop"
+    ]
   },
   {
     "id": "road-traffic-signs-0191",
     "category": "road-traffic-signs",
     "question": "What does this sign mean?",
     "options": [
-      "Double broken white lines across the road — give way.",
+      "Double broken white lines across the road \u2014 give way.",
       "No waiting at any time.",
-      "Solid white stop line — stop when required by signals or police.",
+      "Solid white stop line \u2014 stop when required by signals or police.",
       "Area you MUST NOT enter except in an emergency."
     ],
     "correctIndex": 0,
-    "explanation": "Give way to traffic on major road: Double broken white lines across the road — give way. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-marking-give-way",
+    "explanation": "Give way to traffic on major road: Double broken white lines across the road \u2014 give way. Source: Know Your Traffic Signs (OGL v3.0).",
     "highwayCodeRules": [
       172
-    ],
-    "signId": "sign-marking-give-way"
+    ]
   },
   {
     "id": "road-traffic-signs-0192",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Double broken white lines across the road — give way.”?",
+    "question": "Which sign means: \u201cDouble broken white lines across the road \u2014 give way.\u201d?",
     "options": [
-      "Red route — double red lines",
+      "Red route \u2014 double red lines",
       "Give way to traffic on major road",
       "Stop line at signals or police control",
       "Double yellow lines"
     ],
     "correctIndex": 1,
-    "explanation": "The “Give way to traffic on major road” sign means: Double broken white lines across the road — give way. Source: Know Your Traffic Signs (OGL v3.0).",
+    "explanation": "The \u201cGive way to traffic on major road\u201d sign means: Double broken white lines across the road \u2014 give way. Source: Know Your Traffic Signs (OGL v3.0).",
     "highwayCodeRules": [
       172
-    ],
-    "signId": "sign-marking-give-way"
+    ]
   },
   {
     "id": "road-traffic-signs-0193",
@@ -2988,21 +2700,19 @@
     "options": [
       "Longer centre-line markings with shorter gaps warn of a hazard ahead.",
       "No stopping at any time within the area marked by zig-zag lines.",
-      "Yellow criss-cross lines — do not enter unless your exit is clear.",
+      "Yellow criss-cross lines \u2014 do not enter unless your exit is clear.",
       "Do not block this part of the road."
     ],
     "correctIndex": 2,
-    "explanation": "Box junction: Yellow criss-cross lines — do not enter unless your exit is clear. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-marking-box",
+    "explanation": "Box junction: Yellow criss-cross lines \u2014 do not enter unless your exit is clear. Source: Know Your Traffic Signs (OGL v3.0).",
     "highwayCodeRules": [
       174
-    ],
-    "signId": "sign-marking-box"
+    ]
   },
   {
     "id": "road-traffic-signs-0194",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Yellow criss-cross lines — do not enter unless your exit is clear.”?",
+    "question": "Which sign means: \u201cYellow criss-cross lines \u2014 do not enter unless your exit is clear.\u201d?",
     "options": [
       "Box junction",
       "Stop line at signals or police control",
@@ -3010,11 +2720,10 @@
       "Give way to traffic on major road"
     ],
     "correctIndex": 0,
-    "explanation": "The “Box junction” sign means: Yellow criss-cross lines — do not enter unless your exit is clear. Source: Know Your Traffic Signs (OGL v3.0).",
+    "explanation": "The \u201cBox junction\u201d sign means: Yellow criss-cross lines \u2014 do not enter unless your exit is clear. Source: Know Your Traffic Signs (OGL v3.0).",
     "highwayCodeRules": [
       174
-    ],
-    "signId": "sign-marking-box"
+    ]
   },
   {
     "id": "road-traffic-signs-0195",
@@ -3023,18 +2732,16 @@
     "options": [
       "No stopping at any time within the area marked by zig-zag lines.",
       "Do not block this part of the road.",
-      "Yellow criss-cross lines — do not enter unless your exit is clear.",
-      "Solid white stop line — stop when required by signals or police."
+      "Yellow criss-cross lines \u2014 do not enter unless your exit is clear.",
+      "Solid white stop line \u2014 stop when required by signals or police."
     ],
     "correctIndex": 1,
-    "explanation": "Keep clear: Do not block this part of the road. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-marking-keep-clear",
-    "signId": "sign-marking-keep-clear"
+    "explanation": "Keep clear: Do not block this part of the road. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0196",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Do not block this part of the road.”?",
+    "question": "Which sign means: \u201cDo not block this part of the road.\u201d?",
     "options": [
       "Stop line at signals or police control",
       "Keep clear",
@@ -3042,43 +2749,39 @@
       "Double yellow lines"
     ],
     "correctIndex": 1,
-    "explanation": "The “Keep clear” sign means: Do not block this part of the road. Source: Know Your Traffic Signs (OGL v3.0).",
-    "signId": "sign-marking-keep-clear"
+    "explanation": "The \u201cKeep clear\u201d sign means: Do not block this part of the road. Source: Know Your Traffic Signs (OGL v3.0)."
   },
   {
     "id": "road-traffic-signs-0197",
     "category": "road-traffic-signs",
     "question": "What does this sign mean?",
     "options": [
-      "Yellow criss-cross lines — do not enter unless your exit is clear.",
+      "Yellow criss-cross lines \u2014 do not enter unless your exit is clear.",
       "Longer centre-line markings with shorter gaps warn of a hazard ahead.",
       "No stopping at any time within the area marked by zig-zag lines.",
       "Area you MUST NOT enter except in an emergency."
     ],
     "correctIndex": 2,
     "explanation": "Zig-zag lines: No stopping at any time within the area marked by zig-zag lines. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-marking-zigzag",
     "highwayCodeRules": [
       191
-    ],
-    "signId": "sign-marking-zigzag"
+    ]
   },
   {
     "id": "road-traffic-signs-0198",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “No stopping at any time within the area marked by zig-zag lines.”?",
+    "question": "Which sign means: \u201cNo stopping at any time within the area marked by zig-zag lines.\u201d?",
     "options": [
       "Zig-zag lines",
       "Keep clear",
       "Hazard warning line",
-      "Red route — double red lines"
+      "Red route \u2014 double red lines"
     ],
     "correctIndex": 0,
-    "explanation": "The “Zig-zag lines” sign means: No stopping at any time within the area marked by zig-zag lines. Source: Know Your Traffic Signs (OGL v3.0).",
+    "explanation": "The \u201cZig-zag lines\u201d sign means: No stopping at any time within the area marked by zig-zag lines. Source: Know Your Traffic Signs (OGL v3.0).",
     "highwayCodeRules": [
       191
-    ],
-    "signId": "sign-marking-zigzag"
+    ]
   },
   {
     "id": "road-traffic-signs-0199",
@@ -3087,33 +2790,30 @@
     "options": [
       "No waiting at any time.",
       "Do not block this part of the road.",
-      "Double broken white lines across the road — give way.",
+      "Double broken white lines across the road \u2014 give way.",
       "No stopping at any time within the area marked by zig-zag lines."
     ],
     "correctIndex": 0,
     "explanation": "Double yellow lines: No waiting at any time. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-marking-double-yellow",
     "highwayCodeRules": [
       238
-    ],
-    "signId": "sign-marking-double-yellow"
+    ]
   },
   {
     "id": "road-traffic-signs-0200",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “No waiting at any time.”?",
+    "question": "Which sign means: \u201cNo waiting at any time.\u201d?",
     "options": [
       "Box junction",
       "Keep clear",
-      "Red route — double red lines",
+      "Red route \u2014 double red lines",
       "Double yellow lines"
     ],
     "correctIndex": 3,
-    "explanation": "The “Double yellow lines” sign means: No waiting at any time. Source: Know Your Traffic Signs (OGL v3.0).",
+    "explanation": "The \u201cDouble yellow lines\u201d sign means: No waiting at any time. Source: Know Your Traffic Signs (OGL v3.0).",
     "highwayCodeRules": [
       238
-    ],
-    "signId": "sign-marking-double-yellow"
+    ]
   },
   {
     "id": "road-traffic-signs-0201",
@@ -3121,34 +2821,31 @@
     "question": "What does this sign mean?",
     "options": [
       "No stopping at any time on a red route.",
-      "Double broken white lines across the road — give way.",
+      "Double broken white lines across the road \u2014 give way.",
       "Longer centre-line markings with shorter gaps warn of a hazard ahead.",
       "Do not block this part of the road."
     ],
     "correctIndex": 0,
-    "explanation": "Red route — double red lines: No stopping at any time on a red route. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-marking-double-red",
+    "explanation": "Red route \u2014 double red lines: No stopping at any time on a red route. Source: Know Your Traffic Signs (OGL v3.0).",
     "highwayCodeRules": [
       240
-    ],
-    "signId": "sign-marking-double-red"
+    ]
   },
   {
     "id": "road-traffic-signs-0202",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “No stopping at any time on a red route.”?",
+    "question": "Which sign means: \u201cNo stopping at any time on a red route.\u201d?",
     "options": [
       "Hazard warning line",
       "Zig-zag lines",
       "Keep clear",
-      "Red route — double red lines"
+      "Red route \u2014 double red lines"
     ],
     "correctIndex": 3,
-    "explanation": "The “Red route — double red lines” sign means: No stopping at any time on a red route. Source: Know Your Traffic Signs (OGL v3.0).",
+    "explanation": "The \u201cRed route \u2014 double red lines\u201d sign means: No stopping at any time on a red route. Source: Know Your Traffic Signs (OGL v3.0).",
     "highwayCodeRules": [
       240
-    ],
-    "signId": "sign-marking-double-red"
+    ]
   },
   {
     "id": "road-traffic-signs-0203",
@@ -3157,33 +2854,30 @@
     "options": [
       "No stopping at any time on a red route.",
       "No stopping at any time within the area marked by zig-zag lines.",
-      "Yellow criss-cross lines — do not enter unless your exit is clear.",
+      "Yellow criss-cross lines \u2014 do not enter unless your exit is clear.",
       "Longer centre-line markings with shorter gaps warn of a hazard ahead."
     ],
     "correctIndex": 3,
     "explanation": "Hazard warning line: Longer centre-line markings with shorter gaps warn of a hazard ahead. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-marking-hazard-line",
     "highwayCodeRules": [
       127
-    ],
-    "signId": "sign-marking-hazard-line"
+    ]
   },
   {
     "id": "road-traffic-signs-0204",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Longer centre-line markings with shorter gaps warn of a hazard ahead.”?",
+    "question": "Which sign means: \u201cLonger centre-line markings with shorter gaps warn of a hazard ahead.\u201d?",
     "options": [
       "Hazard warning line",
-      "Red route — double red lines",
+      "Red route \u2014 double red lines",
       "Keep clear",
       "Chevrons bordered by solid line"
     ],
     "correctIndex": 0,
-    "explanation": "The “Hazard warning line” sign means: Longer centre-line markings with shorter gaps warn of a hazard ahead. Source: Know Your Traffic Signs (OGL v3.0).",
+    "explanation": "The \u201cHazard warning line\u201d sign means: Longer centre-line markings with shorter gaps warn of a hazard ahead. Source: Know Your Traffic Signs (OGL v3.0).",
     "highwayCodeRules": [
       127
-    ],
-    "signId": "sign-marking-hazard-line"
+    ]
   },
   {
     "id": "road-traffic-signs-0205",
@@ -3191,22 +2885,20 @@
     "question": "What does this sign mean?",
     "options": [
       "No waiting at any time.",
-      "Yellow criss-cross lines — do not enter unless your exit is clear.",
-      "Solid white stop line — stop when required by signals or police.",
+      "Yellow criss-cross lines \u2014 do not enter unless your exit is clear.",
+      "Solid white stop line \u2014 stop when required by signals or police.",
       "Area you MUST NOT enter except in an emergency."
     ],
     "correctIndex": 3,
     "explanation": "Chevrons bordered by solid line: Area you MUST NOT enter except in an emergency. Source: Know Your Traffic Signs (OGL v3.0).",
-    "imageUri": "sign-marking-chevrons",
     "highwayCodeRules": [
       130
-    ],
-    "signId": "sign-marking-chevrons"
+    ]
   },
   {
     "id": "road-traffic-signs-0206",
     "category": "road-traffic-signs",
-    "question": "Which sign means: “Area you MUST NOT enter except in an emergency.”?",
+    "question": "Which sign means: \u201cArea you MUST NOT enter except in an emergency.\u201d?",
     "options": [
       "Chevrons bordered by solid line",
       "Double yellow lines",
@@ -3214,11 +2906,10 @@
       "Keep clear"
     ],
     "correctIndex": 0,
-    "explanation": "The “Chevrons bordered by solid line” sign means: Area you MUST NOT enter except in an emergency. Source: Know Your Traffic Signs (OGL v3.0).",
+    "explanation": "The \u201cChevrons bordered by solid line\u201d sign means: Area you MUST NOT enter except in an emergency. Source: Know Your Traffic Signs (OGL v3.0).",
     "highwayCodeRules": [
       130
-    ],
-    "signId": "sign-marking-chevrons"
+    ]
   },
   {
     "id": "road-traffic-signs-0289",
@@ -3239,7 +2930,7 @@
   {
     "id": "road-traffic-signs-0501",
     "category": "road-traffic-signs",
-    "question": "Highway Code rule 127 is about “general rules, techniques and advice”. Which statement is taken from this rule?",
+    "question": "Highway Code rule 127 is about \u201cgeneral rules, techniques and advice\u201d. Which statement is taken from this rule?",
     "options": [
       "You should also use dipped headlights, or dim-dip if fitted, at night in built-up areas and in dull daytime weather, to ensure that you can be seen.",
       "A broken white line marks the centre of the road.",
@@ -3255,7 +2946,7 @@
   {
     "id": "road-traffic-signs-0502",
     "category": "road-traffic-signs",
-    "question": "Highway Code rule 128 is about “general rules, techniques and advice”. Which statement is taken from this rule?",
+    "question": "Highway Code rule 128 is about \u201cgeneral rules, techniques and advice\u201d. Which statement is taken from this rule?",
     "options": [
       "The speed limit is the absolute maximum and does not mean it is safe to drive at that speed irrespective of conditions.",
       "Double white lines where the line nearest to you is solid.",
@@ -3287,7 +2978,7 @@
   {
     "id": "road-traffic-signs-0504",
     "category": "road-traffic-signs",
-    "question": "Highway Code rule 129 is about “general rules, techniques and advice”. Which statement is taken from this rule?",
+    "question": "Highway Code rule 129 is about \u201cgeneral rules, techniques and advice\u201d. Which statement is taken from this rule?",
     "options": [
       "Police stopping procedures.",
       "Double white lines where the line nearest to you is solid.",
@@ -3303,7 +2994,7 @@
   {
     "id": "road-traffic-signs-0505",
     "category": "road-traffic-signs",
-    "question": "Highway Code rule 130 is about “general rules, techniques and advice”. Which statement is taken from this rule?",
+    "question": "Highway Code rule 130 is about \u201cgeneral rules, techniques and advice\u201d. Which statement is taken from this rule?",
     "options": [
       "Flashing headlights. Only flash your headlights to let other road users know that you are there. Do not flash your headlights to convey any other message or int",
       "You MUST ensure all sidelights and rear registration plate lights are lit between sunset and sunrise, and use headlights at night except on a road which has lit street lighting.",
@@ -3319,7 +3010,7 @@
   {
     "id": "road-traffic-signs-0506",
     "category": "road-traffic-signs",
-    "question": "Highway Code rule 131 is about “general rules, techniques and advice”. Which statement is taken from this rule?",
+    "question": "Highway Code rule 131 is about \u201cgeneral rules, techniques and advice\u201d. Which statement is taken from this rule?",
     "options": [
       "Cycle lanes. You MUST NOT drive or park in a cycle lane marked by a solid white line during its times of operation. Do not drive or park in a cycle lane marked",
       "Lane dividers. These are short, broken white lines used on wide carriageways to divide them into lanes. You should keep between them.",
@@ -3351,7 +3042,7 @@
   {
     "id": "road-traffic-signs-0508",
     "category": "road-traffic-signs",
-    "question": "Highway Code rule 132 is about “general rules, techniques and advice”. Which statement is taken from this rule?",
+    "question": "Highway Code rule 132 is about \u201cgeneral rules, techniques and advice\u201d. Which statement is taken from this rule?",
     "options": [
       "Reflective road studs may be used with white lines.",
       "Stopping distances. Drive at a speed that will allow you to stop well within the distance you can see to be clear. Leave enough space between you and the vehicl",
