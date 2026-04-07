@@ -1,4 +1,7 @@
 import 'react-native-gesture-handler';
+import { initialiseSentry } from './src/services/sentry';
+// Initialise before the component tree renders so native crashes are captured.
+initialiseSentry();
 import React, { useEffect } from 'react';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { StatusBar } from 'expo-status-bar';

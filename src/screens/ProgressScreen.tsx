@@ -3,7 +3,6 @@ import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Alert } from 'rea
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 import { useProgressStore } from '../store/progressStore';
-import { useSettingsStore } from '../store/settingsStore';
 import { useProgress } from '../hooks/useProgress';
 import { CATEGORY_CONFIG, ALL_CATEGORIES } from '../data/categories';
 import { Category } from '../types';
@@ -14,7 +13,7 @@ import AdBanner from '../components/AdBanner';
 export default function ProgressScreen() {
   const t = useTheme();
   const { progress, resetProgress } = useProgressStore();
-  const { overallAccuracy, weakCategories, questionsToday, goalMet, recentMockTests } = useProgress();
+  const { overallAccuracy, weakCategories, recentMockTests } = useProgress();
 
   const handleReset = () => {
     Alert.alert(

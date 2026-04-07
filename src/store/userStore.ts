@@ -1,7 +1,7 @@
 import { create } from 'zustand';
 import type { FirebaseUser } from '../services/firebase';
 import { onAuthStateChanged } from '../services/auth';
-import { startProgressSync } from '../services/progressSync';
+import { startProgressSync, type SyncHandle } from '../services/progressSync';
 
 export type AuthStatus = 'loading' | 'guest' | 'authed';
 
@@ -17,7 +17,7 @@ interface UserState {
  * `onAuthStateChanged` re-hydrates `user` on every cold start.
  */
 export const useUserStore = create<UserState>((set, get) => {
-  let stopSync: (() => void) | undefined;
+  let syncHandle: SyncHandle | undefined;
   let unsubscribeAuth: (() => void) | undefined;
 
   return {
@@ -27,14 +27,18 @@ export const useUserStore = create<UserState>((set, get) => {
     initialise: () => {
       if (unsubscribeAuth) return; // idempotent across fast-refresh
       unsubscribeAuth = onAuthStateChanged(async (user) => {
-        // Tear down any sync belonging to the previous user.
-        stopSync?.();
-        stopSync = undefined;
+        // Flush any pending debounced push before tearing down the previous sync
+        // so progress is not lost when the user signs out immediately after a quiz.
+        if (syncHandle) {
+          await syncHandle.flush().catch(() => {});
+          syncHandle.stop();
+          syncHandle = undefined;
+        }
 
         if (user) {
           set({ user, status: 'authed' });
           try {
-            stopSync = await startProgressSync(user.uid);
+            syncHandle = await startProgressSync(user.uid);
           } catch (e) {
             console.warn('[user] failed to start sync', e);
           }

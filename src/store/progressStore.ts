@@ -64,6 +64,7 @@ export const useProgressStore = create<ProgressState>()(
             p.categoryStats = { ...p.categoryStats, [cat]: catStat };
           });
           p.currentStreak = streak;
+          p.lastPracticeDate = Date.now();
           return { progress: p };
         }),
 

@@ -1,13 +1,13 @@
 [
   {
-    "id": "rules-of-the-road-0207",
+    "id": "rules-of-the-road-1119",
     "category": "rules-of-the-road",
     "question": "What is the national speed limit for cars, motorcycles, car-derived vans and dual-purpose vehicles on a built-up area (street-lit road, no other signs)?",
     "options": [
-      "50 mph",
-      "30 mph",
       "40 mph",
-      "60 mph"
+      "30 mph",
+      "60 mph",
+      "50 mph"
     ],
     "correctIndex": 1,
     "explanation": "The national speed limit for cars, motorcycles, car-derived vans and dual-purpose vehicles on a built-up area (street-lit road, no other signs) is 30 mph.",
@@ -16,110 +16,110 @@
     ]
   },
   {
-    "id": "rules-of-the-road-0208",
+    "id": "rules-of-the-road-1120",
     "category": "rules-of-the-road",
     "question": "What is the national speed limit for cars, motorcycles, car-derived vans and dual-purpose vehicles on a single carriageway (national speed limit)?",
     "options": [
+      "40 mph",
       "60 mph",
-      "50 mph",
       "70 mph",
-      "40 mph"
+      "50 mph"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": "The national speed limit for cars, motorcycles, car-derived vans and dual-purpose vehicles on a single carriageway (national speed limit) is 60 mph.",
     "highwayCodeRules": [
       124
     ]
   },
   {
-    "id": "rules-of-the-road-0209",
+    "id": "rules-of-the-road-1121",
     "category": "rules-of-the-road",
     "question": "What is the national speed limit for cars, motorcycles, car-derived vans and dual-purpose vehicles on a dual carriageway (national speed limit)?",
     "options": [
-      "40 mph",
-      "30 mph",
       "70 mph",
+      "30 mph",
+      "40 mph",
       "20 mph"
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "explanation": "The national speed limit for cars, motorcycles, car-derived vans and dual-purpose vehicles on a dual carriageway (national speed limit) is 70 mph.",
     "highwayCodeRules": [
       124
     ]
   },
   {
-    "id": "rules-of-the-road-0210",
+    "id": "rules-of-the-road-1122",
     "category": "rules-of-the-road",
     "question": "What is the national speed limit for cars, motorcycles, car-derived vans and dual-purpose vehicles on a motorway?",
     "options": [
-      "70 mph",
-      "60 mph",
+      "20 mph",
       "40 mph",
-      "20 mph"
+      "70 mph",
+      "60 mph"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": "The national speed limit for cars, motorcycles, car-derived vans and dual-purpose vehicles on a motorway is 70 mph.",
     "highwayCodeRules": [
       124
     ]
   },
   {
-    "id": "rules-of-the-road-0211",
+    "id": "rules-of-the-road-1123",
     "category": "rules-of-the-road",
     "question": "What is the national speed limit for cars, motorcycles, car-derived vans and dual-purpose vehicles when towing caravans or trailers on a built-up area (street-lit road, no other signs)?",
     "options": [
+      "50 mph",
       "30 mph",
-      "40 mph",
       "20 mph",
-      "50 mph"
+      "40 mph"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": "The national speed limit for cars, motorcycles, car-derived vans and dual-purpose vehicles when towing caravans or trailers on a built-up area (street-lit road, no other signs) is 30 mph.",
     "highwayCodeRules": [
       124
     ]
   },
   {
-    "id": "rules-of-the-road-0212",
+    "id": "rules-of-the-road-1124",
     "category": "rules-of-the-road",
     "question": "What is the national speed limit for cars, motorcycles, car-derived vans and dual-purpose vehicles when towing caravans or trailers on a single carriageway (national speed limit)?",
     "options": [
       "70 mph",
-      "50 mph",
       "20 mph",
-      "40 mph"
+      "40 mph",
+      "50 mph"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "The national speed limit for cars, motorcycles, car-derived vans and dual-purpose vehicles when towing caravans or trailers on a single carriageway (national speed limit) is 50 mph.",
     "highwayCodeRules": [
       124
     ]
   },
   {
-    "id": "rules-of-the-road-0213",
+    "id": "rules-of-the-road-1125",
     "category": "rules-of-the-road",
     "question": "What is the national speed limit for cars, motorcycles, car-derived vans and dual-purpose vehicles when towing caravans or trailers on a dual carriageway (national speed limit)?",
     "options": [
       "50 mph",
-      "60 mph",
+      "40 mph",
       "30 mph",
-      "40 mph"
+      "60 mph"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "The national speed limit for cars, motorcycles, car-derived vans and dual-purpose vehicles when towing caravans or trailers on a dual carriageway (national speed limit) is 60 mph.",
     "highwayCodeRules": [
       124
     ]
   },
   {
-    "id": "rules-of-the-road-0214",
+    "id": "rules-of-the-road-1126",
     "category": "rules-of-the-road",
     "question": "What is the national speed limit for cars, motorcycles, car-derived vans and dual-purpose vehicles when towing caravans or trailers on a motorway?",
     "options": [
-      "40 mph",
+      "70 mph",
       "60 mph",
       "20 mph",
-      "70 mph"
+      "40 mph"
     ],
     "correctIndex": 1,
     "explanation": "The national speed limit for cars, motorcycles, car-derived vans and dual-purpose vehicles when towing caravans or trailers on a motorway is 60 mph.",
@@ -128,30 +128,30 @@
     ]
   },
   {
-    "id": "rules-of-the-road-0215",
+    "id": "rules-of-the-road-1127",
     "category": "rules-of-the-road",
     "question": "What is the national speed limit for motorhomes or motor caravans (not exceeding 3.05 tonnes unladen) on a built-up area (street-lit road, no other signs)?",
     "options": [
-      "50 mph",
       "30 mph",
-      "60 mph",
-      "40 mph"
+      "50 mph",
+      "40 mph",
+      "60 mph"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "The national speed limit for motorhomes or motor caravans (not exceeding 3.05 tonnes unladen) on a built-up area (street-lit road, no other signs) is 30 mph.",
     "highwayCodeRules": [
       124
     ]
   },
   {
-    "id": "rules-of-the-road-0216",
+    "id": "rules-of-the-road-1128",
     "category": "rules-of-the-road",
     "question": "What is the national speed limit for motorhomes or motor caravans (not exceeding 3.05 tonnes unladen) on a single carriageway (national speed limit)?",
     "options": [
       "60 mph",
-      "40 mph",
       "20 mph",
-      "30 mph"
+      "30 mph",
+      "40 mph"
     ],
     "correctIndex": 0,
     "explanation": "The national speed limit for motorhomes or motor caravans (not exceeding 3.05 tonnes unladen) on a single carriageway (national speed limit) is 60 mph.",
@@ -160,23 +160,23 @@
     ]
   },
   {
-    "id": "rules-of-the-road-0217",
+    "id": "rules-of-the-road-1129",
     "category": "rules-of-the-road",
     "question": "What is the national speed limit for motorhomes or motor caravans (not exceeding 3.05 tonnes unladen) on a dual carriageway (national speed limit)?",
     "options": [
-      "70 mph",
       "40 mph",
       "60 mph",
+      "70 mph",
       "20 mph"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": "The national speed limit for motorhomes or motor caravans (not exceeding 3.05 tonnes unladen) on a dual carriageway (national speed limit) is 70 mph.",
     "highwayCodeRules": [
       124
     ]
   },
   {
-    "id": "rules-of-the-road-0218",
+    "id": "rules-of-the-road-1130",
     "category": "rules-of-the-road",
     "question": "What is the national speed limit for motorhomes or motor caravans (not exceeding 3.05 tonnes unladen) on a motorway?",
     "options": [
@@ -192,39 +192,39 @@
     ]
   },
   {
-    "id": "rules-of-the-road-0219",
+    "id": "rules-of-the-road-1131",
     "category": "rules-of-the-road",
     "question": "What is the national speed limit for motorhomes or motor caravans (exceeding 3.05 tonnes unladen) on a built-up area (street-lit road, no other signs)?",
     "options": [
+      "40 mph",
       "20 mph",
       "60 mph",
-      "30 mph",
-      "40 mph"
+      "30 mph"
     ],
-    "correctIndex": 2,
+    "correctIndex": 3,
     "explanation": "The national speed limit for motorhomes or motor caravans (exceeding 3.05 tonnes unladen) on a built-up area (street-lit road, no other signs) is 30 mph.",
     "highwayCodeRules": [
       124
     ]
   },
   {
-    "id": "rules-of-the-road-0220",
+    "id": "rules-of-the-road-1132",
     "category": "rules-of-the-road",
     "question": "What is the national speed limit for motorhomes or motor caravans (exceeding 3.05 tonnes unladen) on a single carriageway (national speed limit)?",
     "options": [
+      "60 mph",
       "50 mph",
-      "70 mph",
       "20 mph",
-      "60 mph"
+      "70 mph"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": "The national speed limit for motorhomes or motor caravans (exceeding 3.05 tonnes unladen) on a single carriageway (national speed limit) is 50 mph.",
     "highwayCodeRules": [
       124
     ]
   },
   {
-    "id": "rules-of-the-road-0221",
+    "id": "rules-of-the-road-1133",
     "category": "rules-of-the-road",
     "question": "What is the national speed limit for motorhomes or motor caravans (exceeding 3.05 tonnes unladen) on a dual carriageway (national speed limit)?",
     "options": [
@@ -240,142 +240,142 @@
     ]
   },
   {
-    "id": "rules-of-the-road-0222",
+    "id": "rules-of-the-road-1134",
     "category": "rules-of-the-road",
     "question": "What is the national speed limit for motorhomes or motor caravans (exceeding 3.05 tonnes unladen) on a motorway?",
     "options": [
-      "20 mph",
       "70 mph",
       "40 mph",
-      "60 mph"
+      "60 mph",
+      "20 mph"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "The national speed limit for motorhomes or motor caravans (exceeding 3.05 tonnes unladen) on a motorway is 70 mph.",
     "highwayCodeRules": [
       124
     ]
   },
   {
-    "id": "rules-of-the-road-0223",
+    "id": "rules-of-the-road-1135",
     "category": "rules-of-the-road",
     "question": "What is the national speed limit for buses, coaches and minibuses (not exceeding 12 metres in length) on a built-up area (street-lit road, no other signs)?",
     "options": [
-      "50 mph",
-      "60 mph",
+      "30 mph",
       "40 mph",
-      "30 mph"
+      "60 mph",
+      "50 mph"
     ],
-    "correctIndex": 3,
+    "correctIndex": 0,
     "explanation": "The national speed limit for buses, coaches and minibuses (not exceeding 12 metres in length) on a built-up area (street-lit road, no other signs) is 30 mph.",
     "highwayCodeRules": [
       124
     ]
   },
   {
-    "id": "rules-of-the-road-0224",
+    "id": "rules-of-the-road-1136",
     "category": "rules-of-the-road",
     "question": "What is the national speed limit for buses, coaches and minibuses (not exceeding 12 metres in length) on a single carriageway (national speed limit)?",
     "options": [
-      "60 mph",
       "30 mph",
       "20 mph",
-      "50 mph"
+      "50 mph",
+      "60 mph"
     ],
-    "correctIndex": 3,
+    "correctIndex": 2,
     "explanation": "The national speed limit for buses, coaches and minibuses (not exceeding 12 metres in length) on a single carriageway (national speed limit) is 50 mph.",
     "highwayCodeRules": [
       124
     ]
   },
   {
-    "id": "rules-of-the-road-0225",
+    "id": "rules-of-the-road-1137",
     "category": "rules-of-the-road",
     "question": "What is the national speed limit for buses, coaches and minibuses (not exceeding 12 metres in length) on a dual carriageway (national speed limit)?",
     "options": [
       "30 mph",
-      "70 mph",
       "60 mph",
-      "50 mph"
+      "50 mph",
+      "70 mph"
     ],
-    "correctIndex": 2,
+    "correctIndex": 1,
     "explanation": "The national speed limit for buses, coaches and minibuses (not exceeding 12 metres in length) on a dual carriageway (national speed limit) is 60 mph.",
     "highwayCodeRules": [
       124
     ]
   },
   {
-    "id": "rules-of-the-road-0226",
+    "id": "rules-of-the-road-1138",
     "category": "rules-of-the-road",
     "question": "What is the national speed limit for buses, coaches and minibuses (not exceeding 12 metres in length) on a motorway?",
     "options": [
-      "70 mph",
-      "50 mph",
+      "30 mph",
       "20 mph",
-      "30 mph"
+      "70 mph",
+      "50 mph"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": "The national speed limit for buses, coaches and minibuses (not exceeding 12 metres in length) on a motorway is 70 mph.",
     "highwayCodeRules": [
       124
     ]
   },
   {
-    "id": "rules-of-the-road-0227",
+    "id": "rules-of-the-road-1139",
     "category": "rules-of-the-road",
     "question": "What is the national speed limit for goods vehicles (not exceeding 7.5 tonnes maximum laden weight) on a built-up area (street-lit road, no other signs)?",
     "options": [
       "50 mph",
-      "30 mph",
       "20 mph",
-      "70 mph"
+      "70 mph",
+      "30 mph"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "The national speed limit for goods vehicles (not exceeding 7.5 tonnes maximum laden weight) on a built-up area (street-lit road, no other signs) is 30 mph.",
     "highwayCodeRules": [
       124
     ]
   },
   {
-    "id": "rules-of-the-road-0228",
+    "id": "rules-of-the-road-1140",
     "category": "rules-of-the-road",
     "question": "What is the national speed limit for goods vehicles (not exceeding 7.5 tonnes maximum laden weight) on a single carriageway (national speed limit)?",
     "options": [
       "40 mph",
-      "70 mph",
       "30 mph",
-      "50 mph"
+      "50 mph",
+      "70 mph"
     ],
-    "correctIndex": 3,
+    "correctIndex": 2,
     "explanation": "The national speed limit for goods vehicles (not exceeding 7.5 tonnes maximum laden weight) on a single carriageway (national speed limit) is 50 mph.",
     "highwayCodeRules": [
       124
     ]
   },
   {
-    "id": "rules-of-the-road-0229",
+    "id": "rules-of-the-road-1141",
     "category": "rules-of-the-road",
     "question": "What is the national speed limit for goods vehicles (not exceeding 7.5 tonnes maximum laden weight) on a dual carriageway (national speed limit)?",
     "options": [
+      "70 mph",
       "20 mph",
       "40 mph",
-      "60 mph",
-      "70 mph"
+      "60 mph"
     ],
-    "correctIndex": 2,
+    "correctIndex": 3,
     "explanation": "The national speed limit for goods vehicles (not exceeding 7.5 tonnes maximum laden weight) on a dual carriageway (national speed limit) is 60 mph.",
     "highwayCodeRules": [
       124
     ]
   },
   {
-    "id": "rules-of-the-road-0230",
+    "id": "rules-of-the-road-1142",
     "category": "rules-of-the-road",
     "question": "What is the national speed limit for goods vehicles (not exceeding 7.5 tonnes maximum laden weight) on a motorway?",
     "options": [
       "70 mph",
-      "60 mph",
+      "50 mph",
       "40 mph",
-      "50 mph"
+      "60 mph"
     ],
     "correctIndex": 0,
     "explanation": "The national speed limit for goods vehicles (not exceeding 7.5 tonnes maximum laden weight) on a motorway is 70 mph.",
@@ -384,77 +384,77 @@
     ]
   },
   {
-    "id": "rules-of-the-road-0231",
+    "id": "rules-of-the-road-1143",
     "category": "rules-of-the-road",
     "question": "What is the national speed limit for goods vehicles (exceeding 7.5 tonnes maximum laden weight) in england and wales on a built-up area (street-lit road, no other signs)?",
     "options": [
-      "50 mph",
       "30 mph",
       "40 mph",
+      "50 mph",
       "70 mph"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "The national speed limit for goods vehicles (exceeding 7.5 tonnes maximum laden weight) in england and wales on a built-up area (street-lit road, no other signs) is 30 mph.",
     "highwayCodeRules": [
       124
     ]
   },
   {
-    "id": "rules-of-the-road-0232",
+    "id": "rules-of-the-road-1144",
     "category": "rules-of-the-road",
     "question": "What is the national speed limit for goods vehicles (exceeding 7.5 tonnes maximum laden weight) in england and wales on a single carriageway (national speed limit)?",
     "options": [
+      "50 mph",
       "60 mph",
       "40 mph",
-      "20 mph",
-      "50 mph"
+      "20 mph"
     ],
-    "correctIndex": 3,
+    "correctIndex": 0,
     "explanation": "The national speed limit for goods vehicles (exceeding 7.5 tonnes maximum laden weight) in england and wales on a single carriageway (national speed limit) is 50 mph.",
     "highwayCodeRules": [
       124
     ]
   },
   {
-    "id": "rules-of-the-road-0233",
+    "id": "rules-of-the-road-1145",
     "category": "rules-of-the-road",
     "question": "What is the national speed limit for goods vehicles (exceeding 7.5 tonnes maximum laden weight) in england and wales on a dual carriageway (national speed limit)?",
     "options": [
-      "30 mph",
-      "70 mph",
       "60 mph",
-      "50 mph"
+      "30 mph",
+      "50 mph",
+      "70 mph"
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "explanation": "The national speed limit for goods vehicles (exceeding 7.5 tonnes maximum laden weight) in england and wales on a dual carriageway (national speed limit) is 60 mph.",
     "highwayCodeRules": [
       124
     ]
   },
   {
-    "id": "rules-of-the-road-0234",
+    "id": "rules-of-the-road-1146",
     "category": "rules-of-the-road",
     "question": "What is the national speed limit for goods vehicles (exceeding 7.5 tonnes maximum laden weight) in england and wales on a motorway?",
     "options": [
-      "20 mph",
-      "60 mph",
       "70 mph",
-      "50 mph"
+      "20 mph",
+      "50 mph",
+      "60 mph"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "The national speed limit for goods vehicles (exceeding 7.5 tonnes maximum laden weight) in england and wales on a motorway is 60 mph.",
     "highwayCodeRules": [
       124
     ]
   },
   {
-    "id": "rules-of-the-road-0279",
+    "id": "rules-of-the-road-1191",
     "category": "rules-of-the-road",
     "question": "For which of these is it acceptable to use hazard warning lights?",
     "options": [
-      "When parked on double yellow lines while shopping",
       "When you want to thank another driver",
       "When reversing into a parking space",
+      "When parked on double yellow lines while shopping",
       "When your vehicle has broken down and is causing an obstruction"
     ],
     "correctIndex": 3,
@@ -464,141 +464,141 @@
     ]
   },
   {
-    "id": "rules-of-the-road-0285",
+    "id": "rules-of-the-road-1197",
     "category": "rules-of-the-road",
     "question": "Unless signs show otherwise, what speed limit usually applies on a road with street lighting?",
     "options": [
-      "30 mph",
       "20 mph",
+      "The national speed limit",
       "40 mph",
-      "The national speed limit"
+      "30 mph"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "explanation": "You MUST NOT exceed the maximum speed limits for the road and for your vehicle. A speed limit of 30 mph generally applies to all roads with street lights unless signs show otherwise. The national speed limit for cars on single carriageways is 60 mph and on dual carriageways and motorways 70 mph. (Highway Code rule 124.)",
     "highwayCodeRules": [
       124
     ]
   },
   {
-    "id": "rules-of-the-road-0290",
+    "id": "rules-of-the-road-1202",
     "category": "rules-of-the-road",
     "question": "You are on a road with a solid white line nearest to you. When may you cross it to overtake?",
     "options": [
-      "To pass a pedal cycle, horse or road maintenance vehicle travelling at 10 mph or less",
       "Whenever the road ahead is clear",
+      "To pass a pedal cycle, horse or road maintenance vehicle travelling at 10 mph or less",
       "Never under any circumstances",
       "Only at night when traffic is light"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": "Double white lines where the line nearest to you is solid. This means you MUST NOT cross or straddle it unless it is safe and you need to enter adjoining premises or a side road, or to pass a stationary vehicle, or overtake a pedal cycle, horse or road maintenance vehicle if they are travelling at 10 mph or less. (Highway Code rule 129.)",
     "highwayCodeRules": [
       129
     ]
   },
   {
-    "id": "rules-of-the-road-0291",
+    "id": "rules-of-the-road-1203",
     "category": "rules-of-the-road",
     "question": "An area of white chevrons on the road is bordered by a solid white line. What does this mean?",
     "options": [
-      "It marks a cycle lane",
       "It is reserved for motorcycles",
+      "You MUST NOT enter the area except in an emergency",
       "You may use it to overtake if safe",
-      "You MUST NOT enter the area except in an emergency"
+      "It marks a cycle lane"
     ],
-    "correctIndex": 3,
+    "correctIndex": 1,
     "explanation": "Areas of white diagonal stripes or chevrons painted on the road. These are to separate traffic lanes or to protect traffic turning right. If the area is bordered by a broken white line, you should not enter the area unless it is necessary and you can see that it is safe to do so. If the area is marked with chevrons and bordered by solid white lines you MUST NOT enter it except in an emergency. (Highway Code rule 130.)",
     "highwayCodeRules": [
       130
     ]
   },
   {
-    "id": "rules-of-the-road-0296",
+    "id": "rules-of-the-road-1208",
     "category": "rules-of-the-road",
     "question": "When may you enter a box junction and wait?",
     "options": [
-      "When turning right and only oncoming traffic, or other right-turning traffic, is preventing you from completing the turn",
-      "When your exit is blocked but you can fit in the box",
       "When the lights are about to change",
-      "When the traffic ahead is slow-moving"
+      "When your exit is blocked but you can fit in the box",
+      "When the traffic ahead is slow-moving",
+      "When turning right and only oncoming traffic, or other right-turning traffic, is preventing you from completing the turn"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "explanation": "Box junctions. These have criss-cross yellow lines painted on the road. You MUST NOT enter the box until your exit road or lane is clear. However, you may enter the box and wait when you want to turn right, and are only stopped from doing so by oncoming traffic, or by other vehicles waiting to turn right. (Highway Code rule 135.)",
     "highwayCodeRules": [
       135
     ]
   },
   {
-    "id": "rules-of-the-road-0297",
+    "id": "rules-of-the-road-1209",
     "category": "rules-of-the-road",
     "question": "A cycle lane is marked by a solid white line. During its hours of operation, what does this mean for drivers?",
     "options": [
-      "You may use it to overtake on the left",
       "You may park in it outside rush hour",
       "You MUST NOT drive or park in it",
-      "You may stop briefly to set down passengers"
+      "You may stop briefly to set down passengers",
+      "You may use it to overtake on the left"
     ],
-    "correctIndex": 2,
+    "correctIndex": 1,
     "explanation": "Cycle lanes. You MUST NOT drive or park in a cycle lane marked by a solid white line during its times of operation. Do not drive or park in a cycle lane marked by a broken white line unless it is unavoidable. (Highway Code rule 140.)",
     "highwayCodeRules": [
       140
     ]
   },
   {
-    "id": "rules-of-the-road-0304",
+    "id": "rules-of-the-road-1216",
     "category": "rules-of-the-road",
     "question": "On a single-track road you meet an oncoming vehicle near a passing place on your right. What should you do?",
     "options": [
-      "Reverse until you find a passing place on your left",
       "Sound your horn and continue",
-      "Drive onto the verge",
-      "Wait opposite the passing place so the other vehicle can enter it"
+      "Wait opposite the passing place so the other vehicle can enter it",
+      "Reverse until you find a passing place on your left",
+      "Drive onto the verge"
     ],
-    "correctIndex": 3,
+    "correctIndex": 1,
     "explanation": "Single-track roads. These are only wide enough for one vehicle. They may have special passing places. If you see a vehicle coming towards you, or the driver behind wants to overtake, pull into a passing place on your left, or wait opposite a passing place on your right. (Highway Code rule 155.)",
     "highwayCodeRules": [
       155
     ]
   },
   {
-    "id": "rules-of-the-road-0310",
+    "id": "rules-of-the-road-1222",
     "category": "rules-of-the-road",
     "question": "In which situation MUST you NOT overtake?",
     "options": [
       "When the vehicle ahead is travelling below the speed limit",
+      "On a dual carriageway",
       "On a one-way street",
-      "After a “No Overtaking” sign and before the sign cancelling it",
-      "On a dual carriageway"
+      "After a “No Overtaking” sign and before the sign cancelling it"
     ],
-    "correctIndex": 2,
+    "correctIndex": 3,
     "explanation": "You MUST NOT overtake if you would have to cross or straddle double white lines with a solid line nearest to you, if you would have to enter an area designed to divide traffic, if you would have to enter a lane reserved for buses, trams or cycles during its hours of operation, the nearest vehicle to a pedestrian crossing, or after a 'No Overtaking' sign until you pass a sign cancelling the restriction. (Highway Code rule 165.)",
     "highwayCodeRules": [
       165
     ]
   },
   {
-    "id": "rules-of-the-road-0314",
+    "id": "rules-of-the-road-1226",
     "category": "rules-of-the-road",
     "question": "At a junction with a STOP sign and solid white line, what MUST you do?",
     "options": [
-      "Stop only if traffic is approaching",
-      "Give way to traffic from the right only",
+      "Stop behind the line, even if the road is clear, then move off when safe",
       "Slow down and proceed if clear",
-      "Stop behind the line, even if the road is clear, then move off when safe"
+      "Give way to traffic from the right only",
+      "Stop only if traffic is approaching"
     ],
-    "correctIndex": 3,
+    "correctIndex": 0,
     "explanation": "You MUST stop behind the line at a junction with a 'Stop' sign and a solid white line across the road. Wait for a safe gap in the traffic before you move off. (Highway Code rule 171.)",
     "highwayCodeRules": [
       171
     ]
   },
   {
-    "id": "rules-of-the-road-0315",
+    "id": "rules-of-the-road-1227",
     "category": "rules-of-the-road",
     "question": "You are approaching traffic lights and the amber light shows on its own. What does it mean?",
     "options": [
-      "Stop only if pedestrians are crossing",
-      "Stop at the line — you may only continue if you have crossed it or stopping might cause a collision",
       "Proceed with caution",
+      "Stop at the line — you may only continue if you have crossed it or stopping might cause a collision",
+      "Stop only if pedestrians are crossing",
       "Prepare to go — the lights will turn green"
     ],
     "correctIndex": 1,
@@ -608,109 +608,109 @@
     ]
   },
   {
-    "id": "rules-of-the-road-0317",
+    "id": "rules-of-the-road-1229",
     "category": "rules-of-the-road",
     "question": "When reaching a roundabout you should normally give priority to…",
     "options": [
-      "Traffic approaching from your right, unless signs or markings say otherwise",
-      "Traffic on your left",
       "Traffic already signalling left",
-      "Larger vehicles regardless of position"
+      "Traffic approaching from your right, unless signs or markings say otherwise",
+      "Larger vehicles regardless of position",
+      "Traffic on your left"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": "When reaching the roundabout you should give priority to traffic approaching from your right unless directed otherwise by signs, road markings or traffic lights. (Highway Code rule 185.)",
     "highwayCodeRules": [
       185
     ]
   },
   {
-    "id": "rules-of-the-road-0318",
+    "id": "rules-of-the-road-1230",
     "category": "rules-of-the-road",
     "question": "You are taking the second exit (straight ahead) at a roundabout. When should you signal left?",
     "options": [
-      "You should not signal at all",
       "As soon as you enter the roundabout",
       "After you have passed the exit before the one you want",
+      "You should not signal at all",
       "On approach to the roundabout"
     ],
-    "correctIndex": 2,
+    "correctIndex": 1,
     "explanation": "Signals and position when using a roundabout. When taking the first exit, signal left and approach in the left-hand lane. When taking any intermediate exit, select the appropriate lane, do not signal on approach, and signal left after you have passed the exit before the one you want. (Highway Code rule 186.)",
     "highwayCodeRules": [
       186
     ]
   },
   {
-    "id": "rules-of-the-road-0319",
+    "id": "rules-of-the-road-1231",
     "category": "rules-of-the-road",
     "question": "Within the zig-zag lines at a pedestrian crossing you MUST NOT…",
     "options": [
+      "Stop to let pedestrians cross",
       "Park, or overtake the vehicle nearest the crossing",
       "Drive faster than 20 mph",
-      "Stop to let pedestrians cross",
       "Use your horn"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": "You MUST NOT park on a crossing or in the area covered by the zig-zag lines. You MUST NOT overtake the moving vehicle nearest the crossing or the vehicle nearest the crossing which has stopped to give way to pedestrians. (Highway Code rule 191.)",
     "highwayCodeRules": [
       191
     ]
   },
   {
-    "id": "rules-of-the-road-0323",
+    "id": "rules-of-the-road-1235",
     "category": "rules-of-the-road",
     "question": "Why does the Highway Code advise you to reverse INTO a driveway and drive OUT forwards?",
     "options": [
-      "So you can see clearly when joining the road",
       "It is easier on the clutch",
       "It is a legal requirement",
+      "So you can see clearly when joining the road",
       "It uses less fuel"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": "Do not reverse from a side road into a main road. When using a driveway, reverse in and drive out if you can. (Highway Code rule 201.)",
     "highwayCodeRules": [
       201
     ]
   },
   {
-    "id": "rules-of-the-road-0324",
+    "id": "rules-of-the-road-1236",
     "category": "rules-of-the-road",
     "question": "What does the Highway Code say about how far you may reverse?",
     "options": [
+      "You MUST NOT reverse further than necessary",
       "No more than two car lengths",
       "No more than 20 metres",
-      "There is no limit on quiet roads",
-      "You MUST NOT reverse further than necessary"
+      "There is no limit on quiet roads"
     ],
-    "correctIndex": 3,
+    "correctIndex": 0,
     "explanation": "You MUST NOT reverse your vehicle further than necessary. (Highway Code rule 203.)",
     "highwayCodeRules": [
       203
     ]
   },
   {
-    "id": "rules-of-the-road-0344",
+    "id": "rules-of-the-road-1256",
     "category": "rules-of-the-road",
     "question": "What do double yellow lines along the edge of the road mean?",
     "options": [
       "No stopping at any time",
-      "Loading only",
       "No waiting during the hours shown",
-      "No waiting at any time"
+      "No waiting at any time",
+      "Loading only"
     ],
-    "correctIndex": 3,
+    "correctIndex": 2,
     "explanation": "You MUST NOT wait or park on yellow lines during the times of operation shown on nearby time plates. Double yellow lines indicate a prohibition of waiting at any time even if there are no upright signs. (Highway Code rule 238.)",
     "highwayCodeRules": [
       238
     ]
   },
   {
-    "id": "rules-of-the-road-0346",
+    "id": "rules-of-the-road-1258",
     "category": "rules-of-the-road",
     "question": "On which of these MUST you NOT stop or park (except in an emergency)?",
     "options": [
       "The carriageway or hard shoulder of a motorway",
-      "A road with street lighting",
       "A residential cul-de-sac",
+      "A road with street lighting",
       "A road with a single yellow line outside its hours of operation"
     ],
     "correctIndex": 0,
@@ -720,13 +720,13 @@
     ]
   },
   {
-    "id": "rules-of-the-road-0347",
+    "id": "rules-of-the-road-1259",
     "category": "rules-of-the-road",
     "question": "According to the Highway Code, you should NOT park within what distance of a junction (unless in an authorised space)?",
     "options": [
+      "15 metres",
       "5 metres",
       "20 metres",
-      "15 metres",
       "10 metres (32 feet)"
     ],
     "correctIndex": 3,
@@ -736,14 +736,14 @@
     ]
   },
   {
-    "id": "rules-of-the-road-0348",
+    "id": "rules-of-the-road-1260",
     "category": "rules-of-the-road",
     "question": "At night, you MUST NOT park on a road facing against the direction of traffic flow unless…",
     "options": [
-      "You are within 10 metres of a junction",
+      "The road has street lighting",
       "You leave your sidelights on",
       "You are in a recognised parking space",
-      "The road has street lighting"
+      "You are within 10 metres of a junction"
     ],
     "correctIndex": 2,
     "explanation": "You MUST NOT park on a road at night facing against the direction of the traffic flow unless in a recognised parking space. (Highway Code rule 248.)",
@@ -752,7 +752,7 @@
     ]
   },
   {
-    "id": "rules-of-the-road-0349",
+    "id": "rules-of-the-road-1261",
     "category": "rules-of-the-road",
     "question": "When MUST you display parking lights when parked on a road at night?",
     "options": [
@@ -768,77 +768,77 @@
     ]
   },
   {
-    "id": "rules-of-the-road-0476",
+    "id": "rules-of-the-road-1388",
     "category": "rules-of-the-road",
     "question": "Highway Code rule 108 is about “general rules, techniques and advice”. Which statement is taken from this rule?",
     "options": [
-      "Traffic officers have powers to stop vehicles on most motorways and some 'A' class roads in England and Wales.",
-      "In an emergency. Brake immediately. Try to avoid braking so harshly that you lock your wheels. Locked wheels can lead to loss of control.",
+      "Coasting. This term describes a vehicle travelling in neutral or with the clutch pressed down. It can reduce driver control because engine braking is eliminated",
       "In slow-moving traffic you should reduce the distance between you and the vehicle ahead to maintain traffic flow, never get so close that you cannot stop safely",
-      "Coasting. This term describes a vehicle travelling in neutral or with the clutch pressed down. It can reduce driver control because engine braking is eliminated"
+      "Traffic officers have powers to stop vehicles on most motorways and some 'A' class roads in England and Wales.",
+      "In an emergency. Brake immediately. Try to avoid braking so harshly that you lock your wheels. Locked wheels can lead to loss of control."
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": "Traffic officers have powers to stop vehicles on most motorways and some 'A' class roads in England and Wales. You MUST follow any directions given by them. (Highway Code rule 108.)",
     "highwayCodeRules": [
       108
     ]
   },
   {
-    "id": "rules-of-the-road-0477",
+    "id": "rules-of-the-road-1389",
     "category": "rules-of-the-road",
     "question": "According to the Highway Code (general rules, techniques and advice), what MUST you do?",
     "options": [
-      "In an emergency. Brake immediately. Try to avoid braking so harshly that you lock your wheels. Locked wheels can lead to loss of control.",
-      "Traffic officers have powers to stop vehicles on most motorways and some 'A' class roads in England and Wales.",
       "In slow-moving traffic you should reduce the distance between you and the vehicle ahead to maintain traffic flow, never get so close that you cannot stop safely",
-      "Coasting. This term describes a vehicle travelling in neutral or with the clutch pressed down. It can reduce driver control because engine braking is eliminated"
+      "Coasting. This term describes a vehicle travelling in neutral or with the clutch pressed down. It can reduce driver control because engine braking is eliminated",
+      "In an emergency. Brake immediately. Try to avoid braking so harshly that you lock your wheels. Locked wheels can lead to loss of control.",
+      "Traffic officers have powers to stop vehicles on most motorways and some 'A' class roads in England and Wales."
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "Traffic officers have powers to stop vehicles on most motorways and some 'A' class roads in England and Wales. You MUST follow any directions given by them. (Highway Code rule 108.)",
     "highwayCodeRules": [
       108
     ]
   },
   {
-    "id": "rules-of-the-road-0478",
+    "id": "rules-of-the-road-1390",
     "category": "rules-of-the-road",
     "question": "Highway Code rule 109 is about “general rules, techniques and advice”. Which statement is taken from this rule?",
     "options": [
+      "Police stopping procedures.",
       "A broken white line marks the centre of the road.",
       "You MUST obey signals given by police officers, traffic officers, traffic wardens and signs used by school crossing patrols.",
-      "You MUST NOT drive on or over a pavement, footpath or bridleway except to gain lawful access to property, or in the case of an emergency.",
-      "Police stopping procedures."
+      "You MUST NOT drive on or over a pavement, footpath or bridleway except to gain lawful access to property, or in the case of an emergency."
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "You MUST obey signals given by police officers, traffic officers, traffic wardens and signs used by school crossing patrols. (Highway Code rule 109.)",
     "highwayCodeRules": [
       109
     ]
   },
   {
-    "id": "rules-of-the-road-0479",
+    "id": "rules-of-the-road-1391",
     "category": "rules-of-the-road",
     "question": "According to the Highway Code (general rules, techniques and advice), what MUST you do?",
     "options": [
-      "You MUST NOT drive on or over a pavement, footpath or bridleway except to gain lawful access to property, or in the case of an emergency.",
+      "You MUST obey signals given by police officers, traffic officers, traffic wardens and signs used by school crossing patrols.",
       "Police stopping procedures.",
       "A broken white line marks the centre of the road.",
-      "You MUST obey signals given by police officers, traffic officers, traffic wardens and signs used by school crossing patrols."
+      "You MUST NOT drive on or over a pavement, footpath or bridleway except to gain lawful access to property, or in the case of an emergency."
     ],
-    "correctIndex": 3,
+    "correctIndex": 0,
     "explanation": "You MUST obey signals given by police officers, traffic officers, traffic wardens and signs used by school crossing patrols. (Highway Code rule 109.)",
     "highwayCodeRules": [
       109
     ]
   },
   {
-    "id": "rules-of-the-road-0485",
+    "id": "rules-of-the-road-1397",
     "category": "rules-of-the-road",
     "question": "Highway Code rule 115 is about “general rules, techniques and advice”. Which statement is taken from this rule?",
     "options": [
-      "You MUST exercise proper control of your vehicle at all times.",
-      "You should also use dipped headlights, or dim-dip if fitted, at night in built-up areas and in dull daytime weather, to ensure that you can be seen.",
       "Cycle lanes. You MUST NOT drive or park in a cycle lane marked by a solid white line during its times of operation. Do not drive or park in a cycle lane marked",
+      "You should also use dipped headlights, or dim-dip if fitted, at night in built-up areas and in dull daytime weather, to ensure that you can be seen.",
+      "You MUST exercise proper control of your vehicle at all times.",
       "A broken white line marks the centre of the road."
     ],
     "correctIndex": 1,
@@ -848,77 +848,61 @@
     ]
   },
   {
-    "id": "rules-of-the-road-0486",
+    "id": "rules-of-the-road-1398",
     "category": "rules-of-the-road",
     "question": "According to the Highway Code (general rules, techniques and advice), what should you do?",
     "options": [
+      "Cycle lanes. You MUST NOT drive or park in a cycle lane marked by a solid white line during its times of operation. Do not drive or park in a cycle lane marked",
       "You should also use dipped headlights, or dim-dip if fitted, at night in built-up areas and in dull daytime weather, to ensure that you can be seen.",
       "You MUST exercise proper control of your vehicle at all times.",
-      "Cycle lanes. You MUST NOT drive or park in a cycle lane marked by a solid white line during its times of operation. Do not drive or park in a cycle lane marked",
       "A broken white line marks the centre of the road."
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": "You should also use dipped headlights, or dim-dip if fitted, at night in built-up areas and in dull daytime weather, to ensure that you can be seen. (Highway Code rule 115.)",
     "highwayCodeRules": [
       115
     ]
   },
   {
-    "id": "rules-of-the-road-0487",
+    "id": "rules-of-the-road-1399",
     "category": "rules-of-the-road",
     "question": "Highway Code rule 116 is about “general rules, techniques and advice”. Which statement is taken from this rule?",
     "options": [
-      "Hazard warning lights.",
-      "In slow-moving traffic you should reduce the distance between you and the vehicle ahead to maintain traffic flow, never get so close that you cannot stop safely",
+      "Coasting. This term describes a vehicle travelling in neutral or with the clutch pressed down. It can reduce driver control because engine braking is eliminated",
       "You MUST obey signals given by police officers, traffic officers, traffic wardens and signs used by school crossing patrols.",
-      "Coasting. This term describes a vehicle travelling in neutral or with the clutch pressed down. It can reduce driver control because engine braking is eliminated"
+      "In slow-moving traffic you should reduce the distance between you and the vehicle ahead to maintain traffic flow, never get so close that you cannot stop safely",
+      "Hazard warning lights."
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "explanation": "Hazard warning lights. These may be used when your vehicle is stationary, to warn that it is temporarily obstructing traffic. Never use them as an excuse for dangerous or illegal parking. You MUST NOT use hazard warning lights while driving or being towed unless you are on a motorway or unrestricted dual carriageway and you need to warn drivers behind you of a hazard or obstruction ahead. (Highway Code rule 116.)",
     "highwayCodeRules": [
       116
     ]
   },
   {
-    "id": "rules-of-the-road-0497",
+    "id": "rules-of-the-road-1409",
     "category": "rules-of-the-road",
     "question": "Highway Code rule 124 is about “general rules, techniques and advice”. Which statement is taken from this rule?",
     "options": [
-      "Brakes affected by water.",
-      "You should also use dipped headlights, or dim-dip if fitted, at night in built-up areas and in dull daytime weather, to ensure that you can be seen.",
+      "Skids are caused by the driver braking, accelerating or steering too harshly or driving too fast for the road conditions.",
       "You MUST NOT exceed the maximum speed limits for the road and for your vehicle.",
-      "Skids are caused by the driver braking, accelerating or steering too harshly or driving too fast for the road conditions."
+      "Brakes affected by water.",
+      "You should also use dipped headlights, or dim-dip if fitted, at night in built-up areas and in dull daytime weather, to ensure that you can be seen."
     ],
-    "correctIndex": 2,
+    "correctIndex": 1,
     "explanation": "You MUST NOT exceed the maximum speed limits for the road and for your vehicle. A speed limit of 30 mph generally applies to all roads with street lights unless signs show otherwise. The national speed limit for cars on single carriageways is 60 mph and on dual carriageways and motorways 70 mph. (Highway Code rule 124.)",
     "highwayCodeRules": [
       124
     ]
   },
   {
-    "id": "rules-of-the-road-0509",
+    "id": "rules-of-the-road-1421",
     "category": "rules-of-the-road",
     "question": "Highway Code rule 133 is about “general rules, techniques and advice”. Which statement is taken from this rule?",
     "options": [
-      "If you need to change lane, first use your mirrors and if necessary take a quick sideways glance to make sure you will not force another road user to change course or speed.",
       "Lane dividers. These are short, broken white lines used on wide carriageways to divide them into lanes. You should keep between them.",
-      "The horn. Use only while your vehicle is moving and you need to warn other road users of your presence. Never sound your horn aggressively. You MUST NOT use you",
-      "DVSA officers have the power to stop vehicles on all roads."
-    ],
-    "correctIndex": 0,
-    "explanation": "If you need to change lane, first use your mirrors and if necessary take a quick sideways glance to make sure you will not force another road user to change course or speed. When it is safe to do so, signal to indicate your intentions and when clear, move over. (Highway Code rule 133.)",
-    "highwayCodeRules": [
-      133
-    ]
-  },
-  {
-    "id": "rules-of-the-road-0510",
-    "category": "rules-of-the-road",
-    "question": "According to the Highway Code (general rules, techniques and advice), what should you do?",
-    "options": [
-      "The horn. Use only while your vehicle is moving and you need to warn other road users of your presence. Never sound your horn aggressively. You MUST NOT use you",
       "DVSA officers have the power to stop vehicles on all roads.",
-      "Lane dividers. These are short, broken white lines used on wide carriageways to divide them into lanes. You should keep between them.",
+      "The horn. Use only while your vehicle is moving and you need to warn other road users of your presence. Never sound your horn aggressively. You MUST NOT use you",
       "If you need to change lane, first use your mirrors and if necessary take a quick sideways glance to make sure you will not force another road user to change course or speed."
     ],
     "correctIndex": 3,
@@ -928,78 +912,94 @@
     ]
   },
   {
-    "id": "rules-of-the-road-0511",
+    "id": "rules-of-the-road-1422",
+    "category": "rules-of-the-road",
+    "question": "According to the Highway Code (general rules, techniques and advice), what should you do?",
+    "options": [
+      "If you need to change lane, first use your mirrors and if necessary take a quick sideways glance to make sure you will not force another road user to change course or speed.",
+      "DVSA officers have the power to stop vehicles on all roads.",
+      "The horn. Use only while your vehicle is moving and you need to warn other road users of your presence. Never sound your horn aggressively. You MUST NOT use you",
+      "Lane dividers. These are short, broken white lines used on wide carriageways to divide them into lanes. You should keep between them."
+    ],
+    "correctIndex": 0,
+    "explanation": "If you need to change lane, first use your mirrors and if necessary take a quick sideways glance to make sure you will not force another road user to change course or speed. When it is safe to do so, signal to indicate your intentions and when clear, move over. (Highway Code rule 133.)",
+    "highwayCodeRules": [
+      133
+    ]
+  },
+  {
+    "id": "rules-of-the-road-1423",
     "category": "rules-of-the-road",
     "question": "Highway Code rule 134 is about “general rules, techniques and advice”. Which statement is taken from this rule?",
     "options": [
-      "Merging in turn is recommended where vehicles are travelling at very low speeds, e.",
-      "You MUST NOT exceed the maximum speed limits for the road and for your vehicle.",
+      "Police stopping procedures.",
       "Skids are caused by the driver braking, accelerating or steering too harshly or driving too fast for the road conditions.",
-      "Police stopping procedures."
+      "Merging in turn is recommended where vehicles are travelling at very low speeds, e.",
+      "You MUST NOT exceed the maximum speed limits for the road and for your vehicle."
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": "Merging in turn is recommended where vehicles are travelling at very low speeds, e.g. when approaching road works or a road traffic incident. It is not recommended at high speed. (Highway Code rule 134.)",
     "highwayCodeRules": [
       134
     ]
   },
   {
-    "id": "rules-of-the-road-0512",
+    "id": "rules-of-the-road-1424",
     "category": "rules-of-the-road",
     "question": "According to the Highway Code (general rules, techniques and advice), what should you do?",
     "options": [
       "Police stopping procedures.",
-      "Merging in turn is recommended where vehicles are travelling at very low speeds, e.",
       "Skids are caused by the driver braking, accelerating or steering too harshly or driving too fast for the road conditions.",
+      "Merging in turn is recommended where vehicles are travelling at very low speeds, e.",
       "You MUST NOT exceed the maximum speed limits for the road and for your vehicle."
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "Merging in turn is recommended where vehicles are travelling at very low speeds, e.g. when approaching road works or a road traffic incident. It is not recommended at high speed. (Highway Code rule 134.)",
     "highwayCodeRules": [
       134
     ]
   },
   {
-    "id": "rules-of-the-road-0513",
+    "id": "rules-of-the-road-1425",
     "category": "rules-of-the-road",
     "question": "Highway Code rule 135 is about “general rules, techniques and advice”. Which statement is taken from this rule?",
     "options": [
+      "Box junctions. These have criss-cross yellow lines painted on the road. You MUST NOT enter the box until your exit road or lane is clear. However, you may enter",
       "In slow-moving traffic you should reduce the distance between you and the vehicle ahead to maintain traffic flow, never get so close that you cannot stop safely",
       "Be considerate. Be careful of and considerate towards all types of road users, especially those requiring extra care. You MUST NOT throw anything out of a vehic",
-      "Box junctions. These have criss-cross yellow lines painted on the road. You MUST NOT enter the box until your exit road or lane is clear. However, you may enter",
       "Traffic-calming measures."
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "explanation": "Box junctions. These have criss-cross yellow lines painted on the road. You MUST NOT enter the box until your exit road or lane is clear. However, you may enter the box and wait when you want to turn right, and are only stopped from doing so by oncoming traffic, or by other vehicles waiting to turn right. (Highway Code rule 135.)",
     "highwayCodeRules": [
       135
     ]
   },
   {
-    "id": "rules-of-the-road-0514",
+    "id": "rules-of-the-road-1426",
     "category": "rules-of-the-road",
     "question": "Highway Code rule 137 is about “general rules, techniques and advice”. Which statement is taken from this rule?",
     "options": [
-      "On a two-lane dual carriageway you should stay in the left-hand lane.",
       "You MUST NOT drive dangerously, drive without due care and attention, or drive without reasonable consideration for other road users.",
-      "Bus lanes. These are shown by road markings and signs that indicate which (if any) other vehicles are permitted to use the bus lane. Unless otherwise indicated,",
-      "Safe driving and riding needs concentration."
+      "On a two-lane dual carriageway you should stay in the left-hand lane.",
+      "Safe driving and riding needs concentration.",
+      "Bus lanes. These are shown by road markings and signs that indicate which (if any) other vehicles are permitted to use the bus lane. Unless otherwise indicated,"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": "On a two-lane dual carriageway you should stay in the left-hand lane. Use the right-hand lane for overtaking or turning right. (Highway Code rule 137.)",
     "highwayCodeRules": [
       137
     ]
   },
   {
-    "id": "rules-of-the-road-0515",
+    "id": "rules-of-the-road-1427",
     "category": "rules-of-the-road",
     "question": "According to the Highway Code (general rules, techniques and advice), what should you do?",
     "options": [
       "On a two-lane dual carriageway you should stay in the left-hand lane.",
       "You MUST NOT drive dangerously, drive without due care and attention, or drive without reasonable consideration for other road users.",
-      "Bus lanes. These are shown by road markings and signs that indicate which (if any) other vehicles are permitted to use the bus lane. Unless otherwise indicated,",
-      "Safe driving and riding needs concentration."
+      "Safe driving and riding needs concentration.",
+      "Bus lanes. These are shown by road markings and signs that indicate which (if any) other vehicles are permitted to use the bus lane. Unless otherwise indicated,"
     ],
     "correctIndex": 0,
     "explanation": "On a two-lane dual carriageway you should stay in the left-hand lane. Use the right-hand lane for overtaking or turning right. (Highway Code rule 137.)",
@@ -1008,30 +1008,46 @@
     ]
   },
   {
-    "id": "rules-of-the-road-0516",
+    "id": "rules-of-the-road-1428",
     "category": "rules-of-the-road",
     "question": "Highway Code rule 140 is about “general rules, techniques and advice”. Which statement is taken from this rule?",
     "options": [
-      "In normal circumstances.",
       "Cycle lanes. You MUST NOT drive or park in a cycle lane marked by a solid white line during its times of operation. Do not drive or park in a cycle lane marked",
-      "Safe driving and riding needs concentration.",
-      "Merging in turn is recommended where vehicles are travelling at very low speeds, e."
+      "In normal circumstances.",
+      "Merging in turn is recommended where vehicles are travelling at very low speeds, e.",
+      "Safe driving and riding needs concentration."
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "Cycle lanes. You MUST NOT drive or park in a cycle lane marked by a solid white line during its times of operation. Do not drive or park in a cycle lane marked by a broken white line unless it is unavoidable. (Highway Code rule 140.)",
     "highwayCodeRules": [
       140
     ]
   },
   {
-    "id": "rules-of-the-road-0517",
+    "id": "rules-of-the-road-1429",
     "category": "rules-of-the-road",
     "question": "Highway Code rule 141 is about “general rules, techniques and advice”. Which statement is taken from this rule?",
     "options": [
+      "Coasting. This term describes a vehicle travelling in neutral or with the clutch pressed down. It can reduce driver control because engine braking is eliminated",
+      "Traffic-calming measures.",
+      "On a two-lane dual carriageway you should stay in the left-hand lane.",
+      "Bus lanes. These are shown by road markings and signs that indicate which (if any) other vehicles are permitted to use the bus lane. Unless otherwise indicated,"
+    ],
+    "correctIndex": 3,
+    "explanation": "Bus lanes. These are shown by road markings and signs that indicate which (if any) other vehicles are permitted to use the bus lane. Unless otherwise indicated, you should not drive in a bus lane during its period of operation. (Highway Code rule 141.)",
+    "highwayCodeRules": [
+      141
+    ]
+  },
+  {
+    "id": "rules-of-the-road-1430",
+    "category": "rules-of-the-road",
+    "question": "According to the Highway Code (general rules, techniques and advice), what should you do?",
+    "options": [
       "Traffic-calming measures.",
       "Bus lanes. These are shown by road markings and signs that indicate which (if any) other vehicles are permitted to use the bus lane. Unless otherwise indicated,",
-      "On a two-lane dual carriageway you should stay in the left-hand lane.",
-      "Coasting. This term describes a vehicle travelling in neutral or with the clutch pressed down. It can reduce driver control because engine braking is eliminated"
+      "Coasting. This term describes a vehicle travelling in neutral or with the clutch pressed down. It can reduce driver control because engine braking is eliminated",
+      "On a two-lane dual carriageway you should stay in the left-hand lane."
     ],
     "correctIndex": 1,
     "explanation": "Bus lanes. These are shown by road markings and signs that indicate which (if any) other vehicles are permitted to use the bus lane. Unless otherwise indicated, you should not drive in a bus lane during its period of operation. (Highway Code rule 141.)",
@@ -1040,43 +1056,11 @@
     ]
   },
   {
-    "id": "rules-of-the-road-0518",
-    "category": "rules-of-the-road",
-    "question": "According to the Highway Code (general rules, techniques and advice), what should you do?",
-    "options": [
-      "Bus lanes. These are shown by road markings and signs that indicate which (if any) other vehicles are permitted to use the bus lane. Unless otherwise indicated,",
-      "Coasting. This term describes a vehicle travelling in neutral or with the clutch pressed down. It can reduce driver control because engine braking is eliminated",
-      "On a two-lane dual carriageway you should stay in the left-hand lane.",
-      "Traffic-calming measures."
-    ],
-    "correctIndex": 0,
-    "explanation": "Bus lanes. These are shown by road markings and signs that indicate which (if any) other vehicles are permitted to use the bus lane. Unless otherwise indicated, you should not drive in a bus lane during its period of operation. (Highway Code rule 141.)",
-    "highwayCodeRules": [
-      141
-    ]
-  },
-  {
-    "id": "rules-of-the-road-0520",
+    "id": "rules-of-the-road-1432",
     "category": "rules-of-the-road",
     "question": "Highway Code rule 145 is about “general rules, techniques and advice”. Which statement is taken from this rule?",
     "options": [
       "Traffic officers have powers to stop vehicles on most motorways and some 'A' class roads in England and Wales.",
-      "In an emergency. Brake immediately. Try to avoid braking so harshly that you lock your wheels. Locked wheels can lead to loss of control.",
-      "You MUST NOT drive on or over a pavement, footpath or bridleway except to gain lawful access to property, or in the case of an emergency.",
-      "You MUST NOT use any lights in a way which would dazzle or cause discomfort to other road users, including pedestrians, cyclists and horse riders, and you MUST"
-    ],
-    "correctIndex": 2,
-    "explanation": "You MUST NOT drive on or over a pavement, footpath or bridleway except to gain lawful access to property, or in the case of an emergency. (Highway Code rule 145.)",
-    "highwayCodeRules": [
-      145
-    ]
-  },
-  {
-    "id": "rules-of-the-road-0521",
-    "category": "rules-of-the-road",
-    "question": "According to the Highway Code (general rules, techniques and advice), what MUST you do?",
-    "options": [
-      "Traffic officers have powers to stop vehicles on most motorways and some 'A' class roads in England and Wales.",
       "You MUST NOT drive on or over a pavement, footpath or bridleway except to gain lawful access to property, or in the case of an emergency.",
       "In an emergency. Brake immediately. Try to avoid braking so harshly that you lock your wheels. Locked wheels can lead to loss of control.",
       "You MUST NOT use any lights in a way which would dazzle or cause discomfort to other road users, including pedestrians, cyclists and horse riders, and you MUST"
@@ -1088,14 +1072,30 @@
     ]
   },
   {
-    "id": "rules-of-the-road-0531",
+    "id": "rules-of-the-road-1433",
+    "category": "rules-of-the-road",
+    "question": "According to the Highway Code (general rules, techniques and advice), what MUST you do?",
+    "options": [
+      "In an emergency. Brake immediately. Try to avoid braking so harshly that you lock your wheels. Locked wheels can lead to loss of control.",
+      "Traffic officers have powers to stop vehicles on most motorways and some 'A' class roads in England and Wales.",
+      "You MUST NOT use any lights in a way which would dazzle or cause discomfort to other road users, including pedestrians, cyclists and horse riders, and you MUST",
+      "You MUST NOT drive on or over a pavement, footpath or bridleway except to gain lawful access to property, or in the case of an emergency."
+    ],
+    "correctIndex": 3,
+    "explanation": "You MUST NOT drive on or over a pavement, footpath or bridleway except to gain lawful access to property, or in the case of an emergency. (Highway Code rule 145.)",
+    "highwayCodeRules": [
+      145
+    ]
+  },
+  {
+    "id": "rules-of-the-road-1443",
     "category": "rules-of-the-road",
     "question": "Highway Code rule 152 is about “general rules, techniques and advice”. Which statement is taken from this rule?",
     "options": [
       "Residential streets. You should drive slowly and carefully on streets where there are likely to be pedestrians, cyclists and parked cars. In some areas a 20 mph",
-      "Safe driving and riding needs concentration.",
+      "Bus lanes. These are shown by road markings and signs that indicate which (if any) other vehicles are permitted to use the bus lane. Unless otherwise indicated,",
       "Traffic-calming measures.",
-      "Bus lanes. These are shown by road markings and signs that indicate which (if any) other vehicles are permitted to use the bus lane. Unless otherwise indicated,"
+      "Safe driving and riding needs concentration."
     ],
     "correctIndex": 0,
     "explanation": "Residential streets. You should drive slowly and carefully on streets where there are likely to be pedestrians, cyclists and parked cars. In some areas a 20 mph maximum speed limit may be in force. (Highway Code rule 152.)",
@@ -1104,30 +1104,30 @@
     ]
   },
   {
-    "id": "rules-of-the-road-0532",
+    "id": "rules-of-the-road-1444",
     "category": "rules-of-the-road",
     "question": "According to the Highway Code (general rules, techniques and advice), what should you do?",
     "options": [
+      "Safe driving and riding needs concentration.",
       "Traffic-calming measures.",
-      "Residential streets. You should drive slowly and carefully on streets where there are likely to be pedestrians, cyclists and parked cars. In some areas a 20 mph",
       "Bus lanes. These are shown by road markings and signs that indicate which (if any) other vehicles are permitted to use the bus lane. Unless otherwise indicated,",
-      "Safe driving and riding needs concentration."
+      "Residential streets. You should drive slowly and carefully on streets where there are likely to be pedestrians, cyclists and parked cars. In some areas a 20 mph"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "Residential streets. You should drive slowly and carefully on streets where there are likely to be pedestrians, cyclists and parked cars. In some areas a 20 mph maximum speed limit may be in force. (Highway Code rule 152.)",
     "highwayCodeRules": [
       152
     ]
   },
   {
-    "id": "rules-of-the-road-0536",
+    "id": "rules-of-the-road-1448",
     "category": "rules-of-the-road",
     "question": "Highway Code rule 155 is about “general rules, techniques and advice”. Which statement is taken from this rule?",
     "options": [
       "You MUST exercise proper control of your vehicle at all times.",
       "Single-track roads. These are only wide enough for one vehicle. They may have special passing places. If you see a vehicle coming towards you, or the driver beh",
-      "Do not park in passing places.",
-      "Skids are caused by the driver braking, accelerating or steering too harshly or driving too fast for the road conditions."
+      "Skids are caused by the driver braking, accelerating or steering too harshly or driving too fast for the road conditions.",
+      "Do not park in passing places."
     ],
     "correctIndex": 1,
     "explanation": "Single-track roads. These are only wide enough for one vehicle. They may have special passing places. If you see a vehicle coming towards you, or the driver behind wants to overtake, pull into a passing place on your left, or wait opposite a passing place on your right. (Highway Code rule 155.)",
@@ -1136,55 +1136,55 @@
     ]
   },
   {
-    "id": "rules-of-the-road-0537",
+    "id": "rules-of-the-road-1449",
     "category": "rules-of-the-road",
     "question": "Highway Code rule 156 is about “general rules, techniques and advice”. Which statement is taken from this rule?",
     "options": [
-      "Do not park in passing places.",
       "Take extra care on country roads and reduce your speed at approaches to bends, which can be sharper than they appear, and at junctions and turnings, which may be partially hidden.",
+      "You MUST obey signals given by police officers, traffic officers, traffic wardens and signs used by school crossing patrols.",
       "Residential streets. You should drive slowly and carefully on streets where there are likely to be pedestrians, cyclists and parked cars. In some areas a 20 mph",
-      "You MUST obey signals given by police officers, traffic officers, traffic wardens and signs used by school crossing patrols."
+      "Do not park in passing places."
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "explanation": "Do not park in passing places. (Highway Code rule 156.)",
     "highwayCodeRules": [
       156
     ]
   },
   {
-    "id": "rules-of-the-road-0538",
+    "id": "rules-of-the-road-1450",
     "category": "rules-of-the-road",
     "question": "According to the Highway Code (general rules, techniques and advice), what should you do?",
     "options": [
-      "Residential streets. You should drive slowly and carefully on streets where there are likely to be pedestrians, cyclists and parked cars. In some areas a 20 mph",
-      "Do not park in passing places.",
       "You MUST obey signals given by police officers, traffic officers, traffic wardens and signs used by school crossing patrols.",
-      "Take extra care on country roads and reduce your speed at approaches to bends, which can be sharper than they appear, and at junctions and turnings, which may be partially hidden."
+      "Take extra care on country roads and reduce your speed at approaches to bends, which can be sharper than they appear, and at junctions and turnings, which may be partially hidden.",
+      "Residential streets. You should drive slowly and carefully on streets where there are likely to be pedestrians, cyclists and parked cars. In some areas a 20 mph",
+      "Do not park in passing places."
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "Do not park in passing places. (Highway Code rule 156.)",
     "highwayCodeRules": [
       156
     ]
   },
   {
-    "id": "rules-of-the-road-0540",
+    "id": "rules-of-the-road-1452",
     "category": "rules-of-the-road",
     "question": "Highway Code rule 160 is about “using the road”. Which statement is taken from this rule?",
     "options": [
+      "Look carefully before you start reversing.",
       "Once moving you should keep to the left, unless road signs or markings indicate otherwise; keep both hands on the wheel where possible; be aware of other road u",
       "You MUST NOT overtake if you would have to cross or straddle double white lines with a solid line nearest to you, if you would have to enter an area designed to",
-      "Look carefully before you start reversing.",
       "Box junctions. You MUST NOT enter the box until your exit road or lane is clear, except when turning right and only stopped by oncoming traffic."
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": "Once moving you should keep to the left, unless road signs or markings indicate otherwise; keep both hands on the wheel where possible; be aware of other road users, especially cycles and motorcycles which may be filtering through traffic. (Highway Code rule 160.)",
     "highwayCodeRules": [
       160
     ]
   },
   {
-    "id": "rules-of-the-road-0541",
+    "id": "rules-of-the-road-1453",
     "category": "rules-of-the-road",
     "question": "According to the Highway Code (using the road), what should you do?",
     "options": [
@@ -1200,45 +1200,45 @@
     ]
   },
   {
-    "id": "rules-of-the-road-0543",
+    "id": "rules-of-the-road-1455",
     "category": "rules-of-the-road",
     "question": "Highway Code rule 162 is about “using the road”. Which statement is taken from this rule?",
     "options": [
-      "Before overtaking you should make sure the road is sufficiently clear ahead, road users are not beginning to overtake you, and there is a suitable gap in front",
-      "You MUST NOT park on a crossing or in the area covered by the zig-zag lines.",
       "Zebra and parallel crossings.",
-      "The approach to a junction may have a 'Give Way' sign or a triangle marked on the road."
+      "You MUST NOT park on a crossing or in the area covered by the zig-zag lines.",
+      "The approach to a junction may have a 'Give Way' sign or a triangle marked on the road.",
+      "Before overtaking you should make sure the road is sufficiently clear ahead, road users are not beginning to overtake you, and there is a suitable gap in front"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "explanation": "Before overtaking you should make sure the road is sufficiently clear ahead, road users are not beginning to overtake you, and there is a suitable gap in front of the road user you plan to overtake. (Highway Code rule 162.)",
     "highwayCodeRules": [
       162
     ]
   },
   {
-    "id": "rules-of-the-road-0544",
+    "id": "rules-of-the-road-1456",
     "category": "rules-of-the-road",
     "question": "According to the Highway Code (using the road), what should you do?",
     "options": [
-      "Before overtaking you should make sure the road is sufficiently clear ahead, road users are not beginning to overtake you, and there is a suitable gap in front",
-      "You MUST NOT park on a crossing or in the area covered by the zig-zag lines.",
+      "The approach to a junction may have a 'Give Way' sign or a triangle marked on the road.",
       "Zebra and parallel crossings.",
-      "The approach to a junction may have a 'Give Way' sign or a triangle marked on the road."
+      "You MUST NOT park on a crossing or in the area covered by the zig-zag lines.",
+      "Before overtaking you should make sure the road is sufficiently clear ahead, road users are not beginning to overtake you, and there is a suitable gap in front"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "explanation": "Before overtaking you should make sure the road is sufficiently clear ahead, road users are not beginning to overtake you, and there is a suitable gap in front of the road user you plan to overtake. (Highway Code rule 162.)",
     "highwayCodeRules": [
       162
     ]
   },
   {
-    "id": "rules-of-the-road-0545",
+    "id": "rules-of-the-road-1457",
     "category": "rules-of-the-road",
     "question": "Highway Code rule 163 is about “using the road”. Which statement is taken from this rule?",
     "options": [
-      "Mini-roundabouts. Approach in the same way as normal roundabouts. All vehicles MUST pass round the central markings except large vehicles which are physically i",
       "Take extra care at junctions.",
       "You MUST NOT reverse your vehicle further than necessary.",
+      "Mini-roundabouts. Approach in the same way as normal roundabouts. All vehicles MUST pass round the central markings except large vehicles which are physically i",
       "Overtake only when it is safe and legal to do so."
     ],
     "correctIndex": 3,
@@ -1248,94 +1248,94 @@
     ]
   },
   {
-    "id": "rules-of-the-road-0547",
+    "id": "rules-of-the-road-1459",
     "category": "rules-of-the-road",
     "question": "Highway Code rule 165 is about “using the road”. Which statement is taken from this rule?",
     "options": [
-      "Large vehicles. Overtaking these is more difficult. Drop back to increase your ability to see ahead and to allow the driver of the large vehicle to see you in t",
-      "You MUST NOT overtake if you would have to cross or straddle double white lines with a solid line nearest to you, if you would have to enter an area designed to",
+      "The approach to a junction may have a 'Give Way' sign or a triangle marked on the road.",
       "When reaching the roundabout you should give priority to traffic approaching from your right unless directed otherwise by signs, road markings or traffic lights.",
-      "The approach to a junction may have a 'Give Way' sign or a triangle marked on the road."
+      "You MUST NOT overtake if you would have to cross or straddle double white lines with a solid line nearest to you, if you would have to enter an area designed to",
+      "Large vehicles. Overtaking these is more difficult. Drop back to increase your ability to see ahead and to allow the driver of the large vehicle to see you in t"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "You MUST NOT overtake if you would have to cross or straddle double white lines with a solid line nearest to you, if you would have to enter an area designed to divide traffic, if you would have to enter a lane reserved for buses, trams or cycles during its hours of operation, the nearest vehicle to a pedestrian crossing, or after a 'No Overtaking' sign until you pass a sign cancelling the restriction. (Highway Code rule 165.)",
     "highwayCodeRules": [
       165
     ]
   },
   {
-    "id": "rules-of-the-road-0552",
+    "id": "rules-of-the-road-1464",
     "category": "rules-of-the-road",
     "question": "Highway Code rule 170 is about “using the road”. Which statement is taken from this rule?",
     "options": [
-      "You MUST stop behind the line at a junction with a 'Stop' sign and a solid white line across the road.",
-      "Large vehicles. Overtaking these is more difficult. Drop back to increase your ability to see ahead and to allow the driver of the large vehicle to see you in t",
       "Take extra care at junctions.",
-      "Choose an appropriate place to manoeuvre."
+      "You MUST stop behind the line at a junction with a 'Stop' sign and a solid white line across the road.",
+      "Choose an appropriate place to manoeuvre.",
+      "Large vehicles. Overtaking these is more difficult. Drop back to increase your ability to see ahead and to allow the driver of the large vehicle to see you in t"
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "explanation": "Take extra care at junctions. You should give way to pedestrians crossing or waiting to cross a road into which or from which you are turning. Watch out for cyclists, motorcyclists and powered wheelchairs/mobility scooters. Watch out for long vehicles which may have to take a different course. (Highway Code rule 170.)",
     "highwayCodeRules": [
       170
     ]
   },
   {
-    "id": "rules-of-the-road-0553",
+    "id": "rules-of-the-road-1465",
     "category": "rules-of-the-road",
     "question": "Highway Code rule 171 is about “using the road”. Which statement is taken from this rule?",
     "options": [
-      "Choose an appropriate place to manoeuvre.",
+      "You MUST stop behind the line at a junction with a 'Stop' sign and a solid white line across the road.",
       "You MUST NOT park on a crossing or in the area covered by the zig-zag lines.",
-      "DO NOT overtake if there is any doubt, or where you cannot see far enough ahead to be sure it is safe — for example when you are approaching a corner or bend, a",
-      "You MUST stop behind the line at a junction with a 'Stop' sign and a solid white line across the road."
+      "Choose an appropriate place to manoeuvre.",
+      "DO NOT overtake if there is any doubt, or where you cannot see far enough ahead to be sure it is safe — for example when you are approaching a corner or bend, a"
     ],
-    "correctIndex": 3,
+    "correctIndex": 0,
     "explanation": "You MUST stop behind the line at a junction with a 'Stop' sign and a solid white line across the road. Wait for a safe gap in the traffic before you move off. (Highway Code rule 171.)",
     "highwayCodeRules": [
       171
     ]
   },
   {
-    "id": "rules-of-the-road-0554",
+    "id": "rules-of-the-road-1466",
     "category": "rules-of-the-road",
     "question": "Highway Code rule 172 is about “using the road”. Which statement is taken from this rule?",
     "options": [
       "DO NOT overtake where you might come into conflict with other road users, for example approaching or at a road junction, where the road narrows, at a level cros",
-      "The approach to a junction may have a 'Give Way' sign or a triangle marked on the road.",
       "Overtake only when it is safe and legal to do so.",
+      "The approach to a junction may have a 'Give Way' sign or a triangle marked on the road.",
       "On approaching a roundabout take notice and act on all the information available to you, including traffic signs, traffic lights and lane markings which direct"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "The approach to a junction may have a 'Give Way' sign or a triangle marked on the road. You MUST give way to traffic on the main road when emerging from a junction with broken white lines across the road. (Highway Code rule 172.)",
     "highwayCodeRules": [
       172
     ]
   },
   {
-    "id": "rules-of-the-road-0555",
+    "id": "rules-of-the-road-1467",
     "category": "rules-of-the-road",
     "question": "According to the Highway Code (using the road), what MUST you do?",
     "options": [
       "On approaching a roundabout take notice and act on all the information available to you, including traffic signs, traffic lights and lane markings which direct",
-      "The approach to a junction may have a 'Give Way' sign or a triangle marked on the road.",
       "Overtake only when it is safe and legal to do so.",
+      "The approach to a junction may have a 'Give Way' sign or a triangle marked on the road.",
       "DO NOT overtake where you might come into conflict with other road users, for example approaching or at a road junction, where the road narrows, at a level cros"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "The approach to a junction may have a 'Give Way' sign or a triangle marked on the road. You MUST give way to traffic on the main road when emerging from a junction with broken white lines across the road. (Highway Code rule 172.)",
     "highwayCodeRules": [
       172
     ]
   },
   {
-    "id": "rules-of-the-road-0556",
+    "id": "rules-of-the-road-1468",
     "category": "rules-of-the-road",
     "question": "Highway Code rule 174 is about “using the road”. Which statement is taken from this rule?",
     "options": [
-      "When reaching the roundabout you should give priority to traffic approaching from your right unless directed otherwise by signs, road markings or traffic lights.",
-      "Box junctions. You MUST NOT enter the box until your exit road or lane is clear, except when turning right and only stopped by oncoming traffic.",
       "Advanced stop lines allow cycles to be positioned ahead of other traffic.",
-      "On approaching a roundabout take notice and act on all the information available to you, including traffic signs, traffic lights and lane markings which direct"
+      "Box junctions. You MUST NOT enter the box until your exit road or lane is clear, except when turning right and only stopped by oncoming traffic.",
+      "On approaching a roundabout take notice and act on all the information available to you, including traffic signs, traffic lights and lane markings which direct",
+      "When reaching the roundabout you should give priority to traffic approaching from your right unless directed otherwise by signs, road markings or traffic lights."
     ],
     "correctIndex": 1,
     "explanation": "Box junctions. You MUST NOT enter the box until your exit road or lane is clear, except when turning right and only stopped by oncoming traffic. (Highway Code rule 174.)",
@@ -1344,14 +1344,14 @@
     ]
   },
   {
-    "id": "rules-of-the-road-0557",
+    "id": "rules-of-the-road-1469",
     "category": "rules-of-the-road",
     "question": "According to the Highway Code (using the road), what MUST you do?",
     "options": [
       "Box junctions. You MUST NOT enter the box until your exit road or lane is clear, except when turning right and only stopped by oncoming traffic.",
+      "On approaching a roundabout take notice and act on all the information available to you, including traffic signs, traffic lights and lane markings which direct",
       "When reaching the roundabout you should give priority to traffic approaching from your right unless directed otherwise by signs, road markings or traffic lights.",
-      "Advanced stop lines allow cycles to be positioned ahead of other traffic.",
-      "On approaching a roundabout take notice and act on all the information available to you, including traffic signs, traffic lights and lane markings which direct"
+      "Advanced stop lines allow cycles to be positioned ahead of other traffic."
     ],
     "correctIndex": 0,
     "explanation": "Box junctions. You MUST NOT enter the box until your exit road or lane is clear, except when turning right and only stopped by oncoming traffic. (Highway Code rule 174.)",
@@ -1360,29 +1360,29 @@
     ]
   },
   {
-    "id": "rules-of-the-road-0558",
+    "id": "rules-of-the-road-1470",
     "category": "rules-of-the-road",
     "question": "Highway Code rule 175 is about “using the road”. Which statement is taken from this rule?",
     "options": [
-      "You MUST stop behind the white 'Stop' line across your side of the road unless the traffic light is green.",
       "You MUST NOT move forward over the white line when the red light is showing.",
-      "Once moving you should keep to the left, unless road signs or markings indicate otherwise; keep both hands on the wheel where possible; be aware of other road u",
-      "DO NOT overtake if there is any doubt, or where you cannot see far enough ahead to be sure it is safe — for example when you are approaching a corner or bend, a"
+      "DO NOT overtake if there is any doubt, or where you cannot see far enough ahead to be sure it is safe — for example when you are approaching a corner or bend, a",
+      "You MUST stop behind the white 'Stop' line across your side of the road unless the traffic light is green.",
+      "Once moving you should keep to the left, unless road signs or markings indicate otherwise; keep both hands on the wheel where possible; be aware of other road u"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": "You MUST stop behind the white 'Stop' line across your side of the road unless the traffic light is green. If the amber light appears you may go on only if you have already crossed the stop line or are so close to it that to stop might cause a collision. (Highway Code rule 175.)",
     "highwayCodeRules": [
       175
     ]
   },
   {
-    "id": "rules-of-the-road-0559",
+    "id": "rules-of-the-road-1471",
     "category": "rules-of-the-road",
     "question": "Highway Code rule 176 is about “using the road”. Which statement is taken from this rule?",
     "options": [
-      "You MUST NOT overtake if you would have to cross or straddle double white lines with a solid line nearest to you, if you would have to enter an area designed to",
-      "Overtake only when it is safe and legal to do so.",
       "Advanced stop lines allow cycles to be positioned ahead of other traffic.",
+      "Overtake only when it is safe and legal to do so.",
+      "You MUST NOT overtake if you would have to cross or straddle double white lines with a solid line nearest to you, if you would have to enter an area designed to",
       "You MUST NOT move forward over the white line when the red light is showing."
     ],
     "correctIndex": 3,
@@ -1392,61 +1392,45 @@
     ]
   },
   {
-    "id": "rules-of-the-road-0560",
+    "id": "rules-of-the-road-1472",
     "category": "rules-of-the-road",
     "question": "According to the Highway Code (using the road), what MUST you do?",
     "options": [
-      "You MUST NOT move forward over the white line when the red light is showing.",
       "Overtake only when it is safe and legal to do so.",
       "Advanced stop lines allow cycles to be positioned ahead of other traffic.",
+      "You MUST NOT move forward over the white line when the red light is showing.",
       "You MUST NOT overtake if you would have to cross or straddle double white lines with a solid line nearest to you, if you would have to enter an area designed to"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": "You MUST NOT move forward over the white line when the red light is showing. Only go forward when the traffic lights are green if there is room for you to clear the junction safely. (Highway Code rule 176.)",
     "highwayCodeRules": [
       176
     ]
   },
   {
-    "id": "rules-of-the-road-0561",
+    "id": "rules-of-the-road-1473",
     "category": "rules-of-the-road",
     "question": "Highway Code rule 178 is about “using the road”. Which statement is taken from this rule?",
     "options": [
-      "Advanced stop lines allow cycles to be positioned ahead of other traffic.",
-      "Box junctions. You MUST NOT enter the box until your exit road or lane is clear, except when turning right and only stopped by oncoming traffic.",
+      "Look carefully before you start reversing.",
       "When reaching the roundabout you should give priority to traffic approaching from your right unless directed otherwise by signs, road markings or traffic lights.",
-      "Look carefully before you start reversing."
+      "Box junctions. You MUST NOT enter the box until your exit road or lane is clear, except when turning right and only stopped by oncoming traffic.",
+      "Advanced stop lines allow cycles to be positioned ahead of other traffic."
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "explanation": "Advanced stop lines allow cycles to be positioned ahead of other traffic. Motorists, including motorcyclists, MUST stop at the first white line reached if the lights are amber or red and should avoid blocking the way or encroaching on the marked area at other times. (Highway Code rule 178.)",
     "highwayCodeRules": [
       178
     ]
   },
   {
-    "id": "rules-of-the-road-0562",
+    "id": "rules-of-the-road-1474",
     "category": "rules-of-the-road",
     "question": "Highway Code rule 181 is about “using the road”. Which statement is taken from this rule?",
     "options": [
-      "Turning right. When turning right at crossroads where an oncoming vehicle is also turning right, it is generally safer to keep the other vehicle to your right a",
-      "Being overtaken. If a driver is trying to overtake you, maintain a steady course and speed, slowing down if necessary to let the vehicle pass. Never obstruct dr",
-      "You MUST stop behind the line at a junction with a 'Stop' sign and a solid white line across the road.",
-      "Pelican crossings. These are signal-controlled crossings where flashing amber follows the red 'Stop' light. You MUST stop when the red light shows. When the amb"
-    ],
-    "correctIndex": 0,
-    "explanation": "Turning right. When turning right at crossroads where an oncoming vehicle is also turning right, it is generally safer to keep the other vehicle to your right and turn behind it (offside to offside). (Highway Code rule 181.)",
-    "highwayCodeRules": [
-      181
-    ]
-  },
-  {
-    "id": "rules-of-the-road-0563",
-    "category": "rules-of-the-road",
-    "question": "According to the Highway Code (using the road), what should you do?",
-    "options": [
-      "Being overtaken. If a driver is trying to overtake you, maintain a steady course and speed, slowing down if necessary to let the vehicle pass. Never obstruct dr",
-      "You MUST stop behind the line at a junction with a 'Stop' sign and a solid white line across the road.",
       "Pelican crossings. These are signal-controlled crossings where flashing amber follows the red 'Stop' light. You MUST stop when the red light shows. When the amb",
+      "Being overtaken. If a driver is trying to overtake you, maintain a steady course and speed, slowing down if necessary to let the vehicle pass. Never obstruct dr",
+      "You MUST stop behind the line at a junction with a 'Stop' sign and a solid white line across the road.",
       "Turning right. When turning right at crossroads where an oncoming vehicle is also turning right, it is generally safer to keep the other vehicle to your right a"
     ],
     "correctIndex": 3,
@@ -1456,41 +1440,73 @@
     ]
   },
   {
-    "id": "rules-of-the-road-0564",
-    "category": "rules-of-the-road",
-    "question": "Highway Code rule 183 is about “using the road”. Which statement is taken from this rule?",
-    "options": [
-      "Mini-roundabouts. Approach in the same way as normal roundabouts. All vehicles MUST pass round the central markings except large vehicles which are physically i",
-      "Large vehicles. Overtaking these is more difficult. Drop back to increase your ability to see ahead and to allow the driver of the large vehicle to see you in t",
-      "When turning, give way to any vehicles using a bus lane, cycle lane, cycle track or tramway from either direction, including when they are passing slow moving o",
-      "Look carefully before you start reversing."
-    ],
-    "correctIndex": 2,
-    "explanation": "When turning, give way to any vehicles using a bus lane, cycle lane, cycle track or tramway from either direction, including when they are passing slow moving or stationary vehicles on either side. (Highway Code rule 183.)",
-    "highwayCodeRules": [
-      183
-    ]
-  },
-  {
-    "id": "rules-of-the-road-0565",
+    "id": "rules-of-the-road-1475",
     "category": "rules-of-the-road",
     "question": "According to the Highway Code (using the road), what should you do?",
     "options": [
-      "Large vehicles. Overtaking these is more difficult. Drop back to increase your ability to see ahead and to allow the driver of the large vehicle to see you in t",
-      "Mini-roundabouts. Approach in the same way as normal roundabouts. All vehicles MUST pass round the central markings except large vehicles which are physically i",
-      "Look carefully before you start reversing.",
-      "When turning, give way to any vehicles using a bus lane, cycle lane, cycle track or tramway from either direction, including when they are passing slow moving o"
+      "Pelican crossings. These are signal-controlled crossings where flashing amber follows the red 'Stop' light. You MUST stop when the red light shows. When the amb",
+      "Being overtaken. If a driver is trying to overtake you, maintain a steady course and speed, slowing down if necessary to let the vehicle pass. Never obstruct dr",
+      "You MUST stop behind the line at a junction with a 'Stop' sign and a solid white line across the road.",
+      "Turning right. When turning right at crossroads where an oncoming vehicle is also turning right, it is generally safer to keep the other vehicle to your right a"
     ],
     "correctIndex": 3,
+    "explanation": "Turning right. When turning right at crossroads where an oncoming vehicle is also turning right, it is generally safer to keep the other vehicle to your right and turn behind it (offside to offside). (Highway Code rule 181.)",
+    "highwayCodeRules": [
+      181
+    ]
+  },
+  {
+    "id": "rules-of-the-road-1476",
+    "category": "rules-of-the-road",
+    "question": "Highway Code rule 183 is about “using the road”. Which statement is taken from this rule?",
+    "options": [
+      "When turning, give way to any vehicles using a bus lane, cycle lane, cycle track or tramway from either direction, including when they are passing slow moving o",
+      "Look carefully before you start reversing.",
+      "Large vehicles. Overtaking these is more difficult. Drop back to increase your ability to see ahead and to allow the driver of the large vehicle to see you in t",
+      "Mini-roundabouts. Approach in the same way as normal roundabouts. All vehicles MUST pass round the central markings except large vehicles which are physically i"
+    ],
+    "correctIndex": 0,
     "explanation": "When turning, give way to any vehicles using a bus lane, cycle lane, cycle track or tramway from either direction, including when they are passing slow moving or stationary vehicles on either side. (Highway Code rule 183.)",
     "highwayCodeRules": [
       183
     ]
   },
   {
-    "id": "rules-of-the-road-0566",
+    "id": "rules-of-the-road-1477",
+    "category": "rules-of-the-road",
+    "question": "According to the Highway Code (using the road), what should you do?",
+    "options": [
+      "Mini-roundabouts. Approach in the same way as normal roundabouts. All vehicles MUST pass round the central markings except large vehicles which are physically i",
+      "When turning, give way to any vehicles using a bus lane, cycle lane, cycle track or tramway from either direction, including when they are passing slow moving o",
+      "Large vehicles. Overtaking these is more difficult. Drop back to increase your ability to see ahead and to allow the driver of the large vehicle to see you in t",
+      "Look carefully before you start reversing."
+    ],
+    "correctIndex": 1,
+    "explanation": "When turning, give way to any vehicles using a bus lane, cycle lane, cycle track or tramway from either direction, including when they are passing slow moving or stationary vehicles on either side. (Highway Code rule 183.)",
+    "highwayCodeRules": [
+      183
+    ]
+  },
+  {
+    "id": "rules-of-the-road-1478",
     "category": "rules-of-the-road",
     "question": "Highway Code rule 184 is about “using the road”. Which statement is taken from this rule?",
+    "options": [
+      "Being overtaken. If a driver is trying to overtake you, maintain a steady course and speed, slowing down if necessary to let the vehicle pass. Never obstruct dr",
+      "Do not reverse from a side road into a main road.",
+      "On approaching a roundabout take notice and act on all the information available to you, including traffic signs, traffic lights and lane markings which direct",
+      "Mini-roundabouts. Approach in the same way as normal roundabouts. All vehicles MUST pass round the central markings except large vehicles which are physically i"
+    ],
+    "correctIndex": 2,
+    "explanation": "On approaching a roundabout take notice and act on all the information available to you, including traffic signs, traffic lights and lane markings which direct you into the correct lane. Give way to traffic already on the roundabout from your right unless directed otherwise. (Highway Code rule 184.)",
+    "highwayCodeRules": [
+      184
+    ]
+  },
+  {
+    "id": "rules-of-the-road-1479",
+    "category": "rules-of-the-road",
+    "question": "According to the Highway Code (using the road), what should you do?",
     "options": [
       "On approaching a roundabout take notice and act on all the information available to you, including traffic signs, traffic lights and lane markings which direct",
       "Being overtaken. If a driver is trying to overtake you, maintain a steady course and speed, slowing down if necessary to let the vehicle pass. Never obstruct dr",
@@ -1504,30 +1520,14 @@
     ]
   },
   {
-    "id": "rules-of-the-road-0567",
-    "category": "rules-of-the-road",
-    "question": "According to the Highway Code (using the road), what should you do?",
-    "options": [
-      "Do not reverse from a side road into a main road.",
-      "Being overtaken. If a driver is trying to overtake you, maintain a steady course and speed, slowing down if necessary to let the vehicle pass. Never obstruct dr",
-      "On approaching a roundabout take notice and act on all the information available to you, including traffic signs, traffic lights and lane markings which direct",
-      "Mini-roundabouts. Approach in the same way as normal roundabouts. All vehicles MUST pass round the central markings except large vehicles which are physically i"
-    ],
-    "correctIndex": 2,
-    "explanation": "On approaching a roundabout take notice and act on all the information available to you, including traffic signs, traffic lights and lane markings which direct you into the correct lane. Give way to traffic already on the roundabout from your right unless directed otherwise. (Highway Code rule 184.)",
-    "highwayCodeRules": [
-      184
-    ]
-  },
-  {
-    "id": "rules-of-the-road-0568",
+    "id": "rules-of-the-road-1480",
     "category": "rules-of-the-road",
     "question": "Highway Code rule 185 is about “using the road”. Which statement is taken from this rule?",
     "options": [
       "When reaching the roundabout you should give priority to traffic approaching from your right unless directed otherwise by signs, road markings or traffic lights.",
-      "You MUST NOT move forward over the white line when the red light is showing.",
       "Overtake only when it is safe and legal to do so.",
-      "Mini-roundabouts. Approach in the same way as normal roundabouts. All vehicles MUST pass round the central markings except large vehicles which are physically i"
+      "Mini-roundabouts. Approach in the same way as normal roundabouts. All vehicles MUST pass round the central markings except large vehicles which are physically i",
+      "You MUST NOT move forward over the white line when the red light is showing."
     ],
     "correctIndex": 0,
     "explanation": "When reaching the roundabout you should give priority to traffic approaching from your right unless directed otherwise by signs, road markings or traffic lights. (Highway Code rule 185.)",
@@ -1536,13 +1536,13 @@
     ]
   },
   {
-    "id": "rules-of-the-road-0569",
+    "id": "rules-of-the-road-1481",
     "category": "rules-of-the-road",
     "question": "Highway Code rule 186 is about “using the road”. Which statement is taken from this rule?",
     "options": [
-      "Advanced stop lines allow cycles to be positioned ahead of other traffic.",
-      "You MUST NOT overtake if you would have to cross or straddle double white lines with a solid line nearest to you, if you would have to enter an area designed to",
       "Mini-roundabouts. Approach in the same way as normal roundabouts. All vehicles MUST pass round the central markings except large vehicles which are physically i",
+      "You MUST NOT overtake if you would have to cross or straddle double white lines with a solid line nearest to you, if you would have to enter an area designed to",
+      "Advanced stop lines allow cycles to be positioned ahead of other traffic.",
       "Signals and position when using a roundabout."
     ],
     "correctIndex": 3,
@@ -1552,25 +1552,9 @@
     ]
   },
   {
-    "id": "rules-of-the-road-0570",
+    "id": "rules-of-the-road-1482",
     "category": "rules-of-the-road",
     "question": "Highway Code rule 188 is about “using the road”. Which statement is taken from this rule?",
-    "options": [
-      "Look carefully before you start reversing.",
-      "Turning right. When turning right at crossroads where an oncoming vehicle is also turning right, it is generally safer to keep the other vehicle to your right a",
-      "DO NOT overtake where you might come into conflict with other road users, for example approaching or at a road junction, where the road narrows, at a level cros",
-      "Mini-roundabouts. Approach in the same way as normal roundabouts. All vehicles MUST pass round the central markings except large vehicles which are physically i"
-    ],
-    "correctIndex": 3,
-    "explanation": "Mini-roundabouts. Approach in the same way as normal roundabouts. All vehicles MUST pass round the central markings except large vehicles which are physically incapable of doing so. (Highway Code rule 188.)",
-    "highwayCodeRules": [
-      188
-    ]
-  },
-  {
-    "id": "rules-of-the-road-0571",
-    "category": "rules-of-the-road",
-    "question": "According to the Highway Code (using the road), what MUST you do?",
     "options": [
       "Look carefully before you start reversing.",
       "Mini-roundabouts. Approach in the same way as normal roundabouts. All vehicles MUST pass round the central markings except large vehicles which are physically i",
@@ -1584,14 +1568,30 @@
     ]
   },
   {
-    "id": "rules-of-the-road-0572",
+    "id": "rules-of-the-road-1483",
+    "category": "rules-of-the-road",
+    "question": "According to the Highway Code (using the road), what MUST you do?",
+    "options": [
+      "Look carefully before you start reversing.",
+      "Mini-roundabouts. Approach in the same way as normal roundabouts. All vehicles MUST pass round the central markings except large vehicles which are physically i",
+      "Turning right. When turning right at crossroads where an oncoming vehicle is also turning right, it is generally safer to keep the other vehicle to your right a",
+      "DO NOT overtake where you might come into conflict with other road users, for example approaching or at a road junction, where the road narrows, at a level cros"
+    ],
+    "correctIndex": 1,
+    "explanation": "Mini-roundabouts. Approach in the same way as normal roundabouts. All vehicles MUST pass round the central markings except large vehicles which are physically incapable of doing so. (Highway Code rule 188.)",
+    "highwayCodeRules": [
+      188
+    ]
+  },
+  {
+    "id": "rules-of-the-road-1484",
     "category": "rules-of-the-road",
     "question": "Highway Code rule 191 is about “using the road”. Which statement is taken from this rule?",
     "options": [
+      "Mini-roundabouts. Approach in the same way as normal roundabouts. All vehicles MUST pass round the central markings except large vehicles which are physically i",
       "Pelican crossings. These are signal-controlled crossings where flashing amber follows the red 'Stop' light. You MUST stop when the red light shows. When the amb",
-      "When turning, give way to any vehicles using a bus lane, cycle lane, cycle track or tramway from either direction, including when they are passing slow moving o",
       "You MUST NOT park on a crossing or in the area covered by the zig-zag lines.",
-      "Mini-roundabouts. Approach in the same way as normal roundabouts. All vehicles MUST pass round the central markings except large vehicles which are physically i"
+      "When turning, give way to any vehicles using a bus lane, cycle lane, cycle track or tramway from either direction, including when they are passing slow moving o"
     ],
     "correctIndex": 2,
     "explanation": "You MUST NOT park on a crossing or in the area covered by the zig-zag lines. You MUST NOT overtake the moving vehicle nearest the crossing or the vehicle nearest the crossing which has stopped to give way to pedestrians. (Highway Code rule 191.)",
@@ -1600,221 +1600,221 @@
     ]
   },
   {
-    "id": "rules-of-the-road-0573",
+    "id": "rules-of-the-road-1485",
     "category": "rules-of-the-road",
     "question": "Highway Code rule 192 is about “using the road”. Which statement is taken from this rule?",
     "options": [
       "Mini-roundabouts. Approach in the same way as normal roundabouts. All vehicles MUST pass round the central markings except large vehicles which are physically i",
-      "In queuing traffic, you should keep the crossing clear.",
       "Mirrors. All mirrors should be used effectively throughout your journey. You should use your mirrors frequently so that you always know what is behind and to ea",
+      "In queuing traffic, you should keep the crossing clear.",
       "On approaching a roundabout take notice and act on all the information available to you, including traffic signs, traffic lights and lane markings which direct"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "In queuing traffic, you should keep the crossing clear. (Highway Code rule 192.)",
     "highwayCodeRules": [
       192
     ]
   },
   {
-    "id": "rules-of-the-road-0574",
+    "id": "rules-of-the-road-1486",
     "category": "rules-of-the-road",
     "question": "According to the Highway Code (using the road), what should you do?",
     "options": [
-      "Mini-roundabouts. Approach in the same way as normal roundabouts. All vehicles MUST pass round the central markings except large vehicles which are physically i",
-      "On approaching a roundabout take notice and act on all the information available to you, including traffic signs, traffic lights and lane markings which direct",
+      "In queuing traffic, you should keep the crossing clear.",
       "Mirrors. All mirrors should be used effectively throughout your journey. You should use your mirrors frequently so that you always know what is behind and to ea",
-      "In queuing traffic, you should keep the crossing clear."
+      "On approaching a roundabout take notice and act on all the information available to you, including traffic signs, traffic lights and lane markings which direct",
+      "Mini-roundabouts. Approach in the same way as normal roundabouts. All vehicles MUST pass round the central markings except large vehicles which are physically i"
     ],
-    "correctIndex": 3,
+    "correctIndex": 0,
     "explanation": "In queuing traffic, you should keep the crossing clear. (Highway Code rule 192.)",
     "highwayCodeRules": [
       192
     ]
   },
   {
-    "id": "rules-of-the-road-0575",
+    "id": "rules-of-the-road-1487",
     "category": "rules-of-the-road",
     "question": "Highway Code rule 195 is about “using the road”. Which statement is taken from this rule?",
     "options": [
+      "Zebra and parallel crossings.",
       "Do not reverse from a side road into a main road.",
       "Turning right. When turning right at crossroads where an oncoming vehicle is also turning right, it is generally safer to keep the other vehicle to your right a",
-      "Zebra and parallel crossings.",
       "In queuing traffic, you should keep the crossing clear."
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "explanation": "Zebra and parallel crossings. As you approach, look out for pedestrians waiting to cross and be ready to slow down or stop to let them cross. You should give way to pedestrians waiting to cross and MUST give way when a pedestrian has moved onto a crossing. (Highway Code rule 195.)",
     "highwayCodeRules": [
       195
     ]
   },
   {
-    "id": "rules-of-the-road-0576",
+    "id": "rules-of-the-road-1488",
     "category": "rules-of-the-road",
     "question": "Highway Code rule 196 is about “using the road”. Which statement is taken from this rule?",
     "options": [
-      "You MUST NOT move forward over the white line when the red light is showing.",
       "You MUST NOT reverse your vehicle further than necessary.",
-      "Pelican crossings. These are signal-controlled crossings where flashing amber follows the red 'Stop' light. You MUST stop when the red light shows. When the amb",
-      "Advanced stop lines allow cycles to be positioned ahead of other traffic."
+      "You MUST NOT move forward over the white line when the red light is showing.",
+      "Advanced stop lines allow cycles to be positioned ahead of other traffic.",
+      "Pelican crossings. These are signal-controlled crossings where flashing amber follows the red 'Stop' light. You MUST stop when the red light shows. When the amb"
     ],
-    "correctIndex": 2,
+    "correctIndex": 3,
     "explanation": "Pelican crossings. These are signal-controlled crossings where flashing amber follows the red 'Stop' light. You MUST stop when the red light shows. When the amber light is flashing, you MUST give way to any pedestrians on the crossing. (Highway Code rule 196.)",
     "highwayCodeRules": [
       196
     ]
   },
   {
-    "id": "rules-of-the-road-0577",
+    "id": "rules-of-the-road-1489",
     "category": "rules-of-the-road",
     "question": "Highway Code rule 199 is about “using the road”. Which statement is taken from this rule?",
     "options": [
-      "Do not reverse from a side road into a main road.",
-      "Toucan, puffin and equestrian crossings.",
       "Mirrors. All mirrors should be used effectively throughout your journey. You should use your mirrors frequently so that you always know what is behind and to ea",
-      "Once moving you should keep to the left, unless road signs or markings indicate otherwise; keep both hands on the wheel where possible; be aware of other road u"
+      "Once moving you should keep to the left, unless road signs or markings indicate otherwise; keep both hands on the wheel where possible; be aware of other road u",
+      "Toucan, puffin and equestrian crossings.",
+      "Do not reverse from a side road into a main road."
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "Toucan, puffin and equestrian crossings. These are similar to pelican crossings, but there is no flashing amber phase; the light sequence is the same as at traffic lights. (Highway Code rule 199.)",
     "highwayCodeRules": [
       199
     ]
   },
   {
-    "id": "rules-of-the-road-0578",
+    "id": "rules-of-the-road-1490",
     "category": "rules-of-the-road",
     "question": "Highway Code rule 200 is about “using the road”. Which statement is taken from this rule?",
     "options": [
+      "Choose an appropriate place to manoeuvre.",
       "Large vehicles. Overtaking these is more difficult. Drop back to increase your ability to see ahead and to allow the driver of the large vehicle to see you in t",
       "Turning right. When turning right at crossroads where an oncoming vehicle is also turning right, it is generally safer to keep the other vehicle to your right a",
-      "You MUST stop behind the white 'Stop' line across your side of the road unless the traffic light is green.",
-      "Choose an appropriate place to manoeuvre."
+      "You MUST stop behind the white 'Stop' line across your side of the road unless the traffic light is green."
     ],
-    "correctIndex": 3,
+    "correctIndex": 0,
     "explanation": "Choose an appropriate place to manoeuvre. If you need to turn your vehicle around, wait until you find a safe place. Try not to reverse or turn round in a busy road; find a quiet side road or drive round a block of side streets. (Highway Code rule 200.)",
     "highwayCodeRules": [
       200
     ]
   },
   {
-    "id": "rules-of-the-road-0579",
+    "id": "rules-of-the-road-1491",
     "category": "rules-of-the-road",
     "question": "According to the Highway Code (using the road), what should you do?",
     "options": [
-      "Large vehicles. Overtaking these is more difficult. Drop back to increase your ability to see ahead and to allow the driver of the large vehicle to see you in t",
       "You MUST stop behind the white 'Stop' line across your side of the road unless the traffic light is green.",
-      "Turning right. When turning right at crossroads where an oncoming vehicle is also turning right, it is generally safer to keep the other vehicle to your right a",
-      "Choose an appropriate place to manoeuvre."
+      "Large vehicles. Overtaking these is more difficult. Drop back to increase your ability to see ahead and to allow the driver of the large vehicle to see you in t",
+      "Choose an appropriate place to manoeuvre.",
+      "Turning right. When turning right at crossroads where an oncoming vehicle is also turning right, it is generally safer to keep the other vehicle to your right a"
     ],
-    "correctIndex": 3,
+    "correctIndex": 2,
     "explanation": "Choose an appropriate place to manoeuvre. If you need to turn your vehicle around, wait until you find a safe place. Try not to reverse or turn round in a busy road; find a quiet side road or drive round a block of side streets. (Highway Code rule 200.)",
     "highwayCodeRules": [
       200
     ]
   },
   {
-    "id": "rules-of-the-road-0580",
+    "id": "rules-of-the-road-1492",
     "category": "rules-of-the-road",
     "question": "Highway Code rule 201 is about “using the road”. Which statement is taken from this rule?",
     "options": [
-      "Look carefully before you start reversing.",
       "You MUST NOT overtake if you would have to cross or straddle double white lines with a solid line nearest to you, if you would have to enter an area designed to",
-      "Once moving you should keep to the left, unless road signs or markings indicate otherwise; keep both hands on the wheel where possible; be aware of other road u",
-      "Do not reverse from a side road into a main road."
+      "Look carefully before you start reversing.",
+      "Do not reverse from a side road into a main road.",
+      "Once moving you should keep to the left, unless road signs or markings indicate otherwise; keep both hands on the wheel where possible; be aware of other road u"
     ],
-    "correctIndex": 3,
+    "correctIndex": 2,
     "explanation": "Do not reverse from a side road into a main road. When using a driveway, reverse in and drive out if you can. (Highway Code rule 201.)",
     "highwayCodeRules": [
       201
     ]
   },
   {
-    "id": "rules-of-the-road-0581",
+    "id": "rules-of-the-road-1493",
     "category": "rules-of-the-road",
     "question": "Highway Code rule 202 is about “using the road”. Which statement is taken from this rule?",
     "options": [
       "Choose an appropriate place to manoeuvre.",
+      "You MUST stop behind the white 'Stop' line across your side of the road unless the traffic light is green.",
       "DO NOT overtake where you might come into conflict with other road users, for example approaching or at a road junction, where the road narrows, at a level cros",
-      "Look carefully before you start reversing.",
-      "You MUST stop behind the white 'Stop' line across your side of the road unless the traffic light is green."
+      "Look carefully before you start reversing."
     ],
-    "correctIndex": 2,
+    "correctIndex": 3,
     "explanation": "Look carefully before you start reversing. You should check there are no pedestrians, cyclists, other road users or obstructions in the road behind you. Reverse slowly while checking all around. (Highway Code rule 202.)",
     "highwayCodeRules": [
       202
     ]
   },
   {
-    "id": "rules-of-the-road-0582",
+    "id": "rules-of-the-road-1494",
     "category": "rules-of-the-road",
     "question": "According to the Highway Code (using the road), what should you do?",
     "options": [
-      "DO NOT overtake where you might come into conflict with other road users, for example approaching or at a road junction, where the road narrows, at a level cros",
-      "Choose an appropriate place to manoeuvre.",
+      "You MUST stop behind the white 'Stop' line across your side of the road unless the traffic light is green.",
       "Look carefully before you start reversing.",
-      "You MUST stop behind the white 'Stop' line across your side of the road unless the traffic light is green."
+      "DO NOT overtake where you might come into conflict with other road users, for example approaching or at a road junction, where the road narrows, at a level cros",
+      "Choose an appropriate place to manoeuvre."
     ],
-    "correctIndex": 2,
+    "correctIndex": 1,
     "explanation": "Look carefully before you start reversing. You should check there are no pedestrians, cyclists, other road users or obstructions in the road behind you. Reverse slowly while checking all around. (Highway Code rule 202.)",
     "highwayCodeRules": [
       202
     ]
   },
   {
-    "id": "rules-of-the-road-0583",
+    "id": "rules-of-the-road-1495",
     "category": "rules-of-the-road",
     "question": "Highway Code rule 203 is about “using the road”. Which statement is taken from this rule?",
     "options": [
-      "Pelican crossings. These are signal-controlled crossings where flashing amber follows the red 'Stop' light. You MUST stop when the red light shows. When the amb",
-      "When turning, give way to any vehicles using a bus lane, cycle lane, cycle track or tramway from either direction, including when they are passing slow moving o",
       "You MUST NOT reverse your vehicle further than necessary.",
-      "You MUST NOT move forward over the white line when the red light is showing."
+      "You MUST NOT move forward over the white line when the red light is showing.",
+      "When turning, give way to any vehicles using a bus lane, cycle lane, cycle track or tramway from either direction, including when they are passing slow moving o",
+      "Pelican crossings. These are signal-controlled crossings where flashing amber follows the red 'Stop' light. You MUST stop when the red light shows. When the amb"
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "explanation": "You MUST NOT reverse your vehicle further than necessary. (Highway Code rule 203.)",
     "highwayCodeRules": [
       203
     ]
   },
   {
-    "id": "rules-of-the-road-0628",
+    "id": "rules-of-the-road-1540",
     "category": "rules-of-the-road",
     "question": "Highway Code rule 238 is about “waiting and parking”. Which statement is taken from this rule?",
     "options": [
       "Use off-street parking areas, or bays marked out with white lines on the road as parking places, wherever possible.",
+      "You MUST NOT wait or park on yellow lines during the times of operation shown on nearby time plates.",
       "Goods vehicles. Vehicles with a maximum laden weight of over 7.5 tonnes (including any trailer) MUST NOT be parked on a verge, pavement or any land situated bet",
-      "You MUST NOT park on a road at night facing against the direction of the traffic flow unless in a recognised parking space.",
-      "You MUST NOT wait or park on yellow lines during the times of operation shown on nearby time plates."
+      "You MUST NOT park on a road at night facing against the direction of the traffic flow unless in a recognised parking space."
     ],
-    "correctIndex": 3,
+    "correctIndex": 1,
     "explanation": "You MUST NOT wait or park on yellow lines during the times of operation shown on nearby time plates. Double yellow lines indicate a prohibition of waiting at any time even if there are no upright signs. (Highway Code rule 238.)",
     "highwayCodeRules": [
       238
     ]
   },
   {
-    "id": "rules-of-the-road-0629",
+    "id": "rules-of-the-road-1541",
     "category": "rules-of-the-road",
     "question": "Highway Code rule 239 is about “waiting and parking”. Which statement is taken from this rule?",
     "options": [
-      "Use off-street parking areas, or bays marked out with white lines on the road as parking places, wherever possible.",
-      "You MUST NOT leave your vehicle or trailer in a dangerous position or where it causes any unnecessary obstruction of the road.",
+      "You MUST NOT park in parking spaces reserved for specific users, such as Blue Badge holders, residents or motorcycles, unless entitled to do so.",
       "All vehicles MUST display parking lights when parked on a road or a lay-by on a road with a speed limit greater than 30 mph.",
-      "You MUST NOT park in parking spaces reserved for specific users, such as Blue Badge holders, residents or motorcycles, unless entitled to do so."
+      "You MUST NOT leave your vehicle or trailer in a dangerous position or where it causes any unnecessary obstruction of the road.",
+      "Use off-street parking areas, or bays marked out with white lines on the road as parking places, wherever possible."
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "explanation": "Use off-street parking areas, or bays marked out with white lines on the road as parking places, wherever possible. Stop as close as you can to the side. You MUST switch off the engine, headlights and fog lights, apply the handbrake before leaving the vehicle, and ensure you do not hit anyone when you open your door — check for cyclists or other traffic by using your mirrors and looking round (the 'Dutch Reach'). (Highway Code rule 239.)",
     "highwayCodeRules": [
       239
     ]
   },
   {
-    "id": "rules-of-the-road-0630",
+    "id": "rules-of-the-road-1542",
     "category": "rules-of-the-road",
     "question": "Highway Code rule 240 is about “waiting and parking”. Which statement is taken from this rule?",
     "options": [
-      "Goods vehicles. Vehicles with a maximum laden weight of over 7.5 tonnes (including any trailer) MUST NOT be parked on a verge, pavement or any land situated bet",
-      "DO NOT stop or park near a school entrance, anywhere you would prevent access for emergency services, at or near a bus or tram stop or taxi rank, opposite or wi",
       "You MUST NOT park on a road at night facing against the direction of the traffic flow unless in a recognised parking space.",
+      "DO NOT stop or park near a school entrance, anywhere you would prevent access for emergency services, at or near a bus or tram stop or taxi rank, opposite or wi",
+      "Goods vehicles. Vehicles with a maximum laden weight of over 7.5 tonnes (including any trailer) MUST NOT be parked on a verge, pavement or any land situated bet",
       "You MUST NOT stop or park on the carriageway or hard shoulder of a motorway except in an emergency, on a pedestrian crossing including the area marked by zig-za"
     ],
     "correctIndex": 3,
@@ -1824,23 +1824,23 @@
     ]
   },
   {
-    "id": "rules-of-the-road-0631",
+    "id": "rules-of-the-road-1543",
     "category": "rules-of-the-road",
     "question": "Highway Code rule 241 is about “waiting and parking”. Which statement is taken from this rule?",
     "options": [
       "DO NOT stop or park near a school entrance, anywhere you would prevent access for emergency services, at or near a bus or tram stop or taxi rank, opposite or wi",
-      "You MUST NOT park in parking spaces reserved for specific users, such as Blue Badge holders, residents or motorcycles, unless entitled to do so.",
       "You MUST NOT wait or park on yellow lines during the times of operation shown on nearby time plates.",
+      "You MUST NOT park in parking spaces reserved for specific users, such as Blue Badge holders, residents or motorcycles, unless entitled to do so.",
       "Cars, goods vehicles not exceeding 2500 kg laden weight, invalid carriages, motorcycles and pedal cycles may be parked without lights on a road (or lay-by) with"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "You MUST NOT park in parking spaces reserved for specific users, such as Blue Badge holders, residents or motorcycles, unless entitled to do so. (Highway Code rule 241.)",
     "highwayCodeRules": [
       241
     ]
   },
   {
-    "id": "rules-of-the-road-0632",
+    "id": "rules-of-the-road-1544",
     "category": "rules-of-the-road",
     "question": "According to the Highway Code (waiting and parking), what MUST you do?",
     "options": [
@@ -1856,30 +1856,14 @@
     ]
   },
   {
-    "id": "rules-of-the-road-0633",
+    "id": "rules-of-the-road-1545",
     "category": "rules-of-the-road",
     "question": "Highway Code rule 242 is about “waiting and parking”. Which statement is taken from this rule?",
     "options": [
-      "You MUST NOT leave your vehicle or trailer in a dangerous position or where it causes any unnecessary obstruction of the road.",
-      "All vehicles MUST display parking lights when parked on a road or a lay-by on a road with a speed limit greater than 30 mph.",
-      "You MUST NOT wait or park on yellow lines during the times of operation shown on nearby time plates.",
-      "DO NOT stop or park near a school entrance, anywhere you would prevent access for emergency services, at or near a bus or tram stop or taxi rank, opposite or wi"
-    ],
-    "correctIndex": 0,
-    "explanation": "You MUST NOT leave your vehicle or trailer in a dangerous position or where it causes any unnecessary obstruction of the road. (Highway Code rule 242.)",
-    "highwayCodeRules": [
-      242
-    ]
-  },
-  {
-    "id": "rules-of-the-road-0634",
-    "category": "rules-of-the-road",
-    "question": "According to the Highway Code (waiting and parking), what MUST you do?",
-    "options": [
-      "You MUST NOT wait or park on yellow lines during the times of operation shown on nearby time plates.",
+      "DO NOT stop or park near a school entrance, anywhere you would prevent access for emergency services, at or near a bus or tram stop or taxi rank, opposite or wi",
       "All vehicles MUST display parking lights when parked on a road or a lay-by on a road with a speed limit greater than 30 mph.",
       "You MUST NOT leave your vehicle or trailer in a dangerous position or where it causes any unnecessary obstruction of the road.",
-      "DO NOT stop or park near a school entrance, anywhere you would prevent access for emergency services, at or near a bus or tram stop or taxi rank, opposite or wi"
+      "You MUST NOT wait or park on yellow lines during the times of operation shown on nearby time plates."
     ],
     "correctIndex": 2,
     "explanation": "You MUST NOT leave your vehicle or trailer in a dangerous position or where it causes any unnecessary obstruction of the road. (Highway Code rule 242.)",
@@ -1888,46 +1872,46 @@
     ]
   },
   {
-    "id": "rules-of-the-road-0635",
+    "id": "rules-of-the-road-1546",
+    "category": "rules-of-the-road",
+    "question": "According to the Highway Code (waiting and parking), what MUST you do?",
+    "options": [
+      "You MUST NOT leave your vehicle or trailer in a dangerous position or where it causes any unnecessary obstruction of the road.",
+      "All vehicles MUST display parking lights when parked on a road or a lay-by on a road with a speed limit greater than 30 mph.",
+      "You MUST NOT wait or park on yellow lines during the times of operation shown on nearby time plates.",
+      "DO NOT stop or park near a school entrance, anywhere you would prevent access for emergency services, at or near a bus or tram stop or taxi rank, opposite or wi"
+    ],
+    "correctIndex": 0,
+    "explanation": "You MUST NOT leave your vehicle or trailer in a dangerous position or where it causes any unnecessary obstruction of the road. (Highway Code rule 242.)",
+    "highwayCodeRules": [
+      242
+    ]
+  },
+  {
+    "id": "rules-of-the-road-1547",
     "category": "rules-of-the-road",
     "question": "Highway Code rule 243 is about “waiting and parking”. Which statement is taken from this rule?",
     "options": [
-      "DO NOT stop or park near a school entrance, anywhere you would prevent access for emergency services, at or near a bus or tram stop or taxi rank, opposite or wi",
-      "Use off-street parking areas, or bays marked out with white lines on the road as parking places, wherever possible.",
       "You MUST NOT park partially or wholly on the pavement in London and should not do so elsewhere unless signs permit it.",
-      "You MUST NOT leave your vehicle or trailer in a dangerous position or where it causes any unnecessary obstruction of the road."
+      "You MUST NOT leave your vehicle or trailer in a dangerous position or where it causes any unnecessary obstruction of the road.",
+      "Use off-street parking areas, or bays marked out with white lines on the road as parking places, wherever possible.",
+      "DO NOT stop or park near a school entrance, anywhere you would prevent access for emergency services, at or near a bus or tram stop or taxi rank, opposite or wi"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "explanation": "DO NOT stop or park near a school entrance, anywhere you would prevent access for emergency services, at or near a bus or tram stop or taxi rank, opposite or within 10 metres (32 feet) of a junction except in an authorised parking space, near the brow of a hill or hump bridge, opposite a traffic island, in front of an entrance to a property, on a bend, or where the kerb has been lowered to help wheelchair users and powered mobility vehicles. (Highway Code rule 243.)",
     "highwayCodeRules": [
       243
     ]
   },
   {
-    "id": "rules-of-the-road-0636",
+    "id": "rules-of-the-road-1548",
     "category": "rules-of-the-road",
     "question": "Highway Code rule 244 is about “waiting and parking”. Which statement is taken from this rule?",
     "options": [
-      "Cars, goods vehicles not exceeding 2500 kg laden weight, invalid carriages, motorcycles and pedal cycles may be parked without lights on a road (or lay-by) with",
-      "You MUST NOT leave your vehicle or trailer in a dangerous position or where it causes any unnecessary obstruction of the road.",
-      "You MUST NOT park partially or wholly on the pavement in London and should not do so elsewhere unless signs permit it.",
-      "Use off-street parking areas, or bays marked out with white lines on the road as parking places, wherever possible."
-    ],
-    "correctIndex": 2,
-    "explanation": "You MUST NOT park partially or wholly on the pavement in London and should not do so elsewhere unless signs permit it. (Highway Code rule 244.)",
-    "highwayCodeRules": [
-      244
-    ]
-  },
-  {
-    "id": "rules-of-the-road-0637",
-    "category": "rules-of-the-road",
-    "question": "According to the Highway Code (waiting and parking), what MUST you do?",
-    "options": [
-      "You MUST NOT leave your vehicle or trailer in a dangerous position or where it causes any unnecessary obstruction of the road.",
-      "You MUST NOT park partially or wholly on the pavement in London and should not do so elsewhere unless signs permit it.",
       "Use off-street parking areas, or bays marked out with white lines on the road as parking places, wherever possible.",
-      "Cars, goods vehicles not exceeding 2500 kg laden weight, invalid carriages, motorcycles and pedal cycles may be parked without lights on a road (or lay-by) with"
+      "You MUST NOT park partially or wholly on the pavement in London and should not do so elsewhere unless signs permit it.",
+      "Cars, goods vehicles not exceeding 2500 kg laden weight, invalid carriages, motorcycles and pedal cycles may be parked without lights on a road (or lay-by) with",
+      "You MUST NOT leave your vehicle or trailer in a dangerous position or where it causes any unnecessary obstruction of the road."
     ],
     "correctIndex": 1,
     "explanation": "You MUST NOT park partially or wholly on the pavement in London and should not do so elsewhere unless signs permit it. (Highway Code rule 244.)",
@@ -1936,61 +1920,77 @@
     ]
   },
   {
-    "id": "rules-of-the-road-0638",
+    "id": "rules-of-the-road-1549",
+    "category": "rules-of-the-road",
+    "question": "According to the Highway Code (waiting and parking), what MUST you do?",
+    "options": [
+      "You MUST NOT park partially or wholly on the pavement in London and should not do so elsewhere unless signs permit it.",
+      "Use off-street parking areas, or bays marked out with white lines on the road as parking places, wherever possible.",
+      "You MUST NOT leave your vehicle or trailer in a dangerous position or where it causes any unnecessary obstruction of the road.",
+      "Cars, goods vehicles not exceeding 2500 kg laden weight, invalid carriages, motorcycles and pedal cycles may be parked without lights on a road (or lay-by) with"
+    ],
+    "correctIndex": 0,
+    "explanation": "You MUST NOT park partially or wholly on the pavement in London and should not do so elsewhere unless signs permit it. (Highway Code rule 244.)",
+    "highwayCodeRules": [
+      244
+    ]
+  },
+  {
+    "id": "rules-of-the-road-1550",
     "category": "rules-of-the-road",
     "question": "Highway Code rule 248 is about “waiting and parking”. Which statement is taken from this rule?",
     "options": [
-      "You MUST NOT park on a road at night facing against the direction of the traffic flow unless in a recognised parking space.",
-      "You MUST NOT park partially or wholly on the pavement in London and should not do so elsewhere unless signs permit it.",
       "You MUST NOT stop or park on the carriageway or hard shoulder of a motorway except in an emergency, on a pedestrian crossing including the area marked by zig-za",
-      "Use off-street parking areas, or bays marked out with white lines on the road as parking places, wherever possible."
+      "You MUST NOT park partially or wholly on the pavement in London and should not do so elsewhere unless signs permit it.",
+      "Use off-street parking areas, or bays marked out with white lines on the road as parking places, wherever possible.",
+      "You MUST NOT park on a road at night facing against the direction of the traffic flow unless in a recognised parking space."
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "explanation": "You MUST NOT park on a road at night facing against the direction of the traffic flow unless in a recognised parking space. (Highway Code rule 248.)",
     "highwayCodeRules": [
       248
     ]
   },
   {
-    "id": "rules-of-the-road-0639",
+    "id": "rules-of-the-road-1551",
     "category": "rules-of-the-road",
     "question": "Highway Code rule 249 is about “waiting and parking”. Which statement is taken from this rule?",
     "options": [
       "Goods vehicles. Vehicles with a maximum laden weight of over 7.5 tonnes (including any trailer) MUST NOT be parked on a verge, pavement or any land situated bet",
-      "Cars, goods vehicles not exceeding 2500 kg laden weight, invalid carriages, motorcycles and pedal cycles may be parked without lights on a road (or lay-by) with",
       "You MUST NOT park in parking spaces reserved for specific users, such as Blue Badge holders, residents or motorcycles, unless entitled to do so.",
-      "All vehicles MUST display parking lights when parked on a road or a lay-by on a road with a speed limit greater than 30 mph."
+      "All vehicles MUST display parking lights when parked on a road or a lay-by on a road with a speed limit greater than 30 mph.",
+      "Cars, goods vehicles not exceeding 2500 kg laden weight, invalid carriages, motorcycles and pedal cycles may be parked without lights on a road (or lay-by) with"
     ],
-    "correctIndex": 3,
+    "correctIndex": 2,
     "explanation": "All vehicles MUST display parking lights when parked on a road or a lay-by on a road with a speed limit greater than 30 mph. (Highway Code rule 249.)",
     "highwayCodeRules": [
       249
     ]
   },
   {
-    "id": "rules-of-the-road-0640",
+    "id": "rules-of-the-road-1552",
     "category": "rules-of-the-road",
     "question": "Highway Code rule 250 is about “waiting and parking”. Which statement is taken from this rule?",
     "options": [
-      "You MUST NOT park partially or wholly on the pavement in London and should not do so elsewhere unless signs permit it.",
       "You MUST NOT stop or park on the carriageway or hard shoulder of a motorway except in an emergency, on a pedestrian crossing including the area marked by zig-za",
-      "Cars, goods vehicles not exceeding 2500 kg laden weight, invalid carriages, motorcycles and pedal cycles may be parked without lights on a road (or lay-by) with",
-      "All vehicles MUST display parking lights when parked on a road or a lay-by on a road with a speed limit greater than 30 mph."
+      "All vehicles MUST display parking lights when parked on a road or a lay-by on a road with a speed limit greater than 30 mph.",
+      "You MUST NOT park partially or wholly on the pavement in London and should not do so elsewhere unless signs permit it.",
+      "Cars, goods vehicles not exceeding 2500 kg laden weight, invalid carriages, motorcycles and pedal cycles may be parked without lights on a road (or lay-by) with"
     ],
-    "correctIndex": 2,
+    "correctIndex": 3,
     "explanation": "Cars, goods vehicles not exceeding 2500 kg laden weight, invalid carriages, motorcycles and pedal cycles may be parked without lights on a road (or lay-by) with a speed limit of 30 mph or less if they are at least 10 metres (32 feet) away from any junction, close to the kerb and facing in the direction of the traffic flow, or in a recognised parking place or lay-by. (Highway Code rule 250.)",
     "highwayCodeRules": [
       250
     ]
   },
   {
-    "id": "rules-of-the-road-0641",
+    "id": "rules-of-the-road-1553",
     "category": "rules-of-the-road",
     "question": "According to the Highway Code (waiting and parking), what should you do?",
     "options": [
       "You MUST NOT stop or park on the carriageway or hard shoulder of a motorway except in an emergency, on a pedestrian crossing including the area marked by zig-za",
-      "All vehicles MUST display parking lights when parked on a road or a lay-by on a road with a speed limit greater than 30 mph.",
       "You MUST NOT park partially or wholly on the pavement in London and should not do so elsewhere unless signs permit it.",
+      "All vehicles MUST display parking lights when parked on a road or a lay-by on a road with a speed limit greater than 30 mph.",
       "Cars, goods vehicles not exceeding 2500 kg laden weight, invalid carriages, motorcycles and pedal cycles may be parked without lights on a road (or lay-by) with"
     ],
     "correctIndex": 3,

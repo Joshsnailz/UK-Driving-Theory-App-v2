@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
+import { Sentry } from '../services/sentry';
 
 interface Props {
   children: React.ReactNode;
@@ -21,9 +22,8 @@ export class AppErrorBoundary extends React.Component<Props, State> {
   }
 
   componentDidCatch(error: Error, info: React.ErrorInfo) {
-    // Intentionally minimal: crash reporting (Sentry/Crashlytics) can hook in
-    // here later without changing the component contract.
     console.error('[AppErrorBoundary]', error, info.componentStack);
+    Sentry.captureException(error, { extra: { componentStack: info.componentStack } });
   }
 
   private reset = () => this.setState({ error: null });

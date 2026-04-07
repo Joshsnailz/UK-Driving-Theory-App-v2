@@ -1,5 +1,5 @@
 import React, { useCallback } from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet, ActivityIndicator } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import RevenueCatUI, { PAYWALL_RESULT } from 'react-native-purchases-ui';
 import { useNavigation } from '@react-navigation/native';
@@ -19,7 +19,7 @@ type Nav = StackNavigationProp<RootStackParamList>;
 export default function PaywallScreen() {
   const nav = useNavigation<Nav>();
   const { bg, sub } = usePalette();
-  const { offering, refresh } = useEntitlementStore();
+  const { offering, ready, refresh } = useEntitlementStore();
 
   const onDismiss = useCallback(() => nav.goBack(), [nav]);
 
@@ -32,12 +32,16 @@ export default function PaywallScreen() {
     <SafeAreaView style={[styles.safe, { backgroundColor: bg }]} edges={['top', 'bottom']}>
       <ScreenHeader title="Premium" />
       <View style={styles.fill}>
-        <RevenueCatUI.Paywall
-          options={{ offering: offering ?? undefined }}
-          onDismiss={onDismiss}
-          onPurchaseCompleted={onPurchaseOrRestore}
-          onRestoreCompleted={onPurchaseOrRestore}
-        />
+        {!ready ? (
+          <ActivityIndicator style={styles.loader} />
+        ) : (
+          <RevenueCatUI.Paywall
+            options={{ offering: offering ?? undefined }}
+            onDismiss={onDismiss}
+            onPurchaseCompleted={onPurchaseOrRestore}
+            onRestoreCompleted={onPurchaseOrRestore}
+          />
+        )}
       </View>
       <View style={styles.footer}>
         <Text style={[styles.legal, { color: sub }]}>
@@ -70,6 +74,7 @@ export async function presentPaywall(): Promise<boolean> {
 const styles = StyleSheet.create({
   safe: { flex: 1 },
   fill: { flex: 1 },
+  loader: { flex: 1 },
   footer: { paddingHorizontal: 20, paddingVertical: 12, gap: 6 },
   legal: { fontSize: 11, lineHeight: 15, textAlign: 'center' },
   link: { textDecorationLine: 'underline' },

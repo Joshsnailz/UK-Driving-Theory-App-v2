@@ -38,6 +38,16 @@ export default function PremiumGate({ feature, onUnlockedPress, children }: Prop
   const { isPremium, ready, mockTrialCredits, consumeMockTrial } = useEntitlementStore();
   const rewarded = useRewardedMockTrial();
 
+  // Don't render the gate until entitlements have resolved — a premium user
+  // would otherwise see the upsell briefly on every cold start.
+  if (!ready) {
+    return (
+      <View style={[styles.box, { backgroundColor: card }]}>
+        <ActivityIndicator color={primary} />
+      </View>
+    );
+  }
+
   if (isPremium) return <>{children}</>;
 
   const handlePrimary = () => {

@@ -1,205 +1,13 @@
 [
   {
-    "id": "alertness-0259",
+    "id": "alertness-1171",
     "category": "alertness",
     "question": "To reduce the risk of tiredness on a long journey, the Highway Code recommends taking a break of at least how long after every two hours of driving?",
     "options": [
-      "15 minutes",
+      "45 minutes",
       "5 minutes",
       "30 minutes",
-      "45 minutes"
-    ],
-    "correctIndex": 0,
-    "explanation": "Driving when you are tired greatly increases your risk of collision. To minimise this risk: do not begin a journey if you are tired; plan your journey to take sufficient breaks (a minimum break of at least 15 minutes after every two hours of driving is recommended); if you feel sleepy, stop in a safe place. (Highway Code rule 91.)",
-    "highwayCodeRules": [
-      91
-    ]
-  },
-  {
-    "id": "alertness-0260",
-    "category": "alertness",
-    "question": "You start to feel sleepy while driving on a road with no immediate exit. What should you do?",
-    "options": [
-      "Open a window and turn the radio up",
-      "Stop in a safe place as soon as possible",
-      "Follow the vehicle in front more closely so you concentrate",
-      "Increase speed to finish the journey sooner"
-    ],
-    "correctIndex": 1,
-    "explanation": "Driving when you are tired greatly increases your risk of collision. To minimise this risk: do not begin a journey if you are tired; plan your journey to take sufficient breaks (a minimum break of at least 15 minutes after every two hours of driving is recommended); if you feel sleepy, stop in a safe place. (Highway Code rule 91.)",
-    "highwayCodeRules": [
-      91
-    ]
-  },
-  {
-    "id": "alertness-0263",
-    "category": "alertness",
-    "question": "You are dazzled by bright sunlight while driving. What should you do?",
-    "options": [
-      "Slow down and, if necessary, stop",
-      "Speed up to get past the glare",
-      "Pull down the sun visor and continue at the same speed",
-      "Flash your headlights at oncoming traffic"
-    ],
-    "correctIndex": 0,
-    "explanation": "Slow down, and if necessary stop, if you are dazzled by bright sunlight. (Highway Code rule 93.)",
-    "highwayCodeRules": [
-      93
-    ]
-  },
-  {
-    "id": "alertness-0265",
-    "category": "alertness",
-    "question": "Before setting off on a journey, what should you do?",
-    "options": [
-      "Plan your route, allow enough time and adjust mirrors and seat for full control",
-      "Wear loose footwear so your feet stay relaxed",
-      "Wait until you join a main road before adjusting your mirrors",
-      "Plan to use your phone for directions while driving"
-    ],
-    "correctIndex": 0,
-    "explanation": "Before setting off you should ensure that you have planned your route and allowed sufficient time, that clothing and footwear do not prevent you using the controls correctly, and that mirrors and seat are adjusted to ensure comfort, full control and maximum vision. (Highway Code rule 97.)",
-    "highwayCodeRules": [
-      97
-    ]
-  },
-  {
-    "id": "alertness-0272",
-    "category": "alertness",
-    "question": "A police vehicle behind you flashes its blue lights and headlights. What must you do?",
-    "options": [
-      "Pull over and stop as soon as it is safe to do so",
-      "Continue to the next service area",
-      "Stop immediately, even at a junction",
-      "Speed up so they can follow you to a safer place"
-    ],
-    "correctIndex": 0,
-    "explanation": "Police stopping procedures. If the police want to stop your vehicle they will, where possible, attract your attention by flashing blue lights, headlights or sounding their siren or horn, usually from behind. You MUST then pull over and stop as soon as it is safe to do so. (Highway Code rule 106.)",
-    "highwayCodeRules": [
-      106
-    ]
-  },
-  {
-    "id": "alertness-0273",
-    "category": "alertness",
-    "question": "A DVSA officer in a marked vehicle flashes amber lights and signals you to follow. What should you do?",
-    "options": [
-      "Follow their directions and stop in the place they indicate",
-      "Stop immediately in the road",
-      "Drive to the nearest police station",
-      "Ignore them — only the police can stop you"
-    ],
-    "correctIndex": 0,
-    "explanation": "DVSA officers have the power to stop vehicles on all roads. They will attract your attention by flashing amber lights either from the front requesting you to follow them to a safe place to stop, or from behind directing you to pull over to the side. (Highway Code rule 107.)",
-    "highwayCodeRules": [
-      107
-    ]
-  },
-  {
-    "id": "alertness-0299",
-    "category": "alertness",
-    "question": "Which of these does the Highway Code list as a distraction you should avoid while driving?",
-    "options": [
-      "Looking far ahead along the road",
-      "Listening to traffic reports",
-      "Arguing with your passengers or other road users",
-      "Checking your mirrors frequently"
-    ],
-    "correctIndex": 2,
-    "explanation": "Safe driving and riding needs concentration. Avoid distractions when driving or riding such as loud music, reading maps, eating and drinking, and arguing with your passengers or other road users. (Highway Code rule 148.)",
-    "highwayCodeRules": [
-      148
-    ]
-  },
-  {
-    "id": "alertness-0300",
-    "category": "alertness",
-    "question": "When may you use a hand-held mobile phone while driving?",
-    "options": [
-      "When driving below 20 mph",
-      "Only to call 999 or 112 in a genuine emergency when it is unsafe or impractical to stop",
-      "When stopped at traffic lights",
-      "When using it as a sat-nav"
-    ],
-    "correctIndex": 1,
-    "explanation": "You MUST exercise proper control of your vehicle at all times. You MUST NOT use a hand-held mobile phone or similar device when driving or supervising a learner driver, except to call 999 or 112 in a genuine emergency when it is unsafe or impractical to stop. (Highway Code rule 149.)",
-    "highwayCodeRules": [
-      149
-    ]
-  },
-  {
-    "id": "alertness-0301",
-    "category": "alertness",
-    "question": "You are supervising a learner driver. May you use a hand-held mobile phone?",
-    "options": [
-      "Yes, but only for short calls",
-      "Yes, but only on dual carriageways",
-      "No — the same restrictions apply as if you were driving",
-      "Yes, because you are not driving"
-    ],
-    "correctIndex": 2,
-    "explanation": "You MUST exercise proper control of your vehicle at all times. You MUST NOT use a hand-held mobile phone or similar device when driving or supervising a learner driver, except to call 999 or 112 in a genuine emergency when it is unsafe or impractical to stop. (Highway Code rule 149.)",
-    "highwayCodeRules": [
-      149
-    ]
-  },
-  {
-    "id": "alertness-0305",
-    "category": "alertness",
-    "question": "Before moving off from the side of the road you should look round to check the blind spots. Why?",
-    "options": [
-      "It is required by your insurer",
-      "Mirrors do not cover every area around the vehicle",
-      "It warms your neck muscles",
-      "To check your seat belt is fastened"
-    ],
-    "correctIndex": 1,
-    "explanation": "Before moving off you should use all mirrors to check the road is clear, look round to check the blind spots, signal if necessary before moving out, and look round for a final check. Move off only when it is safe to do so. (Highway Code rule 159.)",
-    "highwayCodeRules": [
-      159
-    ]
-  },
-  {
-    "id": "alertness-0306",
-    "category": "alertness",
-    "question": "When should you use your mirrors?",
-    "options": [
-      "Frequently, and in good time before signalling, changing direction or speed",
-      "Once every minute regardless of conditions",
-      "Only on motorways",
-      "Only before overtaking"
-    ],
-    "correctIndex": 0,
-    "explanation": "Mirrors. All mirrors should be used effectively throughout your journey. You should use your mirrors frequently so that you always know what is behind and to each side of you, and use them in good time before you signal or change direction or speed. (Highway Code rule 161.)",
-    "highwayCodeRules": [
-      161
-    ]
-  },
-  {
-    "id": "alertness-0354",
-    "category": "alertness",
-    "question": "You start to feel drowsy on a motorway. What should you do?",
-    "options": [
-      "Open the window and turn up the radio",
-      "Stop on the hard shoulder for a rest",
-      "Leave at the next exit or service area and take a break",
-      "Drive faster to reach your destination sooner"
-    ],
-    "correctIndex": 2,
-    "explanation": "The monotony of driving on a motorway can make you feel sleepy. To minimise the risk, take a break of at least 15 minutes after every two hours of driving. If you feel sleepy, leave the motorway at the next exit or service area. (Highway Code rule 262.)",
-    "highwayCodeRules": [
-      262
-    ]
-  },
-  {
-    "id": "alertness-0460",
-    "category": "alertness",
-    "question": "Highway Code rule 91 is about “rules for drivers and motorcyclists”. Which statement is taken from this rule?",
-    "options": [
-      "You MUST NOT drive under the influence of drugs or medicine.",
-      "Make sure that you are fit to drive.",
-      "Vehicle condition. You MUST ensure your vehicle and trailer comply with the full requirements of the Road Vehicles (Construction and Use) Regulations and Road V",
-      "Driving when you are tired greatly increases your risk of collision."
+      "15 minutes"
     ],
     "correctIndex": 3,
     "explanation": "Driving when you are tired greatly increases your risk of collision. To minimise this risk: do not begin a journey if you are tired; plan your journey to take sufficient breaks (a minimum break of at least 15 minutes after every two hours of driving is recommended); if you feel sleepy, stop in a safe place. (Highway Code rule 91.)",
@@ -208,14 +16,206 @@
     ]
   },
   {
-    "id": "alertness-0462",
+    "id": "alertness-1172",
+    "category": "alertness",
+    "question": "You start to feel sleepy while driving on a road with no immediate exit. What should you do?",
+    "options": [
+      "Open a window and turn the radio up",
+      "Increase speed to finish the journey sooner",
+      "Stop in a safe place as soon as possible",
+      "Follow the vehicle in front more closely so you concentrate"
+    ],
+    "correctIndex": 2,
+    "explanation": "Driving when you are tired greatly increases your risk of collision. To minimise this risk: do not begin a journey if you are tired; plan your journey to take sufficient breaks (a minimum break of at least 15 minutes after every two hours of driving is recommended); if you feel sleepy, stop in a safe place. (Highway Code rule 91.)",
+    "highwayCodeRules": [
+      91
+    ]
+  },
+  {
+    "id": "alertness-1175",
+    "category": "alertness",
+    "question": "You are dazzled by bright sunlight while driving. What should you do?",
+    "options": [
+      "Flash your headlights at oncoming traffic",
+      "Pull down the sun visor and continue at the same speed",
+      "Speed up to get past the glare",
+      "Slow down and, if necessary, stop"
+    ],
+    "correctIndex": 3,
+    "explanation": "Slow down, and if necessary stop, if you are dazzled by bright sunlight. (Highway Code rule 93.)",
+    "highwayCodeRules": [
+      93
+    ]
+  },
+  {
+    "id": "alertness-1177",
+    "category": "alertness",
+    "question": "Before setting off on a journey, what should you do?",
+    "options": [
+      "Plan to use your phone for directions while driving",
+      "Plan your route, allow enough time and adjust mirrors and seat for full control",
+      "Wear loose footwear so your feet stay relaxed",
+      "Wait until you join a main road before adjusting your mirrors"
+    ],
+    "correctIndex": 1,
+    "explanation": "Before setting off you should ensure that you have planned your route and allowed sufficient time, that clothing and footwear do not prevent you using the controls correctly, and that mirrors and seat are adjusted to ensure comfort, full control and maximum vision. (Highway Code rule 97.)",
+    "highwayCodeRules": [
+      97
+    ]
+  },
+  {
+    "id": "alertness-1184",
+    "category": "alertness",
+    "question": "A police vehicle behind you flashes its blue lights and headlights. What must you do?",
+    "options": [
+      "Stop immediately, even at a junction",
+      "Speed up so they can follow you to a safer place",
+      "Continue to the next service area",
+      "Pull over and stop as soon as it is safe to do so"
+    ],
+    "correctIndex": 3,
+    "explanation": "Police stopping procedures. If the police want to stop your vehicle they will, where possible, attract your attention by flashing blue lights, headlights or sounding their siren or horn, usually from behind. You MUST then pull over and stop as soon as it is safe to do so. (Highway Code rule 106.)",
+    "highwayCodeRules": [
+      106
+    ]
+  },
+  {
+    "id": "alertness-1185",
+    "category": "alertness",
+    "question": "A DVSA officer in a marked vehicle flashes amber lights and signals you to follow. What should you do?",
+    "options": [
+      "Follow their directions and stop in the place they indicate",
+      "Ignore them — only the police can stop you",
+      "Drive to the nearest police station",
+      "Stop immediately in the road"
+    ],
+    "correctIndex": 0,
+    "explanation": "DVSA officers have the power to stop vehicles on all roads. They will attract your attention by flashing amber lights either from the front requesting you to follow them to a safe place to stop, or from behind directing you to pull over to the side. (Highway Code rule 107.)",
+    "highwayCodeRules": [
+      107
+    ]
+  },
+  {
+    "id": "alertness-1211",
+    "category": "alertness",
+    "question": "Which of these does the Highway Code list as a distraction you should avoid while driving?",
+    "options": [
+      "Checking your mirrors frequently",
+      "Arguing with your passengers or other road users",
+      "Listening to traffic reports",
+      "Looking far ahead along the road"
+    ],
+    "correctIndex": 1,
+    "explanation": "Safe driving and riding needs concentration. Avoid distractions when driving or riding such as loud music, reading maps, eating and drinking, and arguing with your passengers or other road users. (Highway Code rule 148.)",
+    "highwayCodeRules": [
+      148
+    ]
+  },
+  {
+    "id": "alertness-1212",
+    "category": "alertness",
+    "question": "When may you use a hand-held mobile phone while driving?",
+    "options": [
+      "When driving below 20 mph",
+      "When stopped at traffic lights",
+      "Only to call 999 or 112 in a genuine emergency when it is unsafe or impractical to stop",
+      "When using it as a sat-nav"
+    ],
+    "correctIndex": 2,
+    "explanation": "You MUST exercise proper control of your vehicle at all times. You MUST NOT use a hand-held mobile phone or similar device when driving or supervising a learner driver, except to call 999 or 112 in a genuine emergency when it is unsafe or impractical to stop. (Highway Code rule 149.)",
+    "highwayCodeRules": [
+      149
+    ]
+  },
+  {
+    "id": "alertness-1213",
+    "category": "alertness",
+    "question": "You are supervising a learner driver. May you use a hand-held mobile phone?",
+    "options": [
+      "Yes, but only on dual carriageways",
+      "Yes, because you are not driving",
+      "Yes, but only for short calls",
+      "No — the same restrictions apply as if you were driving"
+    ],
+    "correctIndex": 3,
+    "explanation": "You MUST exercise proper control of your vehicle at all times. You MUST NOT use a hand-held mobile phone or similar device when driving or supervising a learner driver, except to call 999 or 112 in a genuine emergency when it is unsafe or impractical to stop. (Highway Code rule 149.)",
+    "highwayCodeRules": [
+      149
+    ]
+  },
+  {
+    "id": "alertness-1217",
+    "category": "alertness",
+    "question": "Before moving off from the side of the road you should look round to check the blind spots. Why?",
+    "options": [
+      "It warms your neck muscles",
+      "It is required by your insurer",
+      "To check your seat belt is fastened",
+      "Mirrors do not cover every area around the vehicle"
+    ],
+    "correctIndex": 3,
+    "explanation": "Before moving off you should use all mirrors to check the road is clear, look round to check the blind spots, signal if necessary before moving out, and look round for a final check. Move off only when it is safe to do so. (Highway Code rule 159.)",
+    "highwayCodeRules": [
+      159
+    ]
+  },
+  {
+    "id": "alertness-1218",
+    "category": "alertness",
+    "question": "When should you use your mirrors?",
+    "options": [
+      "Only on motorways",
+      "Only before overtaking",
+      "Frequently, and in good time before signalling, changing direction or speed",
+      "Once every minute regardless of conditions"
+    ],
+    "correctIndex": 2,
+    "explanation": "Mirrors. All mirrors should be used effectively throughout your journey. You should use your mirrors frequently so that you always know what is behind and to each side of you, and use them in good time before you signal or change direction or speed. (Highway Code rule 161.)",
+    "highwayCodeRules": [
+      161
+    ]
+  },
+  {
+    "id": "alertness-1266",
+    "category": "alertness",
+    "question": "You start to feel drowsy on a motorway. What should you do?",
+    "options": [
+      "Drive faster to reach your destination sooner",
+      "Stop on the hard shoulder for a rest",
+      "Leave at the next exit or service area and take a break",
+      "Open the window and turn up the radio"
+    ],
+    "correctIndex": 2,
+    "explanation": "The monotony of driving on a motorway can make you feel sleepy. To minimise the risk, take a break of at least 15 minutes after every two hours of driving. If you feel sleepy, leave the motorway at the next exit or service area. (Highway Code rule 262.)",
+    "highwayCodeRules": [
+      262
+    ]
+  },
+  {
+    "id": "alertness-1372",
+    "category": "alertness",
+    "question": "Highway Code rule 91 is about “rules for drivers and motorcyclists”. Which statement is taken from this rule?",
+    "options": [
+      "Vehicle condition. You MUST ensure your vehicle and trailer comply with the full requirements of the Road Vehicles (Construction and Use) Regulations and Road V",
+      "Driving when you are tired greatly increases your risk of collision.",
+      "Make sure that you are fit to drive.",
+      "You MUST NOT drive under the influence of drugs or medicine."
+    ],
+    "correctIndex": 1,
+    "explanation": "Driving when you are tired greatly increases your risk of collision. To minimise this risk: do not begin a journey if you are tired; plan your journey to take sufficient breaks (a minimum break of at least 15 minutes after every two hours of driving is recommended); if you feel sleepy, stop in a safe place. (Highway Code rule 91.)",
+    "highwayCodeRules": [
+      91
+    ]
+  },
+  {
+    "id": "alertness-1374",
     "category": "alertness",
     "question": "Highway Code rule 93 is about “rules for drivers and motorcyclists”. Which statement is taken from this rule?",
     "options": [
+      "Do not drink and drive as it will seriously affect your judgement and abilities.",
       "Vehicle towing and loading.",
-      "Driving when you are tired greatly increases your risk of collision.",
       "Slow down, and if necessary stop, if you are dazzled by bright sunlight.",
-      "Do not drink and drive as it will seriously affect your judgement and abilities."
+      "Driving when you are tired greatly increases your risk of collision."
     ],
     "correctIndex": 2,
     "explanation": "Slow down, and if necessary stop, if you are dazzled by bright sunlight. (Highway Code rule 93.)",
@@ -224,13 +224,13 @@
     ]
   },
   {
-    "id": "alertness-0466",
+    "id": "alertness-1378",
     "category": "alertness",
     "question": "Highway Code rule 97 is about “rules for drivers and motorcyclists”. Which statement is taken from this rule?",
     "options": [
-      "Seat belts. You MUST wear a seat belt in cars, vans and other goods vehicles if one is fitted. Adults and children aged 14 years and over MUST use a seat belt o",
-      "You MUST NOT drive under the influence of drugs or medicine.",
       "Driving when you are tired greatly increases your risk of collision.",
+      "You MUST NOT drive under the influence of drugs or medicine.",
+      "Seat belts. You MUST wear a seat belt in cars, vans and other goods vehicles if one is fitted. Adults and children aged 14 years and over MUST use a seat belt o",
       "Before setting off you should ensure that you have planned your route and allowed sufficient time, that clothing and footwear do not prevent you using the contr"
     ],
     "correctIndex": 3,
@@ -240,105 +240,121 @@
     ]
   },
   {
-    "id": "alertness-0472",
+    "id": "alertness-1384",
     "category": "alertness",
     "question": "Highway Code rule 105 is about “general rules, techniques and advice”. Which statement is taken from this rule?",
     "options": [
       "Residential streets. You should drive slowly and carefully on streets where there are likely to be pedestrians, cyclists and parked cars. In some areas a 20 mph",
-      "In an emergency. Brake immediately. Try to avoid braking so harshly that you lock your wheels. Locked wheels can lead to loss of control.",
       "Hazard warning lights.",
-      "You should also be aware that the signals of other road users may be incorrect or misleading."
+      "You should also be aware that the signals of other road users may be incorrect or misleading.",
+      "In an emergency. Brake immediately. Try to avoid braking so harshly that you lock your wheels. Locked wheels can lead to loss of control."
     ],
-    "correctIndex": 3,
+    "correctIndex": 2,
     "explanation": "You should also be aware that the signals of other road users may be incorrect or misleading. Proceed with caution. (Highway Code rule 105.)",
     "highwayCodeRules": [
       105
     ]
   },
   {
-    "id": "alertness-0473",
+    "id": "alertness-1385",
     "category": "alertness",
     "question": "According to the Highway Code (general rules, techniques and advice), what should you do?",
     "options": [
       "In an emergency. Brake immediately. Try to avoid braking so harshly that you lock your wheels. Locked wheels can lead to loss of control.",
+      "You should also be aware that the signals of other road users may be incorrect or misleading.",
       "Hazard warning lights.",
-      "Residential streets. You should drive slowly and carefully on streets where there are likely to be pedestrians, cyclists and parked cars. In some areas a 20 mph",
-      "You should also be aware that the signals of other road users may be incorrect or misleading."
+      "Residential streets. You should drive slowly and carefully on streets where there are likely to be pedestrians, cyclists and parked cars. In some areas a 20 mph"
     ],
-    "correctIndex": 3,
+    "correctIndex": 1,
     "explanation": "You should also be aware that the signals of other road users may be incorrect or misleading. Proceed with caution. (Highway Code rule 105.)",
     "highwayCodeRules": [
       105
     ]
   },
   {
-    "id": "alertness-0474",
+    "id": "alertness-1386",
     "category": "alertness",
     "question": "Highway Code rule 106 is about “general rules, techniques and advice”. Which statement is taken from this rule?",
     "options": [
-      "Safe driving and riding needs concentration.",
-      "Police stopping procedures.",
       "Single-track roads. These are only wide enough for one vehicle. They may have special passing places. If you see a vehicle coming towards you, or the driver beh",
-      "You MUST ensure all sidelights and rear registration plate lights are lit between sunset and sunrise, and use headlights at night except on a road which has lit street lighting."
+      "You MUST ensure all sidelights and rear registration plate lights are lit between sunset and sunrise, and use headlights at night except on a road which has lit street lighting.",
+      "Safe driving and riding needs concentration.",
+      "Police stopping procedures."
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "Police stopping procedures. If the police want to stop your vehicle they will, where possible, attract your attention by flashing blue lights, headlights or sounding their siren or horn, usually from behind. You MUST then pull over and stop as soon as it is safe to do so. (Highway Code rule 106.)",
     "highwayCodeRules": [
       106
     ]
   },
   {
-    "id": "alertness-0475",
+    "id": "alertness-1387",
     "category": "alertness",
     "question": "Highway Code rule 107 is about “general rules, techniques and advice”. Which statement is taken from this rule?",
     "options": [
-      "DVSA officers have the power to stop vehicles on all roads.",
-      "On a two-lane dual carriageway you should stay in the left-hand lane.",
       "Take extra care on country roads and reduce your speed at approaches to bends, which can be sharper than they appear, and at junctions and turnings, which may be partially hidden.",
-      "Brakes affected by water."
+      "DVSA officers have the power to stop vehicles on all roads.",
+      "Brakes affected by water.",
+      "On a two-lane dual carriageway you should stay in the left-hand lane."
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": "DVSA officers have the power to stop vehicles on all roads. They will attract your attention by flashing amber lights either from the front requesting you to follow them to a safe place to stop, or from behind directing you to pull over to the side. (Highway Code rule 107.)",
     "highwayCodeRules": [
       107
     ]
   },
   {
-    "id": "alertness-0526",
+    "id": "alertness-1438",
     "category": "alertness",
     "question": "Highway Code rule 148 is about “general rules, techniques and advice”. Which statement is taken from this rule?",
     "options": [
-      "In an emergency. Brake immediately. Try to avoid braking so harshly that you lock your wheels. Locked wheels can lead to loss of control.",
       "Safe driving and riding needs concentration.",
       "There is a danger of driver distraction being caused by in-vehicle systems such as satellite navigation, congestion warning systems, PCs and multi-media.",
+      "In an emergency. Brake immediately. Try to avoid braking so harshly that you lock your wheels. Locked wheels can lead to loss of control.",
       "Skids are caused by the driver braking, accelerating or steering too harshly or driving too fast for the road conditions."
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "Safe driving and riding needs concentration. Avoid distractions when driving or riding such as loud music, reading maps, eating and drinking, and arguing with your passengers or other road users. (Highway Code rule 148.)",
     "highwayCodeRules": [
       148
     ]
   },
   {
-    "id": "alertness-0527",
+    "id": "alertness-1439",
     "category": "alertness",
     "question": "Highway Code rule 149 is about “general rules, techniques and advice”. Which statement is taken from this rule?",
     "options": [
-      "Adapt your driving to the appropriate type and condition of road.",
-      "You MUST exercise proper control of your vehicle at all times.",
       "Flashing headlights. Only flash your headlights to let other road users know that you are there. Do not flash your headlights to convey any other message or int",
-      "Coasting. This term describes a vehicle travelling in neutral or with the clutch pressed down. It can reduce driver control because engine braking is eliminated"
+      "Coasting. This term describes a vehicle travelling in neutral or with the clutch pressed down. It can reduce driver control because engine braking is eliminated",
+      "You MUST exercise proper control of your vehicle at all times.",
+      "Adapt your driving to the appropriate type and condition of road."
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "You MUST exercise proper control of your vehicle at all times. You MUST NOT use a hand-held mobile phone or similar device when driving or supervising a learner driver, except to call 999 or 112 in a genuine emergency when it is unsafe or impractical to stop. (Highway Code rule 149.)",
     "highwayCodeRules": [
       149
     ]
   },
   {
-    "id": "alertness-0528",
+    "id": "alertness-1440",
     "category": "alertness",
     "question": "Highway Code rule 150 is about “general rules, techniques and advice”. Which statement is taken from this rule?",
+    "options": [
+      "You MUST NOT drive dangerously, drive without due care and attention, or drive without reasonable consideration for other road users.",
+      "There is a danger of driver distraction being caused by in-vehicle systems such as satellite navigation, congestion warning systems, PCs and multi-media.",
+      "You MUST exercise proper control of your vehicle at all times.",
+      "You MUST ensure all sidelights and rear registration plate lights are lit between sunset and sunrise, and use headlights at night except on a road which has lit street lighting."
+    ],
+    "correctIndex": 1,
+    "explanation": "There is a danger of driver distraction being caused by in-vehicle systems such as satellite navigation, congestion warning systems, PCs and multi-media. You MUST exercise proper control of your vehicle at all times. (Highway Code rule 150.)",
+    "highwayCodeRules": [
+      150
+    ]
+  },
+  {
+    "id": "alertness-1441",
+    "category": "alertness",
+    "question": "According to the Highway Code (general rules, techniques and advice), what MUST you do?",
     "options": [
       "You MUST NOT drive dangerously, drive without due care and attention, or drive without reasonable consideration for other road users.",
       "You MUST ensure all sidelights and rear registration plate lights are lit between sunset and sunrise, and use headlights at night except on a road which has lit street lighting.",
@@ -352,73 +368,41 @@
     ]
   },
   {
-    "id": "alertness-0529",
-    "category": "alertness",
-    "question": "According to the Highway Code (general rules, techniques and advice), what MUST you do?",
-    "options": [
-      "You MUST ensure all sidelights and rear registration plate lights are lit between sunset and sunrise, and use headlights at night except on a road which has lit street lighting.",
-      "There is a danger of driver distraction being caused by in-vehicle systems such as satellite navigation, congestion warning systems, PCs and multi-media.",
-      "You MUST exercise proper control of your vehicle at all times.",
-      "You MUST NOT drive dangerously, drive without due care and attention, or drive without reasonable consideration for other road users."
-    ],
-    "correctIndex": 1,
-    "explanation": "There is a danger of driver distraction being caused by in-vehicle systems such as satellite navigation, congestion warning systems, PCs and multi-media. You MUST exercise proper control of your vehicle at all times. (Highway Code rule 150.)",
-    "highwayCodeRules": [
-      150
-    ]
-  },
-  {
-    "id": "alertness-0539",
+    "id": "alertness-1451",
     "category": "alertness",
     "question": "Highway Code rule 159 is about “using the road”. Which statement is taken from this rule?",
     "options": [
-      "Toucan, puffin and equestrian crossings.",
-      "Zebra and parallel crossings.",
       "When reaching the roundabout you should give priority to traffic approaching from your right unless directed otherwise by signs, road markings or traffic lights.",
-      "Before moving off you should use all mirrors to check the road is clear, look round to check the blind spots, signal if necessary before moving out, and look ro"
+      "Before moving off you should use all mirrors to check the road is clear, look round to check the blind spots, signal if necessary before moving out, and look ro",
+      "Zebra and parallel crossings.",
+      "Toucan, puffin and equestrian crossings."
     ],
-    "correctIndex": 3,
+    "correctIndex": 1,
     "explanation": "Before moving off you should use all mirrors to check the road is clear, look round to check the blind spots, signal if necessary before moving out, and look round for a final check. Move off only when it is safe to do so. (Highway Code rule 159.)",
     "highwayCodeRules": [
       159
     ]
   },
   {
-    "id": "alertness-0542",
+    "id": "alertness-1454",
     "category": "alertness",
     "question": "Highway Code rule 161 is about “using the road”. Which statement is taken from this rule?",
     "options": [
-      "Pelican crossings. These are signal-controlled crossings where flashing amber follows the red 'Stop' light. You MUST stop when the red light shows. When the amb",
       "You MUST stop behind the white 'Stop' line across your side of the road unless the traffic light is green.",
+      "Mirrors. All mirrors should be used effectively throughout your journey. You should use your mirrors frequently so that you always know what is behind and to ea",
       "You MUST NOT reverse your vehicle further than necessary.",
-      "Mirrors. All mirrors should be used effectively throughout your journey. You should use your mirrors frequently so that you always know what is behind and to ea"
+      "Pelican crossings. These are signal-controlled crossings where flashing amber follows the red 'Stop' light. You MUST stop when the red light shows. When the amb"
     ],
-    "correctIndex": 3,
+    "correctIndex": 1,
     "explanation": "Mirrors. All mirrors should be used effectively throughout your journey. You should use your mirrors frequently so that you always know what is behind and to each side of you, and use them in good time before you signal or change direction or speed. (Highway Code rule 161.)",
     "highwayCodeRules": [
       161
     ]
   },
   {
-    "id": "alertness-0645",
+    "id": "alertness-1557",
     "category": "alertness",
     "question": "Highway Code rule 254 is about “motorways”. Which statement is taken from this rule?",
-    "options": [
-      "You MUST NOT pick up or set down anyone, or walk on a motorway, except in an emergency.",
-      "If red lights flash on a signal and a red 'X' is showing, you MUST NOT drive in the lane shown as closed beyond the signal.",
-      "Traffic on motorways usually travels faster than on other roads, so you have less time to react.",
-      "You MUST NOT reverse, cross the central reservation, or drive against the traffic flow on a motorway."
-    ],
-    "correctIndex": 2,
-    "explanation": "Traffic on motorways usually travels faster than on other roads, so you have less time to react. It is especially important to use your mirrors earlier and look much further ahead than you would on other roads. (Highway Code rule 254.)",
-    "highwayCodeRules": [
-      254
-    ]
-  },
-  {
-    "id": "alertness-0646",
-    "category": "alertness",
-    "question": "According to the Highway Code (motorways), what should you do?",
     "options": [
       "Traffic on motorways usually travels faster than on other roads, so you have less time to react.",
       "You MUST NOT reverse, cross the central reservation, or drive against the traffic flow on a motorway.",
@@ -432,14 +416,30 @@
     ]
   },
   {
-    "id": "alertness-0659",
+    "id": "alertness-1558",
+    "category": "alertness",
+    "question": "According to the Highway Code (motorways), what should you do?",
+    "options": [
+      "You MUST NOT pick up or set down anyone, or walk on a motorway, except in an emergency.",
+      "You MUST NOT reverse, cross the central reservation, or drive against the traffic flow on a motorway.",
+      "If red lights flash on a signal and a red 'X' is showing, you MUST NOT drive in the lane shown as closed beyond the signal.",
+      "Traffic on motorways usually travels faster than on other roads, so you have less time to react."
+    ],
+    "correctIndex": 3,
+    "explanation": "Traffic on motorways usually travels faster than on other roads, so you have less time to react. It is especially important to use your mirrors earlier and look much further ahead than you would on other roads. (Highway Code rule 254.)",
+    "highwayCodeRules": [
+      254
+    ]
+  },
+  {
+    "id": "alertness-1571",
     "category": "alertness",
     "question": "Highway Code rule 262 is about “motorways”. Which statement is taken from this rule?",
     "options": [
+      "You MUST NOT reverse, cross the central reservation, or drive against the traffic flow on a motorway.",
       "Prohibited vehicles. Motorways MUST NOT be used by pedestrians, holders of provisional motorcycle or car licences (unless accompanied by an approved driving ins",
-      "Traffic on motorways usually travels faster than on other roads, so you have less time to react.",
       "The monotony of driving on a motorway can make you feel sleepy.",
-      "You MUST NOT reverse, cross the central reservation, or drive against the traffic flow on a motorway."
+      "Traffic on motorways usually travels faster than on other roads, so you have less time to react."
     ],
     "correctIndex": 2,
     "explanation": "The monotony of driving on a motorway can make you feel sleepy. To minimise the risk, take a break of at least 15 minutes after every two hours of driving. If you feel sleepy, leave the motorway at the next exit or service area. (Highway Code rule 262.)",

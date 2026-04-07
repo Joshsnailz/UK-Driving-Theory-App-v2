@@ -1,27 +1,27 @@
 [
   {
-    "id": "accidents-0363",
+    "id": "accidents-1275",
     "category": "accidents",
     "question": "Your vehicle breaks down on a road (not a motorway). How far behind it should you place a warning triangle?",
     "options": [
-      "At least 10 metres",
-      "At least 45 metres (147 feet)",
+      "At least 100 metres",
       "At least 25 metres",
-      "At least 100 metres"
+      "At least 45 metres (147 feet)",
+      "At least 10 metres"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "If your vehicle breaks down, think first of all other road users and get your vehicle off the road if possible. Warn other traffic by using your hazard warning lights if your vehicle is causing an obstruction. Put a warning triangle on the road at least 45 metres (147 feet) behind your broken-down vehicle on the same side of the road, but never use them on motorways. Keep your sidelights on if it is dark or visibility is poor. (Highway Code rule 275.)",
     "highwayCodeRules": [
       275
     ]
   },
   {
-    "id": "accidents-0364",
+    "id": "accidents-1276",
     "category": "accidents",
     "question": "Where should you NEVER use a warning triangle?",
     "options": [
-      "On a dual carriageway",
       "On a single carriageway",
+      "On a dual carriageway",
       "On a motorway",
       "On a road with a 30 mph limit"
     ],
@@ -32,12 +32,12 @@
     ]
   },
   {
-    "id": "accidents-0365",
+    "id": "accidents-1277",
     "category": "accidents",
     "question": "Your car develops a fault on a motorway and you stop on the hard shoulder. How should you position the vehicle?",
     "options": [
-      "In the centre of the hard shoulder",
       "Straddling the rumble strip so other drivers see you",
+      "In the centre of the hard shoulder",
       "With the wheels turned to the right",
       "As far to the left as possible with the wheels turned to the left"
     ],
@@ -48,13 +48,13 @@
     ]
   },
   {
-    "id": "accidents-0366",
+    "id": "accidents-1278",
     "category": "accidents",
     "question": "After stopping on a motorway hard shoulder, what should you and your passengers do?",
     "options": [
-      "Stay in the vehicle with seat belts on",
-      "Leave the vehicle by the doors furthest from traffic and wait behind the safety barrier",
       "Stand in front of the vehicle to warn traffic",
+      "Leave the vehicle by the doors furthest from traffic and wait behind the safety barrier",
+      "Stay in the vehicle with seat belts on",
       "Attempt repairs at the rear of the vehicle"
     ],
     "correctIndex": 1,
@@ -64,191 +64,191 @@
     ]
   },
   {
-    "id": "accidents-0368",
+    "id": "accidents-1280",
     "category": "accidents",
     "question": "Something falls from your vehicle onto a motorway. What should you do?",
     "options": [
-      "Stop in the lane and pick it up quickly",
-      "Leave it — other drivers will avoid it",
       "Pull into a place of relative safety and contact the emergency services — do not retrieve it yourself",
-      "Reverse along the hard shoulder to it"
+      "Stop in the lane and pick it up quickly",
+      "Reverse along the hard shoulder to it",
+      "Leave it — other drivers will avoid it"
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "explanation": "If anything falls from your vehicle (or any other vehicle) onto the road, only stop to retrieve it if it is safe to do so. On a motorway, do not try to remove the obstruction yourself; pull into a place of relative safety and contact the emergency services. (Highway Code rule 280.)",
     "highwayCodeRules": [
       280
     ]
   },
   {
-    "id": "accidents-0369",
+    "id": "accidents-1281",
     "category": "accidents",
     "question": "You stop to help at a road traffic incident. What is one of the first things you should do?",
     "options": [
-      "Give casualties something warm to drink",
-      "Switch off vehicle engines and make sure no one is smoking",
+      "Clear the wreckage off the road",
       "Move casualties out of vehicles immediately",
-      "Clear the wreckage off the road"
+      "Give casualties something warm to drink",
+      "Switch off vehicle engines and make sure no one is smoking"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "If you are involved in an incident or stop to give assistance, if possible stop in a place of relative safety, use your hazard warning lights to warn other traffic, put on high-visibility clothing if you have it, ask drivers to switch off their engines and stop smoking, and arrange for the emergency services to be called immediately with full details of the incident location and any casualties (on a motorway use the emergency telephone which allows easy location by the emergency services). (Highway Code rule 283.)",
     "highwayCodeRules": [
       283
     ]
   },
   {
-    "id": "accidents-0370",
+    "id": "accidents-1282",
     "category": "accidents",
     "question": "You arrive at an incident involving a tanker displaying hazard warning plates. What should you do?",
     "options": [
+      "Open the tanker valves to relieve pressure",
       "Try to rescue casualties from the cab",
       "Keep well away, do not smoke and give the emergency services full details of the markings",
-      "Direct traffic past the scene",
-      "Open the tanker valves to relieve pressure"
+      "Direct traffic past the scene"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "Incidents involving dangerous goods. If an incident involves a vehicle containing dangerous goods, switch off engines and DO NOT SMOKE, keep well away from the vehicle, do not be tempted to try to rescue casualties as you yourself could become one, call the emergency services and give as much information as possible about the labels and markings on the vehicle. (Highway Code rule 284.)",
     "highwayCodeRules": [
       284
     ]
   },
   {
-    "id": "accidents-0371",
+    "id": "accidents-1283",
     "category": "accidents",
     "question": "You are involved in a collision that causes damage to another vehicle. What MUST you do?",
     "options": [
-      "Stop and give your name, address and registration number to anyone with reasonable grounds to require them",
       "Drive on if no one is injured",
-      "Wait for the police to arrive before exchanging details",
-      "Report to your insurer within 14 days"
+      "Stop and give your name, address and registration number to anyone with reasonable grounds to require them",
+      "Report to your insurer within 14 days",
+      "Wait for the police to arrive before exchanging details"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": "Documentation. If you are involved in a collision which causes damage or injury to any other person, vehicle, animal or property, you MUST stop. If required, give your own and the vehicle owner's name and address, and the registration number of the vehicle, to anyone having reasonable grounds for requiring them. (Highway Code rule 285.)",
     "highwayCodeRules": [
       285
     ]
   },
   {
-    "id": "accidents-0372",
+    "id": "accidents-1284",
     "category": "accidents",
     "question": "After a reportable collision you did not exchange details at the scene. Within what time MUST you report it to the police?",
     "options": [
-      "As soon as reasonably practicable, and in any case within 24 hours",
+      "Only if someone was injured",
       "Within 7 days",
       "Within 48 hours",
-      "Only if someone was injured"
+      "As soon as reasonably practicable, and in any case within 24 hours"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "explanation": "If you do not give your name and address at the time of the collision, report it to the police as soon as reasonably practicable, and in any case within 24 hours. (Highway Code rule 286.)",
     "highwayCodeRules": [
       286
     ]
   },
   {
-    "id": "accidents-0373",
+    "id": "accidents-1285",
     "category": "accidents",
     "question": "Your engine catches fire. What should you do?",
     "options": [
-      "Get everyone out and away from the vehicle and call the fire brigade — do not open the bonnet",
+      "Drive to the nearest garage",
       "Pour water onto the bonnet",
-      "Open the bonnet and use a fire extinguisher",
-      "Drive to the nearest garage"
+      "Get everyone out and away from the vehicle and call the fire brigade — do not open the bonnet",
+      "Open the bonnet and use a fire extinguisher"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": "If your vehicle catches fire, get everyone out of the vehicle quickly and to a safe place. Do not attempt to extinguish a fire in the engine compartment, as opening the bonnet will make the fire flare. Call the fire brigade. (Highway Code rule 287.)",
     "highwayCodeRules": [
       287
     ]
   },
   {
-    "id": "accidents-0377",
+    "id": "accidents-1289",
     "category": "accidents",
     "question": "Your vehicle stalls on a level crossing and the warning bells start to ring. What should you do FIRST?",
     "options": [
-      "Phone the signal operator",
       "Get yourself and any passengers out and clear of the crossing",
       "Push the vehicle clear",
+      "Phone the signal operator",
       "Try to restart the engine"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "If your vehicle breaks down on a level crossing, or if you stall, get everyone out of the vehicle and clear of the crossing immediately. Use a railway telephone if available to tell the signal operator. Move the vehicle clear of the crossing only if there is time before a train arrives. If the alarm sounds, or the amber light comes on, leave the vehicle and get clear of the crossing immediately. (Highway Code rule 299.)",
     "highwayCodeRules": [
       299
     ]
   },
   {
-    "id": "accidents-0397",
+    "id": "accidents-1309",
     "category": "accidents",
     "question": "A casualty at a collision has a burn. For at least how long should you cool it with cool water?",
     "options": [
       "At least 10 minutes",
-      "At least 5 minutes",
       "At least 30 seconds",
-      "At least 20 minutes"
+      "At least 20 minutes",
+      "At least 5 minutes"
     ],
-    "correctIndex": 3,
+    "correctIndex": 2,
     "explanation": "At least 20 minutes. Source: The Highway Code, Annex 7 (First aid on the road)."
   },
   {
-    "id": "accidents-0398",
+    "id": "accidents-1310",
     "category": "accidents",
     "question": "When checking whether an unconscious casualty is breathing, for how long should you look, listen and feel?",
     "options": [
-      "Up to 10 seconds",
-      "Up to 2 minutes",
       "A single breath is enough",
-      "Up to 30 seconds"
+      "Up to 30 seconds",
+      "Up to 10 seconds",
+      "Up to 2 minutes"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": "Up to 10 seconds. Source: The Highway Code, Annex 7 (First aid on the road)."
   },
   {
-    "id": "accidents-0399",
+    "id": "accidents-1311",
     "category": "accidents",
     "question": "A casualty is in shock after a collision. What should you do?",
     "options": [
-      "Give them a warm sweet drink",
       "Keep them warm and reassure them — do not give them anything to eat or drink",
+      "Give them a warm sweet drink",
       "Walk them around to keep blood flowing",
       "Leave them alone to recover"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "Keep them warm and reassure them — do not give them anything to eat or drink. Source: The Highway Code, Annex 7 (First aid on the road)."
   },
   {
-    "id": "accidents-0400",
+    "id": "accidents-1312",
     "category": "accidents",
     "question": "In the DR ABC procedure, what does the “A” stand for?",
     "options": [
       "Assess",
-      "Airway",
       "Alert",
+      "Airway",
       "Ambulance"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "Airway. Source: The Highway Code, Annex 7 (First aid on the road)."
   },
   {
-    "id": "accidents-0401",
+    "id": "accidents-1313",
     "category": "accidents",
     "question": "A motorcyclist is lying unconscious in the road after a collision. Unless it is essential, why should you NOT remove their helmet?",
     "options": [
       "Removing it could worsen a neck or spinal injury",
-      "The helmet may be needed as evidence",
+      "It is illegal to touch a casualty",
       "It will make them colder",
-      "It is illegal to touch a casualty"
+      "The helmet may be needed as evidence"
     ],
     "correctIndex": 0,
     "explanation": "Removing it could worsen a neck or spinal injury. Source: The Highway Code, Annex 7 (First aid on the road)."
   },
   {
-    "id": "accidents-0672",
+    "id": "accidents-1584",
     "category": "accidents",
     "question": "Highway Code rule 274 is about “breakdowns and incidents”. Which statement is taken from this rule?",
     "options": [
-      "If your vehicle catches fire, get everyone out of the vehicle quickly and to a safe place.",
+      "Disabled drivers. If you have a disability which prevents you from following the above advice, you should stay in your vehicle, keep your seat belt on, switch o",
       "Place of relative safety.",
       "Warning signs or flashing lights.",
-      "Disabled drivers. If you have a disability which prevents you from following the above advice, you should stay in your vehicle, keep your seat belt on, switch o"
+      "If your vehicle catches fire, get everyone out of the vehicle quickly and to a safe place."
     ],
     "correctIndex": 1,
     "explanation": "Place of relative safety. If you need to stop, move to a place of relative safety as soon as possible. On motorways and other high-speed roads, the safest places to stop are service areas, then emergency areas, then the hard shoulder. (Highway Code rule 274.)",
@@ -257,30 +257,30 @@
     ]
   },
   {
-    "id": "accidents-0673",
+    "id": "accidents-1585",
     "category": "accidents",
     "question": "According to the Highway Code (breakdowns and incidents), what should you do?",
     "options": [
-      "If your vehicle catches fire, get everyone out of the vehicle quickly and to a safe place.",
       "Disabled drivers. If you have a disability which prevents you from following the above advice, you should stay in your vehicle, keep your seat belt on, switch o",
-      "Warning signs or flashing lights.",
-      "Place of relative safety."
+      "Place of relative safety.",
+      "If your vehicle catches fire, get everyone out of the vehicle quickly and to a safe place.",
+      "Warning signs or flashing lights."
     ],
-    "correctIndex": 3,
+    "correctIndex": 1,
     "explanation": "Place of relative safety. If you need to stop, move to a place of relative safety as soon as possible. On motorways and other high-speed roads, the safest places to stop are service areas, then emergency areas, then the hard shoulder. (Highway Code rule 274.)",
     "highwayCodeRules": [
       274
     ]
   },
   {
-    "id": "accidents-0674",
+    "id": "accidents-1586",
     "category": "accidents",
     "question": "Highway Code rule 275 is about “breakdowns and incidents”. Which statement is taken from this rule?",
     "options": [
+      "If you are involved in an incident or stop to give assistance, if possible stop in a place of relative safety, use your hazard warning lights to warn other traf",
       "If your vehicle catches fire, get everyone out of the vehicle quickly and to a safe place.",
-      "Keep well away from your vehicle and moving traffic.",
       "If your vehicle breaks down, think first of all other road users and get your vehicle off the road if possible.",
-      "If you are involved in an incident or stop to give assistance, if possible stop in a place of relative safety, use your hazard warning lights to warn other traf"
+      "Keep well away from your vehicle and moving traffic."
     ],
     "correctIndex": 2,
     "explanation": "If your vehicle breaks down, think first of all other road users and get your vehicle off the road if possible. Warn other traffic by using your hazard warning lights if your vehicle is causing an obstruction. Put a warning triangle on the road at least 45 metres (147 feet) behind your broken-down vehicle on the same side of the road, but never use them on motorways. Keep your sidelights on if it is dark or visibility is poor. (Highway Code rule 275.)",
@@ -289,108 +289,108 @@
     ]
   },
   {
-    "id": "accidents-0675",
+    "id": "accidents-1587",
     "category": "accidents",
     "question": "Highway Code rule 276 is about “breakdowns and incidents”. Which statement is taken from this rule?",
     "options": [
-      "If your vehicle catches fire, get everyone out of the vehicle quickly and to a safe place.",
-      "Documentation. If you are involved in a collision which causes damage or injury to any other person, vehicle, animal or property, you MUST stop. If required, gi",
+      "Additional rules for motorways.",
       "Warning signs or flashing lights.",
-      "Additional rules for motorways."
+      "Documentation. If you are involved in a collision which causes damage or injury to any other person, vehicle, animal or property, you MUST stop. If required, gi",
+      "If your vehicle catches fire, get everyone out of the vehicle quickly and to a safe place."
     ],
-    "correctIndex": 3,
+    "correctIndex": 0,
     "explanation": "Additional rules for motorways. If your vehicle develops a problem, leave the motorway at the next exit or pull into a service area. If you cannot, you should pull onto the hard shoulder and stop as far to the left as possible, with your wheels turned to the left. Switch on your hazard warning lights. (Highway Code rule 276.)",
     "highwayCodeRules": [
       276
     ]
   },
   {
-    "id": "accidents-0676",
+    "id": "accidents-1588",
     "category": "accidents",
     "question": "Highway Code rule 277 is about “breakdowns and incidents”. Which statement is taken from this rule?",
     "options": [
       "Disabled drivers. If you have a disability which prevents you from following the above advice, you should stay in your vehicle, keep your seat belt on, switch o",
-      "Keep well away from your vehicle and moving traffic.",
       "If your vehicle breaks down, think first of all other road users and get your vehicle off the road if possible.",
-      "Place of relative safety."
+      "Place of relative safety.",
+      "Keep well away from your vehicle and moving traffic."
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "Keep well away from your vehicle and moving traffic. If you are able, exit your vehicle by the door furthest from traffic. Get behind a safety barrier where there is one. Do not stand in a place where your vehicle could be pushed into you if hit. Do not attempt repairs on your vehicle while it is in a live traffic lane or on the hard shoulder. (Highway Code rule 277.)",
     "highwayCodeRules": [
       277
     ]
   },
   {
-    "id": "accidents-0677",
+    "id": "accidents-1589",
     "category": "accidents",
     "question": "Highway Code rule 278 is about “breakdowns and incidents”. Which statement is taken from this rule?",
     "options": [
-      "If you do not give your name and address at the time of the collision, report it to the police as soon as reasonably practicable, and in any case within 24 hours.",
       "Keep well away from your vehicle and moving traffic.",
-      "To rejoin the carriageway after a breakdown from a hard shoulder, build up speed on the hard shoulder and watch for a safe gap in the traffic.",
-      "Additional rules for motorways."
+      "If you do not give your name and address at the time of the collision, report it to the police as soon as reasonably practicable, and in any case within 24 hours.",
+      "Additional rules for motorways.",
+      "To rejoin the carriageway after a breakdown from a hard shoulder, build up speed on the hard shoulder and watch for a safe gap in the traffic."
     ],
-    "correctIndex": 2,
+    "correctIndex": 3,
     "explanation": "To rejoin the carriageway after a breakdown from a hard shoulder, build up speed on the hard shoulder and watch for a safe gap in the traffic. Be aware that other vehicles may be stationary on the hard shoulder. (Highway Code rule 278.)",
     "highwayCodeRules": [
       278
     ]
   },
   {
-    "id": "accidents-0678",
+    "id": "accidents-1590",
     "category": "accidents",
     "question": "Highway Code rule 279 is about “breakdowns and incidents”. Which statement is taken from this rule?",
     "options": [
-      "Documentation. If you are involved in a collision which causes damage or injury to any other person, vehicle, animal or property, you MUST stop. If required, gi",
       "Additional rules for motorways.",
+      "Disabled drivers. If you have a disability which prevents you from following the above advice, you should stay in your vehicle, keep your seat belt on, switch o",
       "If anything falls from your vehicle (or any other vehicle) onto the road, only stop to retrieve it if it is safe to do so.",
-      "Disabled drivers. If you have a disability which prevents you from following the above advice, you should stay in your vehicle, keep your seat belt on, switch o"
+      "Documentation. If you are involved in a collision which causes damage or injury to any other person, vehicle, animal or property, you MUST stop. If required, gi"
     ],
-    "correctIndex": 3,
+    "correctIndex": 1,
     "explanation": "Disabled drivers. If you have a disability which prevents you from following the above advice, you should stay in your vehicle, keep your seat belt on, switch on your hazard warning lights, and use a mobile phone to contact the emergency services. (Highway Code rule 279.)",
     "highwayCodeRules": [
       279
     ]
   },
   {
-    "id": "accidents-0679",
+    "id": "accidents-1591",
     "category": "accidents",
     "question": "According to the Highway Code (breakdowns and incidents), what should you do?",
     "options": [
-      "Additional rules for motorways.",
       "If anything falls from your vehicle (or any other vehicle) onto the road, only stop to retrieve it if it is safe to do so.",
-      "Documentation. If you are involved in a collision which causes damage or injury to any other person, vehicle, animal or property, you MUST stop. If required, gi",
-      "Disabled drivers. If you have a disability which prevents you from following the above advice, you should stay in your vehicle, keep your seat belt on, switch o"
+      "Disabled drivers. If you have a disability which prevents you from following the above advice, you should stay in your vehicle, keep your seat belt on, switch o",
+      "Additional rules for motorways.",
+      "Documentation. If you are involved in a collision which causes damage or injury to any other person, vehicle, animal or property, you MUST stop. If required, gi"
     ],
-    "correctIndex": 3,
+    "correctIndex": 1,
     "explanation": "Disabled drivers. If you have a disability which prevents you from following the above advice, you should stay in your vehicle, keep your seat belt on, switch on your hazard warning lights, and use a mobile phone to contact the emergency services. (Highway Code rule 279.)",
     "highwayCodeRules": [
       279
     ]
   },
   {
-    "id": "accidents-0680",
+    "id": "accidents-1592",
     "category": "accidents",
     "question": "Highway Code rule 280 is about “breakdowns and incidents”. Which statement is taken from this rule?",
     "options": [
-      "If your vehicle breaks down, think first of all other road users and get your vehicle off the road if possible.",
-      "To rejoin the carriageway after a breakdown from a hard shoulder, build up speed on the hard shoulder and watch for a safe gap in the traffic.",
+      "If anything falls from your vehicle (or any other vehicle) onto the road, only stop to retrieve it if it is safe to do so.",
       "If you are involved in an incident or stop to give assistance, if possible stop in a place of relative safety, use your hazard warning lights to warn other traf",
-      "If anything falls from your vehicle (or any other vehicle) onto the road, only stop to retrieve it if it is safe to do so."
+      "To rejoin the carriageway after a breakdown from a hard shoulder, build up speed on the hard shoulder and watch for a safe gap in the traffic.",
+      "If your vehicle breaks down, think first of all other road users and get your vehicle off the road if possible."
     ],
-    "correctIndex": 3,
+    "correctIndex": 0,
     "explanation": "If anything falls from your vehicle (or any other vehicle) onto the road, only stop to retrieve it if it is safe to do so. On a motorway, do not try to remove the obstruction yourself; pull into a place of relative safety and contact the emergency services. (Highway Code rule 280.)",
     "highwayCodeRules": [
       280
     ]
   },
   {
-    "id": "accidents-0681",
+    "id": "accidents-1593",
     "category": "accidents",
     "question": "Highway Code rule 281 is about “breakdowns and incidents”. Which statement is taken from this rule?",
     "options": [
-      "Documentation. If you are involved in a collision which causes damage or injury to any other person, vehicle, animal or property, you MUST stop. If required, gi",
       "If anything falls from your vehicle (or any other vehicle) onto the road, only stop to retrieve it if it is safe to do so.",
+      "Documentation. If you are involved in a collision which causes damage or injury to any other person, vehicle, animal or property, you MUST stop. If required, gi",
       "Warning signs or flashing lights.",
       "If your vehicle breaks down, think first of all other road users and get your vehicle off the road if possible."
     ],
@@ -401,30 +401,30 @@
     ]
   },
   {
-    "id": "accidents-0682",
+    "id": "accidents-1594",
     "category": "accidents",
     "question": "According to the Highway Code (breakdowns and incidents), what should you do?",
     "options": [
-      "Documentation. If you are involved in a collision which causes damage or injury to any other person, vehicle, animal or property, you MUST stop. If required, gi",
-      "Warning signs or flashing lights.",
       "If your vehicle breaks down, think first of all other road users and get your vehicle off the road if possible.",
-      "If anything falls from your vehicle (or any other vehicle) onto the road, only stop to retrieve it if it is safe to do so."
+      "If anything falls from your vehicle (or any other vehicle) onto the road, only stop to retrieve it if it is safe to do so.",
+      "Warning signs or flashing lights.",
+      "Documentation. If you are involved in a collision which causes damage or injury to any other person, vehicle, animal or property, you MUST stop. If required, gi"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "Warning signs or flashing lights. If you see emergency or incident support vehicles displaying flashing lights in the distance, slow down and be prepared to move safely into another lane or stop. (Highway Code rule 281.)",
     "highwayCodeRules": [
       281
     ]
   },
   {
-    "id": "accidents-0683",
+    "id": "accidents-1595",
     "category": "accidents",
     "question": "Highway Code rule 283 is about “breakdowns and incidents”. Which statement is taken from this rule?",
     "options": [
       "Place of relative safety.",
-      "If anything falls from your vehicle (or any other vehicle) onto the road, only stop to retrieve it if it is safe to do so.",
+      "Additional rules for motorways.",
       "If you are involved in an incident or stop to give assistance, if possible stop in a place of relative safety, use your hazard warning lights to warn other traf",
-      "Additional rules for motorways."
+      "If anything falls from your vehicle (or any other vehicle) onto the road, only stop to retrieve it if it is safe to do so."
     ],
     "correctIndex": 2,
     "explanation": "If you are involved in an incident or stop to give assistance, if possible stop in a place of relative safety, use your hazard warning lights to warn other traffic, put on high-visibility clothing if you have it, ask drivers to switch off their engines and stop smoking, and arrange for the emergency services to be called immediately with full details of the incident location and any casualties (on a motorway use the emergency telephone which allows easy location by the emergency services). (Highway Code rule 283.)",
@@ -433,14 +433,14 @@
     ]
   },
   {
-    "id": "accidents-0684",
+    "id": "accidents-1596",
     "category": "accidents",
     "question": "Highway Code rule 284 is about “breakdowns and incidents”. Which statement is taken from this rule?",
     "options": [
       "If your vehicle breaks down, think first of all other road users and get your vehicle off the road if possible.",
       "Incidents involving dangerous goods.",
-      "Documentation. If you are involved in a collision which causes damage or injury to any other person, vehicle, animal or property, you MUST stop. If required, gi",
-      "If you are involved in an incident or stop to give assistance, if possible stop in a place of relative safety, use your hazard warning lights to warn other traf"
+      "If you are involved in an incident or stop to give assistance, if possible stop in a place of relative safety, use your hazard warning lights to warn other traf",
+      "Documentation. If you are involved in a collision which causes damage or injury to any other person, vehicle, animal or property, you MUST stop. If required, gi"
     ],
     "correctIndex": 1,
     "explanation": "Incidents involving dangerous goods. If an incident involves a vehicle containing dangerous goods, switch off engines and DO NOT SMOKE, keep well away from the vehicle, do not be tempted to try to rescue casualties as you yourself could become one, call the emergency services and give as much information as possible about the labels and markings on the vehicle. (Highway Code rule 284.)",
@@ -449,48 +449,48 @@
     ]
   },
   {
-    "id": "accidents-0685",
+    "id": "accidents-1597",
     "category": "accidents",
     "question": "Highway Code rule 285 is about “breakdowns and incidents”. Which statement is taken from this rule?",
     "options": [
-      "If you are involved in an incident or stop to give assistance, if possible stop in a place of relative safety, use your hazard warning lights to warn other traf",
       "If anything falls from your vehicle (or any other vehicle) onto the road, only stop to retrieve it if it is safe to do so.",
-      "Additional rules for motorways.",
-      "Documentation. If you are involved in a collision which causes damage or injury to any other person, vehicle, animal or property, you MUST stop. If required, gi"
+      "If you are involved in an incident or stop to give assistance, if possible stop in a place of relative safety, use your hazard warning lights to warn other traf",
+      "Documentation. If you are involved in a collision which causes damage or injury to any other person, vehicle, animal or property, you MUST stop. If required, gi",
+      "Additional rules for motorways."
     ],
-    "correctIndex": 3,
+    "correctIndex": 2,
     "explanation": "Documentation. If you are involved in a collision which causes damage or injury to any other person, vehicle, animal or property, you MUST stop. If required, give your own and the vehicle owner's name and address, and the registration number of the vehicle, to anyone having reasonable grounds for requiring them. (Highway Code rule 285.)",
     "highwayCodeRules": [
       285
     ]
   },
   {
-    "id": "accidents-0686",
+    "id": "accidents-1598",
     "category": "accidents",
     "question": "Highway Code rule 286 is about “breakdowns and incidents”. Which statement is taken from this rule?",
     "options": [
+      "If you do not give your name and address at the time of the collision, report it to the police as soon as reasonably practicable, and in any case within 24 hours.",
       "Incidents involving dangerous goods.",
       "Warning signs or flashing lights.",
-      "Documentation. If you are involved in a collision which causes damage or injury to any other person, vehicle, animal or property, you MUST stop. If required, gi",
-      "If you do not give your name and address at the time of the collision, report it to the police as soon as reasonably practicable, and in any case within 24 hours."
+      "Documentation. If you are involved in a collision which causes damage or injury to any other person, vehicle, animal or property, you MUST stop. If required, gi"
     ],
-    "correctIndex": 3,
+    "correctIndex": 0,
     "explanation": "If you do not give your name and address at the time of the collision, report it to the police as soon as reasonably practicable, and in any case within 24 hours. (Highway Code rule 286.)",
     "highwayCodeRules": [
       286
     ]
   },
   {
-    "id": "accidents-0687",
+    "id": "accidents-1599",
     "category": "accidents",
     "question": "Highway Code rule 287 is about “breakdowns and incidents”. Which statement is taken from this rule?",
     "options": [
+      "If your vehicle catches fire, get everyone out of the vehicle quickly and to a safe place.",
       "Warning signs or flashing lights.",
       "Disabled drivers. If you have a disability which prevents you from following the above advice, you should stay in your vehicle, keep your seat belt on, switch o",
-      "If your vehicle catches fire, get everyone out of the vehicle quickly and to a safe place.",
       "If you are involved in an incident or stop to give assistance, if possible stop in a place of relative safety, use your hazard warning lights to warn other traf"
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "explanation": "If your vehicle catches fire, get everyone out of the vehicle quickly and to a safe place. Do not attempt to extinguish a fire in the engine compartment, as opening the bonnet will make the fire flare. Call the fire brigade. (Highway Code rule 287.)",
     "highwayCodeRules": [
       287

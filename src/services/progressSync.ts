@@ -55,14 +55,22 @@ export function mergeProgress(local: UserProgress, remote: UserProgress): UserPr
   };
 }
 
+export interface SyncHandle {
+  /** Immediately push the current local progress to Firestore, bypassing the debounce. */
+  flush: () => Promise<void>;
+  /** Cancel the debounce timer and unsubscribe from local store changes. */
+  stop: () => void;
+}
+
 /**
  * Pull the user's cloud progress (if any), merge with the current local
  * store, write the merged result back to Firestore, then start a debounced
  * subscription that pushes future local changes upstream.
  *
- * Returns a disposer that must be called on sign-out.
+ * Returns a SyncHandle — call flush() then stop() on sign-out so in-flight
+ * changes are not lost when the debounce timer is cancelled.
  */
-export async function startProgressSync(uid: string): Promise<() => void> {
+export async function startProgressSync(uid: string): Promise<SyncHandle> {
   const ref = userDoc(uid);
   const store = useProgressStore;
 
@@ -88,9 +96,12 @@ export async function startProgressSync(uid: string): Promise<() => void> {
     timer = setTimeout(() => void push(ref, state.progress), 2000);
   });
 
-  return () => {
-    if (timer) clearTimeout(timer);
-    unsubscribe();
+  return {
+    flush: () => push(ref, store.getState().progress),
+    stop: () => {
+      if (timer) clearTimeout(timer);
+      unsubscribe();
+    },
   };
 }
 
@@ -98,7 +109,11 @@ async function push(
   ref: ReturnType<typeof userDoc>,
   progress: UserProgress,
 ): Promise<void> {
-  const doc: UserDoc = { progress, updatedAt: Date.now(), schemaVersion: 1 };
+  // Firestore rejects undefined values. JSON round-trip strips them cleanly
+  // without mutating the store object. All UserProgress values are JSON-safe
+  // (timestamps are numbers, not Date objects).
+  const sanitised = JSON.parse(JSON.stringify(progress)) as UserProgress;
+  const doc: UserDoc = { progress: sanitised, updatedAt: Date.now(), schemaVersion: 1 };
   try {
     await ref.set(doc, { merge: true });
   } catch (e) {

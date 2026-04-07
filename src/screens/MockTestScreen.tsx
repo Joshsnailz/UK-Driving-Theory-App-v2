@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useCallback, useEffect, useRef } from 'react';
 import {
   View, Text, StyleSheet, ScrollView, TouchableOpacity, Alert, FlatList,
 } from 'react-native';
@@ -28,27 +28,15 @@ export default function MockTestScreen() {
   const submitted = useRef(false);
   const questionListRef = useRef<FlatList<AnyQuestion>>(null);
 
+  // Intentionally runs once on mount — re-running would reset an in-progress mock test.
   useEffect(() => {
     const qs = selectMockTestQuestions();
     startQuiz(qs, 'mock');
     start();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  useEffect(() => {
-    if (isExpired && !submitted.current) submitTest();
-  }, [isExpired]);
-
-  useEffect(() => {
-    if (!session) return;
-
-    questionListRef.current?.scrollToIndex({
-      index: currentIndex,
-      animated: true,
-      viewPosition: 0.5,
-    });
-  }, [currentIndex, session]);
-
-  const submitTest = () => {
+  const submitTest = useCallback(() => {
     if (submitted.current) return;
     submitted.current = true;
     const completed = endSession();
@@ -71,7 +59,21 @@ export default function MockTestScreen() {
     };
 
     nav.replace('Result', { session: completed, isMockTest: true, mockResult });
-  };
+  }, [endSession, secondsRemaining, nav]);
+
+  useEffect(() => {
+    if (isExpired && !submitted.current) submitTest();
+  }, [isExpired, submitTest]);
+
+  useEffect(() => {
+    if (!session) return;
+
+    questionListRef.current?.scrollToIndex({
+      index: currentIndex,
+      animated: true,
+      viewPosition: 0.5,
+    });
+  }, [currentIndex, session]);
 
   const confirmSubmit = () => {
     const unanswered = session?.answers.filter((a) => a === null).length ?? 0;

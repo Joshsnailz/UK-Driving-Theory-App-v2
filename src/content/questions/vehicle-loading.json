@@ -1,22 +1,22 @@
 [
   {
-    "id": "vehicle-loading-0266",
+    "id": "vehicle-loading-1178",
     "category": "vehicle-loading",
     "question": "Who is legally responsible for making sure a vehicle is not overloaded?",
     "options": [
-      "The vehicle insurer",
-      "The owner of the goods",
+      "The person who loaded the vehicle",
       "The driver",
-      "The person who loaded the vehicle"
+      "The owner of the goods",
+      "The vehicle insurer"
     ],
-    "correctIndex": 2,
+    "correctIndex": 1,
     "explanation": "Vehicle towing and loading. You MUST NOT tow more than your licence permits, you MUST NOT overload your vehicle or trailer, and you MUST secure your load and it MUST NOT stick out dangerously. (Highway Code rule 98.)",
     "highwayCodeRules": [
       98
     ]
   },
   {
-    "id": "vehicle-loading-0267",
+    "id": "vehicle-loading-1179",
     "category": "vehicle-loading",
     "question": "When towing, what must you ensure about your load?",
     "options": [
@@ -32,62 +32,62 @@
     ]
   },
   {
-    "id": "vehicle-loading-0392",
+    "id": "vehicle-loading-1304",
     "category": "vehicle-loading",
     "question": "You are carrying a heavy load on a roof rack. What effect is this most likely to have?",
     "options": [
+      "Better fuel economy",
       "Lighter steering at high speed",
       "Reduced stability, especially when cornering or in side winds",
-      "Better fuel economy",
       "Improved braking"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "Reduced stability, especially when cornering or in side winds. (Highway Code rule 98 / Annex 6.)",
     "highwayCodeRules": [
       98
     ]
   },
   {
-    "id": "vehicle-loading-0393",
+    "id": "vehicle-loading-1305",
     "category": "vehicle-loading",
     "question": "A trailer begins to snake from side to side while you are towing it. What should you do?",
     "options": [
-      "Brake firmly and hold the steering wheel tightly",
       "Ease off the accelerator and reduce speed gradually",
+      "Brake firmly and hold the steering wheel tightly",
       "Accelerate to pull it straight",
       "Steer sharply in the opposite direction"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "Ease off the accelerator and reduce speed gradually. (Highway Code rule 98 / Annex 6.)",
     "highwayCodeRules": [
       98
     ]
   },
   {
-    "id": "vehicle-loading-0394",
+    "id": "vehicle-loading-1306",
     "category": "vehicle-loading",
     "question": "When loading a trailer, where should the heaviest items be placed?",
     "options": [
       "As high as possible to lower the centre of gravity",
-      "At the very front",
       "Low down and over the axle",
+      "At the very front",
       "At the very back"
     ],
-    "correctIndex": 2,
+    "correctIndex": 1,
     "explanation": "Low down and over the axle. (Highway Code rule 98 / Annex 6.)",
     "highwayCodeRules": [
       98
     ]
   },
   {
-    "id": "vehicle-loading-0395",
+    "id": "vehicle-loading-1307",
     "category": "vehicle-loading",
     "question": "You are towing a caravan on a motorway. Which lane MUST you NOT use on a three-lane carriageway?",
     "options": [
-      "The middle lane",
+      "The left-hand lane",
       "The right-hand lane",
       "Any lane during congestion",
-      "The left-hand lane"
+      "The middle lane"
     ],
     "correctIndex": 1,
     "explanation": "The right-hand lane. (Highway Code rule 98 / Annex 6.)",
@@ -96,14 +96,14 @@
     ]
   },
   {
-    "id": "vehicle-loading-0396",
+    "id": "vehicle-loading-1308",
     "category": "vehicle-loading",
     "question": "When may a load project dangerously beyond the sides of your vehicle?",
     "options": [
       "Never — it MUST NOT stick out dangerously",
-      "When travelling under 30 mph",
+      "When marked with a red flag",
       "During daylight hours only",
-      "When marked with a red flag"
+      "When travelling under 30 mph"
     ],
     "correctIndex": 0,
     "explanation": "Never — it MUST NOT stick out dangerously. (Highway Code rule 98 / Annex 6.)",
@@ -112,29 +112,29 @@
     ]
   },
   {
-    "id": "vehicle-loading-0467",
+    "id": "vehicle-loading-1379",
     "category": "vehicle-loading",
     "question": "Highway Code rule 98 is about “rules for drivers and motorcyclists”. Which statement is taken from this rule?",
     "options": [
-      "Vehicle towing and loading.",
-      "Make sure that you are fit to drive.",
       "Slow down, and if necessary stop, if you are dazzled by bright sunlight.",
-      "You MUST be able to read a vehicle number plate, in good daylight, from a distance of 20 metres (or 20."
+      "Vehicle towing and loading.",
+      "You MUST be able to read a vehicle number plate, in good daylight, from a distance of 20 metres (or 20.",
+      "Make sure that you are fit to drive."
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": "Vehicle towing and loading. You MUST NOT tow more than your licence permits, you MUST NOT overload your vehicle or trailer, and you MUST secure your load and it MUST NOT stick out dangerously. (Highway Code rule 98.)",
     "highwayCodeRules": [
       98
     ]
   },
   {
-    "id": "vehicle-loading-0642",
+    "id": "vehicle-loading-1554",
     "category": "vehicle-loading",
     "question": "Highway Code rule 252 is about “waiting and parking”. Which statement is taken from this rule?",
     "options": [
-      "Cars, goods vehicles not exceeding 2500 kg laden weight, invalid carriages, motorcycles and pedal cycles may be parked without lights on a road (or lay-by) with",
-      "You MUST NOT leave your vehicle or trailer in a dangerous position or where it causes any unnecessary obstruction of the road.",
       "DO NOT stop or park near a school entrance, anywhere you would prevent access for emergency services, at or near a bus or tram stop or taxi rank, opposite or wi",
+      "You MUST NOT leave your vehicle or trailer in a dangerous position or where it causes any unnecessary obstruction of the road.",
+      "Cars, goods vehicles not exceeding 2500 kg laden weight, invalid carriages, motorcycles and pedal cycles may be parked without lights on a road (or lay-by) with",
       "Goods vehicles. Vehicles with a maximum laden weight of over 7.5 tonnes (including any trailer) MUST NOT be parked on a verge, pavement or any land situated bet"
     ],
     "correctIndex": 3,
@@ -144,7 +144,7 @@
     ]
   },
   {
-    "id": "vehicle-loading-0643",
+    "id": "vehicle-loading-1555",
     "category": "vehicle-loading",
     "question": "According to the Highway Code (waiting and parking), what MUST you do?",
     "options": [

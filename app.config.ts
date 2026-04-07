@@ -57,6 +57,13 @@ const config: ExpoConfig = {
     'expo-tracking-transparency',
     '@react-native-firebase/app',
     '@react-native-firebase/auth',
+    [
+      '@sentry/react-native/expo',
+      {
+        organization: env('SENTRY_ORG'),
+        project: env('SENTRY_PROJECT'),
+      },
+    ],
     '@react-native-google-signin/google-signin',
     [
       'expo-build-properties',
@@ -91,6 +98,9 @@ const config: ExpoConfig = {
     legal: {
       privacyUrl: env('PRIVACY_POLICY_URL'),
       termsUrl: env('TERMS_URL'),
+    },
+    sentry: {
+      dsn: env('SENTRY_DSN'),
     },
   },
 };

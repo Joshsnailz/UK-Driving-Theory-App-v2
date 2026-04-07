@@ -28,9 +28,11 @@ export default function QuizScreen() {
   const { toggleBookmark, progress } = useProgressStore();
   const { selectQuestions } = useQuizEngine();
 
+  // Intentionally runs once on mount — re-running would reset an in-progress quiz.
   useEffect(() => {
     const qs = selectQuestions(category, quizLength);
     startQuiz(qs, category);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   if (!session) return null;

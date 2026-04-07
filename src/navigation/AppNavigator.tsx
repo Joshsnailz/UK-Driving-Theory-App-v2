@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavigationContainer } from '@react-navigation/native';
+import { NavigationContainer, type LinkingOptions } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { RootStackParamList } from '../types';
 import { BottomTabNavigator } from './BottomTabNavigator';
@@ -19,9 +19,31 @@ import LegalScreen from '../screens/LegalScreen';
 
 const Stack = createStackNavigator<RootStackParamList>();
 
+const linking: LinkingOptions<RootStackParamList> = {
+  prefixes: ['uktheory://'],
+  config: {
+    screens: {
+      Main: '',
+      TopicList: 'topics',
+      Quiz: 'quiz',
+      MockTest: 'mock-test',
+      Hazard: 'hazard',
+      Result: 'result',
+      Review: 'review',
+      HighwayCodeSection: 'highway-code/:sectionId',
+      SignDetail: 'signs/:signId',
+      SignIn: 'sign-in',
+      PhoneAuth: 'phone-auth',
+      Account: 'account',
+      Paywall: 'paywall',
+      Legal: 'legal/:doc',
+    },
+  },
+};
+
 export default function AppNavigator() {
   return (
-    <NavigationContainer>
+    <NavigationContainer linking={linking}>
       <Stack.Navigator screenOptions={{ headerShown: false }}>
         <Stack.Screen name="Main" component={BottomTabNavigator} />
         <Stack.Screen name="TopicList" component={TopicListScreen} />

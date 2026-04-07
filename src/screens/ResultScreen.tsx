@@ -20,9 +20,11 @@ export default function ResultScreen() {
   const t = useTheme();
   const { recordSession, recordMockTest } = useProgressStore();
 
+  // Intentionally runs once on mount — recording the result more than once would inflate stats.
   useEffect(() => {
     recordSession(session);
     if (isMockTest && mockResult) recordMockTest(mockResult);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const pct = Math.round((session.score / session.totalQuestions) * 100);

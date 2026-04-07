@@ -1,6 +1,6 @@
 [
   {
-    "id": "documents-0261",
+    "id": "documents-1173",
     "category": "documents",
     "question": "In good daylight, from what minimum distance must you be able to read a new-style vehicle number plate?",
     "options": [
@@ -16,152 +16,152 @@
     ]
   },
   {
-    "id": "documents-0379",
+    "id": "documents-1291",
     "category": "documents",
     "question": "How often must a car normally pass an MOT test once it is three years old?",
     "options": [
       "Every year",
-      "Every two years",
       "Every six months",
-      "Every three years"
+      "Every three years",
+      "Every two years"
     ],
     "correctIndex": 0,
     "explanation": "Every year. Source: The Highway Code, Annex 3 (Motor vehicle documentation)."
   },
   {
-    "id": "documents-0380",
+    "id": "documents-1292",
     "category": "documents",
     "question": "At what age does a car normally first require an MOT certificate?",
     "options": [
+      "Five years from first registration",
       "When it has covered 30,000 miles",
-      "One year from first registration",
       "Three years from first registration",
-      "Five years from first registration"
+      "One year from first registration"
     ],
     "correctIndex": 2,
     "explanation": "Three years from first registration. Source: The Highway Code, Annex 3 (Motor vehicle documentation)."
   },
   {
-    "id": "documents-0381",
+    "id": "documents-1293",
     "category": "documents",
     "question": "What is the minimum level of motor insurance required to drive on public roads?",
     "options": [
-      "Third-party, fire and theft",
+      "Personal accident cover",
       "Fully comprehensive",
       "Third-party cover",
-      "Personal accident cover"
+      "Third-party, fire and theft"
     ],
     "correctIndex": 2,
     "explanation": "Third-party cover. Source: The Highway Code, Annex 3 (Motor vehicle documentation)."
   },
   {
-    "id": "documents-0382",
+    "id": "documents-1294",
     "category": "documents",
     "question": "A police officer asks to see your driving documents but you do not have them with you. What may you be required to do?",
     "options": [
-      "Produce them at a police station within seven days",
+      "Post copies to the DVLA",
       "Show them to any officer within 14 days",
-      "Produce them within 24 hours",
-      "Post copies to the DVLA"
+      "Produce them at a police station within seven days",
+      "Produce them within 24 hours"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": "Produce them at a police station within seven days. Source: The Highway Code, Annex 3 (Motor vehicle documentation)."
   },
   {
-    "id": "documents-0383",
+    "id": "documents-1295",
     "category": "documents",
     "question": "Under the New Drivers Act, your licence will be revoked if you reach how many penalty points within two years of passing your first test?",
     "options": [
-      "Twelve or more",
-      "Six or more",
       "Nine or more",
-      "Three or more"
+      "Six or more",
+      "Three or more",
+      "Twelve or more"
     ],
     "correctIndex": 1,
     "explanation": "Six or more. Source: The Highway Code, Annex 3 (Motor vehicle documentation)."
   },
   {
-    "id": "documents-0384",
+    "id": "documents-1296",
     "category": "documents",
     "question": "Who may supervise a learner car driver on a public road?",
     "options": [
-      "Someone aged at least 21 who has held a full licence for that category for at least three years",
+      "Anyone with a full licence",
       "Anyone aged 25 or over",
-      "A driving instructor only",
-      "Anyone with a full licence"
+      "Someone aged at least 21 who has held a full licence for that category for at least three years",
+      "A driving instructor only"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": "Someone aged at least 21 who has held a full licence for that category for at least three years. Source: The Highway Code, Annex 3 (Motor vehicle documentation)."
   },
   {
-    "id": "documents-0385",
+    "id": "documents-1297",
     "category": "documents",
     "question": "What must you do if you keep an untaxed vehicle off the public road?",
     "options": [
+      "Nothing, provided it is on private land",
       "Surrender the registration document",
       "Make a Statutory Off Road Notification (SORN)",
-      "Nothing, provided it is on private land",
       "Display a “not in use” notice in the windscreen"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "Make a Statutory Off Road Notification (SORN). Source: The Highway Code, Annex 3 (Motor vehicle documentation)."
   },
   {
-    "id": "documents-0386",
+    "id": "documents-1298",
     "category": "documents",
     "question": "When MUST L plates be displayed on a vehicle?",
     "options": [
-      "Whenever the driver is under 21",
-      "Whenever it is being driven by a learner",
+      "Only during driving lessons with an instructor",
       "For 12 months after passing the test",
-      "Only during driving lessons with an instructor"
+      "Whenever it is being driven by a learner",
+      "Whenever the driver is under 21"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "Whenever it is being driven by a learner. Source: The Highway Code, Annex 3 (Motor vehicle documentation)."
   },
   {
-    "id": "documents-0458",
+    "id": "documents-1370",
     "category": "documents",
     "question": "Highway Code rule 90 is about “rules for drivers and motorcyclists”. Which statement is taken from this rule?",
     "options": [
-      "Slow down, and if necessary stop, if you are dazzled by bright sunlight.",
-      "You MUST NOT drive under the influence of drugs or medicine.",
+      "The driver MUST ensure that all children under 14 years of age in cars, vans and other goods vehicles wear seat belts or sit in an approved child restraint where required.",
       "Make sure that you are fit to drive.",
-      "The driver MUST ensure that all children under 14 years of age in cars, vans and other goods vehicles wear seat belts or sit in an approved child restraint where required."
+      "You MUST NOT drive under the influence of drugs or medicine.",
+      "Slow down, and if necessary stop, if you are dazzled by bright sunlight."
     ],
-    "correctIndex": 2,
+    "correctIndex": 1,
     "explanation": "Make sure that you are fit to drive. You MUST report to the DVLA any health condition likely to affect your driving. (Highway Code rule 90.)",
     "highwayCodeRules": [
       90
     ]
   },
   {
-    "id": "documents-0459",
+    "id": "documents-1371",
     "category": "documents",
     "question": "According to the Highway Code (rules for drivers and motorcyclists), what MUST you do?",
     "options": [
+      "Slow down, and if necessary stop, if you are dazzled by bright sunlight.",
       "Make sure that you are fit to drive.",
       "The driver MUST ensure that all children under 14 years of age in cars, vans and other goods vehicles wear seat belts or sit in an approved child restraint where required.",
-      "Slow down, and if necessary stop, if you are dazzled by bright sunlight.",
       "You MUST NOT drive under the influence of drugs or medicine."
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": "Make sure that you are fit to drive. You MUST report to the DVLA any health condition likely to affect your driving. (Highway Code rule 90.)",
     "highwayCodeRules": [
       90
     ]
   },
   {
-    "id": "documents-0461",
+    "id": "documents-1373",
     "category": "documents",
     "question": "Highway Code rule 92 is about “rules for drivers and motorcyclists”. Which statement is taken from this rule?",
     "options": [
-      "Vehicle condition. You MUST ensure your vehicle and trailer comply with the full requirements of the Road Vehicles (Construction and Use) Regulations and Road V",
-      "Before setting off you should ensure that you have planned your route and allowed sufficient time, that clothing and footwear do not prevent you using the contr",
+      "You MUST be able to read a vehicle number plate, in good daylight, from a distance of 20 metres (or 20.",
       "Slow down, and if necessary stop, if you are dazzled by bright sunlight.",
-      "You MUST be able to read a vehicle number plate, in good daylight, from a distance of 20 metres (or 20."
+      "Vehicle condition. You MUST ensure your vehicle and trailer comply with the full requirements of the Road Vehicles (Construction and Use) Regulations and Road V",
+      "Before setting off you should ensure that you have planned your route and allowed sufficient time, that clothing and footwear do not prevent you using the contr"
     ],
-    "correctIndex": 3,
+    "correctIndex": 0,
     "explanation": "You MUST be able to read a vehicle number plate, in good daylight, from a distance of 20 metres (or 20.5 metres for old-style number plates). If you need to wear glasses or contact lenses to do this, you MUST wear them at all times while driving. (Highway Code rule 92.)",
     "highwayCodeRules": [
       92
