@@ -12,6 +12,10 @@ import type { ExpoConfig } from 'expo/config';
  */
 
 const env = (key: string, fallback = ''): string => process.env[key] ?? fallback;
+const hasSentryUploadConfig =
+  Boolean(env('SENTRY_ORG')) &&
+  Boolean(env('SENTRY_PROJECT')) &&
+  Boolean(env('SENTRY_AUTH_TOKEN'));
 
 const config: ExpoConfig = {
   name: 'UK Theory Test',
@@ -57,13 +61,15 @@ const config: ExpoConfig = {
     'expo-tracking-transparency',
     '@react-native-firebase/app',
     '@react-native-firebase/auth',
-    [
-      '@sentry/react-native/expo',
-      {
-        organization: env('SENTRY_ORG'),
-        project: env('SENTRY_PROJECT'),
-      },
-    ],
+    ...(hasSentryUploadConfig
+      ? [[
+          '@sentry/react-native/expo',
+          {
+            organization: env('SENTRY_ORG'),
+            project: env('SENTRY_PROJECT'),
+          },
+        ] as const]
+      : []),
     '@react-native-google-signin/google-signin',
     [
       'expo-build-properties',
