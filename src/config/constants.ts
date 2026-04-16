@@ -12,9 +12,6 @@ export const HAZARD_TEST = {
   QUESTION_COUNT: 10,
 } as const;
 
-/** RevenueCat entitlement identifier that unlocks all premium features. */
-export const PREMIUM_ENTITLEMENT_ID = 'premium';
-
 export const LEGAL = {
   OGL_URL:
     'https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/',

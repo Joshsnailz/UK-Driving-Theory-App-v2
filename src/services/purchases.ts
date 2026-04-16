@@ -6,7 +6,6 @@ import Purchases, {
   LOG_LEVEL,
 } from 'react-native-purchases';
 import { Env } from '../config/env';
-import { PREMIUM_ENTITLEMENT_ID } from '../config/constants';
 
 let configured = false;
 
@@ -67,7 +66,11 @@ export async function restorePurchases(): Promise<CustomerInfo> {
   return Purchases.restorePurchases();
 }
 
-/** Whether the given customer info grants the `premium` entitlement. */
+/** Whether the given customer info grants the premium entitlement. */
 export function hasPremium(info: CustomerInfo | null): boolean {
-  return info?.entitlements.active[PREMIUM_ENTITLEMENT_ID] !== undefined;
+  const id = Platform.select({
+    ios: 'UK Driving Theory Practice Premium',
+    android: 'UK Theory Practice Pro - Android',
+  })!;
+  return info?.entitlements.active[id] !== undefined;
 }

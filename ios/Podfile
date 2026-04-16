@@ -22,12 +22,6 @@ prepare_react_native_project!
 
 target 'UKTheoryTest' do
   use_expo_modules!
-  pod 'GoogleUtilities', :modular_headers => true
-  pod 'FirebaseAuth', :modular_headers => true
-  pod 'FirebaseAuthInterop', :modular_headers => true
-  pod 'FirebaseAppCheckInterop', :modular_headers => true
-  pod 'RecaptchaInterop', :modular_headers => true
-  pod 'FirebaseFirestoreInternal', :modular_headers => true
 
   if ENV['EXPO_USE_COMMUNITY_AUTOLINKING'] == '1'
     config_command = ['node', '-e', "process.argv=['', '', 'config'];require('@react-native-community/cli').run()"];
@@ -59,60 +53,11 @@ target 'UKTheoryTest' do
   )
 
   post_install do |installer|
-    min_ios_version = podfile_properties['ios.deploymentTarget'] || '15.1'
-
     react_native_post_install(
       installer,
       config[:reactNativePath],
       :mac_catalyst_enabled => false,
       :ccache_enabled => ccache_enabled?(podfile_properties),
     )
-
-    # Fix: Firebase.h in Private headers on Xcode 26+ does not guard the
-    # FirebaseAuth-Swift.h import behind __has_include, causing build failures
-    # in static-library (non-framework) builds where the Swift header is absent.
-    firebase_h = "#{installer.sandbox.root}/Headers/Private/Firebase/Firebase.h"
-    if File.exist?(firebase_h)
-      content = File.read(firebase_h)
-      old = '#if __has_include("FirebaseAuth-umbrella.h")'
-      new_str = '#if __has_include("FirebaseAuth-umbrella.h") && __has_include(<FirebaseAuth/FirebaseAuth-Swift.h>)'
-      if content.include?(old) && !content.include?(new_str)
-        File.write(firebase_h, content.gsub(old, new_str))
-      end
-    end
-
-    # Fix: With use_frameworks! :linkage => :static, Clang module attribution
-    # causes 'RCTBridgeModule must be imported from RNFBApp.RNFBAppModule' errors
-    # in RNFBFirestore/RNFBAuth because Firebase.h is imported before React headers.
-    # Allow non-modular includes in framework modules to bypass strict attribution.
-    # RNFBApp/RNFBAuth have no Swift files, so we can safely disable modules there.
-    installer.pods_project.targets.each do |target|
-      target.build_configurations.each do |config|
-        config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = min_ios_version
-        config.build_settings['GCC_WARN_INHIBIT_ALL_WARNINGS'] = 'YES'
-        config.build_settings['SWIFT_SUPPRESS_WARNINGS'] = 'YES'
-      end
-
-      if ['RNFBFirestore', 'RNFBAuth', 'RNFBApp'].include?(target.name)
-        target.build_configurations.each do |config|
-          config.build_settings['CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES'] = 'YES'
-        end
-      end
-      if ['RNFBAuth', 'RNFBApp'].include?(target.name)
-        target.build_configurations.each do |config|
-          config.build_settings['DEFINES_MODULE'] = 'NO'
-          config.build_settings['CLANG_ENABLE_MODULES'] = 'NO'
-        end
-      end
-
-      target.shell_script_build_phases.each do |phase|
-        if [
-          '[CP-User] [Hermes] Replace Hermes for the right configuration, if needed',
-          'Create Symlinks to Header Folders'
-        ].include?(phase.name)
-          phase.always_out_of_date = '1'
-        end
-      end
-    end
   end
 end
