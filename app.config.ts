@@ -1,4 +1,6 @@
 import type { ExpoConfig } from 'expo/config';
+import withAndroidEdgeToEdgeStyles from './plugins/withAndroidEdgeToEdgeStyles';
+import withAndroidLargeScreenSupport from './plugins/withAndroidLargeScreenSupport';
 
 /**
  * Dynamic Expo config.
@@ -20,6 +22,7 @@ const hasSentryUploadConfig =
 const config: ExpoConfig = {
   name: 'UK Theory Test',
   slug: 'uk-theory-test',
+  owner: 'joshsnailz',
   version: '1.0.0',
   orientation: 'portrait',
   icon: './assets/icon.png',
@@ -89,7 +92,7 @@ const config: ExpoConfig = {
     ],
   ],
   extra: {
-    eas: { projectId: env('EAS_PROJECT_ID') },
+    eas: { projectId: env('EAS_PROJECT_ID', '06dd7425-4600-4e8e-a629-b50428cf6241') },
     revenuecat: {
       iosKey: env('REVENUECAT_IOS_KEY'),
       androidKey: env('REVENUECAT_ANDROID_KEY'),
@@ -111,4 +114,4 @@ const config: ExpoConfig = {
   },
 };
 
-export default config;
+export default withAndroidLargeScreenSupport(withAndroidEdgeToEdgeStyles(config));

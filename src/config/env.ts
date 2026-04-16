@@ -10,6 +10,7 @@
  * MUST NOT be placed here — these values are bundled into the client.
  */
 import Constants from 'expo-constants';
+import { Platform } from 'react-native';
 
 type Extra = {
   revenuecat: { iosKey: string; androidKey: string };
@@ -31,10 +32,18 @@ function required(value: string | undefined, name: string): string {
   return value;
 }
 
+// Platform is resolved at runtime; on Android the iOS key is never used so we
+// only require it when actually running on iOS (and vice-versa).
+const platform = typeof Platform !== 'undefined' ? Platform.OS : 'unknown';
+
 export const Env = {
   revenuecat: {
-    iosKey: required(extra.revenuecat?.iosKey, 'revenuecat.iosKey'),
-    androidKey: required(extra.revenuecat?.androidKey, 'revenuecat.androidKey'),
+    iosKey: platform === 'android'
+      ? (extra.revenuecat?.iosKey ?? '')
+      : required(extra.revenuecat?.iosKey, 'revenuecat.iosKey'),
+    androidKey: platform === 'ios'
+      ? (extra.revenuecat?.androidKey ?? '')
+      : required(extra.revenuecat?.androidKey, 'revenuecat.androidKey'),
   },
   admob: {
     bannerUnitId: extra.admob?.bannerUnitId ?? '',
