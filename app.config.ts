@@ -1,6 +1,5 @@
 import type { ExpoConfig } from 'expo/config';
-import withAndroidEdgeToEdgeStyles from './plugins/withAndroidEdgeToEdgeStyles';
-import withAndroidLargeScreenSupport from './plugins/withAndroidLargeScreenSupport';
+import { withAndroidManifest, withAndroidStyles } from '@expo/config-plugins';
 
 /**
  * Dynamic Expo config.
@@ -114,4 +113,45 @@ const config: ExpoConfig = {
   },
 };
 
-export default withAndroidLargeScreenSupport(withAndroidEdgeToEdgeStyles(config));
+// ─── Inline config plugins ────────────────────────────────────────────────────
+// Kept inline (rather than separate files) so that @expo/config can resolve
+// them when compiling app.config.ts without a separate TS build step.
+
+/**
+ * Removes Android style attributes deprecated in Android 15 (API 35) when
+ * edge-to-edge is enforced: statusBarColor, navigationBarColor, and
+ * enforceNavigationBarContrast.
+ */
+const withEdgeToEdgeStyles = (cfg: ExpoConfig): ExpoConfig =>
+  withAndroidStyles(cfg, (mod) => {
+    const styles: Array<{ $: { name: string }; item?: Array<{ $: { name: string }; _?: string }> }> =
+      mod.modResults.resources.style ?? [];
+
+    const deprecated = new Set(['android:statusBarColor', 'android:navigationBarColor']);
+
+    for (const style of styles) {
+      if (!style.item) continue;
+      style.item = style.item.filter((item) => !deprecated.has(item.$.name));
+      const contrast = style.item.find(
+        (item) => item.$.name === 'android:enforceNavigationBarContrast',
+      );
+      if (contrast) contrast._ = 'false';
+    }
+
+    return mod;
+  }) as ExpoConfig;
+
+/**
+ * Declares the app as resizable so Android 16+ large-screen devices (tablets,
+ * foldables) do not apply the orientation-override compatibility mode.
+ */
+const withLargeScreenSupport = (cfg: ExpoConfig): ExpoConfig =>
+  withAndroidManifest(cfg, (mod) => {
+    const app = mod.modResults.manifest.application?.[0];
+    if (!app) return mod;
+    const main = app.activity?.find((a: { $: Record<string, string> }) => a.$['android:name'] === '.MainActivity');
+    if (main) main.$['android:resizeableActivity'] = 'true';
+    return mod;
+  }) as ExpoConfig;
+
+export default withLargeScreenSupport(withEdgeToEdgeStyles(config));
