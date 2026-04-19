@@ -1,5 +1,7 @@
 import type { ExpoConfig } from 'expo/config';
-import { withAndroidManifest, withAndroidStyles } from '@expo/config-plugins';
+import { withAndroidManifest, withAndroidStyles, withDangerousMod } from '@expo/config-plugins';
+import * as fs from 'fs';
+import * as path from 'path';
 
 /**
  * Dynamic Expo config.
@@ -154,4 +156,29 @@ const withLargeScreenSupport = (cfg: ExpoConfig): ExpoConfig =>
     return mod;
   }) as ExpoConfig;
 
-export default withLargeScreenSupport(withEdgeToEdgeStyles(config));
+const withRNFirebaseFix = (cfg: ExpoConfig): ExpoConfig =>
+  withDangerousMod(cfg, [
+    'ios',
+    (config) => {
+      const podfilePath = path.join(config.modRequest.platformProjectRoot, 'Podfile');
+      let podfile = fs.readFileSync(podfilePath, 'utf8');
+      const injection = `
+    installer.pods_project.targets.each do |target|
+      if target.name == 'RNFBApp'
+        target.build_configurations.each do |config|
+          config.build_settings['DEFINES_MODULE'] = 'NO'
+        end
+      end
+    end`;
+      if (!podfile.includes("config.build_settings['DEFINES_MODULE']")) {
+        podfile = podfile.replace(
+          'react_native_post_install(',
+          injection + '\n    react_native_post_install(',
+        );
+        fs.writeFileSync(podfilePath, podfile);
+      }
+      return config;
+    },
+  ]) as ExpoConfig;
+
+export default withRNFirebaseFix(withLargeScreenSupport(withEdgeToEdgeStyles(config)));
