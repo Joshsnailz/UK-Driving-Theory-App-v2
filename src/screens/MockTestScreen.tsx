@@ -84,6 +84,19 @@ export default function MockTestScreen() {
     );
   };
 
+  const confirmExit = () => {
+    const answered = session?.answers.filter((a) => a !== null).length ?? 0;
+    const unanswered = (session?.answers.length ?? 0) - answered;
+    Alert.alert(
+      'Exit Test',
+      `You've answered ${answered} question(s) with ${unanswered} remaining. Your results so far will be shown.`,
+      [
+        { text: 'Keep Going' },
+        { text: 'Exit & See Results', style: 'destructive', onPress: submitTest },
+      ]
+    );
+  };
+
   if (!session) return null;
 
   const q = session.questions[currentIndex];
@@ -103,6 +116,9 @@ export default function MockTestScreen() {
     <SafeAreaView style={[styles.safe, { backgroundColor: t.bg }]}>
       {/* Header */}
       <View style={styles.header}>
+        <TouchableOpacity onPress={confirmExit} hitSlop={{ top: 8, bottom: 8, left: 8, right: 8 }}>
+          <Ionicons name="close" size={24} color={t.sub} />
+        </TouchableOpacity>
         <TimerDisplay secondsRemaining={secondsRemaining} />
         <Text style={[styles.counter, { color: t.sub }]}>
           {currentIndex + 1}/{MOCK_TEST.QUESTION_COUNT}

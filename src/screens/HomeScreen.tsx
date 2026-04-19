@@ -15,6 +15,7 @@ import StatCard from '../components/StatCard';
 import ProgressBar from '../components/ProgressBar';
 import AdBanner from '../components/AdBanner';
 import { useEntitlementStore } from '../store/entitlementStore';
+import { useQuickQuizAd } from '../hooks/useQuickQuizAd';
 
 type Nav = StackNavigationProp<RootStackParamList>;
 
@@ -25,6 +26,7 @@ export default function HomeScreen() {
   const { overallAccuracy, questionsToday, goalMet } = useProgress();
   const dailyGoal = useSettingsStore((s) => s.dailyGoal);
   const isPremium = useEntitlementStore((s) => s.isPremium);
+  const { showThenNavigate } = useQuickQuizAd();
 
   const openHazard = () => {
     if (isPremium) nav.navigate('Hazard');
@@ -57,7 +59,7 @@ export default function HomeScreen() {
         {/* Quick actions */}
         <TouchableOpacity
           style={[styles.primaryBtn]}
-          onPress={() => nav.navigate('Quiz', { category: 'mixed', quizLength })}
+          onPress={() => showThenNavigate(() => nav.navigate('Quiz', { category: 'mixed', quizLength }))}
           accessibilityLabel="Start quick practice quiz"
         >
           <Ionicons name="play-circle" size={22} color={colors.white} />

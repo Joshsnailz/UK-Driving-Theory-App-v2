@@ -101,6 +101,7 @@ const config: ExpoConfig = {
     admob: {
       bannerUnitId: env('ADMOB_BANNER_UNIT_ID'),
       rewardedUnitId: env('ADMOB_REWARDED_UNIT_ID'),
+      interstitialUnitId: env('ADMOB_INTERSTITIAL_UNIT_ID'),
     },
     googleSignIn: {
       webClientId: env('GOOGLE_WEB_CLIENT_ID'),
@@ -149,10 +150,33 @@ const withEdgeToEdgeStyles = (cfg: ExpoConfig): ExpoConfig =>
  */
 const withLargeScreenSupport = (cfg: ExpoConfig): ExpoConfig =>
   withAndroidManifest(cfg, (mod) => {
-    const app = mod.modResults.manifest.application?.[0];
+    const manifest = mod.modResults.manifest;
+
+    // Declare support for all screen sizes so the system doesn't letterbox
+    // the app on tablets or foldables.
+    const m = manifest as Record<string, unknown>;
+    if (!m['supports-screens']) {
+      m['supports-screens'] = [
+        {
+          $: {
+            'android:smallScreens': 'true',
+            'android:normalScreens': 'true',
+            'android:largeScreens': 'true',
+            'android:xlargeScreens': 'true',
+            'android:resizeable': 'true',
+          },
+        },
+      ];
+    }
+
+    const app = manifest.application?.[0];
     if (!app) return mod;
-    const main = app.activity?.find((a: { $: Record<string, string> }) => a.$['android:name'] === '.MainActivity');
-    if (main) main.$['android:resizeableActivity'] = 'true';
+    const main = app.activity?.find((a) => (a.$ as Record<string, string>)['android:name'] === '.MainActivity');
+    if (main) {
+      (main.$ as Record<string, string | undefined>)['android:resizeableActivity'] = 'true';
+      // Remove any aspect-ratio cap that would cause pillarboxing on tablets.
+      delete (main.$ as Record<string, string | undefined>)['android:maxAspectRatio'];
+    }
     return mod;
   }) as ExpoConfig;
 

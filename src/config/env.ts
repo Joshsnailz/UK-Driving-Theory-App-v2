@@ -14,7 +14,7 @@ import { Platform } from 'react-native';
 
 type Extra = {
   revenuecat: { iosKey: string; androidKey: string };
-  admob: { bannerUnitId: string; rewardedUnitId: string };
+  admob: { bannerUnitId: string; rewardedUnitId: string; interstitialUnitId: string };
   googleSignIn: { webClientId: string };
   legal: { privacyUrl: string; termsUrl: string };
 };
@@ -48,6 +48,7 @@ export const Env = {
   admob: {
     bannerUnitId: extra.admob?.bannerUnitId ?? '',
     rewardedUnitId: extra.admob?.rewardedUnitId ?? '',
+    interstitialUnitId: extra.admob?.interstitialUnitId ?? '',
   },
   googleSignIn: {
     webClientId: required(extra.googleSignIn?.webClientId, 'googleSignIn.webClientId'),

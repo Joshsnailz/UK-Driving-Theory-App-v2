@@ -15,6 +15,7 @@ import { Env } from '../config/env';
 export const AdUnit = {
   banner: __DEV__ || !Env.admob.bannerUnitId ? TestIds.BANNER : Env.admob.bannerUnitId,
   rewarded: __DEV__ || !Env.admob.rewardedUnitId ? TestIds.REWARDED : Env.admob.rewardedUnitId,
+  interstitial: __DEV__ || !Env.admob.interstitialUnitId ? TestIds.INTERSTITIAL : Env.admob.interstitialUnitId,
 } as const;
 
 let initialised = false;
